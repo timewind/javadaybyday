@@ -9,7 +9,7 @@ package com.nivelle.guide.datastructures;
 public class AQSDemoTest {
 
     public static void main(String[] args) throws Exception {
-        AQSDemo aqsDemo = new AQSDemo();
+        MyAQSynchronizer aqsDemo = new MyAQSynchronizer();
 
         Thread thread1 = new Thread(() -> {
             Thread.currentThread().setName("thread1");

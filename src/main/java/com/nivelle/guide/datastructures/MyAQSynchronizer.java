@@ -17,15 +17,28 @@ import java.util.concurrent.locks.AbstractQueuedSynchronizer;
  * <p>
  * 和Share（共享，多个线程可同时获得锁，同时执行。如Semaphore/CountDownLatch）
  */
-public class AQSDemo extends AbstractQueuedSynchronizer {
+public class MyAQSynchronizer extends AbstractQueuedSynchronizer {
 
     @Override
     protected boolean tryAcquire(int arg) {
-        if (compareAndSetState(getState(), getState() + arg)) {
+        final Thread current = Thread.currentThread();
+        Thread exclusiveThread = getExclusiveOwnerThread();
+        //同一个线程,实现可重入锁
+        if (exclusiveThread != null) {
+            if (current.getId() == exclusiveThread.getId()) {
+                if (compareAndSetState(getState(), getState() + arg)) {
+                    setExclusiveOwnerThread(current);
+                    System.out.println("tryAcquire again true:" + Thread.currentThread().getName() + ":state:" + getState());
+                    System.out.println("tryAcquire again true:" + Thread.currentThread().getName() + ":isHeldExclusively:" + isHeldExclusively());
+                    return true;
+                }
+            }
+        }
+        if (compareAndSetState(0, getState() + arg)) {
             //设置独占锁拥有者线程（模版方法）
-            setExclusiveOwnerThread(Thread.currentThread());
-            System.out.println("tryAcquire after:" + Thread.currentThread().getName() + ":state:" + getState());
-            System.out.println("tryAcquire after:" + Thread.currentThread().getName() + ":isHeldExclusively:" + isHeldExclusively());
+            setExclusiveOwnerThread(current);
+            System.out.println("tryAcquire true:" + Thread.currentThread().getName() + ":state:" + getState());
+            System.out.println("tryAcquire true:" + Thread.currentThread().getName() + ":isHeldExclusively:" + isHeldExclusively());
             return true;
         }
         return false;
