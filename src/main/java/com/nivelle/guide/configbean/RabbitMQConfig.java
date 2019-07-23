@@ -22,8 +22,8 @@ import org.springframework.stereotype.Component;
  * @author fuxinzhong
  * @date 2019/07/01
  */
-@Component
-@ConfigurationProperties(prefix = "spring.rabbitmq")
+//@Component
+//@ConfigurationProperties(prefix = "spring.rabbitmq")
 @Setter
 @Getter
 @Slf4j

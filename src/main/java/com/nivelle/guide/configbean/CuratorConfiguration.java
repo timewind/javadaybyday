@@ -17,8 +17,8 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-@Configuration
-@ConfigurationProperties(prefix = "curator")
+//@Configuration
+//@ConfigurationProperties(prefix = "curator")
 @Getter
 @Setter
 public class CuratorConfiguration {
