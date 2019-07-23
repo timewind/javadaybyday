@@ -1,4 +1,4 @@
-package com.nivelle.guide.datastructures;
+package com.nivelle.guide.javacore.thread;
 
 import java.util.concurrent.locks.AbstractQueuedSynchronizer;
 
@@ -15,7 +15,7 @@ import java.util.concurrent.locks.AbstractQueuedSynchronizer;
  * <p>
  * 1. AQS定义了两种资源共享方式：Exclusive（独占，只有一个线程能获取锁，其他线程都必须等到拥有锁的线程释放掉锁之后才可以争夺锁，如ReentrantLock）
  * <p>
- * 和Share（共享，多个线程可同时获得锁，同时执行。如Semaphore/CountDownLatch）
+ * 和Share（共享，多个线程可同时获得锁，同时执行。如 Semaphore/ CountDownLatch）
  */
 public class MyAQSynchronizer extends AbstractQueuedSynchronizer {
 
