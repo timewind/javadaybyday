@@ -1,7 +1,7 @@
 package com.nivelle.guide.configbean;
 
 import com.nivelle.guide.springboot.enums.ErrorStatus;
-import org.apache.shiro.authz.UnauthorizedException;
+//import org.apache.shiro.authz.UnauthorizedException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.TypeMismatchException;
@@ -64,7 +64,7 @@ public class ControllerExceptionAdvice {
             code = errorCode;
             logger.error("code={},message={}", code, message, ex);
             System.out.println(code + message + ex);
-        } else if (ex instanceof UnauthorizedException) {
+        } else if (ex instanceof RuntimeException) {
 
             ModelAndView modelAndView = new ModelAndView();
             modelAndView.setViewName("403");
