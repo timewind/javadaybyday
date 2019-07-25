@@ -3,7 +3,7 @@ package com.nivelle.guide.springboot.schedule;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class SchedulerTask {
 
 
