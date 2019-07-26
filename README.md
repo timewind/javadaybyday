@@ -1,4 +1,4 @@
-## java开发者需要知道的知识点,部分实例来之网上,拿来学习.
+## java开发者需要知道的知识点
 ## 本项目针对的是实际开发百分百常见的用发,注重实战,对原理涉及较少,大神绕道。
 
 ### 姊妹项目:[java面试常见知识点汇总](http://nivelle.me/javaInterview/)
@@ -108,12 +108,3 @@
 ## JDK学习
 
 ✅Integer ✅String ✅Enum ✅ArrayList ✅HashMap ✅LinkedList ✅LinkedHashMap ✅TreeMap ✅ThreadPool ✅ThreadLocal ✅Unsafe ✅Float ✅Math
-
-
-
-
-
-
-
-
-
