@@ -14,7 +14,7 @@ public class CountDownLatchDemo {
 
     public static void main(String[] args) throws Exception {
 
-        CountDownLatch countDownLatch = new CountDownLatch(2);
+        CountDownLatch countDownLatch = new CountDownLatch(3);
 
         new Thread(() -> {
             System.out.println("第一次执行前,当前的count:" + countDownLatch.getCount());
@@ -44,7 +44,21 @@ public class CountDownLatchDemo {
          * 主线程都会等待state等于0的时候才会继续往下执行，否则阻塞
          */
         System.out.println("主线程执行到这里,被阻塞了" + Thread.currentThread().getState().name());
-        countDownLatch.await();
+
+        boolean interruptedStatueBefore = Thread.currentThread().isInterrupted();
+        System.out.println("中断前的状态:" + interruptedStatueBefore);
+
+        /**
+         * 阻塞状态可以被中断异常取消。
+         */
+        Thread.currentThread().interrupt();
+        boolean interruptedStatueAfter = Thread.currentThread().isInterrupted();
+        System.out.println("中断后的状态:" + interruptedStatueAfter);
+        try {
+            countDownLatch.await();
+        } catch (InterruptedException e) {
+            System.out.println(e);
+        }
         long end = System.currentTimeMillis();
         System.out.println("被阻挡了:" + (end - start));
         System.out.println(Thread.currentThread().getName() + "执行完了");
