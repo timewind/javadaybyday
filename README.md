@@ -108,4 +108,4 @@
 ## JDK学习
 
 ✅【Integer】 ✅【String】 ✅【Enum】 ✅【ArrayList】 ✅【HashMap】 ✅【LinkedList】 ✅【LinkedHashMap】 ✅【TreeMap】 ✅【ThreadPool】 ✅ThreadLocal ✅【Unsafe】 ✅【Float】 ✅【Math】
-✅【CountDownLatch】
+✅【CountDownLatch】✅【Long】
