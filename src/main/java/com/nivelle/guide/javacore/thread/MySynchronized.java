@@ -1,4 +1,4 @@
-package com.nivelle.guide.datastructures;
+package com.nivelle.guide.javacore.thread;
 
 /**
  * Synchronized 自己实现一个Synchronized
@@ -6,5 +6,5 @@ package com.nivelle.guide.datastructures;
  * @author fuxinzhong
  * @date 2019/06/16
  */
-public class SynchronizedDemo {
+public class MySynchronized {
 }

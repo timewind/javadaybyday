@@ -1,5 +1,7 @@
 package com.nivelle.guide.datastructures;
 
+import java.util.concurrent.locks.ReentrantLock;
+
 /**
  * ReentrantLock
  *
@@ -7,4 +9,8 @@ package com.nivelle.guide.datastructures;
  * @date 2019/06/16
  */
 public class ReentrantLockDemo {
+
+    public static void main(String[] args) {
+        ReentrantLock reentrantLock = new ReentrantLock();
+    }
 }

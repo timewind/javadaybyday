@@ -15,5 +15,6 @@ public class LongDemo {
         System.out.println("Long 最大值:"+Long.MAX_VALUE);
         System.out.println("Long 最小值:"+Long.MIN_VALUE);
 
+
     }
 }
