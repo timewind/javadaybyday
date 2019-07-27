@@ -71,7 +71,7 @@
 
 ## RabbitMQ
 
-✅Exchange(direct,fanout) ✅Queue ✅Producer ✅Consumer
+✅Exchange(【direct】,【fanout】) ✅Queue ✅Producer ✅Consumer
 
 ## Kafka
 
@@ -79,7 +79,7 @@
 
 ## 分布式实践
 
-✅自己实现RPC ✅zookeeper(分布式锁,选主)
+✅自己实现RPC ✅zookeeper(【分布式锁】,【选主】)
 
 ## Mybatis实践
 
@@ -91,20 +91,21 @@
 
 ## Redis实践
 
-✅string 指令 ✅zSet 有序集合 ✅Set集合 ✅Hash hash表 ✅List列表 ✅key 指令
+✅【string 指令】 ✅【zSet 有序集合】 ✅【Set集合】 ✅【Hash hash表】 ✅【List列表】 ✅【key 指令】
 
 ## Spring实践
 
 ✅生命周期学习
 
-✅钩子方法 【CommandLineRunner】【shutdown 实现优雅停机】（待实践:ImportBeanDefinitionRegistrar）
+✅钩子方法 【CommandLineRunner】【shutdown 实现优雅停机】（待实践:ImportBeanDefinitionRegistrar)
 
 ✅AOP
 
 ## Java2e实践
 
-✅自定义注解 ✅动态代理 ✅多线程示例 ✅jdk8 Lambda表达式,Stream的使用 ✅java 关键字(instanceof,final)
+✅【自定义注解】 ✅【动态代理】 ✅【多线程示例】 ✅【jdk8 Lambda表达式,Stream的使用】 ✅【java 关键字(instanceof,final)】
 
 ## JDK学习
 
-✅Integer ✅String ✅Enum ✅ArrayList ✅HashMap ✅LinkedList ✅LinkedHashMap ✅TreeMap ✅ThreadPool ✅ThreadLocal ✅Unsafe ✅Float ✅Math
+✅【Integer】 ✅【String】 ✅【Enum】 ✅【ArrayList】 ✅【HashMap】 ✅【LinkedList】 ✅【LinkedHashMap】 ✅【TreeMap】 ✅【ThreadPool】 ✅ThreadLocal ✅【Unsafe】 ✅【Float】 ✅【Math】
+✅【CountDownLatch】
