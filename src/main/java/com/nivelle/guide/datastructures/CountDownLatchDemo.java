@@ -10,17 +10,20 @@ import java.util.concurrent.CountDownLatch;
  */
 public class CountDownLatchDemo {
 
-    //多个线程共享一个state状态值,countDow
-
+    /**多个线程共享一个state状态值,countDow**/
+    /*
+     * @param args
+     * @throws Exception
+     */
     public static void main(String[] args) throws Exception {
 
-        CountDownLatch countDownLatch = new CountDownLatch(3);
+        CountDownLatch countDownLatch = new CountDownLatch(2);
 
         new Thread(() -> {
             System.out.println("第一次执行前,当前的count:" + countDownLatch.getCount());
 
             try {
-                Thread.sleep(5000);
+                Thread.sleep(1000);
                 countDownLatch.countDown();
             } catch (InterruptedException e) {
                 System.out.println(e.getMessage());
@@ -31,7 +34,7 @@ public class CountDownLatchDemo {
         new Thread(() -> {
             System.out.println("第二次执行前,当前的count:" + countDownLatch.getCount());
             try {
-                Thread.sleep(5000);
+                Thread.sleep(1000);
                 countDownLatch.countDown();
             } catch (InterruptedException e) {
                 System.out.println(e.getMessage());
@@ -44,16 +47,18 @@ public class CountDownLatchDemo {
          * 主线程都会等待state等于0的时候才会继续往下执行，否则阻塞
          */
         System.out.println("主线程执行到这里,被阻塞了" + Thread.currentThread().getState().name());
-
         boolean interruptedStatueBefore = Thread.currentThread().isInterrupted();
         System.out.println("中断前的状态:" + interruptedStatueBefore);
 
         /**
          * 阻塞状态可以被中断异常取消。
          */
-        Thread.currentThread().interrupt();
-        boolean interruptedStatueAfter = Thread.currentThread().isInterrupted();
-        System.out.println("中断后的状态:" + interruptedStatueAfter);
+        Thread.sleep(5000);
+        if (countDownLatch.getCount() > 1) {
+            Thread.currentThread().interrupt();
+            boolean interruptedStatueAfter = Thread.currentThread().isInterrupted();
+            System.out.println("中断后的状态:" + interruptedStatueAfter);
+        }
         try {
             countDownLatch.await();
         } catch (InterruptedException e) {
