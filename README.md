@@ -19,7 +19,7 @@
 
 ## springBoot实践
 
-✅ docker整合
+✅ docker整合【下载:docker pull nivelle/nivelle:1.0.2】【运行:sudo docker run -p 28080:8088 -it --rm nivelle/nivelle:1.0.2 bash】
 
 ✅ config:java配置类
 
