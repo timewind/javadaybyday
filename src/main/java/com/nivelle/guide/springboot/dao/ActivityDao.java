@@ -149,7 +149,6 @@ public class ActivityDao {
         } catch (Exception e) {
             System.out.println(e);
             System.out.println(e.getStackTrace());
-
         }
         return 0;
     }
