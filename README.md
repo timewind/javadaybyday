@@ -21,29 +21,9 @@
 
 ✅ docker整合【下载:docker pull nivelle/nivelle:1.0.2】【运行:sudo docker run -p 28080:8088 -it --rm nivelle/nivelle:1.0.2 bash】
 
-✅ config:java配置类
+✅ config:java配置类 ✅ validate:注解校验 ✅ exception:全局异常处理 ✅ Filter,Interceptor,AOP过滤器,拦截器 ✅ starter:自定义starter
 
-✅ validate:注解校验
-
-✅ exception:全局异常处理
-
-✅ Filter,Interceptor,AOP过滤器,拦截器
-
-✅ starter:自定义starter
-
-✅ xml:对xml格式参数的支持
-
-✅ WebFlux 响应式编程
-
-✅ 消息转化:HttpMessageConverters
-
-✅ Shiro:权限管理
-
-✅ 定时任务 
-
-✅ swagger:接口文档自动生成
-
-✅ Nginx:反向代理
+✅ xml:对xml格式参数的支持 ✅ WebFlux:响应式编程 ✅ 消息转化:HttpMessageConverters ✅ Shiro:权限管理 ✅ 定时任务 ✅ swagger:接口文档自动生成 ✅ Nginx:反向代理 ✅ JdbcTemplate 整合使用
 
 
 ## springMVC实践
