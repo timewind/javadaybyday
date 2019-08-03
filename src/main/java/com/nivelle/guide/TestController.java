@@ -122,4 +122,31 @@ public class TestController {
         return activityList;
     }
 
+    /**
+     * 自定义对象映射
+     *
+     * @return
+     */
+    @RequestMapping("/updateActivity")
+    @ResponseBody
+    public Object changeActivityPv() {
+        ActivityPvEntity activityPvEntity = activityDao.getActivitiesForUpdate();
+        System.out.println(activityPvEntity);
+        int changeCount = activityDao.updateActivityPv(activityPvEntity);
+        return changeCount;
+    }
+
+    /**
+     * 自定义对象映射
+     *
+     * @return
+     */
+    @RequestMapping("/selectForUpdate")
+    @ResponseBody
+    public Object getActivityPvForUpdate() {
+        ActivityPvEntity activityPvEntity = activityDao.getActivitiesForUpdate();
+        return activityPvEntity;
+    }
+
+
 }

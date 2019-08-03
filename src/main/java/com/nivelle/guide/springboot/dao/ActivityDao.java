@@ -27,23 +27,11 @@ public class ActivityDao {
 
     private static final String SELECTS_SQL = "select * from activity_pv where position_type=? and device_type=?";
 
-    /**
-     *             Long id = rs.getLong("id");
-     *             String activityId = rs.getString("activity_id");
-     *             int positionType = rs.getInt("position_type");
-     *             String ip = rs.getString("ip");
-     *             String deviceType = rs.getString("device_type");
-     *             String deviceNo = rs.getString("device_no");
-     *             String createTime = rs.getString("create_time");
-     *             String updateTime = rs.getString("update_time");
-     *             activityPvEntity.setId(id);
-     *             activityPvEntity.setActivityId(activityId);
-     *             activityPvEntity.setPositionType(positionType);
-     *             activityPvEntity.setIp(ip);
-     *             activityPvEntity.setDeviceNo(deviceNo);
-     *             activityPvEntity.setCreateTime(createTime);
-     *             activityPvEntity.setUpdateTime(updateTime);
-     */
+    private static final String SELECT_FOR_UPDATE_SQL = "select * from activity_pv where id=? for update";
+
+
+    private static final String UPDATE_SQL = "update activity_pv set activity_id=?,position_type=?,device_type=?,device_no=? where id =?";
+
 
     /**
      * queryForObject
@@ -81,7 +69,7 @@ public class ActivityDao {
     }
 
     /**
-     * 对象映射
+     * 对象映射原型
      *
      * @return
      */
@@ -132,5 +120,37 @@ public class ActivityDao {
         return null;
     }
 
+    /**
+     * forUpdate
+     *
+     * @return
+     */
+    public ActivityPvEntity getActivitiesForUpdate() {
+        try {
+            ActivityPvEntity activityPvEntity = jdbcTemplate.queryForObject(SELECT_FOR_UPDATE_SQL, new Object[]{6}, new BeanPropertyRowMapper<>(ActivityPvEntity.class));
+            return activityPvEntity;
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+        return null;
+    }
 
+    /**
+     * 更新
+     *
+     * @param activityPvEntity
+     * @return
+     */
+    public int updateActivityPv(ActivityPvEntity activityPvEntity) {
+        try {
+            activityPvEntity.setActivityId("1345");
+            int changeCount = jdbcTemplate.update(UPDATE_SQL, new Object[]{activityPvEntity.getActivityId(), activityPvEntity.getPositionType(), activityPvEntity.getDeviceType(), activityPvEntity.getDeviceNo(), activityPvEntity.getId()});
+            return changeCount;
+        } catch (Exception e) {
+            System.out.println(e);
+            System.out.println(e.getStackTrace());
+
+        }
+        return 0;
+    }
 }
