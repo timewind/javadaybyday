@@ -69,6 +69,12 @@ public class TestController {
         return "stop success";
     }
 
+
+    /**
+     * jdbcTemplate 实践
+     *
+     * @return
+     */
     @RequestMapping("/activityPv")
     @ResponseBody
     public ActivityPvEntity getActivityPv() {
@@ -77,6 +83,11 @@ public class TestController {
         return activityPvEntity;
     }
 
+    /**
+     * 原型返回
+     *
+     * @return
+     */
     @RequestMapping("/activityPvs")
     @ResponseBody
     public Object getActivityPvs() {
@@ -85,10 +96,28 @@ public class TestController {
         return activityList;
     }
 
+    /**
+     * 自动映射
+     *
+     * @return
+     */
     @RequestMapping("/activityPvs2")
     @ResponseBody
     public Object getActivityPvs2() {
         List<ActivityPvEntity> activityList = activityDao.getActivityList2();
+        System.out.println("activityList is:" + activityList);
+        return activityList;
+    }
+
+    /**
+     * 自定义对象映射
+     *
+     * @return
+     */
+    @RequestMapping("/activityPvs3")
+    @ResponseBody
+    public Object getActivityPvs3() {
+        List<ActivityPvEntity> activityList = activityDao.getActivityList3();
         System.out.println("activityList is:" + activityList);
         return activityList;
     }
