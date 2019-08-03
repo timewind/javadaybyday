@@ -58,7 +58,6 @@
 
 ✅迭代器模式 ✅适配器模式 ✅模板方法模式 ✅工厂方法模式 ✅代理模式 ✅责任链模式 ✅桥梁模式 ✅策略模式 ✅构建模式 ✅抽象工厂模式
 
-
 ## 算法实践
 
 ✅有序二维数组查询 ✅空格字符窜替换 ✅从尾到头打印数组 ✅构建二叉树 ✅两个栈实现队列
@@ -66,8 +65,6 @@
 ## JVM实践
 
 ✅自定义类加载器 ✅类实例化过程实例
-
-## Netty实践
 
 ## RabbitMQ
 
@@ -81,13 +78,11 @@
 
 ✅自己实现RPC ✅zookeeper(【分布式锁】,【选主】)
 
+✅分布式事物
+
 ## Mybatis实践
 
 ✅mybatis 整合到springBoot ✅mybatis 使用redis做缓存组件
-
-## Tomcat实践
-
-## HBase实践
 
 ## Redis实践
 
@@ -109,3 +104,15 @@
 
 ✅【Integer】 ✅【String】 ✅【Enum】 ✅【ArrayList】 ✅【HashMap】 ✅【LinkedList】 ✅【LinkedHashMap】 ✅【TreeMap】 ✅【ThreadPool】 ✅ThreadLocal ✅【Unsafe】 ✅【Float】 ✅【Math】
 ✅【CountDownLatch】✅【Long】
+
+### MySQL实践
+
+✅ mysql事物
+
+
+## 待实践。。。。
+
+### Netty实践
+### Tomcat实践
+### HBase实践
+
