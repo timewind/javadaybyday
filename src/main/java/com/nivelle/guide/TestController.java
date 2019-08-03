@@ -2,11 +2,16 @@ package com.nivelle.guide;
 
 import com.nivelle.guide.configbean.LearnConfig;
 import com.nivelle.guide.javacore.instance.Son;
+import com.nivelle.guide.springboot.dao.ActivityDao;
+import com.nivelle.guide.springboot.entity.ActivityPvEntity;
 import com.nivelle.guide.springboot.mapper.ActivityPvMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.List;
+import java.util.Map;
 
 @RestController
 @RequestMapping("/test")
@@ -16,6 +21,9 @@ public class TestController {
     LearnConfig learnConfig;
     @Autowired
     ActivityPvMapper activityPvMapper;
+
+    @Autowired
+    ActivityDao activityDao;
 
     @RequestMapping("/config")
     public String config() {
@@ -59,6 +67,30 @@ public class TestController {
         }
         System.out.println("优雅停机执行完毕");
         return "stop success";
+    }
+
+    @RequestMapping("/activityPv")
+    @ResponseBody
+    public ActivityPvEntity getActivityPv() {
+        ActivityPvEntity activityPvEntity = activityDao.getActivitiesById();
+        System.out.println("activityPv is:" + activityPvEntity);
+        return activityPvEntity;
+    }
+
+    @RequestMapping("/activityPvs")
+    @ResponseBody
+    public Object getActivityPvs() {
+        List<Map<String, Object>> activityList = activityDao.getActivityList();
+        System.out.println("activityList is:" + activityList);
+        return activityList;
+    }
+
+    @RequestMapping("/activityPvs2")
+    @ResponseBody
+    public Object getActivityPvs2() {
+        List<ActivityPvEntity> activityList = activityDao.getActivityList2();
+        System.out.println("activityList is:" + activityList);
+        return activityList;
     }
 
 }
