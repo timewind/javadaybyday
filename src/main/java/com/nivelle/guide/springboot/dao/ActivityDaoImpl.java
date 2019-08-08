@@ -16,10 +16,10 @@ import java.util.Map;
  * @date 2019/08/03
  */
 @Repository
-public class ActivityDao {
+public class ActivityDaoImpl {
 
 
-    @Resource
+    @Resource(name = "masterJdbcTemplate")
     private JdbcTemplate jdbcTemplate;
 
 
@@ -28,7 +28,6 @@ public class ActivityDao {
     private static final String SELECTS_SQL = "select * from activity_pv where position_type=? and device_type=?";
 
     private static final String SELECT_FOR_UPDATE_SQL = "select * from activity_pv where id=? for update";
-
 
     private static final String UPDATE_SQL = "update activity_pv set activity_id=?,position_type=?,device_type=?,device_no=? where id =?";
 
@@ -125,9 +124,10 @@ public class ActivityDao {
      *
      * @return
      */
-    public ActivityPvEntity getActivitiesForUpdate() {
+    public ActivityPvEntity getActivitiesForUpdate(long id) {
         try {
-            ActivityPvEntity activityPvEntity = jdbcTemplate.queryForObject(SELECT_FOR_UPDATE_SQL, new Object[]{6}, new BeanPropertyRowMapper<>(ActivityPvEntity.class));
+            ActivityPvEntity activityPvEntity = jdbcTemplate.queryForObject(SELECT_FOR_UPDATE_SQL,
+                    new Object[]{id}, new BeanPropertyRowMapper<>(ActivityPvEntity.class));
             return activityPvEntity;
         } catch (Exception e) {
             System.out.println(e);
@@ -143,8 +143,8 @@ public class ActivityDao {
      */
     public int updateActivityPv(ActivityPvEntity activityPvEntity) {
         try {
-            activityPvEntity.setActivityId("1345");
-            int changeCount = jdbcTemplate.update(UPDATE_SQL, new Object[]{activityPvEntity.getActivityId(), activityPvEntity.getPositionType(), activityPvEntity.getDeviceType(), activityPvEntity.getDeviceNo(), activityPvEntity.getId()});
+            int changeCount = jdbcTemplate.update(UPDATE_SQL, new Object[]{activityPvEntity.getActivityId(),
+                    activityPvEntity.getPositionType(), activityPvEntity.getDeviceType(), activityPvEntity.getDeviceNo(), activityPvEntity.getId()});
             return changeCount;
         } catch (Exception e) {
             System.out.println(e);

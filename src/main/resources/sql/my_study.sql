@@ -1,3 +1,9 @@
+## 创建数据库
+CREATE DATABASE javaguideslave;
+
+
+
+
 
 ## 初始化表
 DROP TABLE IF EXISTS `activity_pv`;

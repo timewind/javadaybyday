@@ -1,6 +1,6 @@
 package com.nivelle.guide.mysql;
 
-import com.nivelle.guide.springboot.dao.ActivityDao;
+import com.nivelle.guide.springboot.dao.ActivityDaoImpl;
 import com.nivelle.guide.springboot.entity.ActivityPvEntity;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -20,11 +20,11 @@ public class JdbcTemplateTest {
 
 
     @Autowired
-    ActivityDao activityDao;
+    ActivityDaoImpl activityDao;
 
     @Test
     public void testForUpdate() {
-        ActivityPvEntity activityPvEntity = activityDao.getActivitiesForUpdate();
+        ActivityPvEntity activityPvEntity = activityDao.getActivitiesForUpdate(1);
         System.out.println(activityPvEntity);
         int changeCount = activityDao.updateActivityPv(activityPvEntity);
         System.out.println("更新结果:" + changeCount);

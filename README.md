@@ -45,7 +45,7 @@
 
 ✅ Nginx:反向代理 
 
-✅ JdbcTemplate 整合使用
+✅ JdbcTemplate && Mybatis 多数据源配置整合
 
 
 ## springMVC实践
@@ -200,4 +200,6 @@
 ### Netty实践
 ### Tomcat实践
 ### HBase实践
+### Spring事物
+
 

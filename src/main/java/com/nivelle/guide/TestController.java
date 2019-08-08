@@ -2,10 +2,11 @@ package com.nivelle.guide;
 
 import com.nivelle.guide.configbean.LearnConfig;
 import com.nivelle.guide.javacore.instance.Son;
-import com.nivelle.guide.springboot.dao.ActivityDao;
+import com.nivelle.guide.springboot.dao.ActivityDaoImpl;
 import com.nivelle.guide.springboot.entity.ActivityPvEntity;
 import com.nivelle.guide.springboot.mapper.ActivityPvMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -23,7 +24,7 @@ public class TestController {
     ActivityPvMapper activityPvMapper;
 
     @Autowired
-    ActivityDao activityDao;
+    ActivityDaoImpl activityDao;
 
     @RequestMapping("/config")
     public String config() {
@@ -127,10 +128,10 @@ public class TestController {
      *
      * @return
      */
-    @RequestMapping("/updateActivity")
+    @RequestMapping("/updateActivity/{id}")
     @ResponseBody
-    public Object changeActivityPv() {
-        ActivityPvEntity activityPvEntity = activityDao.getActivitiesForUpdate();
+    public Object changeActivityPv(@PathVariable String id) {
+        ActivityPvEntity activityPvEntity = activityDao.getActivitiesForUpdate(Long.valueOf(id));
         System.out.println(activityPvEntity);
         int changeCount = activityDao.updateActivityPv(activityPvEntity);
         return changeCount;
@@ -141,10 +142,10 @@ public class TestController {
      *
      * @return
      */
-    @RequestMapping("/selectForUpdate")
+    @RequestMapping("/selectForUpdate/{id}")
     @ResponseBody
-    public Object getActivityPvForUpdate() {
-        ActivityPvEntity activityPvEntity = activityDao.getActivitiesForUpdate();
+    public Object getActivityPvForUpdate(@PathVariable String id) {
+        ActivityPvEntity activityPvEntity = activityDao.getActivitiesForUpdate(Long.valueOf(id));
         return activityPvEntity;
     }
 

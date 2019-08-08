@@ -14,4 +14,6 @@ public interface ActivityService {
     int update(ActivityPvEntity activityPvEntity);
 
     ActivityPvEntity getActivityById(Integer id);
+
+    int insertOrUpdate(long id);
 }
