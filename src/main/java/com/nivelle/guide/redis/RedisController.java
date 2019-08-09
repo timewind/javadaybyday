@@ -13,7 +13,7 @@ import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 @Controller
-@RequestMapping("redis")
+@RequestMapping("test/redis")
 public class RedisController {
 
     @Autowired

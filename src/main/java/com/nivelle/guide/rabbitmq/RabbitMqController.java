@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  */
 
 @Controller
-@RequestMapping("rabbitMQ")
+@RequestMapping("test/rabbitMQ")
 @Validated
 @Slf4j
 public class RabbitMqController {

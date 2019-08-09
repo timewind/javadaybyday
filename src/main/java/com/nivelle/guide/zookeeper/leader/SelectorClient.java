@@ -9,7 +9,7 @@ import org.apache.logging.log4j.util.Strings;
 import java.io.Closeable;
 
 /**
- * TODO:DOCUMENT ME!
+ * 选主
  *
  * @author fuxinzhong
  * @date 2019/07/09

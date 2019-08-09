@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import java.util.List;
 
 @Controller
-@RequestMapping("/cache")
+@RequestMapping("test/cache")
 public class CacheController {
 
     @Autowired

@@ -16,7 +16,7 @@ import java.util.List;
  * @date 2019/07/17
  */
 @Controller
-@RequestMapping("/swagger")
+@RequestMapping("test/swagger")
 @Slf4j
 public class SwaggerController {
 

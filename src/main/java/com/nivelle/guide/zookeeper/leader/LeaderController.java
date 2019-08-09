@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 
 @RestController
-@RequestMapping("/zk")
+@RequestMapping("test/zk")
 @Slf4j
 public class LeaderController {
 

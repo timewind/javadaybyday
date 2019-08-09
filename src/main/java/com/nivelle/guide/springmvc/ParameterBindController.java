@@ -16,7 +16,7 @@ import java.util.Properties;
 /**
  * springMNC参数绑定学习
  */
-@RequestMapping("springMVC")
+@RequestMapping("test/springMVC")
 @Controller
 public class ParameterBindController {
 

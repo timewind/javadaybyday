@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Objects;
 
 @Controller
-@RequestMapping("activity")
+@RequestMapping("test/activity")
 @Validated
 public class ActivityPvController {
 
@@ -61,8 +61,6 @@ public class ActivityPvController {
         } else {
             return ResponseResult.newResponseResult().setFail(-1, "activityPv is null");
         }
-
-
     }
 
 

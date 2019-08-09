@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import java.util.List;
 
 @Controller
-@RequestMapping(value = "books")
+@RequestMapping(value = "test/books")
 public class BookController {
 
 

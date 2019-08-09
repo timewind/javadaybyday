@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @date 2019/07/25
  */
 @Controller
-@RequestMapping(value = "/kafka")
+@RequestMapping(value = "test/kafka")
 public class KafkaController {
 
     @Autowired

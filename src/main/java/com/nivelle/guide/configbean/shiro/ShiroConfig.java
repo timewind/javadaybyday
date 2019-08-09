@@ -26,22 +26,7 @@ public class ShiroConfig {
         Map<String, String> filterChainDefinitionMap = new LinkedHashMap<String, String>();
         // 配置不会被拦截的链接 顺序判断
         filterChainDefinitionMap.put("/static/**", "anon");
-        filterChainDefinitionMap.put("/redis/**", "anon");
-        filterChainDefinitionMap.put("/swagger-ui/**", "anon");
-        filterChainDefinitionMap.put("/activity/**", "anon");
         filterChainDefinitionMap.put("/test/**", "anon");
-        filterChainDefinitionMap.put("/menus/**", "anon");
-        filterChainDefinitionMap.put("/books/**", "anon");
-        filterChainDefinitionMap.put("/configNoAOP/**", "anon");
-        filterChainDefinitionMap.put("/springMVC/**", "anon");
-        filterChainDefinitionMap.put("/springBean/**", "anon");
-        filterChainDefinitionMap.put("/book/**", "anon");
-        filterChainDefinitionMap.put("/rabbitMQ/**", "anon");
-        filterChainDefinitionMap.put("/curator/**","anon");
-        filterChainDefinitionMap.put("/rpc/**","anon");
-        filterChainDefinitionMap.put("/zk/**","anon");//swagger
-        filterChainDefinitionMap.put("/swagger/**","anon");
-        filterChainDefinitionMap.put("/kafka/**","anon");
 
         //配置退出 过滤器,其中的具体的退出代码Shiro已经替我们实现了
         filterChainDefinitionMap.put("/logout", "logout");

@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/curator")
+@RequestMapping("test/curator")
 @Slf4j
 public class CuratorController {
 
