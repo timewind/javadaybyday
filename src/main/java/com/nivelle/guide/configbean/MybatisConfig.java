@@ -15,17 +15,17 @@ import javax.sql.DataSource;
 
 
 /**
- * TODO:DOCUMENT ME!
+ * mybatis配置一个master数据源
  *
  * @author fuxinzhong
  * @date 2019/08/08
  */
 @Configuration
 @MapperScan(basePackages = "com.nivelle.guide.springboot.mapper.*", sqlSessionTemplateRef = "masterSqlSessionTemplate")
-public class MybatisMasterDataSource {
+public class MybatisConfig {
 
     /**
-     * mybatos配置
+     * mybatis配置
      *
      * @param dataSource
      * @return
@@ -41,15 +41,10 @@ public class MybatisMasterDataSource {
         return sqlSessionFactoryBean.getObject();
     }
 
-    @Bean(name = "masterTransactionManager")
-    @Primary
-    public DataSourceTransactionManager masterTransactionManager(@Qualifier("masterDataSource") DataSource dataSource) {
-        return new DataSourceTransactionManager(dataSource);
-    }
 
     @Bean(name = "masterSqlSessionTemplate")
     @Primary
-    public SqlSessionTemplate testSqlSessionTemplate(@Qualifier("masterSqlSessionFactory") SqlSessionFactory sqlSessionFactory) throws Exception {
+    public SqlSessionTemplate masterSqlSessionTemplate(@Qualifier("masterSqlSessionFactory") SqlSessionFactory sqlSessionFactory) throws Exception {
         return new SqlSessionTemplate(sqlSessionFactory);
     }
 }

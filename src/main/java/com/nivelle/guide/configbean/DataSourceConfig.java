@@ -6,18 +6,18 @@ import org.springframework.boot.jdbc.DataSourceBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
-import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 
 import javax.sql.DataSource;
 
 /**
- * 数据源
+ * 数据源配置
  *
  * @author fuxinzhong
- * @date 2019/08/08
+ * @date 2019/08/09
  */
 @Configuration
-public class JdbcTemplateDataSourceConfig {
+public class DataSourceConfig {
 
     /**
      * 数据源
@@ -31,30 +31,27 @@ public class JdbcTemplateDataSourceConfig {
         return DataSourceBuilder.create().build();
     }
 
+    /**
+     * @return
+     */
     @Bean(name = "slaveDataSource")
     @Qualifier("slaveDataSource")
-    @Primary
+    @Primary //当有多个实例时，用该注解表明先于未加该注解的实例注入，并不是表示它时主实例
     @ConfigurationProperties(prefix = "spring.datasource.slave")
     public DataSource slaveDataSource() {
         return DataSourceBuilder.create().build();
     }
 
+
     /**
-     * jdbcTemplate配置
+     * 事物管理器
      *
      * @param dataSource
      * @return
      */
-    @Bean(name = "masterJdbcTemplate")
-    public JdbcTemplate masterdbcTemplate(
-            @Qualifier("masterDataSource") DataSource dataSource) {
-        return new JdbcTemplate(dataSource);
+    @Bean(name = "masterTransactionManager")
+    @Primary
+    public DataSourceTransactionManager masterTransactionManager(@Qualifier("masterDataSource") DataSource dataSource) {
+        return new DataSourceTransactionManager(dataSource);
     }
-
-    @Bean(name = "slaveJdbcTemplate")
-    public JdbcTemplate slaveJdbcTemplate(
-            @Qualifier("slaveDataSource") DataSource dataSource) {
-        return new JdbcTemplate(dataSource);
-    }
-
 }
