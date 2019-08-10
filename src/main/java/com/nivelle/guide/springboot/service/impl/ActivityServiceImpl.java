@@ -7,6 +7,7 @@ import com.nivelle.guide.springboot.mapper.ActivityPvMapper;
 import com.nivelle.guide.springboot.service.ActivityService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.aop.framework.AopContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Isolation;
@@ -74,18 +75,61 @@ public class ActivityServiceImpl implements ActivityService {
      */
     @Override
     //不加事物控制，则会更新成功;否则依然能更新成功
-    @Transactional(propagation = Propagation.REQUIRED, readOnly = false,isolation = Isolation.READ_COMMITTED, timeout = 100, rollbackFor = Exception.class)
-    public int requiredCommited(long id) {
+    //@Transactional(propagation = Propagation.REQUIRED, readOnly = false, isolation = Isolation.READ_COMMITTED, timeout = 100, rollbackFor = Exception.class)
+    public int requiredCommitted(long id) {
         ActivityPvEntity activityPvEntity = activityDaoImpl.getActivitiesById(id);
         if (Objects.nonNull(activityPvEntity)) {
             activityPvEntity.setActivityId("渣哥");
             int result = activityDaoImpl.updateActivityPv(activityPvEntity);
-            int a = 10;
-            int c = a / 0;
             return result;
         }
         return 0;
     }
 
+    /**
+     * 事物传播特性
+     * <p>
+     * PROPAGATION_REQUIRED--支持当前事务，如果当前没有事务，就新建一个事务。这是最常见的选择。
+     * PROPAGATION_SUPPORTS--支持当前事务，如果当前没有事务，就以非事务方式执行。
+     * PROPAGATION_MANDATORY--支持当前事务，如果当前没有事务，就抛出异常。
+     * PROPAGATION_REQUIRES_NEW--新建事务，如果当前存在事务，把当前事务挂起。
+     * PROPAGATION_NOT_SUPPORTED--以非事务方式执行操作，如果当前存在事务，就把当前事务挂起。
+     * PROPAGATION_NEVER--以非事务方式执行，如果当前存在事务，则抛出异常。
+     */
+
+    public ActivityPvEntity getActivityInTransactional(long id) {
+        ActivityPvEntity activityPvEntity = activityPvMapper.getActivityById(id);
+        if (Objects.nonNull(activityPvEntity)) {
+            //此时事物不起作用,因为调用者和被调用者同属一个类
+            //this.requiredCommited(activityPvEntity.getId());
+
+            //通过使用代理调用内部事物方法让事物传播特性生效
+            ActivityService activityService = (ActivityService) AopContext.currentProxy();
+            activityService.requiredCommitted(activityPvEntity.getId());
+
+        }
+        //抛出一个非受检异常
+        this.throwAException();
+        return activityPvEntity;
+    }
+
+
+    /**
+     * 制造一个非受检异常
+     * 1. Error 和 RuntimeException 以及他们的子类
+     * 2. 编译时不会提示和发现这些异常，不要求coder处理这些异常，但是也可以有意识的去处理，但这种问题根本的解决方式时修改代码
+     * 3. ArithmeticException;ArrayIndexOutOfBoundsException;NullPointerException
+     */
+    private void throwAException() {
+        int a = 10;
+        int c = a / 0;
+        return;
+    }
+
+    private void throwANullException() {
+        Object object = null;
+        object.toString();
+        return;
+    }
 
 }

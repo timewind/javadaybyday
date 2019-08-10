@@ -15,5 +15,8 @@ public interface ActivityService {
 
     ActivityPvEntity getActivityById(Integer id);
 
-    int requiredCommited(long id);
+    int requiredCommitted(long id);
+
+    ActivityPvEntity getActivityInTransactional(long id);
+
 }

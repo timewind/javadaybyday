@@ -23,7 +23,7 @@ public interface ActivityPvMapper {
 
     int update(ActivityPvEntity activityPvEntity);
 
-    ActivityPvEntity getActivityById(Integer id);
+    ActivityPvEntity getActivityById(long id);
 
 
 }

@@ -1,6 +1,8 @@
 package com.nivelle.guide.springboot.controllor;
 
+import com.nivelle.guide.springboot.entity.ActivityPvEntity;
 import com.nivelle.guide.springboot.service.ActivityService;
+import com.nivelle.guide.springboot.service.ActivityTransactionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.annotation.Validated;
@@ -21,12 +23,28 @@ public class TransactionController {
 
     @Autowired
     ActivityService activityService;
+    @Autowired
+    ActivityTransactionService activityTransactionService;
 
-    @RequestMapping("/requiredCommit/{id}")
+
+    @RequestMapping("/requiredCommitted/{id}")
     @ResponseBody
     public Object forUpdate(@PathVariable String id) {
-        int result = activityService.requiredCommited(Long.valueOf(id));
+        int result = activityService.requiredCommitted(Long.valueOf(id));
         return result;
+    }
+
+    /**
+     * 非事物方法调用了一个Propagation.REQUIRED 级别的事物方法，则非事物方法也会被分配一个事物
+     *
+     * @param id
+     * @return
+     */
+    @RequestMapping("/requiredTransaction/{id}")
+    @ResponseBody
+    public Object requiredTransaction(@PathVariable String id) {
+        ActivityPvEntity activityPvEntity = activityTransactionService.getActivityInTransactional(Long.valueOf(id));
+        return activityPvEntity;
     }
 
 }
