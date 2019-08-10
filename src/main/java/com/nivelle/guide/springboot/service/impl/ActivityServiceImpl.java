@@ -73,13 +73,16 @@ public class ActivityServiceImpl implements ActivityService {
      * 2. Transactional 也可以放在类上,此时它的所有方法和子类都能识别
      */
     @Override
-    @Transactional(propagation = Propagation.REQUIRED,readOnly = false,
-            isolation= Isolation.READ_COMMITTED,timeout=100,rollbackFor = Exception.class)
-    public int insertOrUpdate(long id) {
-        ActivityPvEntity activityPvEntity = activityDaoImpl.getActivitiesForUpdate(id);
-        if(Objects.nonNull(activityPvEntity)) {
+    //不加事物控制，则会更新成功;否则依然能更新成功
+    @Transactional(propagation = Propagation.REQUIRED, readOnly = false,isolation = Isolation.READ_COMMITTED, timeout = 100, rollbackFor = Exception.class)
+    public int requiredCommited(long id) {
+        ActivityPvEntity activityPvEntity = activityDaoImpl.getActivitiesById(id);
+        if (Objects.nonNull(activityPvEntity)) {
             activityPvEntity.setActivityId("渣哥");
-            return activityDaoImpl.updateActivityPv(activityPvEntity);
+            int result = activityDaoImpl.updateActivityPv(activityPvEntity);
+            int a = 10;
+            int c = a / 0;
+            return result;
         }
         return 0;
     }

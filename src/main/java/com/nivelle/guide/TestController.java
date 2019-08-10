@@ -76,10 +76,10 @@ public class TestController {
      *
      * @return
      */
-    @RequestMapping("/activityPv")
+    @RequestMapping("/activityPv/{id}")
     @ResponseBody
-    public ActivityPvEntity getActivityPv() {
-        ActivityPvEntity activityPvEntity = activityDao.getActivitiesById();
+    public ActivityPvEntity getActivityPv(@PathVariable String id) {
+        ActivityPvEntity activityPvEntity = activityDao.getActivitiesById(Long.valueOf(id));
         System.out.println("activityPv is:" + activityPvEntity);
         return activityPvEntity;
     }

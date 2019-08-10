@@ -22,10 +22,10 @@ public class TransactionController {
     @Autowired
     ActivityService activityService;
 
-    @RequestMapping("/forUpdate/{id}")
+    @RequestMapping("/requiredCommit/{id}")
     @ResponseBody
     public Object forUpdate(@PathVariable String id) {
-        int result = activityService.insertOrUpdate(Long.valueOf(id));
+        int result = activityService.requiredCommited(Long.valueOf(id));
         return result;
     }
 

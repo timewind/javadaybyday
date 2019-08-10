@@ -37,9 +37,9 @@ public class ActivityDaoImpl {
      *
      * @return
      */
-    public ActivityPvEntity getActivitiesById() {
+    public ActivityPvEntity getActivitiesById(long id) {
         try {
-            Object params[] = new Object[]{6};
+            Object params[] = new Object[]{id};
             /**
              * RowMapper<T
              */
