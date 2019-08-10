@@ -38,6 +38,11 @@ public class ActivityTransactionServiceImpl implements ActivityTransactionServic
      * PROPAGATION_NOT_SUPPORTED--以非事务方式执行操作，如果当前存在事务，就把当前事务挂起。
      * PROPAGATION_NEVER--以非事务方式执行，如果当前存在事务，则抛出异常。
      */
+    /**
+     * 事物隔离级别
+     *
+     * 隔离级别在于处理多事务的并发问题。隔离级别在于处理多事务的并发问题。
+     */
     @Transactional(propagation = Propagation.REQUIRED, readOnly = false, isolation = Isolation.READ_COMMITTED, timeout = 100, rollbackFor = Exception.class)
     public ActivityPvEntity getActivityInTransactional(long id) {
         ActivityPvEntity activityPvEntity = activityPvMapper.getActivityById(id);

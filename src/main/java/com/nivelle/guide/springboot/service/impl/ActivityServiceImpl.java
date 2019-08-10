@@ -76,6 +76,7 @@ public class ActivityServiceImpl implements ActivityService {
     @Override
     //不加事物控制，则会更新成功;否则依然能更新成功
     //@Transactional(propagation = Propagation.REQUIRED, readOnly = false, isolation = Isolation.READ_COMMITTED, timeout = 100, rollbackFor = Exception.class)
+    @Transactional(propagation = Propagation.SUPPORTS, readOnly = false, isolation = Isolation.READ_COMMITTED, timeout = 100, rollbackFor = Exception.class)
     public int requiredCommitted(long id) {
         ActivityPvEntity activityPvEntity = activityDaoImpl.getActivitiesById(id);
         if (Objects.nonNull(activityPvEntity)) {
