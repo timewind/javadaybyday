@@ -9,7 +9,7 @@ public class SchedulerTask {
 
     private int count = 0;
 
-    @Scheduled(cron = "*/6 * * * * ?")
+    //@Scheduled(cron = "*/6 * * * * ?")
     private void process1() throws InterruptedException {
         Thread.sleep(6000);
         System.out.println("this is process1 task runing  " + (count++));
@@ -20,7 +20,7 @@ public class SchedulerTask {
 //        System.out.println("this is scheduler task runing  " + (count++));
 //    }
 
-    @Scheduled(cron = "*/6 * * * * ?")
+    //@Scheduled(cron = "*/6 * * * * ?")
     private void process2() {
         System.out.println("this is process2 task runing  " + (count++));
     }

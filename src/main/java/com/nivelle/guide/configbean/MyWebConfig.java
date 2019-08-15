@@ -3,6 +3,7 @@ package com.nivelle.guide.configbean;
 import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.alibaba.fastjson.support.config.FastJsonConfig;
 import com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter;
+import com.nivelle.guide.springboot.filter.CorsFilter;
 import com.nivelle.guide.springboot.filter.MyFilter1;
 import com.nivelle.guide.springboot.filter.MyFilter2;
 import com.nivelle.guide.springboot.interceptor.MyInterceptor;
@@ -88,6 +89,22 @@ public class MyWebConfig implements WebMvcConfigurer {
         frBean.addUrlPatterns("/*");
         frBean.setOrder(1);
         System.out.println("过滤器2注册完成");
+        return frBean;
+    }
+
+    /**
+     * 请求过滤器2先与过滤器1执行
+     *
+     * @return
+     */
+    @SuppressWarnings({"rawtypes", "unchecked"})
+    @Bean(name = "corsFilter")
+    public FilterRegistrationBean filterCors() {
+        FilterRegistrationBean frBean = new FilterRegistrationBean();
+        frBean.setFilter(new CorsFilter());
+        frBean.addUrlPatterns("/test");
+        frBean.setOrder(1);
+        System.out.println("跨域过滤器");
         return frBean;
     }
 
