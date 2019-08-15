@@ -102,7 +102,7 @@ public class MyWebConfig implements WebMvcConfigurer {
     public FilterRegistrationBean filterCors() {
         FilterRegistrationBean frBean = new FilterRegistrationBean();
         frBean.setFilter(new CorsFilter());
-        frBean.addUrlPatterns("/test");
+        frBean.addUrlPatterns("/*");
         frBean.setOrder(1);
         System.out.println("跨域过滤器");
         return frBean;
