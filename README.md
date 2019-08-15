@@ -47,6 +47,8 @@
 
 ✅ JdbcTemplate && Mybatis 多数据源配置整合
 
+✅ CorsFilter 解决跨域问题
+
 
 ## springMVC实践
 
