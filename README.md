@@ -18,7 +18,7 @@
 **JDK版本:1.8;**
 **ZooKeeper版本:3.4.13;**
 **Nginx版本:1.17.1**
-
+**Dubbo版本：0.2.0**
 
 
 ## springBoot实践
@@ -116,6 +116,8 @@
 
 ✅ topic
 
+⌛ 高性能袭击
+
 ## 分布式实践
 
 ✅ 自己实现RPC 
@@ -202,11 +204,19 @@
 
 ✅ mysql常用语句
 
+⌛️ 乐观锁，悲观锁，事物，传播特性
+
+### Dubbo 实践
+
+✅ springboot dubbo 整合【dubbo-api】【dubbo-provider】
+
+⌛️ 待分析细节。。。
+
 ## 待实践。。。。
 
 ### Netty实践
 ### Tomcat实践
 ### HBase实践
-### Dubbo 实践
+
 
 

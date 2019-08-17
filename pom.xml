@@ -14,6 +14,12 @@
     <name>javaGuides</name>
     <description>javaguide project for Spring Boot</description>
 
+
+    <modules>
+        <module>dubbo-api</module>
+        <module>dubbo-provider</module>
+    </modules>
+
     <properties>
         <java.version>1.8</java.version>
         <docker.image.prefix>javaGuides</docker.image.prefix>
@@ -288,6 +294,18 @@
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
             <version>4.0.36.Final</version>
+        </dependency>
+        <!--dubbo -->
+        <dependency>
+            <groupId>com.alibaba.boot</groupId>
+            <artifactId>dubbo-spring-boot-starter</artifactId>
+            <version>0.2.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.nivelle.guide</groupId>
+            <artifactId>dubbo-api</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
     </dependencies>
