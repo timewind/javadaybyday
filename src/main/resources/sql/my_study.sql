@@ -77,5 +77,94 @@ show index from activity_pv;
 +-------------+------------+----------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+---------+------------+
 
 
+## explain 的用法
+
+1. mysql> explain select * from activity_pv where id = 6 union select * from activity_pv where id =9;
+### 当通过union来连接多个查询结果时,第二个之后的select其select_type为UNION
+
++----+--------------+-------------+------------+-------+---------------+---------+---------+-------+------+----------+--------------------------------+
+| id | select_type  | table       | partitions | type  | possible_keys | key     | key_len | ref   | rows | filtered | Extra                          |
++----+--------------+-------------+------------+-------+---------------+---------+---------+-------+------+----------+--------------------------------+
+|  1 | PRIMARY     | activity_pv | NULL       | const | PRIMARY       | PRIMARY | 8       | const |    1 |   100.00 | NULL                           |
+|  2 | UNION        | NULL        | NULL       | NULL  | NULL          | NULL    | NULL    | NULL  | NULL |     NULL | no matching row in const table |
+| NULL | UNION RESULT | <union1,2>  | NULL       | ALL   | NULL          | NULL    | NULL    | NULL  | NULL |     NULL | Using temporary                |
++----+--------------+-------------+------------+-------+---------------+---------+---------+-------+------+----------+--------------------------------+
+
+2. mysql> explain select * from activity_pv where id in (select id from activity_pv where id = 6 union select id from activity_pv where id =7);
+### 当union作为子查询时,其中第二个union的select_type就是DEPENDENT UNION.第一个子查询的select_type则是DEPENDENT SUBQUERY.
+
++----+--------------------+-------------+------------+-------+---------------+---------+---------+-------+------+----------+-----------------+
+| id | select_type        | table       | partitions | type  | possible_keys | key     | key_len | ref   | rows | filtered | Extra           |
++----+--------------------+-------------+------------+-------+---------------+---------+---------+-------+------+----------+-----------------+
+|  1 | PRIMARY            | activity_pv | NULL       | ALL   | NULL          | NULL    | NULL    | NULL  |    3 |   100.00 | Using where     |
+|  2 | DEPENDENT SUBQUERY | activity_pv | NULL       | const | PRIMARY       | PRIMARY | 8       | const |    1 |   100.00 | Using index     |
+|  3 | DEPENDENT UNION    | activity_pv | NULL       | const | PRIMARY       | PRIMARY | 8       | const |    1 |   100.00 | Using index     |
+| NULL | UNION RESULT       | <union2,3>  | NULL       | ALL   | NULL          | NULL    | NULL    | NULL  | NULL |     NULL | Using temporary |
++----+--------------------+-------------+------------+-------+---------------+---------+---------+-------+------+----------+-----------------+
+
+3. mysql> explain select * from activity_pv where id =  (select id from activity_pv where id =9);
+
+mysql> explain select * from activity_pv where id =  (select id from activity_pv where id =7);
+## 子查询的第一个select 其select type 为SUBQUERY
++----+-------------+-------------+------------+-------+---------------+---------+---------+-------+------+----------+-------------+
+| id | select_type | table       | partitions | type  | possible_keys | key     | key_len | ref   | rows | filtered | Extra       |
++----+-------------+-------------+------------+-------+---------------+---------+---------+-------+------+----------+-------------+
+|  1 | PRIMARY     | activity_pv | NULL       | const | PRIMARY       | PRIMARY | 8       | const |    1 |   100.00 | NULL        |
+|  2 | SUBQUERY    | activity_pv | NULL       | const | PRIMARY       | PRIMARY | 8       | const |    1 |   100.00 | Using index |
++----+-------------+-------------+------------+-------+---------------+---------+---------+-------+------+----------+-------------+
+
+4. mysql> explain select * from user_info u,sys_user_role ur where u.uid = ur.uid;
+
+## 对于每个来自于前面的表的行组合,从该表中读取一行.这可能是最好的联接类型,除了const类型.
++----+-------------+-------+------------+--------+---------------+---------+---------+-------------------+------+----------+-------+
+| id | select_type | table | partitions | type   | possible_keys | key     | key_len | ref               | rows | filtered | Extra |
++----+-------------+-------+------------+--------+---------------+---------+---------+-------------------+------+----------+-------+
+|  1 | SIMPLE      | ur    | NULL       | ALL    | NULL          | NULL    | NULL    | NULL              |    1 |   100.00 | NULL  |
+|  1 | SIMPLE      | u     | NULL       | eq_ref | PRIMARY       | PRIMARY | 8       | javaguides.ur.uid |    1 |   100.00 | NULL  |
++----+-------------+-------+------------+--------+---------------+---------+---------+-------------------+------+----------+-------+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

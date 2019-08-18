@@ -12,6 +12,7 @@ INSERT INTO `sys_role_permission` (`permission_id`,`role_id`) VALUES (3,2);
 INSERT INTO `sys_user_role` (`role_id`,`uid`) VALUES (1,1);
 
 
+
 DROP TABLE IF EXISTS `user_info`;
 CREATE TABLE `user_info` (
   `uid` bigint (32) NOT NULL AUTO_INCREMENT COMMENT '主键',

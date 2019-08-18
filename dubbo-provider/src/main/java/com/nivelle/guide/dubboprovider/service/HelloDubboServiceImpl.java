@@ -1,7 +1,9 @@
 package com.nivelle.guide.dubboprovider.service;
 
-import com.nivelle.guide.dubboapi.HelloDubboService;
 import com.alibaba.dubbo.config.annotation.Service;
+import com.nivelle.guide.dubboapi.HelloDubboService;
+
+import java.net.InetAddress;
 
 /**
  * dubbo服务提供者
@@ -17,6 +19,12 @@ public class HelloDubboServiceImpl implements HelloDubboService {
 
     @Override
     public String sayHello(String name) {
-        return "Hello, " + name + " (from Spring Boot)";
+        try {
+            return "Hello, " + name + "- from:" + InetAddress.getLocalHost().getHostAddress();
+
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+        return "bad request";
     }
 }
