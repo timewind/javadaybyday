@@ -1,5 +1,6 @@
 package com.nivelle.guide.dubboprovider.service;
 
+import com.nivelle.guide.dubboprovider.model.UserInfo;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,9 +17,9 @@ public class TestDubboProvider {
 
     @RequestMapping("/ok")
     @ResponseBody
-    public String test(){
+    public Object test(){
         System.out.println("dubbo provider is ok");
-
-        return "ok";
+        UserInfo userInfo = new UserInfo();
+        return userInfo;
     }
 }
