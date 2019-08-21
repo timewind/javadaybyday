@@ -1,4 +1,4 @@
-package com.nivelle.guide.dubboprovider.model;
+package com.nivelle.guide.model;
 
 /**
  * TODO:DOCUMENT ME!

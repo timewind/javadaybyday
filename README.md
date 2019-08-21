@@ -53,6 +53,8 @@
 
 ✅ CorsFilter 解决跨域问题
 
+✅ xml配置文件扫描
+
 
 ## springMVC实践
 
@@ -219,6 +221,8 @@
 ### Netty实践
 ### Tomcat实践
 ### HBase实践
+### SpringMVC http协议分析
+
 
 
 

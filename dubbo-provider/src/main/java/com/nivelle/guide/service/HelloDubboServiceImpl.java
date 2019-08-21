@@ -1,4 +1,4 @@
-package com.nivelle.guide.dubboprovider.service;
+package com.nivelle.guide.service;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.nivelle.guide.dubboapi.HelloDubboService;

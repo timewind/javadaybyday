@@ -1,4 +1,4 @@
-package com.nivelle.guide.dubboprovider.config;
+package com.nivelle.guide.config;
 
 import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.alibaba.fastjson.support.config.FastJsonConfig;

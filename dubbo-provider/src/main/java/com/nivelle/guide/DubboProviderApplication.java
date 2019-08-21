@@ -1,4 +1,4 @@
-package com.nivelle.guide.dubboprovider;
+package com.nivelle.guide;
 
 import com.alibaba.dubbo.config.spring.context.annotation.EnableDubbo;
 import org.springframework.boot.SpringApplication;
