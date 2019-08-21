@@ -1,4 +1,4 @@
-package com.nivelle.guide.dubboapi;
+package com.nivelle.guide.api;
 
 /**
  * TODO:DOCUMENT ME!

@@ -2,7 +2,7 @@ package com.nivelle.guide.dubbo.consumer;
 
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.nivelle.guide.dubboapi.HelloDubboService;
+import com.nivelle.guide.api.HelloDubboService;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
