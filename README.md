@@ -47,7 +47,7 @@
 
 ✅ [swagger:接口文档自动生成](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/controllor/SwaggerController.java)
 
-✅ Nginx:反向代理 
+✅ [Nginx:反向代理](https://github.com/nivelle/javaguides/blob/master/src/main/resources/nginx/nginx.conf)
 
 ✅ [JdbcTemplate && Mybatis 多数据源配置整合](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/configbean/DataSourceConfig.java)
 
