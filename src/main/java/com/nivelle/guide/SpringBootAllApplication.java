@@ -23,6 +23,7 @@ public class SpringBootAllApplication {
         springApplication.addListeners(new MyApplicationStartingEventListener());
         springApplication.addListeners(new MyApplicationEnvironmentPreparedEventListener());
         springApplication.addListeners(new MyApplicationReadyEventListener());
+        springApplication.addListeners(new MyContextStartedEventListener());
         springApplication.addListeners(new MyApplicationFailedEventListener());
         springApplication.addListeners(new MyApplicationStartedEventListener());
         springApplication.addListeners(new MyContextRefreshedEventListener());

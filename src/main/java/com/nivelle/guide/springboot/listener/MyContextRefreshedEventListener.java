@@ -23,7 +23,7 @@ public class MyContextRefreshedEventListener implements ApplicationListener<Cont
      */
     @Override
     public void onApplicationEvent(ContextRefreshedEvent event) {
-        System.err.println("ContextRefreshedEvent 监听到容器初始化成功,也可以注册bean");
+        System.err.println("ContextRefreshedEvent 监听到容器刷新,也可以注册bean");
         if (event.getApplicationContext().getParent() == null) {
             //ignore
         }
