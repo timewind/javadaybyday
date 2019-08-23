@@ -4,12 +4,15 @@ import com.nivelle.guide.configbean.LearnConfig;
 import com.nivelle.guide.javacore.instance.Son;
 import com.nivelle.guide.springboot.dao.ActivityDaoImpl;
 import com.nivelle.guide.springboot.entity.ActivityPvEntity;
+import com.nivelle.guide.springboot.listener.MyEvent;
 import com.nivelle.guide.springboot.mapper.ActivityPvMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContextAware;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.context.WebApplicationContext;
 
 import java.util.List;
 import java.util.Map;
@@ -25,6 +28,12 @@ public class TestController {
 
     @Autowired
     ActivityDaoImpl activityDao;
+
+    /**
+     * 获取上下文
+     */
+    @Autowired
+    WebApplicationContext webApplicationConnect;
 
     @RequestMapping("/config")
     public String config() {
@@ -149,5 +158,14 @@ public class TestController {
         return activityPvEntity;
     }
 
-
+    /**
+     * 自定义事件发布
+     *
+     * @return
+     */
+    @RequestMapping("/publishEvent")
+    public void publishEvent() {
+        webApplicationConnect.publishEvent(new MyEvent("你好"));
+        return;
+    }
 }

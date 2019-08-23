@@ -21,12 +21,18 @@ public class SpringBootAllApplication {
     public static void main(String[] args) {
         SpringApplication springApplication = new SpringApplication(SpringBootAllApplication.class);
 
+        /**
+         * ApplicationListener 接口监听类
+         */
         springApplication.addListeners(new MyApplicationStartingEventListener());
         springApplication.addListeners(new MyApplicationEnvironmentPreparedEventListener());
         springApplication.addListeners(new MyApplicationReadyEventListener());
         springApplication.addListeners(new MyApplicationFailedEventListener());//与MyApplicationStartedEventListener互斥
         springApplication.addListeners(new MyApplicationStartedEventListener());
 
+        /**
+         * Spring内置的事件
+         */
         springApplication.addListeners(new MyContextStartedEventListener());
         springApplication.addListeners(new MyContextRefreshedEventListener());
         springApplication.addListeners(new MyContextClosedEventListenerListener());
