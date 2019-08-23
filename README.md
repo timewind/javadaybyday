@@ -186,7 +186,7 @@
 
 ✅ [ServletContextListener:servlet容器监听器](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/listener/MyServletListener.java)
 
-✅ [ApplicationEvent:自定义事件](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/listener/MyEvent.java)
+✅ [ApplicationEvent:自定义事件](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/listener/MyListener.java)
 
 
 ## Java2e实践
