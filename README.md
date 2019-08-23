@@ -55,7 +55,7 @@
 
 ✅ [xml配置文件扫描](https://github.com/nivelle/javaguides/blob/master/dubbo-provider/src/main/java/com/nivelle/guide/config/XmlConfig.java)
 
-✅ [@Async&@EnableAsync](https://github.com/nivelle/javaguides/)
+✅ [@Async&@EnableAsync](https://github.com/nivelle/javaguides/blob/master/dubbo-provider/src/main/java/com/nivelle/guide/service/impl/AsyncServiceImpl.java)
 
 
 
