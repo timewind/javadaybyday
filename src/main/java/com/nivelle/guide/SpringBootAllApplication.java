@@ -19,14 +19,20 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableDubbo//开启dubbo
 public class SpringBootAllApplication {
     public static void main(String[] args) {
-        SpringApplication springApplication= new SpringApplication(SpringBootAllApplication.class);
+        SpringApplication springApplication = new SpringApplication(SpringBootAllApplication.class);
+
         springApplication.addListeners(new MyApplicationStartingEventListener());
         springApplication.addListeners(new MyApplicationEnvironmentPreparedEventListener());
         springApplication.addListeners(new MyApplicationReadyEventListener());
-        springApplication.addListeners(new MyContextStartedEventListener());
-        springApplication.addListeners(new MyApplicationFailedEventListener());
+        springApplication.addListeners(new MyApplicationFailedEventListener());//与MyApplicationStartedEventListener互斥
         springApplication.addListeners(new MyApplicationStartedEventListener());
+
+        springApplication.addListeners(new MyContextStartedEventListener());
         springApplication.addListeners(new MyContextRefreshedEventListener());
+        springApplication.addListeners(new MyContextClosedEventListenerListener());
+        springApplication.addListeners(new MyContextStopedEventEventListener());
+
+
         springApplication.run(args);
         System.err.println("启动成功！！");
     }
