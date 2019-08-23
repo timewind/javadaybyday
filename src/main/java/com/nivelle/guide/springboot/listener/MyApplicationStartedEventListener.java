@@ -1,25 +1,18 @@
 package com.nivelle.guide.springboot.listener;
 
+import org.springframework.boot.context.event.ApplicationStartedEvent;
 import org.springframework.context.ApplicationListener;
-import org.springframework.context.event.ContextRefreshedEvent;
-import org.springframework.stereotype.Component;
 
 /**
- * spring boot启动监听类
+ * 正在启动的时候候触发,支持两种添加方式（application.properties配置或者java启动配置）
+ * 不能通过在类上添加@Component来实现注册,因为此时容器还没有初始化成功。
  */
-@Component
+public class MyApplicationStartedEventListener implements ApplicationListener<ApplicationStartedEvent> {
 
-public class MyApplicationStartedEventListener implements ApplicationListener<ContextRefreshedEvent> {
 
-    /**
-     * 需要注意的是，在普通Spring环境中，基于ApplicationListener的监听器的onApplicationEvent方法可能会被执行多次
-     */
     @Override
-    public void onApplicationEvent(ContextRefreshedEvent event) {
-        System.out.println("MyApplicationStartedEventListener 监听到容器初始化成功！也可以注册bean");
-        if (event.getApplicationContext().getParent() == null) {
-            //ignore
-        }
+    public void onApplicationEvent(ApplicationStartedEvent event) {
+        System.err.println("ApplicationStartedEvent 监听器监听到容器启动完毕！！！！！");
 
     }
 }

@@ -1,6 +1,7 @@
 package com.nivelle.guide;
 
 import com.alibaba.dubbo.config.spring.context.annotation.EnableDubbo;
+import com.nivelle.guide.springboot.listener.*;
 import org.springframework.amqp.rabbit.annotation.EnableRabbit;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -18,8 +19,15 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableDubbo//开启dubbo
 public class SpringBootAllApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootAllApplication.class, args);
-        System.out.print("启动成功！！");
+        SpringApplication springApplication= new SpringApplication(SpringBootAllApplication.class);
+        springApplication.addListeners(new MyApplicationStartingEventListener());
+        springApplication.addListeners(new MyApplicationEnvironmentPreparedEventListener());
+        springApplication.addListeners(new MyApplicationReadyEventListener());
+        springApplication.addListeners(new MyApplicationFailedEventListener());
+        springApplication.addListeners(new MyApplicationStartedEventListener());
+        springApplication.addListeners(new MyContextRefreshedEventListener());
+        springApplication.run(args);
+        System.err.println("启动成功！！");
     }
 }
 

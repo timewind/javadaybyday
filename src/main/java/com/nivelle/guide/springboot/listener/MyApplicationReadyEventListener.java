@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
 /**
  * 上下文已经准备完毕的时候触发
  */
-@Component
 public class MyApplicationReadyEventListener implements ApplicationListener<ApplicationReadyEvent> {
 
     /**
@@ -15,7 +14,7 @@ public class MyApplicationReadyEventListener implements ApplicationListener<Appl
      */
     @Override
     public void onApplicationEvent(ApplicationReadyEvent event) {
-        System.out.println("MyApplicationReadyEventListener 监听到容器初始化成功！也可以注册bean");
+        System.err.println("ApplicationReadyEvent 监听到容器初始化成功!可以注册bean");
         if (event.getApplicationContext().getParent() == null) {
             //ignore
         }

@@ -17,7 +17,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
 /**
- * TODO:DOCUMENT ME!
+ * RabbitMQ配置
  *
  * @author fuxinzhong
  * @date 2019/07/01

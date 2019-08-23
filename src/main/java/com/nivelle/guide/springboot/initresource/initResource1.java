@@ -9,6 +9,6 @@ import org.springframework.stereotype.Component;
 public class initResource1 implements CommandLineRunner {
     @Override
     public void run(String... args) {
-        System.out.println("初始化资源 1");
+        System.err.println("CommandLineRunner 初始化资源 1");
     }
 }
