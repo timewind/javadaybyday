@@ -180,9 +180,9 @@
 
 ### 监听器
 
-✅ [ApplicationReadyEvent](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/listener/MyApplicationReadyEventListener.java)
+✅ [springApplicationRunListeners:springBoot自带事件](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/listener/springApplicationRunListeners)
 
-✅ [ContextRefreshedEvent](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/listener/MyApplicationStartedEventListener.java)
+✅ [ContextRefreshedEvent:spring自带监听器](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/listener/context)
 
 ✅ [ServletContextListener:servlet容器监听器](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/listener/MyServletListener.java)
 
