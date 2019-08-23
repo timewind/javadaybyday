@@ -1,4 +1,4 @@
-package com.nivelle.guide.springboot.listener;
+package com.nivelle.guide.springboot.listener.context;
 
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextStoppedEvent;

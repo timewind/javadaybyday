@@ -1,7 +1,11 @@
 package com.nivelle.guide;
 
 import com.alibaba.dubbo.config.spring.context.annotation.EnableDubbo;
-import com.nivelle.guide.springboot.listener.*;
+import com.nivelle.guide.springboot.listener.context.MyContextClosedEventListenerListener;
+import com.nivelle.guide.springboot.listener.context.MyContextRefreshedEventListener;
+import com.nivelle.guide.springboot.listener.context.MyContextStartedEventListener;
+import com.nivelle.guide.springboot.listener.context.MyContextStopedEventEventListener;
+import com.nivelle.guide.springboot.listener.springApplicationRunListeners.*;
 import org.springframework.amqp.rabbit.annotation.EnableRabbit;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
