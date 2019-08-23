@@ -1,12 +1,15 @@
 package com.nivelle.guide;
 
 import com.nivelle.guide.model.UserInfo;
-import com.nivelle.guide.service.XmlBeanService;
+import com.nivelle.guide.service.AsyncService;
+import com.nivelle.guide.service.impl.XmlBeanServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.context.WebApplicationContext;
+
+import java.util.concurrent.Future;
 
 /**
  * @author fuxinzhong
@@ -22,6 +25,9 @@ public class TestDubboProvider {
      */
     @Autowired
     WebApplicationContext webApplicationConnect;
+
+    @Autowired
+    AsyncService asyncService;
 
 
     @RequestMapping("/ok")
@@ -40,7 +46,23 @@ public class TestDubboProvider {
     @ResponseBody
     public Object testXmlService() {
         Object xmlBeanService = webApplicationConnect.getBean("xmlService");
-        XmlBeanService xmlBeanService1 = (XmlBeanService) xmlBeanService;
+        XmlBeanServiceImpl xmlBeanService1 = (XmlBeanServiceImpl) xmlBeanService;
         return xmlBeanService1.helloXmlService();
+    }
+
+    /**
+     * 异步方法调用
+     * @return
+     * @throws Exception
+     */
+    @RequestMapping("async")
+    @ResponseBody
+    public Object testAsyncService() throws Exception{
+        String result = "default";
+        Future<String> asyncResult = asyncService.asyncSayHello();
+        if(asyncResult.isDone()){
+            return asyncResult.get();
+        }
+        return result;
     }
 }
