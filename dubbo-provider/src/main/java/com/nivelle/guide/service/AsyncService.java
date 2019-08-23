@@ -12,6 +12,6 @@ public interface AsyncService {
     Future<String> asyncSayHello();
 
 
-    String asyncSayHello2();
+    Future<String> asyncSayHello2();
 
 }

@@ -65,4 +65,20 @@ public class TestDubboProvider {
         }
         return result;
     }
+
+    /**
+     * 异步方法调用
+     * @return
+     * @throws Exception
+     */
+    @RequestMapping("sync")
+    @ResponseBody
+    public Object testSyncService() throws Exception{
+        String result = "default";
+        Future<String> asyncResult = asyncService.asyncSayHello2();
+        if(asyncResult.isDone()){
+            return asyncResult.get();
+        }
+        return result;
+    }
 }

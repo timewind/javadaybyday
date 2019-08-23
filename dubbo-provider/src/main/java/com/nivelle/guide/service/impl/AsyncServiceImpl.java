@@ -21,7 +21,7 @@ public class AsyncServiceImpl implements AsyncService {
     @Async("littleExecutor")
     public Future<String> asyncSayHello() {
         try {
-            Thread.sleep(5000);
+            Thread.sleep(10);
             System.err.println("asyncSayHello1 is done ");
             return new AsyncResult<>("asyncSayHello1 is done");
         } catch (Exception e) {
@@ -29,9 +29,14 @@ public class AsyncServiceImpl implements AsyncService {
         return new AsyncResult<>("default");
     }
 
-    @Async("largeExecutor")
-    public String asyncSayHello2() {
-        return "asyncSayHello2 is done";
+    public Future<String> asyncSayHello2() {
+        try {
+            Thread.sleep(5000);
+            System.err.println("asyncSayHello2 is done ");
+            return new AsyncResult<>("asyncSayHello2 is done");
+        } catch (Exception e) {
+        }
+        return new AsyncResult<>("default");
     }
 
 }
