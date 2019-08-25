@@ -16,6 +16,7 @@ public class MyBeanFactory implements BeanFactoryAware {
 
     @Override
     public void setBeanFactory(BeanFactory beanFactory) throws BeansException {
+        System.err.println("spring 钩子方法BeanFactoryAware");
         this.beanFactory = beanFactory;
     }
 }

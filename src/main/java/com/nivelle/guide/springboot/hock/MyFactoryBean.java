@@ -6,6 +6,9 @@ import org.springframework.stereotype.Component;
 
 import java.util.Date;
 
+/**
+ * factoryBean 工厂方法
+ */
 @Component
 public class MyFactoryBean implements FactoryBean<TimeLine> {
 

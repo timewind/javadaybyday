@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
  * ==>"单例销毁时由BeanFactory调用#destroy")
  */
 @Component
-public class ConcreteBean implements InitializingBean, DisposableBean {
+public class MyInitializingAndDisposable implements InitializingBean, DisposableBean {
 
     @Override
     public void destroy() throws Exception {
