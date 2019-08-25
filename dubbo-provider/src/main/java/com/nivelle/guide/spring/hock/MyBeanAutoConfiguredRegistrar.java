@@ -34,6 +34,7 @@ public class MyBeanAutoConfiguredRegistrar implements ImportBeanDefinitionRegist
         if (null != targets && targets.length > 0) {
             for (Class<?> target : targets) {
                 BeanDefinition beanDefinition = BeanDefinitionBuilder
+                        //将某个类的定义注册到spring容器中
                         .genericBeanDefinition(target)
                         .getBeanDefinition();
                 registry.registerBeanDefinition(beanDefinition.getBeanClassName(),

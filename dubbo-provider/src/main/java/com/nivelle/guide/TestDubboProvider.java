@@ -1,6 +1,5 @@
 package com.nivelle.guide;
 
-import com.nivelle.guide.model.UserInfo;
 import com.nivelle.guide.service.AsyncService;
 import com.nivelle.guide.service.ConcreteService;
 import com.nivelle.guide.service.impl.XmlBeanServiceImpl;
@@ -20,8 +19,6 @@ import java.util.concurrent.Future;
 @RestController
 @RequestMapping("/test")
 public class TestDubboProvider {
-
-
     /**
      * 获取上下文
      */
@@ -47,8 +44,9 @@ public class TestDubboProvider {
         /**
          * springboot默认属性未设置值时为null,可设置为""
          */
-        UserInfo userInfo = new UserInfo();
-        return userInfo;
+        //UserInfo userInfo = new UserInfo();
+        Object object = webApplicationConnect.getBean("userInfo");
+        return object;
     }
 
     /**
