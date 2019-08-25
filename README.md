@@ -178,6 +178,8 @@
 
 ✅ [SpringAOP](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/core/AopAnnotation.java)
 
+✅ [ConfigurableServletWebServerFactory](https://github.com/nivelle/javaguides/blob/master/dubbo-provider/src/main/java/com/nivelle/guide/config/CustomServletConfig.java)
+
 ### 监听器
 
 ✅ [springApplicationRunListeners:springBoot自带事件](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/listener/springApplicationRunListeners)
