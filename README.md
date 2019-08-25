@@ -143,17 +143,17 @@
 
 ✅ [redis实践](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/redis/RedisController.java)
 
-- 【string 指令】 
+   - 【string 指令】 
 
-- 【zSet 有序集合】 
+   - 【zSet 有序集合】 
 
-- 【Set集合】 
+   - 【Set集合】 
 
-- 【Hash hash表】 
+   - 【Hash hash表】 
 
-- 【List列表】 
+   - 【List列表】 
 
-- 【key 指令】
+   - 【key 指令】
 
 ## Spring实践
 
@@ -178,7 +178,6 @@
 
 ✅ [SpringAOP](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/core/AopAnnotation.java)
 
-✅ [ConfigurableServletWebServerFactory:自定义Tomcat](https://github.com/nivelle/javaguides/blob/master/dubbo-provider/src/main/java/com/nivelle/guide/config/CustomTomcatConfig.java)
 
 ### 监听器
 
@@ -251,10 +250,14 @@
 
 ⌛️ 待分析细节。。。
 
+## Tomcat实践
+
+✅ [ConfigurableServletWebServerFactory:自定义Tomcat](https://github.com/nivelle/javaguides/blob/master/dubbo-provider/src/main/java/com/nivelle/guide/config/CustomTomcatConfig.java)
+
+
 ## 待实践。。。。
 
 ### Netty实践
-### Tomcat实践
 ### HBase实践
 ### SpringMVC http协议分析
 
