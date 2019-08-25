@@ -17,7 +17,7 @@ import java.util.Map;
  * @author fuxinzhong
  * @date 2019/08/25
  */
-public class MyImportBeanDefinitionRegistrar implements ImportBeanDefinitionRegistrar, EnvironmentAware {
+public class MyBeanAutoConfiguredRegistrar implements ImportBeanDefinitionRegistrar, EnvironmentAware {
 
 
     @Override
@@ -28,8 +28,6 @@ public class MyImportBeanDefinitionRegistrar implements ImportBeanDefinitionRegi
     @Override
     public void registerBeanDefinitions(AnnotationMetadata importingClassMetadata,
                                         BeanDefinitionRegistry registry) {
-
-
         Map<String, Object> annotationAttributes
                 = importingClassMetadata.getAnnotationAttributes(EnableThrowable.class.getCanonicalName());
         Class<?>[] targets = (Class<?>[]) annotationAttributes.get("targets");

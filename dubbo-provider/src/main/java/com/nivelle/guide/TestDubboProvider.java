@@ -34,6 +34,9 @@ public class TestDubboProvider {
     @Autowired
     InitSpringBean initSpringBean;
 
+    /**
+     * 必须添加了@Component 或则 @Service才能添加到spring容器中,但是通过 ImportBeanDefinitionRegistrar实现动态导入bean
+     */
     @Autowired
     ConcreteService concreteService;
 

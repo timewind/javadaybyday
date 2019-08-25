@@ -1,6 +1,6 @@
 package com.nivelle.guide.annotation;
 
-import com.nivelle.guide.spring.hock.MyImportBeanDefinitionRegistrar;
+import com.nivelle.guide.spring.hock.MyBeanAutoConfiguredRegistrar;
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.*;
@@ -14,7 +14,7 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
 @Documented
-@Import(value = {MyImportBeanDefinitionRegistrar.class})
+@Import(value = {MyBeanAutoConfiguredRegistrar.class})
 public @interface EnableThrowable {
 
     Class<?>[] targets() default {};
