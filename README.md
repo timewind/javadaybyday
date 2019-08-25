@@ -178,7 +178,7 @@
 
 ✅ [SpringAOP](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/core/AopAnnotation.java)
 
-✅ [ConfigurableServletWebServerFactory](https://github.com/nivelle/javaguides/blob/master/dubbo-provider/src/main/java/com/nivelle/guide/config/CustomServletConfig.java)
+✅ [ConfigurableServletWebServerFactory:自定义Tomcat](https://github.com/nivelle/javaguides/blob/master/dubbo-provider/src/main/java/com/nivelle/guide/config/CustomTomcatConfig.java)
 
 ### 监听器
 
