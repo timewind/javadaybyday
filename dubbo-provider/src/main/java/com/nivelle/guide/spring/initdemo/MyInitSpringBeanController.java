@@ -15,6 +15,10 @@ public class MyInitSpringBeanController {
     @RequestMapping("/init")
     @ResponseBody
     public Object myInitSpringBean() {
-        return initSpringBean.getActivities();
+
+        String name = initSpringBean.getName();
+        int age = initSpringBean.getAge();
+
+        return name + age;
     }
 }

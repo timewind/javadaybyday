@@ -2,7 +2,9 @@ package com.nivelle.guide;
 
 import com.nivelle.guide.model.UserInfo;
 import com.nivelle.guide.service.AsyncService;
+import com.nivelle.guide.service.ConcreteService;
 import com.nivelle.guide.service.impl.XmlBeanServiceImpl;
+import com.nivelle.guide.spring.initdemo.InitSpringBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -29,6 +31,11 @@ public class TestDubboProvider {
     @Autowired
     AsyncService asyncService;
 
+    @Autowired
+    InitSpringBean initSpringBean;
+
+    @Autowired
+    ConcreteService concreteService;
 
     @RequestMapping("/ok")
     @ResponseBody
@@ -43,6 +50,7 @@ public class TestDubboProvider {
 
     /**
      * 通过xml配置文件导入不能自动扫描到的实例
+     *
      * @return
      */
     @RequestMapping("xml")
@@ -55,15 +63,16 @@ public class TestDubboProvider {
 
     /**
      * 异步方法调用
+     *
      * @return
      * @throws Exception
      */
     @RequestMapping("async")
     @ResponseBody
-    public Object testAsyncService() throws Exception{
+    public Object testAsyncService() throws Exception {
         String result = "default";
         Future<String> asyncResult = asyncService.asyncSayHello();
-        if(asyncResult.isDone()){
+        if (asyncResult.isDone()) {
             return asyncResult.get();
         }
         return result;
@@ -71,17 +80,32 @@ public class TestDubboProvider {
 
     /**
      * 异步方法调用
+     *
      * @return
      * @throws Exception
      */
     @RequestMapping("sync")
     @ResponseBody
-    public Object testSyncService() throws Exception{
+    public Object testSyncService() throws Exception {
         String result = "default";
         Future<String> asyncResult = asyncService.asyncSayHello2();
-        if(asyncResult.isDone()){
+        if (asyncResult.isDone()) {
             return asyncResult.get();
         }
         return result;
+    }
+
+    /**
+     * spring 钩子方法测试
+     *
+     * @return
+     */
+    @RequestMapping("/init")
+    @ResponseBody
+    public Object myInitSpringBean() {
+        String name = initSpringBean.getName();
+        int age = initSpringBean.getAge();
+        concreteService.sayHello();
+        return name + age;
     }
 }
