@@ -34,6 +34,9 @@ public class TestDubboProvider {
     @ResponseBody
     public Object test() {
         System.out.println("dubbo provider is ok");
+        /**
+         * springboot默认属性未设置值时为null,可设置为""
+         */
         UserInfo userInfo = new UserInfo();
         return userInfo;
     }
