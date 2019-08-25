@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
  * @date 2019/08/25
  */
 @Component
-public class CustomTomcatConfig implements WebServerFactoryCustomizer<ConfigurableServletWebServerFactory> {
+public class CustomServletConfig implements WebServerFactoryCustomizer<ConfigurableServletWebServerFactory> {
     @Override
     public void customize(ConfigurableServletWebServerFactory server) {
         server.setDisplayName("nivelle dubbo provider test");
