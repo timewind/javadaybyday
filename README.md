@@ -147,7 +147,7 @@
 ## Spring实践
 
 
-✅ [生命周期学习](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/spring/lifecycle/BeanLifeCycle.java)
+✅ [生命周期学习](https://github.com/nivelle/javaguides/tree/master/dubbo-provider/src/main/java/com/nivelle/guide/spring)
 
 ### 钩子方法
 
@@ -162,8 +162,6 @@
 ✅ [FactoryBean](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/hock/MyFactoryBean.java)
 
 ✅ [ApplicationContextAware](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/hock/SpringContextAssisor.java)
-
-⌛ ImportBeanDefinitionRegistrar
 
 ✅ [SpringAOP](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/core/AopAnnotation.java)
 
