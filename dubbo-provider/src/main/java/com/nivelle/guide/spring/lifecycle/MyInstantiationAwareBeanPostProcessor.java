@@ -11,14 +11,14 @@ public class MyInstantiationAwareBeanPostProcessor extends
 
     public MyInstantiationAwareBeanPostProcessor() {
         super();
-        System.out.println("后置处理器,实例化,consturtor,Instantiation：这是InstantiationAwareBeanPostProcessorAdapter实现类构造器！！");
+        System.err.println("后置处理器通过继承InstantiationAwareBeanPostProcessorAdapter,构造器本身:这是InstantiationAwareBeanPostProcessorAdapter实现类构造器！！");
     }
 
     // 接口方法、实例化Bean之前调用
     @Override
     public Object postProcessBeforeInstantiation(Class beanClass,
                                                  String beanName) throws BeansException {
-        System.out.println("后置处理器,实例化,before,Instantiation：改变类定义，InstantiationAwareBeanPostProcessor调用postProcessBeforeInstantiation方法");
+        System.err.println("实例化后=》后置处理器=》before,Instantiation:改变类定义,InstantiationAwareBeanPostProcessor=》postProcessBeforeInstantiation方法");
         return null;
     }
 
@@ -26,7 +26,7 @@ public class MyInstantiationAwareBeanPostProcessor extends
     @Override
     public Object postProcessAfterInitialization(Object bean, String beanName)
             throws BeansException {
-        System.out.println("后置处理器,实例化,after,Instantiation：改变实例定义，InstantiationAwareBeanPostProcessor调用postProcessAfterInitialization方法");
+        System.err.println("实例化后=>后置处理器=>after,Instantiation:改变实例定义,InstantiationAwareBeanPostProcessor=》postProcessAfterInitialization方法");
         return bean;
     }
 
@@ -35,7 +35,7 @@ public class MyInstantiationAwareBeanPostProcessor extends
     public PropertyValues postProcessPropertyValues(PropertyValues pvs,
                                                     PropertyDescriptor[] pds, Object bean, String beanName)
             throws BeansException {
-        System.out.println("后置处理器,实例化,Instantiation propert：设置某个属性，InstantiationAwareBeanPostProcessor调用postProcessPropertyValues方法");
+        System.err.println("实例化=>后置处理器=>Instantiation property:设置某个属性，InstantiationAwareBeanPostProcessor=》postProcessPropertyValues方法");
         return pvs;
     }
 }
