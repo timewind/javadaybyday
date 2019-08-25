@@ -143,17 +143,6 @@
 
 ✅ [redis实践](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/redis/RedisController.java)
 
-   - 【string 指令】 
-
-   - 【zSet 有序集合】 
-
-   - 【Set集合】 
-
-   - 【Hash hash表】 
-
-   - 【List列表】 
-
-   - 【key 指令】
 
 ## Spring实践
 
