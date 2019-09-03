@@ -9,7 +9,7 @@ package com.nivelle.guide.algorithms.common;
 public class Power {
 
     public static void main(String[] args) {
-        double result = Power(2, 4);
+        double result = Power(2, 5);
         System.out.println("result is:" + result);
     }
 
@@ -25,6 +25,7 @@ public class Power {
             n = -exponent;
         }
         double res = PowerUnsignedExponent(base, n);
+        //double res = PowerUnsignedExponent2(base, n);
         return exponent < 0 ? 1 / res : res;
     }
 
@@ -37,12 +38,13 @@ public class Power {
         //递归
         double res = PowerUnsignedExponent(base, n / 2);
         res *= res;
-        if (n % 2 == 1)
+        if (n % 2 == 1) {//奇数
             res *= base;
+        }
         return res;
     }
 
-    public double PowerUnsignedExponent2(double base, int n) {
+    public static double PowerUnsignedExponent2(double base, int n) {
         if (n == 0)
             return 1;
         if (n == 1)

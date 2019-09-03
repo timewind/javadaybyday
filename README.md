@@ -107,6 +107,11 @@
 
 ✅ [二进制1的个数](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/algorithms/common/NumberOf1.java)
 
+✅ [数值的整数次方](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/algorithms/common/Power.java)
+
+✅ [数组奇数偶数相对排序](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/algorithms/common/reOrderArray.java)
+
+
 ## JVM实践
 
 ✅ [自定义类加载器](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/javacore/classloader/MyClassLoader.java)
