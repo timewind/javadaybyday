@@ -1,6 +1,12 @@
 ## 创建数据库
 CREATE DATABASE javaguideslave;
 
+### 指定编码
+drop database if EXISTS teambuild;
+create database teambuild CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+
+
 ## 查看数据库版本
 
 select version();
