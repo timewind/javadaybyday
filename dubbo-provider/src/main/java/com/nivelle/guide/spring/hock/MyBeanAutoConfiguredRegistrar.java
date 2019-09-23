@@ -1,6 +1,6 @@
 package com.nivelle.guide.spring.hock;
 
-import com.nivelle.guide.annotation.EnableThrowable;
+import com.nivelle.guide.annotation.ImportBeanAnnotation;
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
@@ -29,7 +29,7 @@ public class MyBeanAutoConfiguredRegistrar implements ImportBeanDefinitionRegist
     public void registerBeanDefinitions(AnnotationMetadata importingClassMetadata,
                                         BeanDefinitionRegistry registry) {
         Map<String, Object> annotationAttributes
-                = importingClassMetadata.getAnnotationAttributes(EnableThrowable.class.getCanonicalName());
+                = importingClassMetadata.getAnnotationAttributes(ImportBeanAnnotation.class.getCanonicalName());
         Class<?>[] targets = (Class<?>[]) annotationAttributes.get("targets");
         if (null != targets && targets.length > 0) {
             for (Class<?> target : targets) {

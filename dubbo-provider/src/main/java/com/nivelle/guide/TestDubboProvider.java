@@ -1,5 +1,6 @@
 package com.nivelle.guide;
 
+import com.nivelle.guide.model.Dog;
 import com.nivelle.guide.service.AsyncService;
 import com.nivelle.guide.service.ConcreteService;
 import com.nivelle.guide.service.impl.XmlBeanServiceImpl;
@@ -38,7 +39,6 @@ public class TestDubboProvider {
     ConcreteService concreteService;
 
     @RequestMapping("/ok")
-    @ResponseBody
     public Object test() {
         System.out.println("dubbo provider is ok");
         /**
@@ -55,7 +55,6 @@ public class TestDubboProvider {
      * @return
      */
     @RequestMapping("xml")
-    @ResponseBody
     public Object testXmlService() {
         Object xmlBeanService = webApplicationConnect.getBean("xmlService");
         XmlBeanServiceImpl xmlBeanService1 = (XmlBeanServiceImpl) xmlBeanService;
@@ -69,7 +68,6 @@ public class TestDubboProvider {
      * @throws Exception
      */
     @RequestMapping("async")
-    @ResponseBody
     public Object testAsyncService() throws Exception {
         String result = "default";
         Future<String> asyncResult = asyncService.asyncSayHello();
@@ -86,7 +84,6 @@ public class TestDubboProvider {
      * @throws Exception
      */
     @RequestMapping("sync")
-    @ResponseBody
     public Object testSyncService() throws Exception {
         String result = "default";
         Future<String> asyncResult = asyncService.asyncSayHello2();
@@ -102,11 +99,43 @@ public class TestDubboProvider {
      * @return
      */
     @RequestMapping("/init")
-    @ResponseBody
     public Object myInitSpringBean() {
         String name = initSpringBean.getName();
         int age = initSpringBean.getAge();
         concreteService.sayHello();
         return name + age;
     }
+
+    /**
+     * 多实例测试
+     * @return
+     */
+    @RequestMapping("/prototypeBean")
+    public Object prototypeBeanTest(){
+        Dog dog =(Dog) webApplicationConnect.getBean("buDingDog");
+        Dog dog2 =(Dog) webApplicationConnect.getBean("buDingDog");
+        if(dog==dog2){
+            return true;
+        }else {
+            return false;
+        }
+    }
+
+    /**
+     * 单实例测试
+     * @return
+     */
+    @RequestMapping("/singletonBean")
+    public Object singletonTest(){
+        Dog dog =(Dog) webApplicationConnect.getBean("bigDog");
+        System.out.println(dog.getClass().getName());
+        Dog dog2 =(Dog) webApplicationConnect.getBean("bigDog");
+        if(dog==dog2){
+            return true;
+        }else {
+            return false;
+        }
+    }
+
+
 }

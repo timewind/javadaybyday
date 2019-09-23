@@ -9,6 +9,7 @@ import com.nivelle.guide.springboot.filter.MyFilter2;
 import com.nivelle.guide.springboot.interceptor.MyInterceptor;
 import com.nivelle.guide.springmvc.PropertiesHandlerMethodArgumentResolver;
 import com.nivelle.guide.springmvc.PropertiesHandlerMethodReturnValueHandler;
+import com.nivelle.guide.springmvc.PropertiesHttpMessageConverter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
@@ -142,10 +143,10 @@ public class MyWebConfig implements WebMvcConfigurer {
      *
      * @return
      */
-//    @Bean
-//    public PropertiesHttpMessageConverter converter() {
-//        return new PropertiesHttpMessageConverter();
-//    }
+    @Bean
+    public PropertiesHttpMessageConverter converter() {
+        return new PropertiesHttpMessageConverter();
+    }
 
 
 }
