@@ -57,6 +57,9 @@
 
 ✅ [@Async&@EnableAsync](https://github.com/nivelle/javaguides/blob/master/dubbo-provider/src/main/java/com/nivelle/guide/service/impl/AsyncServiceImpl.java)
 
+✅ [@Lazy&@Scope&@ComponentScan](https://github.com/nivelle/javaGuides/blob/master/dubbo-provider/src/main/java/com/nivelle/guide/config/MyScanConfig.java)
+
+✅ [自定义扫描过滤器](https://github.com/nivelle/javaGuides/blob/master/dubbo-provider/src/main/java/com/nivelle/guide/model/MyTypeFilter.java)
 
 
 ## springMVC实践
