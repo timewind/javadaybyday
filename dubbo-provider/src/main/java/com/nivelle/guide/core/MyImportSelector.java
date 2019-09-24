@@ -4,7 +4,7 @@ import org.springframework.context.annotation.ImportSelector;
 import org.springframework.core.type.AnnotationMetadata;
 
 /**
- * TODO:DOCUMENT ME!
+ * 自定义bean注册器
  *
  * @author fuxinzhong
  * @date 2019/09/24

@@ -1,5 +1,6 @@
 package com.nivelle.guide.config;
 
+import com.nivelle.guide.core.MyCondition;
 import com.nivelle.guide.core.MyImportSelector;
 import com.nivelle.guide.model.Car;
 import com.nivelle.guide.model.Dog;
@@ -23,6 +24,7 @@ import org.springframework.context.annotation.*;
 //        MyTypeFilter.class
 //})},useDefaultFilters = false)
 
+@Conditional(MyCondition.class)
 @Import({Car.class, MyImportSelector.class})
 public class MyScanConfig {
     /**
