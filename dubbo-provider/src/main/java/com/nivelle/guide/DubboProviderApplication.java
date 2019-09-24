@@ -1,6 +1,7 @@
 package com.nivelle.guide;
 
 import com.alibaba.dubbo.config.spring.context.annotation.EnableDubbo;
+import com.nivelle.guide.model.Cat;
 import com.nivelle.guide.model.Dog;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -28,14 +29,14 @@ public class DubboProviderApplication {
     @Bean
     public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
         return args -> {
-            System.out.println("springBoot 初始化时所有bean定义:");
-            String[] beanNames = ctx.getBeanDefinitionNames();
-            Arrays.sort(beanNames);
-            for (String beanName : beanNames) {
-                System.out.println(beanName);
-            }
+//            System.out.println("springBoot 初始化时所有bean定义:");
+//            String[] beanNames = ctx.getBeanDefinitionNames();
+//            Arrays.sort(beanNames);
+//            for (String beanName : beanNames) {
+//                System.err.println(beanName);
+//            }
             System.out.println("springBoot 初始化时所有bean实例定义:");
-            String[] objectNames = ctx.getBeanNamesForType(Dog.class);
+            String[] objectNames = ctx.getBeanNamesForType(Cat.class);
             for (String objectName : objectNames) {
                 System.err.println(objectName);
             }

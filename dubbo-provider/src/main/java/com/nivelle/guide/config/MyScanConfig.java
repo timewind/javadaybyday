@@ -1,7 +1,8 @@
 package com.nivelle.guide.config;
 
+import com.nivelle.guide.core.MyImportSelector;
+import com.nivelle.guide.model.Car;
 import com.nivelle.guide.model.Dog;
-import com.nivelle.guide.model.MyTypeFilter;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.*;
 
@@ -22,6 +23,7 @@ import org.springframework.context.annotation.*;
 //        MyTypeFilter.class
 //})},useDefaultFilters = false)
 
+@Import({Car.class, MyImportSelector.class})
 public class MyScanConfig {
     /**
      * 默认实例名为方法名字

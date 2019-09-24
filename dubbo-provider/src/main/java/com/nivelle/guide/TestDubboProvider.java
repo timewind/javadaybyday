@@ -1,5 +1,6 @@
 package com.nivelle.guide;
 
+import com.nivelle.guide.model.Cat;
 import com.nivelle.guide.model.Dog;
 import com.nivelle.guide.service.AsyncService;
 import com.nivelle.guide.service.ConcreteService;
@@ -135,6 +136,13 @@ public class TestDubboProvider {
         }else {
             return false;
         }
+    }
+
+    @RequestMapping("/registerBean")
+    public Object registerBean(){
+        Cat cat =(Cat) webApplicationConnect.getBean("com.nivelle.guide.model.Cat");
+        System.out.println(cat);
+        return cat;
     }
 
 

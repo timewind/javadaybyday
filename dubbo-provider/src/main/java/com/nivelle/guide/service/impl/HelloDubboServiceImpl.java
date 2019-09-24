@@ -13,7 +13,7 @@ import java.net.InetAddress;
  */
 
 
-@Service(version = "${helloDubbo.service.version}")
+//@Service(version = "${helloDubbo.service.version}")
 public class HelloDubboServiceImpl implements HelloDubboService {
 
 

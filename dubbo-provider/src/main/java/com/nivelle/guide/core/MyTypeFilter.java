@@ -1,4 +1,4 @@
-package com.nivelle.guide.model;
+package com.nivelle.guide.core;
 
 import org.springframework.core.io.Resource;
 import org.springframework.core.type.AnnotationMetadata;
