@@ -29,6 +29,7 @@ public class MyScanConfig {
      * @return
      */
     @Bean
+    @Lazy
     public Dog bigDog() {
         return new Dog("wangwang", 1, "black");
     }
@@ -39,7 +40,6 @@ public class MyScanConfig {
      * @return
      */
     @Bean(value = "buDingDog")
-    @Lazy
     @Scope(scopeName = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
     public Dog littleDog() {
         return new Dog("buding", 1, "yellow");
