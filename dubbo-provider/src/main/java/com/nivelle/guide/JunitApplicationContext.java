@@ -1,6 +1,7 @@
 package com.nivelle.guide;
 
 import com.nivelle.guide.config.MyProfileConfig;
+import com.nivelle.guide.model.Dog;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.core.env.ConfigurableEnvironment;
 
@@ -29,7 +30,12 @@ public class JunitApplicationContext {
         for (int i = 0; i < beans.length; i++) {
             System.err.println("当前扫描到的bean定义2:" + beans[i]);
         }
+        System.err.println("====================");
+        Dog dog = (Dog) annotationConfigApplicationContext.getBean("devDog");
+        System.err.println(dog.getName());
 
+        MyProfileConfig myProfileConfig = (MyProfileConfig) annotationConfigApplicationContext.getBean("myProfileConfig");
+        System.err.println(myProfileConfig.getApplicationName());
     }
 
 
