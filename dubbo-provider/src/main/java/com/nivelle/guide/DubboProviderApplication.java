@@ -29,12 +29,12 @@ public class DubboProviderApplication {
     @Bean
     public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
         return args -> {
-//            System.out.println("springBoot 初始化时所有bean定义:");
-//            String[] beanNames = ctx.getBeanDefinitionNames();
-//            Arrays.sort(beanNames);
-//            for (String beanName : beanNames) {
-//                System.err.println(beanName);
-//            }
+            System.out.println("springBoot 初始化时所有bean定义:");
+            String[] beanNames = ctx.getBeanDefinitionNames();
+            Arrays.sort(beanNames);
+            for (String beanName : beanNames) {
+                System.err.println(beanName);
+            }
             System.out.println("springBoot 初始化时所有bean实例定义:");
             String[] objectNames = ctx.getBeanNamesForType(Cat.class);
             for (String objectName : objectNames) {

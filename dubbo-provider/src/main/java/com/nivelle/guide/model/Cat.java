@@ -1,12 +1,13 @@
 package com.nivelle.guide.model;
 
+import com.nivelle.guide.annotation.ImportBeanAnnotation;
+
 /**
  * TODO:DOCUMENT ME!
  *
  * @author fuxinzhong
  * @date 2019/09/24
  */
-//@ImportBeanAnnotation
 public class Cat {
 
     private String name;

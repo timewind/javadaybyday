@@ -14,16 +14,17 @@ import org.springframework.context.annotation.*;
  * @date 2019/09/23
  */
 
-/**
- * 采用自定义的过滤方式，必须使用useDefaultFilters=false
- */
-@Configuration
 //@ComponentScan(value = "com.nivelle.guide",includeFilters = {
 //    @ComponentScan.Filter(type = FilterType.ANNOTATION,classes = {Service.class,Controller.class,Repository.class})
 //},excludeFilters = {@ComponentScan.Filter(type = FilterType.CUSTOM,classes = {
 //        MyTypeFilter.class
 //})},useDefaultFilters = false)
 
+
+/**
+ * 采用自定义的过滤方式，必须使用useDefaultFilters=false
+ */
+@Configuration
 @Conditional(MyCondition.class)
 @Import({Car.class, MyImportSelector.class})
 public class MyScanConfig {
