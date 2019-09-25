@@ -1,6 +1,7 @@
 package com.nivelle.guide.config;
 
 import com.nivelle.guide.model.Dog;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.EmbeddedValueResolverAware;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -24,6 +25,9 @@ public class MyProfileConfig implements EmbeddedValueResolverAware {
 
     private StringValueResolver resolver;
 
+    @Value("${test.name}")
+    private String testName;
+
 
     /**
      * 1. VM 配置设置启动参数来指定:-Dspring.profiles.active=dev
@@ -45,7 +49,7 @@ public class MyProfileConfig implements EmbeddedValueResolverAware {
     @Bean
     @Profile(value = "default")
     public Dog defaultDog() {
-        return new Dog("defaultDog", 1, "red");
+        return new Dog(testName, 1, "red");
     }
 
 
