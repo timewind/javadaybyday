@@ -176,6 +176,9 @@
 
 ✅ [SpringAOP](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/core/AopAnnotation.java)
 
+✅ [BeanDefinitionRegistryPostProcessor](https://github.com/nivelle/javaGuides/blob/master/dubbo-provider/src/main/java/com/nivelle/guide/spring/lifecycle/MyRegisterBeanPostProcesser.java)
+
+
 
 ### 监听器
 
