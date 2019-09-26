@@ -61,7 +61,7 @@
 
 ✅ [自定义扫描过滤器](https://github.com/nivelle/javaGuides/blob/master/dubbo-provider/src/main/java/com/nivelle/guide/model/MyTypeFilter.java)
 
-✅ [@Profile]
+✅ [@Profile](https://github.com/nivelle/javaGuides/blob/master/dubbo-provider/src/main/java/com/nivelle/guide/config/MyProfileConfig.java)
 
 
 ## springMVC实践
@@ -172,7 +172,7 @@
 
 ✅ [ApplicationContextAware](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/hock/SpringContextAssisor.java)
 
-✅ [EmbeddedValueResolverAware]
+✅ [EmbeddedValueResolverAware](https://github.com/nivelle/javaGuides/blob/master/dubbo-provider/src/main/java/com/nivelle/guide/config/MyProfileConfig.java)
 
 ✅ [SpringAOP](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/core/AopAnnotation.java)
 

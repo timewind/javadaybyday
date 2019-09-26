@@ -24,7 +24,7 @@ public class JunitApplicationContext {
         configurableEnvironment.setActiveProfiles("dev");
         System.err.println("====================");
         annotationConfigApplicationContext.register(MyProfileConfig.class);
-        //必须要刷新一下
+        //todo 必须要刷新一下
         annotationConfigApplicationContext.refresh();
         String[] beans = annotationConfigApplicationContext.getBeanDefinitionNames();
         for (int i = 0; i < beans.length; i++) {
