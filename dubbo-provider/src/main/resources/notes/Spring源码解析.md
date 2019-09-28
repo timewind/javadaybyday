@@ -196,3 +196,6 @@
    (3) publishEvent(new ContextRefreshedEvent(this));发布容器刷新完成事件；
 		
    (4) liveBeansView.registerApplicationContext(this);
+   
+   
+[来源备注:](https://gitee.com/watermelon1015/spring_source_parsing_data)
