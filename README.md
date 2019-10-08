@@ -5,7 +5,7 @@
 ## 该项目和 [vueGuides](https://github.com/nivelle/vueGuides)项目可搭配使用
 
 
-### 依赖环境:
+## 依赖环境:
 
 
 **Mysql版本:8.0.16;**
@@ -18,7 +18,9 @@
 **Nginx版本:1.17.1**
 **Dubbo版本：0.2.0**
 
+docker整合【下载:docker pull nivelle/nivelle:1.0.2】【运行:sudo docker run -p 28080:8088 -it --rm nivelle/nivelle:1.0.2 bash 
 
+--- 
 
 ## Spring实践
 
@@ -54,7 +56,6 @@
 
 ## springBoot实践
 
-✅ docker整合【下载:docker pull nivelle/nivelle:1.0.2】【运行:sudo docker run -p 28080:8088 -it --rm nivelle/nivelle:1.0.2 bash】
 
 ✅ [javaConfig:配置类](https://github.com/nivelle/javaguides/tree/master/src/main/java/com/nivelle/guide/configbean)
 
@@ -69,8 +70,6 @@
 ✅ [starter:自定义starter](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/mystarter/StarterTest.java)
 
 ✅ [xml:对xml格式参数的支持](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/controllor/BookController.java)
-
-✅ WebFlux:响应式编程 
 
 ✅ [消息转化:HttpMessageConverters](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/configbean/MyWebConfig.java)
 
