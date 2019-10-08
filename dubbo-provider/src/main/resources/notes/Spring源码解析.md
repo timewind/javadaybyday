@@ -4,8 +4,9 @@
    
    (1) initPropertySources():初始化一些属性设置,默认不做任何处理,留给子类自定义属性设置方法;
    
-   (2) getEnvironment().validateRequiredProperties():校验非空属性是否设置了值，没有设置的话一起抛出异常;
-   
+   (2) getEnvironment().validateRequiredProperties():校验非空属性是否设置了值，没有设置的话抛出异常(MissingRequiredPropertiesException);
+       - systemEnvironment
+       - systemProperties
    (3) earlyApplicationEvents= new LinkedHashSet<ApplicationEvent>():保存容器中的一些早期的事件,先清理掉旧的监听器
   
 ## ConfigurableListableBeanFactory beanFactory = obtainFreshBeanFactory():获取beanFactory
