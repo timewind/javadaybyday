@@ -140,7 +140,6 @@ docker整合【下载:docker pull nivelle/nivelle:1.0.2】【运行:sudo docker 
 
 ## Kafka
 
-
 ⌛ [细节分析](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/kafka/KafkaController.java)
 
 ## 分布式实践
