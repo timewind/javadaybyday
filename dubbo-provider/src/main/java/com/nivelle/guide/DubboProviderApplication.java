@@ -33,7 +33,7 @@ public class DubboProviderApplication {
         System.out.println("Java SPI");
         Iterator iterator = serviceLoader.iterator();
         if(iterator.hasNext()){
-            System.out.println(iterator.next());
+            System.err.println(iterator.next());
         }
         serviceLoader.forEach(MySpi::sayHello);
 
@@ -46,12 +46,12 @@ public class DubboProviderApplication {
             String[] beanNames = ctx.getBeanDefinitionNames();
             Arrays.sort(beanNames);
             for (String beanName : beanNames) {
-                System.err.println(beanName);
+                System.out.println(beanName);
             }
             //System.out.println("springBoot 初始化时所有bean实例定义:");
             String[] objectNames = ctx.getBeanNamesForType(Cat.class);
             for (String objectName : objectNames) {
-                //System.err.println(objectName);
+                System.out.println(objectName);
             }
         };
     }
