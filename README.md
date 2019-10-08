@@ -158,10 +158,7 @@
 
 ✅ [生命周期学习](https://github.com/nivelle/javaguides/tree/master/dubbo-provider/src/main/java/com/nivelle/guide/spring)
 
-✅ [SPI机制]()
-
-
-### 钩子方法
+✅ [SPI机制](https://github.com/nivelle/javaGuides/blob/master/dubbo-provider/src/main/resources/META-INF/services/com.nivelle.guide.spi.MySpi)
 
 ✅ [CommandLineRunner](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/initresource/initResource1.java)
 
