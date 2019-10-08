@@ -19,6 +19,39 @@
 **Dubbo版本：0.2.0**
 
 
+
+## Spring实践
+
+✅ [生命周期学习](https://github.com/nivelle/javaguides/tree/master/dubbo-provider/src/main/java/com/nivelle/guide/spring)
+
+✅ [SPI机制](https://github.com/nivelle/javaGuides/blob/master/dubbo-provider/src/main/resources/META-INF/services/com.nivelle.guide.spi.MySpi)
+
+✅ [CommandLineRunner](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/initresource/initResource1.java)
+
+✅ [shutdown 实现优雅停机](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/shutdown/GracefulShutdown.java)
+
+✅ [InitializingBean](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/hock/ConcreteBean.java)
+
+✅ [BeanFactoryAware](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/hock/MyBeanFactory.java)
+
+✅ [FactoryBean](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/hock/MyFactoryBean.java)
+
+✅ [ApplicationContextAware](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/hock/SpringContextAssisor.java)
+
+✅ [EmbeddedValueResolverAware](https://github.com/nivelle/javaGuides/blob/master/dubbo-provider/src/main/java/com/nivelle/guide/config/MyProfileConfig.java)
+
+✅ [SpringAOP](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/core/AopAnnotation.java)
+
+✅ [BeanDefinitionRegistryPostProcessor](https://github.com/nivelle/javaGuides/blob/master/dubbo-provider/src/main/java/com/nivelle/guide/spring/lifecycle/MyRegisterBeanPostProcesser.java)
+
+✅ [springApplicationRunListeners:springBoot自带事件](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/listener/springApplicationRunListeners)
+
+✅ [ContextRefreshedEvent:spring自带监听器](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/listener/context)
+
+✅ [ServletContextListener:servlet容器监听器](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/listener/MyServletListener.java)
+
+✅ [ApplicationEvent:自定义事件](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/listener/MyListener.java)
+
 ## springBoot实践
 
 ✅ docker整合【下载:docker pull nivelle/nivelle:1.0.2】【运行:sudo docker run -p 28080:8088 -it --rm nivelle/nivelle:1.0.2 bash】
@@ -63,7 +96,6 @@
 
 ✅ [@Profile](https://github.com/nivelle/javaGuides/blob/master/dubbo-provider/src/main/java/com/nivelle/guide/config/MyProfileConfig.java)
 
-
 ## springMVC实践
 
 ✅ [AbstractGenericHttpMessageConverter](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springmvc/PropertiesHttpMessageConverter.java)
@@ -72,27 +104,6 @@
 
 ✅ [HandlerMethodReturnValueHandler:返回消息转换器](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springmvc/PropertiesHandlerMethodReturnValueHandler.java)
 
-## 设计模式实践
-
-✅ [迭代器模式](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/designpatterns/strategy/Main.java)
-
-✅ [适配器模式](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/designpatterns/adapter/Main.java)
-
-✅ [模板方法模式](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/designpatterns/templatemethod/Main.java)
-
-✅ [工厂方法模式](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/designpatterns/factorymethod/Main.java)
-
-✅ [代理模式](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/designpatterns/proxy/Main.java)
-
-✅ [责任链模式](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/designpatterns/responsibilitychain/Main.java)
-
-✅ [桥梁模式](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/designpatterns/bridge/Main.java)
-
-✅ [策略模式](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/designpatterns/strategy/Main.java)
- 
-✅ [构建模式](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/designpatterns/build/Main.java)
-
-✅ [抽象工厂模式](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/designpatterns/abstractfactory/Main.java)
 
 ## 算法实践
 
@@ -154,43 +165,6 @@
 ✅ [redis实践](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/redis/RedisController.java)
 
 
-## Spring实践
-
-✅ [生命周期学习](https://github.com/nivelle/javaguides/tree/master/dubbo-provider/src/main/java/com/nivelle/guide/spring)
-
-✅ [SPI机制](https://github.com/nivelle/javaGuides/blob/master/dubbo-provider/src/main/resources/META-INF/services/com.nivelle.guide.spi.MySpi)
-
-✅ [CommandLineRunner](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/initresource/initResource1.java)
-
-✅ [shutdown 实现优雅停机](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/shutdown/GracefulShutdown.java)
-
-✅ [InitializingBean](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/hock/ConcreteBean.java)
-
-✅ [BeanFactoryAware](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/hock/MyBeanFactory.java)
-
-✅ [FactoryBean](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/hock/MyFactoryBean.java)
-
-✅ [ApplicationContextAware](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/hock/SpringContextAssisor.java)
-
-✅ [EmbeddedValueResolverAware](https://github.com/nivelle/javaGuides/blob/master/dubbo-provider/src/main/java/com/nivelle/guide/config/MyProfileConfig.java)
-
-✅ [SpringAOP](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/core/AopAnnotation.java)
-
-✅ [BeanDefinitionRegistryPostProcessor](https://github.com/nivelle/javaGuides/blob/master/dubbo-provider/src/main/java/com/nivelle/guide/spring/lifecycle/MyRegisterBeanPostProcesser.java)
-
-
-
-### 监听器
-
-✅ [springApplicationRunListeners:springBoot自带事件](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/listener/springApplicationRunListeners)
-
-✅ [ContextRefreshedEvent:spring自带监听器](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/listener/context)
-
-✅ [ServletContextListener:servlet容器监听器](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/listener/MyServletListener.java)
-
-✅ [ApplicationEvent:自定义事件](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/listener/MyListener.java)
-
-
 ## Java2e实践
 
 ✅[自定义注解](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/javacore/annotion/myannotion/MyAnnotationTest.java)
@@ -236,6 +210,29 @@
 ✅[Long](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/datastructures/LongDemo.java)
 
 ✅[ConcurrentHashMap](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/datastructures/ConcurrentHashMapDemo.java)
+
+
+## 设计模式实践
+
+✅ [迭代器模式](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/designpatterns/strategy/Main.java)
+
+✅ [适配器模式](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/designpatterns/adapter/Main.java)
+
+✅ [模板方法模式](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/designpatterns/templatemethod/Main.java)
+
+✅ [工厂方法模式](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/designpatterns/factorymethod/Main.java)
+
+✅ [代理模式](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/designpatterns/proxy/Main.java)
+
+✅ [责任链模式](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/designpatterns/responsibilitychain/Main.java)
+
+✅ [桥梁模式](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/designpatterns/bridge/Main.java)
+
+✅ [策略模式](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/designpatterns/strategy/Main.java)
+ 
+✅ [构建模式](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/designpatterns/build/Main.java)
+
+✅ [抽象工厂模式](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/designpatterns/abstractfactory/Main.java)
 
 ## MySQL实践
 
