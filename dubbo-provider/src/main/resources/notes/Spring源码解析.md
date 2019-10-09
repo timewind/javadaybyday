@@ -17,12 +17,11 @@
 	
 ## prepareBeanFactory(beanFactory):BeanFactory的预准备工作（BeanFactory进行一些设置;
 	  
-	 
-   (1) 设置BeanFactory的类加载器、支持表达式解析器!//Tell the internal bean factory to use the context's class loader etc.
+   (1) 设置BeanFactory的类加载器(setBeanClassLoader)、设置表达式解析器(setBeanExpressionResolver)、添加属性解析器(addPropertyEditorRegistrar)
 	
-   (2) 添加部分BeanPostProcessor【ApplicationContextAwareProcessor;	设置忽略的自动装配的接口EnvironmentAware、EmbeddedValueResolverAware等；//Configure the bean factory with context callbacks.
+   (2) 添加部分BeanPostProcessor【ApplicationContextAwareProcessor,设置EmbeddedValueResolver值解析器;	设置忽略的自动装配的接口EnvironmentAware;
 	
-   (3) 注册可以解析的自动装配;我们能直接在任何组件中自动注入：BeanFactory、ResourceLoader、ApplicationEventPublisher、ApplicationContext
+   (3) 注册可以解析的自动装配;我们能直接在任何组件中自动注入:BeanFactory、ResourceLoader、ApplicationEventPublisher、ApplicationContext
 	
    (4) 添加BeanPostProcessor【ApplicationListenerDetector】
 	
@@ -32,36 +31,32 @@
 
 ## postProcessBeanFactory(beanFactory);
      
-   (1) 子类通过重写这个方法来在BeanFactory创建并预准备完成以后做进一步的设置;
+   - 子类通过重写这个方法来在BeanFactory创建并预准备完成以后做进一步的设置;
 
-
-## invokeBeanFactoryPostProcessors(beanFactory),执行BeanFactoryPostProcessor的方法:
-
-   ### BeanFactoryPostProcessor,BeanFactory的后置处理器,在BeanFactory标准初始化之后执行的: 
+## invokeBeanFactoryPostProcessors(beanFactory):
 	
-   #### 两个接口:BeanFactoryPostProcessor、BeanDefinitionRegistryPostProcessor
+   #### 执行两个接口:BeanFactoryPostProcessor、BeanDefinitionRegistryPostProcessor
 	
    - 先执行BeanDefinitionRegistryPostProcessor:
 	    
-    (1) 获取所有的BeanDefinitionRegistryPostProcessor；
+     (1) 获取所有的BeanDefinitionRegistryPostProcessor；
 		
-    (2) 看先执行实现了PriorityOrdered优先级接口的BeanDefinitionRegistryPostProcessor、postProcessor.postProcessBeanDefinitionRegistry(registry)
+     (2) 看先执行实现了PriorityOrdered优先级接口的BeanDefinitionRegistryPostProcessor、postProcessor.postProcessBeanDefinitionRegistry(registry)
 			
-    (3) 在执行实现了Ordered顺序接口的BeanDefinitionRegistryPostProcessor；postProcessor.postProcessBeanDefinitionRegistry(registry)
+     (3) 在执行实现了Ordered顺序接口的BeanDefinitionRegistryPostProcessor；postProcessor.postProcessBeanDefinitionRegistry(registry)
 			
-    (4) 最后执行没有实现任何优先级或者是顺序接口的BeanDefinitionRegistryPostProcessors；
-			postProcessor.postProcessBeanDefinitionRegistry(registry)
+     (4) 最后执行没有实现任何优先级或者是顺序接口的BeanDefinitionRegistryPostProcessors;postProcessor.postProcessBeanDefinitionRegistry(registry)
 			
 		
    - 再执行BeanFactoryPostProcessor的方法:
 
-    (1) 获取所有的BeanFactoryPostProcessor
+     (1) 获取所有的BeanFactoryPostProcessor
 		
-    (2) 看先执行实现了PriorityOrdered优先级接口的BeanFactoryPostProcessor、postProcessor.postProcessBeanFactory()
+     (2) 看先执行实现了PriorityOrdered优先级接口的BeanFactoryPostProcessor、postProcessor.postProcessBeanFactory()
 			
-    (3) 在执行实现了Ordered顺序接口的BeanFactoryPostProcessor；postProcessor.postProcessBeanFactory()
+     (3) 在执行实现了Ordered顺序接口的BeanFactoryPostProcessor；postProcessor.postProcessBeanFactory()
 			
-    (4) 最后执行没有实现任何优先级或者是顺序接口的BeanFactoryPostProcessor；postProcessor.postProcessBeanFactory()
+     (4) 最后执行没有实现任何优先级或者是顺序接口的BeanFactoryPostProcessor；postProcessor.postProcessBeanFactory()
 			
 ## registerBeanPostProcessors,注册BeanPostProcessor(注册到beanFactory)
 		
