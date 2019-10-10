@@ -1,6 +1,6 @@
-# Spring容器的refresh() 方法(1)
+# Spring容器的refresh() 方法，synchronized (this.startupShutdownMonitor)实现同步
 
-## prepareRefresh():刷新前的预处理：
+## 第一步:prepareRefresh():刷新前的预处理：
    
    (1) initPropertySources():初始化一些属性设置,默认不做任何处理,留给子类自定义属性设置方法;
    
@@ -9,13 +9,13 @@
        - systemProperties
    (3) earlyApplicationEvents= new LinkedHashSet<ApplicationEvent>():保存容器中的一些早期的事件,先清理掉旧的监听器
   
-## ConfigurableListableBeanFactory beanFactory = obtainFreshBeanFactory():获取beanFactory
+## 第二步:ConfigurableListableBeanFactory beanFactory = obtainFreshBeanFactory():获取beanFactory
 
    (1) refreshBeanFactory(): 刷新(CAS刷新容器状态)并创建，this.beanFactory = new DefaultListableBeanFactory()并设置id；
    
    (2) getBeanFactory(): 返回刚才GenericApplicationContext创建的BeanFactory对象 DefaultListableBeanFactory；
 	
-## prepareBeanFactory(beanFactory):BeanFactory的预准备工作（BeanFactory进行一些设置;
+## 第三步:prepareBeanFactory(beanFactory):BeanFactory的预准备工作（BeanFactory进行一些设置;
 	  
    (1) 设置BeanFactory的类加载器(setBeanClassLoader)、设置表达式解析器(setBeanExpressionResolver)、添加属性解析器(addPropertyEditorRegistrar)
 	
@@ -29,7 +29,7 @@
 	
    (6) 给BeanFactory中注册一些能用的组件: environment【ConfigurableEnvironment、systemProperties【Map<String, Object>、systemEnvironment【Map<String, Object>】
 
-## postProcessBeanFactory(beanFactory);
+## 第四步:postProcessBeanFactory(beanFactory);
      
    - 子类通过重写这个方法来在BeanFactory创建并预准备完成以后做进一步的设置;
    /**
@@ -38,7 +38,7 @@
    	 * will have been instantiated yet. This allows for registering special
    **/
 
-## invokeBeanFactoryPostProcessors(beanFactory):
+## 第五步:invokeBeanFactoryPostProcessors(beanFactory):
 	
    ### 两个接口:接口BeanDefinitionRegistryPostProcessor 继承自 BeanFactoryPostProcessor
 	
@@ -64,7 +64,7 @@
 			
      (4) 最后执行没有实现任何优先级或者是顺序接口的BeanFactoryPostProcessor,执行postProcessor.postProcessBeanFactory(beanFactory)
 			
-## registerBeanPostProcessors,注册BeanPostProcessor(注册到beanFactory)
+## 第六步:registerBeanPostProcessors,注册BeanPostProcessor(注册到beanFactory)
 		
    ### BeanPostProcessor类型:DestructionAwareBeanPostProcessor、InstantiationAwareBeanPostProcessor、SmartInstantiationAwareBeanPostProcessor、MergedBeanDefinitionPostProcessor
 		
@@ -80,7 +80,7 @@
 
    (6) 注册一个ApplicationListenerDetector在beanPostProcessor chain 尾部
    
-## initMessageSource();在SpringMVC中做初始化MessageSource组件（做国际化功能,消息绑定，消息解析):
+## 第七步:initMessageSource();在SpringMVC中做初始化MessageSource组件（做国际化功能,消息绑定，消息解析):
 
   （1）获取BeanFactory->getBeanFactory()
 		
@@ -98,7 +98,7 @@
 	   MessageSource.getMessage(String code, Object[] args, String defaultMessage, Locale locale);
 	   
        ```
-## initApplicationEventMulticaster();初始化事件派发器；
+## 第八步:initApplicationEventMulticaster();初始化事件派发器；
 		
    (1) 获取BeanFactory->	ConfigurableListableBeanFactory beanFactory = getBeanFactory();
 
@@ -108,12 +108,12 @@
    
    (4) 将创建的ApplicationEventMulticaster添加到BeanFactory中，以后其他组件直接自动注入->	beanFactory.registerSingleton(MESSAGE_SOURCE_BEAN_NAME, this.messageSource);
    		
-## onRefresh();留给子容器（子类）
+## 第九步:onRefresh();留给子容器（子类）
 	
 	// Called on initialization of special beans, before instantiation of singletons.
    - 子类重写这个方法,默认不做任何操作在容器刷新的时候可以自定义逻辑;	
 
-## registerListeners();
+## 第十步:registerListeners();
 	
  （1）从容器中获取静态的ApplicationListener; 然后直接注入->getApplicationEventMulticaster().addApplicationListener(listener);
 
@@ -121,7 +121,7 @@
  
  （3）派发器派发一些早起的事件;->getApplicationEventMulticaster().multicastEvent(earlyEvent);		
 
-## finishBeanFactoryInitialization(beanFactory);//初始化所有剩下的单实例bean；
+## 第十一步:finishBeanFactoryInitialization(beanFactory);//初始化所有剩下的单实例bean；
 
    - 设置conversionService方法->beanFactory.setConversionService(beanFactory.getBean(CONVERSION_SERVICE_BEAN_NAME, ConversionService.class));
   
@@ -204,7 +204,7 @@
 				
    ioc容器就是这些Map；很多的Map里面保存了单实例Bean，环境信息。。。。；所有Bean都利用getBean创建完成以后；检查所有的Bean是否是SmartInitializingSingleton接口的；如果是；就执行afterSingletonsInstantiated()；
 
-## finishRefresh();完成BeanFactory的初始化创建工作；IOC容器就创建完成；
+## 第十二步:finishRefresh();完成BeanFactory的初始化创建工作；IOC容器就创建完成；
 	
   （1）	clearResourceCaches
   
