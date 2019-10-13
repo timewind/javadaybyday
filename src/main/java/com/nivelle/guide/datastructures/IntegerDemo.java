@@ -42,7 +42,7 @@ public class IntegerDemo {
          * 静态内部类 IntegerCache 为自动装箱机制中的-128～127提供缓存
          * 1. The cache is initialized on first usage
          *
-         * 2.The size of the cache may be controlled by the {@code -XX:AutoBoxCacheMax=<size>} option
+         * 2. The size of the cache may be controlled by the {@code -XX:AutoBoxCacheMax=<size>} option
          *
          * 3. java.lang.Integer.IntegerCache.high property may be set and saved in the private system properties in the
          *    sun.misc.VM class.
