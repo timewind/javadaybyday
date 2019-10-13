@@ -26,7 +26,6 @@ docker整合【下载:docker pull nivelle/nivelle:1.0.2】【运行:sudo docker 
 
 ✅ [spring refresh()方法学习路径](https://github.com/nivelle/javaGuides/blob/master/dubbo/provider/src/main/resources/notes/Spring源码解析.md)
 
-
 ✅ [生命周期学习](https://github.com/nivelle/javaguides/tree/master/dubbo-provider/src/main/java/com/nivelle/guide/spring)
 
 ✅ [SPI机制](https://github.com/nivelle/javaGuides/blob/master/dubbo-provider/src/main/resources/META-INF/services/com.nivelle.guide.spi.MySpi)
@@ -165,7 +164,6 @@ docker整合【下载:docker pull nivelle/nivelle:1.0.2】【运行:sudo docker 
 
 ✅ [redis实践](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/redis/RedisController.java)
 
-
 ## Java2e实践
 
 ✅[自定义注解](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/javacore/annotion/myannotion/MyAnnotationTest.java)
@@ -211,7 +209,6 @@ docker整合【下载:docker pull nivelle/nivelle:1.0.2】【运行:sudo docker 
 ✅[Long](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/datastructures/LongDemo.java)
 
 ✅[ConcurrentHashMap](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/datastructures/ConcurrentHashMapDemo.java)
-
 
 ## 设计模式实践
 
