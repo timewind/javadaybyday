@@ -60,6 +60,9 @@ public class User implements Serializable {
         return name.hashCode();
     }
 
+    public String showDetail(String message) {
+        return "UserDetail name is:" + this.name + "age is:" + this.age + "detail" + message;
+    }
 
 
 }
