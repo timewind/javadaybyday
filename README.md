@@ -58,7 +58,6 @@ docker整合【下载:docker pull nivelle/nivelle:1.0.2】【运行:sudo docker 
 
 ## springBoot实践
 
-
 ✅ [javaConfig:配置类](https://github.com/nivelle/javaguides/tree/master/src/main/java/com/nivelle/guide/configbean)
 
 ✅ [validate:注解校验](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/valid/)
@@ -209,6 +208,8 @@ docker整合【下载:docker pull nivelle/nivelle:1.0.2】【运行:sudo docker 
 ✅[Long](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/datastructures/LongDemo.java)
 
 ✅[ConcurrentHashMap](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/datastructures/ConcurrentHashMapDemo.java)
+
+✅[Reflection](https://github.com/nivelle/javaGuides/blob/master/src/main/java/com/nivelle/guide/datastructures/ReflectDemo.java)
 
 ## 设计模式实践
 
