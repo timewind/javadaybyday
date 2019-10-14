@@ -32,11 +32,11 @@
 ## 第四步:postProcessBeanFactory(beanFactory);
      
    - 子类通过重写这个方法来在BeanFactory创建并预准备完成以后做进一步的设置;
-   /**
-       Modify the application context's internal bean factory after its standard
-   	 * initialization. All bean definitions will have been loaded, but no beans
-   	 * will have been instantiated yet. This allows for registering special
-   **/
+   
+   ```
+   Modify the application context's internal bean factory after its standard initialization. All bean definitions will have been loaded, but no beans will have been instantiated yet. This allows for registering special
+   
+   ```
 
 ## 第五步:invokeBeanFactoryPostProcessors(beanFactory):
 	
@@ -87,17 +87,17 @@
   （2）看容器中是否有id为messageSource的,类型是MessageSource的组件如果有赋值给messageSource,如果没有自己创建一个DelegatingMessageSource的空的MessageSource,所有请求都请求到了父MessageSources;
       //If no parent is available, it simply won't resolve any message.
       
-      ```
-      MessageSource:取出国际化配置文件中的某个key的值,能按照区域信息获取;
+  ```
+  MessageSource:取出国际化配置文件中的某个key的值,能按照区域信息获取;
       
-	  ```		
+  ```		
    (3) 把创建好的MessageSource注册在容器中，以后获取国际化配置文件的值的时候，可以自动注入MessageSource;
        
-       ```
+   ```
        beanFactory.registerSingleton(MESSAGE_SOURCE_BEAN_NAME, this.messageSource);	
 	   MessageSource.getMessage(String code, Object[] args, String defaultMessage, Locale locale);
-	   
-       ```
+	 
+   ```
 ## 第八步:initApplicationEventMulticaster();初始化事件派发器；
 		
    (1) 获取BeanFactory=>	ConfigurableListableBeanFactory beanFactory = getBeanFactory();
