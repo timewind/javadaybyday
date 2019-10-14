@@ -202,15 +202,15 @@
                  
 ## 第十二步:finishRefresh();完成BeanFactory的初始化创建工作；IOC容器就创建完成；
 	
-  （1） clearResourceCaches()
+   - clearResourceCaches()
   
-   (2) initLifecycleProcessor();初始化和生命周期有关的后置处理器；LifecycleProcessor 默认从容器中找是否有lifecycleProcessor的组件【LifecycleProcessor】；如果没有new DefaultLifecycleProcessor();加入到容器；写一个LifecycleProcessor的实现类，可以在BeanFactory void onRefresh();void onClose();	
+   - initLifecycleProcessor();初始化和生命周期有关的后置处理器；LifecycleProcessor 默认从容器中找是否有lifecycleProcessor的组件【LifecycleProcessor】；如果没有new DefaultLifecycleProcessor();加入到容器；写一个LifecycleProcessor的实现类，可以在BeanFactory void onRefresh();void onClose();	
 		
-   (3) getLifecycleProcessor().onRefresh();拿到前面定义的生命周期处理器（BeanFactory）；回调onRefresh()；
+   - getLifecycleProcessor().onRefresh();拿到前面定义的生命周期处理器（BeanFactory）；回调onRefresh()；
    
-   (4) publishEvent(new ContextRefreshedEvent(this));发布容器刷新完成事件；
+   - publishEvent(new ContextRefreshedEvent(this));发布容器刷新完成事件；
 		
-   (5) liveBeansView.registerApplicationContext(this);
+   - liveBeansView.registerApplicationContext(this);
    
 [来源备注:watermelon1015](https://gitee.com/watermelon1015/spring_source_parsing_data)
    
