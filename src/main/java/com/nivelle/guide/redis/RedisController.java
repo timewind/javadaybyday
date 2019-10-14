@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit;
 public class RedisController {
 
     @Autowired
-    RedisCommandUtil redisCommandUtil;
+    RedisCommandService redisCommandService;
 
     /*****************************************key操作********************************************************/
 
@@ -29,7 +29,7 @@ public class RedisController {
     @RequestMapping("/deleteKey/{key}")
     @ResponseBody
     public ResponseResult deleteKey(@PathVariable(value = "key") String key) {
-        redisCommandUtil.delete(key);
+        redisCommandService.delete(key);
         return ResponseResult.newResponseResult().setSuccess("delete key=" + key + " is success");
     }
 
@@ -42,7 +42,7 @@ public class RedisController {
     @RequestMapping("/keys/{pattern}")
     @ResponseBody
     public ResponseResult Key(@PathVariable(value = "pattern") String pattern) {
-        Set<String> set = redisCommandUtil.keys(pattern);
+        Set<String> set = redisCommandService.keys(pattern);
         return ResponseResult.newResponseResult().setSuccess(set);
     }
 
@@ -54,7 +54,7 @@ public class RedisController {
     @RequestMapping("/expireTime/{key}/{timeout}")
     @ResponseBody
     public ResponseResult expireKey(@PathVariable(value = "key") String key, @PathVariable(value = "timeout") Long timeout) {
-        boolean expire = redisCommandUtil.expire(key, timeout, TimeUnit.SECONDS);
+        boolean expire = redisCommandService.expire(key, timeout, TimeUnit.SECONDS);
         return ResponseResult.newResponseResult().setSuccess(expire);
     }
 
@@ -66,7 +66,7 @@ public class RedisController {
     @RequestMapping("/expire/{key}")
     @ResponseBody
     public ResponseResult getExpire(@PathVariable(value = "key") String key) {
-        long expire = redisCommandUtil.getExpire(key);
+        long expire = redisCommandService.getExpire(key);
         return ResponseResult.newResponseResult().setSuccess(expire);
     }
 
@@ -82,7 +82,7 @@ public class RedisController {
     @RequestMapping("/string/{key}")
     @ResponseBody
     public ResponseResult string(@PathVariable(value = "key") String key) {
-        String result = redisCommandUtil.get(key);
+        String result = redisCommandService.get(key);
         System.out.println(result);
         return ResponseResult.newResponseResult().setSuccess(result);
     }
@@ -96,8 +96,8 @@ public class RedisController {
     @RequestMapping("/substring/{key}")
     @ResponseBody
     public ResponseResult exists(@PathVariable(value = "key") String key) {
-        redisCommandUtil.set("stringTest", "test");
-        boolean result = redisCommandUtil.hasKey(key);
+        redisCommandService.set("stringTest", "test");
+        boolean result = redisCommandService.hasKey(key);
         System.out.println(result);
         return ResponseResult.newResponseResult().setSuccess(result);
     }
@@ -115,8 +115,8 @@ public class RedisController {
     public ResponseResult subString(@PathVariable(value = "key") String key,
                                     @PathVariable(value = "start") Long start,
                                     @PathVariable(value = "end") Long end) {
-        redisCommandUtil.set("stringTest", "test");
-        String result = redisCommandUtil.getRange(key, start, end);
+        redisCommandService.set("stringTest", "test");
+        String result = redisCommandService.getRange(key, start, end);
         System.out.println(result);
         return ResponseResult.newResponseResult().setSuccess(result);
     }
@@ -133,7 +133,7 @@ public class RedisController {
     public ResponseResult setEx(@PathVariable(value = "key") String key,
                                 @PathVariable(value = "value") String value,
                                 @PathVariable(value = "timeout") long timeout) {
-        redisCommandUtil.setEx(key, value, timeout, TimeUnit.SECONDS);
+        redisCommandService.setEx(key, value, timeout, TimeUnit.SECONDS);
         return ResponseResult.newResponseResult().setSuccess("success");
     }
 
@@ -148,7 +148,7 @@ public class RedisController {
     @ResponseBody
     public ResponseResult getBitString(@PathVariable(value = "key") String key,
                                        @PathVariable(value = "offset") long offset) {
-        Boolean result = redisCommandUtil.getBit(key, offset);
+        Boolean result = redisCommandService.getBit(key, offset);
         System.out.println(result);
         return ResponseResult.newResponseResult().setSuccess(result);
     }
@@ -166,7 +166,7 @@ public class RedisController {
     public ResponseResult setBitString(@PathVariable(value = "key") String key,
                                        @PathVariable(value = "offset") long offset,
                                        @PathVariable(value = "value") boolean value) {
-        Boolean result = redisCommandUtil.setBit(key, offset, value);
+        Boolean result = redisCommandService.setBit(key, offset, value);
         System.out.println(result);
         return ResponseResult.newResponseResult().setSuccess(result);
     }
@@ -186,7 +186,7 @@ public class RedisController {
     public ResponseResult zAdd(@PathVariable(value = "key") String key,
                                @PathVariable(value = "value") String value,
                                @PathVariable(value = "score") double score) {
-        boolean result = redisCommandUtil.zAdd(key, value, score);
+        boolean result = redisCommandService.zAdd(key, value, score);
         return ResponseResult.newResponseResult().setSuccess(result);
     }
 
@@ -202,7 +202,7 @@ public class RedisController {
     @ResponseBody
     public ResponseResult zRank(@PathVariable(value = "key") String key,
                                 @PathVariable(value = "value") String value) {
-        long scores = redisCommandUtil.zRank(key, value);
+        long scores = redisCommandService.zRank(key, value);
         return ResponseResult.newResponseResult().setSuccess(scores);
     }
 
@@ -217,7 +217,7 @@ public class RedisController {
     @ResponseBody
     public ResponseResult zReverseRank(@PathVariable(value = "key") String key,
                                        @PathVariable(value = "value") String value) {
-        long scores = redisCommandUtil.zReverseRank(key, value);
+        long scores = redisCommandService.zReverseRank(key, value);
         return ResponseResult.newResponseResult().setSuccess(scores);
     }
 
@@ -235,7 +235,7 @@ public class RedisController {
     public ResponseResult zRange(@PathVariable(value = "key") String key,
                                  @PathVariable(value = "start") long start,
                                  @PathVariable(value = "end") long end) {
-        Set<String> set = redisCommandUtil.zRange(key, start, end);
+        Set<String> set = redisCommandService.zRange(key, start, end);
         return ResponseResult.newResponseResult().setSuccess(set);
     }
 
@@ -253,7 +253,7 @@ public class RedisController {
     public ResponseResult zRangeWithScores(@PathVariable(value = "key") String key,
                                            @PathVariable(value = "start") long start,
                                            @PathVariable(value = "end") long end) {
-        Set<ZSetOperations.TypedTuple<String>> set = redisCommandUtil.zRangeWithScores(key, start, end);
+        Set<ZSetOperations.TypedTuple<String>> set = redisCommandService.zRangeWithScores(key, start, end);
         return ResponseResult.newResponseResult().setSuccess(set);
     }
 
@@ -271,7 +271,7 @@ public class RedisController {
     public ResponseResult zRangeByScore(@PathVariable(value = "key") String key,
                                         @PathVariable(value = "min") double min,
                                         @PathVariable(value = "max") double max) {
-        Set<String> set = redisCommandUtil.zRangeByScore(key, min, max);
+        Set<String> set = redisCommandService.zRangeByScore(key, min, max);
         return ResponseResult.newResponseResult().setSuccess(set);
     }
 
@@ -288,7 +288,7 @@ public class RedisController {
     public ResponseResult zRangeByScoreWithScores(@PathVariable(value = "key") String key,
                                                   @PathVariable(value = "min") double min,
                                                   @PathVariable(value = "max") double max) {
-        Set<ZSetOperations.TypedTuple<String>> set = redisCommandUtil.zRangeByScoreWithScores(key, min, max);
+        Set<ZSetOperations.TypedTuple<String>> set = redisCommandService.zRangeByScoreWithScores(key, min, max);
         return ResponseResult.newResponseResult().setSuccess(set);
     }
 
@@ -301,7 +301,7 @@ public class RedisController {
     @RequestMapping("/zSize/{key}")
     @ResponseBody
     public ResponseResult zSize(@PathVariable(value = "key") String key) {
-        long zSize = redisCommandUtil.zSize(key);
+        long zSize = redisCommandService.zSize(key);
         return ResponseResult.newResponseResult().setSuccess(zSize);
     }
 
@@ -314,7 +314,7 @@ public class RedisController {
     @RequestMapping("/zZCard/{key}")
     @ResponseBody
     public ResponseResult zZCard(@PathVariable(value = "key") String key) {
-        long zZCard = redisCommandUtil.zZCard(key);
+        long zZCard = redisCommandService.zZCard(key);
         return ResponseResult.newResponseResult().setSuccess(zZCard);
     }
 
@@ -332,7 +332,7 @@ public class RedisController {
                                @PathVariable(value = "value1") String value1,
                                @PathVariable(value = "value2") String value2,
                                @PathVariable(value = "value3") String value3) {
-        long size = redisCommandUtil.sAdd(key, value1, value2, value3);
+        long size = redisCommandService.sAdd(key, value1, value2, value3);
         return ResponseResult.newResponseResult().setSuccess(size);
     }
 
@@ -345,7 +345,7 @@ public class RedisController {
     @RequestMapping("/setMembers/{key}")
     @ResponseBody
     public ResponseResult setMembers(@PathVariable(value = "key") String key) {
-        Set<String> set = redisCommandUtil.setMembers(key);
+        Set<String> set = redisCommandService.setMembers(key);
         return ResponseResult.newResponseResult().setSuccess(set);
     }
 
@@ -359,7 +359,7 @@ public class RedisController {
     @RequestMapping("/sRemove/{key}/{values}")
     @ResponseBody
     public ResponseResult sRemove(@PathVariable(value = "key") String key, @PathVariable(value = "values") String values) {
-        Long result = redisCommandUtil.sRemove(key, values.split(","));
+        Long result = redisCommandService.sRemove(key, values.split(","));
         return ResponseResult.newResponseResult().setSuccess(result);
     }
 
@@ -373,7 +373,7 @@ public class RedisController {
     @RequestMapping("/sPop/{key}")
     @ResponseBody
     public ResponseResult sRemove(@PathVariable(value = "key") String key) {
-        String result = redisCommandUtil.sPop(key);
+        String result = redisCommandService.sPop(key);
         return ResponseResult.newResponseResult().setSuccess(result);
     }
 
@@ -387,7 +387,7 @@ public class RedisController {
     @RequestMapping("/setSize/{key}")
     @ResponseBody
     public ResponseResult setSize(@PathVariable(value = "key") String key) {
-        Long result = redisCommandUtil.sSize(key);
+        Long result = redisCommandService.sSize(key);
         return ResponseResult.newResponseResult().setSuccess(result);
     }
 
@@ -404,7 +404,7 @@ public class RedisController {
     public ResponseResult hPut(@PathVariable(value = "key") String key,
                                @PathVariable(value = "hKey") String hKey,
                                @PathVariable(value = "hValue") String hValue) {
-        redisCommandUtil.hPut(key, hKey, hValue);
+        redisCommandService.hPut(key, hKey, hValue);
         return ResponseResult.newResponseResult().setSuccess("");
     }
 
@@ -417,7 +417,7 @@ public class RedisController {
     @RequestMapping("/hGetAll/{key}")
     @ResponseBody
     public ResponseResult hGetAll(@PathVariable(value = "key") String key) {
-        Map<Object, Object> result = redisCommandUtil.hGetAll(key);
+        Map<Object, Object> result = redisCommandService.hGetAll(key);
         return ResponseResult.newResponseResult().setSuccess(result);
     }
 
@@ -432,7 +432,7 @@ public class RedisController {
     @RequestMapping("/listLPush/{key}/{value}")
     @ResponseBody
     public ResponseResult lLeftPush(@PathVariable(value = "key") String key,@PathVariable(value = "value") String value) {
-        Long result = redisCommandUtil.lLeftPush(key,value);
+        Long result = redisCommandService.lLeftPush(key,value);
         return ResponseResult.newResponseResult().setSuccess(result);
     }
 
@@ -445,7 +445,7 @@ public class RedisController {
     @RequestMapping("/lIndex/{key}/{index}")
     @ResponseBody
     public ResponseResult lIndex(@PathVariable(value = "key") String key,@PathVariable(value = "index") long index) {
-        String result = redisCommandUtil.lIndex(key,index);
+        String result = redisCommandService.lIndex(key,index);
         return ResponseResult.newResponseResult().setSuccess(result);
     }
 
