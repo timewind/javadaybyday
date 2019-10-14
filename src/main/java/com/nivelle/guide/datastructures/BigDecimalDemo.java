@@ -1,5 +1,7 @@
 package com.nivelle.guide.datastructures;
 
+import java.math.BigDecimal;
+
 /**
  * bigDecimal
  *
@@ -7,4 +9,8 @@ package com.nivelle.guide.datastructures;
  * @date 2019/10/13
  */
 public class BigDecimalDemo {
+
+    public static void main(String[] args) {
+        BigDecimal bigDecimal = BigDecimal.ZERO;
+    }
 }

@@ -1,10 +1,12 @@
 package com.nivelle.guide.datastructures;
 
 import com.nivelle.guide.springboot.enums.MyEnum;
-import lombok.extern.slf4j.Slf4j;
 
 import java.lang.reflect.Field;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+import java.util.ListIterator;
 
 /**
  * ArrayList
@@ -12,9 +14,7 @@ import java.util.*;
  * @author fuxinzhong
  * @date 2019/06/16
  */
-@Slf4j
 public class ArrayListDemo {
-
 
     /**
      * public class ArrayList<E> extends AbstractList<E> implements List<E>, RandomAccess, Cloneable, java.io.Serializable
@@ -184,7 +184,7 @@ public class ArrayListDemo {
         try {
             System.err.println("destination1 被拷贝的数组未设置的数组元素为空:" + b1[4]);
         } catch (Exception e) {
-            log.error(e.getMessage());
+            System.out.println(e.getMessage());
         }
         /**
          * 获取指定索引的元素前首先会检查索引范围是否超过了底层数组保存元素的个数
@@ -193,7 +193,7 @@ public class ArrayListDemo {
         try {
             System.out.println("获取指定索引的元素:" + arrayList4.get(6));
         } catch (Exception e) {
-            log.error(e.getMessage());
+            System.out.println(e.getMessage());
         }
         /**
          * 设置指定索引位置的值,并返回旧值
