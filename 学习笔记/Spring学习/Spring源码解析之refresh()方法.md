@@ -137,12 +137,12 @@
 
   （2）获取Bean的定义信息,RootBeanDefinition = getMergedLocalBeanDefinition(beanName);Bean不是抽象的,是单实例的,不是懒加载;
       
-       #### 判断是否是FactoryBean -> isFactoryBean(beanName)
+   #### 判断是否是FactoryBean -> isFactoryBean(beanName)
             
-            ##### 是工厂bean
+   ##### 是工厂bean
             
-                  //是 A standard FactoryBean is not expected to initialize eagerly,工厂方法获取bean
-                - Object bean = getBean(FACTORY_BEAN_PREFIX + beanName);
+    //是 A standard FactoryBean is not expected to initialize eagerly,工厂方法获取bean
+   - Object bean = getBean(FACTORY_BEAN_PREFIX + beanName);
                 
                 - getBean(beanName) -> doGetBean(name, requiredType, args, typeCheckOnly)
                
@@ -195,9 +195,9 @@
 
 					 - 将创建的Bean添加到缓存中singletonObjects;
 					
-            ##### 不是工厂Bean,利用getBean(beanName)创建对象
+        ##### 不是工厂Bean,利用getBean(beanName)创建对象
             
-            ##### 遍历所有的bean实现了 SmartInitializingSingleton接口的执行->smartSingleton.afterSingletonsInstantiated()
+        ##### 遍历所有的bean实现了 SmartInitializingSingleton接口的执行->smartSingleton.afterSingletonsInstantiated()
                  
 ## 第十二步:finishRefresh();完成BeanFactory的初始化创建工作；IOC容器就创建完成；
 	
