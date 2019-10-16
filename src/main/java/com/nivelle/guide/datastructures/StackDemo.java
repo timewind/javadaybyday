@@ -1,6 +1,7 @@
 package com.nivelle.guide.datastructures;
 
 import java.util.Stack;
+import java.util.Vector;
 
 /**
  * Stack
@@ -31,5 +32,16 @@ public class StackDemo {
 
         Object firstElement = stack.firstElement();
         System.out.println("firstElement is:" + firstElement);
+
+        Object lastElement = stack.lastElement();
+        System.out.println("lastElement is:" + lastElement);
+
+        stack.push(3);
+
+        Object lastElement2 = stack.lastElement();
+
+        System.out.println("lastElement2 is:" + lastElement2);
+
+        Vector vector = new Vector<>();
     }
 }

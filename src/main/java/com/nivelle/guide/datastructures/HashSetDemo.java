@@ -27,6 +27,9 @@ public class HashSetDemo {
             System.err.print(iterator.next());
         }
 
+        hashSet.clear();
+        System.out.println("clear result is:" + hashSet);
+
 
     }
 }
