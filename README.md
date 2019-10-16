@@ -24,232 +24,235 @@ docker整合【下载:docker pull nivelle/nivelle:1.0.2】【运行:sudo docker 
 
 ## Spring实践
 
-✅ [spring refresh()方法学习路径](https://github.com/nivelle/javaGuides/blob/master/dubbo/provider/src/main/resources/notes/Spring源码解析.md)
+✅ 【spring refresh()方法学习路径】
 
-✅ [生命周期学习](https://github.com/nivelle/javaguides/tree/master/dubbo-provider/src/main/java/com/nivelle/guide/spring)
+✅ 【生命周期学习】
 
-✅ [SPI机制](https://github.com/nivelle/javaGuides/blob/master/dubbo-provider/src/main/resources/META-INF/services/com.nivelle.guide.spi.MySpi)
+✅ 【SPI机制】
 
-✅ [CommandLineRunner](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/initresource/initResource1.java)
+✅ 【CommandLineRunner】
 
-✅ [shutdown 实现优雅停机](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/shutdown/GracefulShutdown.java)
+✅ 【shutdown 实现优雅停机】
 
-✅ [InitializingBean](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/hock/ConcreteBean.java)
+✅ 【InitializingBean】
 
-✅ [BeanFactoryAware](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/hock/MyBeanFactory.java)
+✅ 【BeanFactoryAware】
 
-✅ [FactoryBean](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/hock/MyFactoryBean.java)
+✅ 【FactoryBean】
 
-✅ [ApplicationContextAware](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/hock/SpringContextAssisor.java)
+✅ 【ApplicationContextAware】
 
-✅ [EmbeddedValueResolverAware](https://github.com/nivelle/javaGuides/blob/master/dubbo-provider/src/main/java/com/nivelle/guide/config/MyProfileConfig.java)
+✅ 【EmbeddedValueResolverAware】
 
-✅ [SpringAOP](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/core/AopAnnotation.java)
+✅ 【SpringAOP】
 
-✅ [BeanDefinitionRegistryPostProcessor](https://github.com/nivelle/javaGuides/blob/master/dubbo-provider/src/main/java/com/nivelle/guide/spring/lifecycle/MyRegisterBeanPostProcesser.java)
+✅ 【BeanDefinitionRegistryPostProcessor】
 
-✅ [springApplicationRunListeners:springBoot自带事件](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/listener/springApplicationRunListeners)
+✅ 【springApplicationRunListeners:springBoot自带事件】
 
-✅ [ContextRefreshedEvent:spring自带监听器](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/listener/context)
+✅ 【ContextRefreshedEvent:spring自带监听器】
 
-✅ [ServletContextListener:servlet容器监听器](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/listener/MyServletListener.java)
+✅ 【ServletContextListener:servlet容器监听器】
 
-✅ [ApplicationEvent:自定义事件](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/listener/MyListener.java)
+✅ 【ApplicationEvent:自定义事件】
 
 ## springBoot实践
 
-✅ [javaConfig:配置类](https://github.com/nivelle/javaguides/tree/master/src/main/java/com/nivelle/guide/configbean)
+✅ 【javaConfig:配置类】
 
-✅ [validate:注解校验](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/valid/)
+✅ 【validate:注解校验】
  
-✅ [exception:全局异常处理](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/configbean/ControllerExceptionAdvice.java) 
+✅ 【exception:全局异常处理】 
 
-✅ [Filter:过滤器](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/filter)
+✅ 【Filter:过滤器】
 
-✅ [interceptor:拦截器](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/interceptor)
+✅ 【interceptor:拦截器】
 
-✅ [starter:自定义starter](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/mystarter/StarterTest.java)
+✅ 【starter:自定义starter】
 
-✅ [xml:对xml格式参数的支持](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/controllor/BookController.java)
+✅ 【xml:对xml格式参数的支持】
 
-✅ [消息转化:HttpMessageConverters](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/configbean/MyWebConfig.java)
+✅ 【消息转化:HttpMessageConverters】
 
-✅ [shiro:权限管理](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/configbean/shiro)
+✅ 【Shiro:权限管理】
 
-✅ [定时任务](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/schedule) 
+✅ 【定时任务】
 
-✅ [swagger:接口文档自动生成](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/controllor/SwaggerController.java)
+✅ 【swagger:接口文档自动生成】
 
-✅ [Nginx:反向代理](https://github.com/nivelle/javaguides/blob/master/src/main/resources/nginx/nginx.conf)
+✅ 【Nginx:反向代理】
 
-✅ [JdbcTemplate && Mybatis 多数据源配置整合](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/configbean/DataSourceConfig.java)
+✅ 【JdbcTemplate && Mybatis 多数据源配置整合】
 
-✅ [CorsFilter 解决跨域问题](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/filter/CorsFilter.java)
+✅ 【CorsFilter 解决跨域问题】
 
-✅ [xml配置文件扫描](https://github.com/nivelle/javaguides/blob/master/dubbo-provider/src/main/java/com/nivelle/guide/config/XmlConfig.java)
+✅ 【xml配置文件扫描】
 
-✅ [@Async&@EnableAsync](https://github.com/nivelle/javaguides/blob/master/dubbo-provider/src/main/java/com/nivelle/guide/service/impl/AsyncServiceImpl.java)
+✅ 【@Async&@EnableAsync】
 
-✅ [@Lazy&@Scope&@ComponentScan](https://github.com/nivelle/javaGuides/blob/master/dubbo-provider/src/main/java/com/nivelle/guide/config/MyScanConfig.java)
+✅ 【@Lazy&@Scope&@ComponentScan】
 
-✅ [自定义扫描过滤器](https://github.com/nivelle/javaGuides/blob/master/dubbo-provider/src/main/java/com/nivelle/guide/model/MyTypeFilter.java)
+✅ 【自定义扫描过滤器】
 
-✅ [@Profile](https://github.com/nivelle/javaGuides/blob/master/dubbo-provider/src/main/java/com/nivelle/guide/config/MyProfileConfig.java)
+✅ 【@Profile】
 
 ## springMVC实践
 
-✅ [AbstractGenericHttpMessageConverter](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springmvc/PropertiesHttpMessageConverter.java)
+✅ 【AbstractGenericHttpMessageConverter】
 
-✅ [HandlerMethodArgumentResolver:请求参数消息转换器](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springmvc/PropertiesHandlerMethodArgumentResolver.java)
+✅ 【HandlerMethodArgumentResolver:请求参数消息转换器】
 
-✅ [HandlerMethodReturnValueHandler:返回消息转换器](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springmvc/PropertiesHandlerMethodReturnValueHandler.java)
+✅ 【HandlerMethodReturnValueHandler:返回消息转换器】
+
+✅ 【ApplicationRunner&&CommandLineRunner】
+
+✅ 【WebMvcConfigurer && @EnableWebMvc】
 
 
 ## 算法实践
 
-✅ [有序二维数组查](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/algorithms/common/ArraySearch.java)
+✅ 【有序二维数组查】
 
-✅ [空格字符窜替换](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/algorithms/common/StringReplaceBlank.java) 
+✅ 【空格字符窜替换】
 
-✅ [从尾到头打印数组](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/algorithms/common/PrintArrayList.java)
+✅ 【从尾到头打印数组】
 
-✅ [构建二叉树](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/algorithms/common/RebuildTree.java)
+✅ 【构建二叉树】
 
-✅ [两个栈实现队列](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/algorithms/common/StackForQueue.java)
+✅ 【两个栈实现队列】
 
-✅ [最小旋转数组](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/algorithms/common/MinElementArray.java)
+✅ 【最小旋转数组】
 
-✅ [斐波那契数列](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/algorithms/common/Fibonacci.java)
+✅ 【斐波那契数列】
 
-✅ [二进制1的个数](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/algorithms/common/NumberOf1.java)
+✅ 【二进制1的个数】
 
-✅ [数值的整数次方](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/algorithms/common/Power.java)
+✅ 【数值的整数次方】
 
-✅ [数组奇数偶数相对排序](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/algorithms/common/reOrderArray.java)
+✅ 【数组奇数偶数相对排序】
 
 
 ## JVM实践
 
-✅ [自定义类加载器](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/javacore/classloader/MyClassLoader.java)
+✅ 【自定义类加载器】
 
-✅ [类实例化过程实例](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/javacore/classloader/ClassForNameTest.java)
+✅ 【类实例化过程实例】
 
 ## RabbitMQ
 
-✅ [rabbitMQ](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/rabbitmq/RabbitMqController.java)
+✅ 【rabbitMQ】
 
 
 ## Kafka
 
-⌛ [细节分析](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/kafka/KafkaController.java)
+⌛ 【细节分析】
 
 ## 分布式实践
 
 ⌛ 自己实现RPC 
 
-✅ [zookeeper选主](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/zookeeper/leader/LeaderController.java)
+✅ 【zookeeper选主】
 
-✅ [zookeeper分布式锁](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/zookeeper/leader/SelectorClient.java)
-
+✅ 【zookeeper分布式锁】
 ⌛ 分布式事物
 
 ## Mybatis实践
 
-✅ [mybatis 整合到springBoot](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/configbean/MybatisConfig.java) 
+✅ 【mybatis 整合到springBoot】
 
-✅ [mybatis 使用redis做缓存组件](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/springboot/cache/UserFactory.java)
+✅ 【mybatis 使用redis做缓存组件】
 
 ## Redis实践
 
-✅ [redis实践](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/redis/RedisController.java)
+✅ 【redis实践】
 
 ## Java2e实践
 
-✅[自定义注解](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/javacore/annotion/myannotion/MyAnnotationTest.java)
+✅【自定义注解】
 
-✅[动态代理](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/javacore/proxy/MyProxy.java)
+✅【动态代理】
 
-✅[多线程示例](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/javacore/thread)
+✅【多线程示例】
 
-✅[jdk8 Lambda表达式,Stream的使用](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/javacore/java8/Java8ApiDemo.java)
+✅【jdk8 Lambda表达式,Stream的使用】
 
-✅[java 关键字(instanceof,final)](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/javacore/JavaKeyWord.java)
+✅【java 关键字(instanceof,final)】
 
 ## JDK学习
 
-✅[Integer](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/datastructures/IntegerDemo.java)
+✅【Integer】
 
-✅[String](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/datastructures/StringDemo.java)
+✅【String】
 
-✅[Enum](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/datastructures/EnumDemo.java)
+✅【Enum】
 
-✅[ArrayList](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/datastructures/ArrayListDemo.java) 
+✅【ArrayList】
 
-✅[HashMap](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/datastructures/HashMapDemo.java)
+✅【HashMap】
 
-✅[LinkedList](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/datastructures/LinkedListDemo.java)
+✅【LinkedList】
 
-✅[LinkedHashMap](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/datastructures/LinkedHashMapDemo.java)
+✅【LinkedHashMap】
 
-✅[TreeMap](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/datastructures/TreeMapDemo.java)
+✅【TreeMap】
 
-✅[ThreadPool](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/datastructures/ThreadPoolDemo.java)
+✅【ThreadPool】
 
-✅[ThreadLocal](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/datastructures/ThreadLocalDemo.java)
+✅【ThreadLocal】
 
-✅[Unsafe](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/datastructures/UnsafeDemo.java) 
+✅【Unsafe】
 
-✅[Float](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/datastructures/FloatDemo.java)
+✅【Float】
 
-✅[Math](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/javacore/JavaMathDemo.java)
+✅【Math】
 
-✅[CountDownLatch](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/datastructures/CountDownLatchDemo.java)
+✅【CountDownLatch】
 
-✅[Long](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/datastructures/LongDemo.java)
+✅【Long】
 
-✅[ConcurrentHashMap](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/datastructures/ConcurrentHashMapDemo.java)
+✅【ConcurrentHashMap】
 
-✅[Reflection](https://github.com/nivelle/javaGuides/blob/master/src/main/java/com/nivelle/guide/datastructures/ReflectDemo.java)
+✅【Reflection】
 
 ## 设计模式实践
 
-✅ [迭代器模式](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/designpatterns/strategy/Main.java)
+✅ 【迭代器模式】
 
-✅ [适配器模式](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/designpatterns/adapter/Main.java)
+✅ 【适配器模式】
 
-✅ [模板方法模式](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/designpatterns/templatemethod/Main.java)
+✅ 【模板方法模式】
 
-✅ [工厂方法模式](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/designpatterns/factorymethod/Main.java)
+✅ 【工厂方法模式】
 
-✅ [代理模式](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/designpatterns/proxy/Main.java)
+✅ 【代理模式】
 
-✅ [责任链模式](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/designpatterns/responsibilitychain/Main.java)
+✅ 【责任链模式】
 
-✅ [桥梁模式](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/designpatterns/bridge/Main.java)
+✅ 【桥梁模式】
 
-✅ [策略模式](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/designpatterns/strategy/Main.java)
+✅ 【策略模式】
  
-✅ [构建模式](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/designpatterns/build/Main.java)
+✅ 【构建模式】
 
-✅ [抽象工厂模式](https://github.com/nivelle/javaguides/blob/master/src/main/java/com/nivelle/guide/designpatterns/abstractfactory/Main.java)
+✅ 【抽象工厂模式】
 
 ## MySQL实践
 
-✅ [mysql常用语句](https://github.com/nivelle/javaguides/blob/master/src/main/resources/sql/my_study.sql)
+✅ 【mysql常用语句】
 
 ⌛️ 乐观锁，悲观锁，事物，传播特性
 
 ## Dubbo 实践
 
-✅[dubbo-api](https://github.com/nivelle/javaguides/blob/master/dubbo-api/src/main/java/com/nivelle/guide/api/HelloDubboService.java)
+✅【dubbo-api】
 
-✅[dubbo-provider](https://github.com/nivelle/javaguides/blob/master/dubbo-provider/src/main/java/com/nivelle/guide/TestDubboProvider.java)
+✅【dubbo-provider】
 
 ⌛️ 待分析细节。。。
 
 ## Tomcat实践
 
-✅ [ConfigurableServletWebServerFactory:自定义Tomcat](https://github.com/nivelle/javaguides/blob/master/dubbo-provider/src/main/java/com/nivelle/guide/config/CustomTomcatConfig.java)
+✅ 【ConfigurableServletWebServerFactory:自定义Tomcat】
 
 ## 待实践。。。。
 

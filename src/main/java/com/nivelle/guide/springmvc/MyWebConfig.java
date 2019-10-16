@@ -1,4 +1,4 @@
-package com.nivelle.guide.configbean;
+package com.nivelle.guide.springmvc;
 
 import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.alibaba.fastjson.support.config.FastJsonConfig;
@@ -27,8 +27,21 @@ import java.util.ArrayList;
 import java.util.List;
 
 
+/**
+ * The auto-configuration adds the following features on top of Spring’s defaults:
+ *
+ * Inclusion of ContentNegotiatingViewResolver and BeanNameViewResolver beans.
+ * Support for serving static resources, including support for WebJars (covered later in this document)).
+ * Automatic registration of Converter, GenericConverter, and Formatter beans.
+ * Support for HttpMessageConverters (covered later in this document).
+ * Automatic registration of MessageCodesResolver (covered later in this document).
+ * Static index.html support.
+ * Custom Favicon support (covered later in this document).
+ * Automatic use of a ConfigurableWebBindingInitializer bean (covered later in this document).
+ */
 @Configuration
-// @EnableWebMvc 不能加入这个注解否则不执行自定义的converter
+// @EnableWebMvc 完全自定义控制SpringMVC;If you want to take complete control of Spring MVC, you can add your own @Configuration annotated with @EnableWebMvc
+// 如果既想保留自动配置的SpringMVC又想使用自己自定义的MVC属性，需要使用实现了WebMvcConfigurer的配置类。该配置类不能加 @EnableWebMvc
 public class MyWebConfig implements WebMvcConfigurer {
 
 

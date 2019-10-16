@@ -5,10 +5,10 @@ import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 @Component
-@Order(1)
-public class initResource1 implements CommandLineRunner {
+@Order(2)
+public class InitResource2 implements CommandLineRunner {
     @Override
     public void run(String... args) {
-        System.err.println("CommandLineRunner 初始化资源 1");
+        System.err.println("CommandLineRunner 初始化资源 2");
     }
 }
