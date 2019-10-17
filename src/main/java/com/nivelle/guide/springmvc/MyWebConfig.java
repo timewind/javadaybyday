@@ -29,7 +29,7 @@ import java.util.List;
 
 /**
  * The auto-configuration adds the following features on top of Spring’s defaults:
- *
+ * <p>
  * Inclusion of ContentNegotiatingViewResolver and BeanNameViewResolver beans.
  * Support for serving static resources, including support for WebJars (covered later in this document)).
  * Automatic registration of Converter, GenericConverter, and Formatter beans.
@@ -40,8 +40,13 @@ import java.util.List;
  * Automatic use of a ConfigurableWebBindingInitializer bean (covered later in this document).
  */
 @Configuration
-// @EnableWebMvc 完全自定义控制SpringMVC;If you want to take complete control of Spring MVC, you can add your own @Configuration annotated with @EnableWebMvc
-// 如果既想保留自动配置的SpringMVC又想使用自己自定义的MVC属性，需要使用实现了WebMvcConfigurer的配置类。该配置类不能加 @EnableWebMvc
+/**
+ *
+ * @EnableWebMvc 完全自定义控制SpringMVC;If you want to take complete control of Spring MVC, you can add your own @Configuration annotated with @EnableWebMvc
+ *
+ * 如果既想保留自动配置的SpringMVC又想使用自己自定义的MVC属性，需要使用实现了WebMvcConfigurer的配置类。该配置类不能加 @EnableWebMvc
+ *
+ * **/
 public class MyWebConfig implements WebMvcConfigurer {
 
 
@@ -133,17 +138,21 @@ public class MyWebConfig implements WebMvcConfigurer {
     }
 
     /**
-     * 消息转换器
+     * 修改已经注册的 HttpMessageConverter
+     * A hook for extending or modifying the list of converters after it has been configured.
      *
+     * 消息转换器,主要处理 requestBody 和 responseBody 的数据。Configure the {@link HttpMessageConverter HttpMessageConverters} to use for reading or writing to the body of the request or response.
      * @param converters
+     *
      */
     @Override
     public void extendMessageConverters(List<HttpMessageConverter<?>> converters) {
         FastJsonHttpMessageConverter fjc = new FastJsonHttpMessageConverter();
         FastJsonConfig fj = new FastJsonConfig();
+        //忽略循环引用
         fj.setSerializerFeatures(SerializerFeature.DisableCircularReferenceDetect);
         fjc.setFastJsonConfig(fj);
-        converters.add(0,fjc);
+        converters.add(0, fjc);
 //        Jackson2ObjectMapperBuilder builder = Jackson2ObjectMapperBuilder.xml();
 //        builder.indentOutput(true);
 //        converters.add(1,new MappingJackson2XmlHttpMessageConverter(builder.build()));
