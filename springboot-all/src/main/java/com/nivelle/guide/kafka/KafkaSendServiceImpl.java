@@ -1,6 +1,5 @@
 package com.nivelle.guide.kafka;
 
-import com.google.gson.GsonBuilder;
 import com.nivelle.guide.springboot.entity.KafkaMessage;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
@@ -27,7 +26,7 @@ public class KafkaSendServiceImpl implements KafkaSendService {
             message.setId("KFK_" + System.currentTimeMillis());
             message.setMsg("nivelle love jessy");
             message.setSendTime(new Date());
-            kafkaTemplate.send("myKafka", new GsonBuilder().create().toJson(message));
+            kafkaTemplate.send("myKafka", "");
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }

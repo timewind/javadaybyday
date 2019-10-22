@@ -36,6 +36,7 @@ public class JunitApplicationContext {
 
         MyProfileConfig myProfileConfig = (MyProfileConfig) annotationConfigApplicationContext.getBean("myProfileConfig");
         System.err.println(myProfileConfig.getApplicationName());
+        System.out.println("启动成了");
     }
 
 

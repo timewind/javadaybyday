@@ -7,9 +7,6 @@ import com.nivelle.guide.springboot.filter.CorsFilter;
 import com.nivelle.guide.springboot.filter.MyFilter1;
 import com.nivelle.guide.springboot.filter.MyFilter2;
 import com.nivelle.guide.springboot.interceptor.MyInterceptor;
-import com.nivelle.guide.springmvc.PropertiesHandlerMethodArgumentResolver;
-import com.nivelle.guide.springmvc.PropertiesHandlerMethodReturnValueHandler;
-import com.nivelle.guide.springmvc.PropertiesHttpMessageConverter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
@@ -140,10 +137,10 @@ public class MyWebConfig implements WebMvcConfigurer {
     /**
      * 修改已经注册的 HttpMessageConverter
      * A hook for extending or modifying the list of converters after it has been configured.
-     *
+     * <p>
      * 消息转换器,主要处理 requestBody 和 responseBody 的数据。Configure the {@link HttpMessageConverter HttpMessageConverters} to use for reading or writing to the body of the request or response.
-     * @param converters
      *
+     * @param converters
      */
     @Override
     public void extendMessageConverters(List<HttpMessageConverter<?>> converters) {
