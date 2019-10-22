@@ -17,23 +17,23 @@ public class MyInterceptor implements HandlerInterceptor {
 
     @Override
     public boolean preHandle(HttpServletRequest httpServletRequest,
-                             HttpServletResponse httpServletResponse,Object o) throws Exception{
+                             HttpServletResponse httpServletResponse, Object o) {
         String localName = httpServletRequest.getLocalName();
-        System.out.println("preHandle执行方法前执行返回的结果决定是否往下执行"+localName);
+        System.out.println("preHandle执行方法前执行返回的结果决定是否往下执行" + localName);
         return true;
     }
 
     @Override
     public void postHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse,
-                           Object o, ModelAndView modelAndView)throws Exception {
+                           Object o, ModelAndView modelAndView) {
         System.out.println("postHandle当方法返回值时执行");//sout+回车
         return;
     }
 
 
     @Override
-    public void  afterCompletion(HttpServletRequest httpServletRequest,
-                                 HttpServletResponse httpServletResponse, Object o, Exception e){
+    public void afterCompletion(HttpServletRequest httpServletRequest,
+                                HttpServletResponse httpServletResponse, Object o, Exception e) {
         System.out.println("afterCompletion无论成功或失败都将执行，前提是preHandler要返回true。");
     }
 }
