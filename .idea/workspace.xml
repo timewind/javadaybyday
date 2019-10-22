@@ -1,70 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09fae382-911d-4cd0-8d25-ce0025512f0a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-api/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-api/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-api/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-api/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-api/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-api/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-api/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-api/src/main/java/com/nivelle/guide/api/HelloDubboService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/DubboProviderApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/JunitApplicationContext.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/TestDubboProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/annotation/ImportBeanAnnotation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/config/AsyncConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/config/CommonConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/config/CustomTomcatConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/config/MyJacksonAutoConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/config/MyProfileConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/config/MyScanConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/config/XmlConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/core/MyCondition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/core/MyImportSelector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/core/MyTypeFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/initstart/MyApplicationRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/initstart/MyCommandLineRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/model/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/model/Cat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/model/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/model/UserInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/service/AsyncService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/service/ConcreteService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/service/impl/AsyncServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/service/impl/HelloDubboServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/service/impl/XmlBeanServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/spi/MySpi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/spi/MySpiService1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/spi/MySpiService2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/spring/hock/ConcreteBeanDefinitionRegistryPostProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/spring/hock/MyBeanAutoConfiguredRegistrar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/spring/initdemo/InitSpringBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/spring/initdemo/MyInitSpringBeanController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/spring/lifecycle/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/spring/lifecycle/BeanLifeApplocation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/spring/lifecycle/BeanLifeCycle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/spring/lifecycle/Computer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/spring/lifecycle/Config.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/spring/lifecycle/MyBeanFactoryPostProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/spring/lifecycle/MyBeanPostProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/spring/lifecycle/MyInstantiationAwareBeanPostProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/spring/lifecycle/MyRegisterBeanPostProcesser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/java/com/nivelle/guide/spring/lifecycle/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/resources/META-INF/services/com.nivelle.guide.spi.MySpi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/resources/beanLife.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/main/resources/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuides/dubbo-provider/src/test/java/com/nivelle/guide/dubboprovider/DubboProviderApplicationTests.java" beforeDir="false" />
-    </list>
+    <list default="true" id="09fae382-911d-4cd0-8d25-ce0025512f0a" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +11,25 @@
   </component>
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DubboProviderApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/guide/DubboProviderApplication.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/javaGuides" />
@@ -128,6 +84,62 @@
               <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaguides" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nivelle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nivelle" type="462c0819:PsiDirectoryNode" />
+              <item name="guide" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -147,13 +159,13 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/学习笔记" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/学习笔记" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -222,12 +234,12 @@
       <option name="presentableId" value="Default" />
       <updated>1571755244839</updated>
       <workItem from="1571755246540" duration="42000" />
-      <workItem from="1571755524190" duration="1029000" />
+      <workItem from="1571755524190" duration="1131000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1071000" />
+    <option name="totallyTimeSpent" value="1173000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-227" y="-1057" width="1920" height="1057" extended-state="6" />
@@ -239,9 +251,9 @@
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946466" weight="0.41293532" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.38308457" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49946752" visible="true" weight="0.5346852" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946752" visible="true" weight="0.5346852" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" side_tool="true" visible="true" weight="0.22630458" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" side_tool="true" visible="true" weight="0.22630458" />
       <window_info anchor="bottom" id="Problems" order="15" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="5" weight="0.3299712" />
@@ -274,6 +286,24 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/javaGuides" />
+    </ignored-roots>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/guide/DubboProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
