@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09fae382-911d-4cd0-8d25-ce0025512f0a" name="Default" comment="" />
+    <list default="true" id="09fae382-911d-4cd0-8d25-ce0025512f0a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_34_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_yetus_audience_annotations_0_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_jute_3_5_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_5_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/dubbo-provider/target/" />
     <ignored path="$PROJECT_DIR$/dubbo-api/target/" />
     <ignored path="$PROJECT_DIR$/springboot-all/target/" />
@@ -103,8 +111,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/springboot-all/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="254" column="33" selection-start-line="254" selection-start-column="24" selection-end-line="254" selection-end-column="33" />
+            <state relative-caret-position="341">
+              <caret line="240" column="21" lean-forward="true" selection-start-line="240" selection-start-column="21" selection-end-line="240" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -113,7 +121,7 @@
         <entry file="file://$PROJECT_DIR$/dubbo-provider/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="663">
-              <caret line="39" column="48" lean-forward="true" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+              <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -147,13 +155,13 @@
         <option value="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/zookeeper/lock/DistributedLockByCurator.java" />
         <option value="$PROJECT_DIR$/dubbo-api/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springmvc/MyWebConfig.java" />
-        <option value="$PROJECT_DIR$/springboot-all/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-provider/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-provider/src/test/java/com/nivelle/guide/dubboprovider/DubboProviderApplicationTests.java" />
         <option value="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/kafka/KafkaSendServiceImpl.java" />
         <option value="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/datastructures/LinkedTreeMapDemo.java" />
         <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/guide/JunitApplicationContext.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-all/pom.xml" />
       </list>
     </option>
   </component>
@@ -311,6 +319,10 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="SpringBootAllApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-all" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nivelle.guide.SpringBootAllApplication" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -337,6 +349,7 @@
       <item itemvalue="Application.JunitApplicationContext" />
       <item itemvalue="Application.DubboProviderApplication" />
       <item itemvalue="Application.SpringBootAllApplication" />
+      <item itemvalue="Spring Boot.SpringBootAllApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -359,7 +372,7 @@
       <workItem from="1571755246540" duration="42000" />
       <workItem from="1571755524190" duration="2337000" />
       <workItem from="1571758055531" duration="2982000" />
-      <workItem from="1571795449555" duration="253000" />
+      <workItem from="1571795449555" duration="973000" />
     </task>
     <task id="LOCAL-00001">
       <created>1571757529298</created>
@@ -389,15 +402,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571795642063</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[修改了下目录结构涉及maven知识点]">
+      <created>1571795817985</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1571795817985</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5614000" />
+    <option name="totallyTimeSpent" value="6334000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1200" y="-1057" width="1200" height="1920" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -726,14 +745,14 @@
     <entry file="file://$PROJECT_DIR$/dubbo-provider/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
-          <caret line="39" column="48" lean-forward="true" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+          <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-all/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="254" column="33" selection-start-line="254" selection-start-column="24" selection-end-line="254" selection-end-column="33" />
+        <state relative-caret-position="341">
+          <caret line="240" column="21" lean-forward="true" selection-start-line="240" selection-start-column="21" selection-end-line="240" selection-end-column="21" />
         </state>
       </provider>
     </entry>
