@@ -1,4 +1,4 @@
-package com.nivelle.guide.designpatterns.adapter;
+package com.nivelle.guide.javabase.designpatterns.adapter;
 
 public class Adapter implements Target {
 

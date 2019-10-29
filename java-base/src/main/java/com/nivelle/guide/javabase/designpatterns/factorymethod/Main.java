@@ -1,6 +1,6 @@
-package com.nivelle.guide.designpatterns.factorymethod;
+package com.nivelle.guide.javabase.designpatterns.factorymethod;
 
-import com.nivelle.guide.springboot.pojo.Menu;
+import com.nivelle.guide.javabase.pojo.Menu;
 
 public class Main {
 

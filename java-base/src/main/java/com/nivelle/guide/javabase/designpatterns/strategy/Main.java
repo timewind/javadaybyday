@@ -1,4 +1,4 @@
-package com.nivelle.guide.designpatterns.strategy;
+package com.nivelle.guide.javabase.designpatterns.strategy;
 
 /**
  * 策略模式

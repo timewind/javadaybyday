@@ -1,6 +1,6 @@
 package com.nivelle.guide.redis;
 
-import com.nivelle.guide.springboot.pojo.vo.ResponseResult;
+import com.nivelle.guide.javabase.pojo.vo.ResponseResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.ZSetOperations;
 import org.springframework.stereotype.Controller;

@@ -1,4 +1,4 @@
-package com.nivelle.guide.designpatterns.bridge;
+package com.nivelle.guide.javabase.designpatterns.bridge;
 
 public class CompanyUserWorkImpl extends AbstractCompanyUserWork {
 

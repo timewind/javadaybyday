@@ -1,4 +1,4 @@
-package com.nivelle.guide.designpatterns.iterator;
+package com.nivelle.guide.javabase.designpatterns.iterator;
 
 public class User {
 

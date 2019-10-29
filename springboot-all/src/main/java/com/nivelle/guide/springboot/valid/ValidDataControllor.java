@@ -1,7 +1,7 @@
 package com.nivelle.guide.springboot.valid;
 
 
-import com.nivelle.guide.springboot.pojo.vo.ResponseResult;
+import com.nivelle.guide.javabase.pojo.vo.ResponseResult;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.MediaType;

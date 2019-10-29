@@ -1,6 +1,6 @@
-package datastructures;
+package com.nivelle.guide.javabase.datastructures;
 
-import com.nivelle.guide.springboot.pojo.User;
+import com.nivelle.guide.javabase.pojo.User;
 import sun.misc.Unsafe;
 
 import java.lang.reflect.Field;

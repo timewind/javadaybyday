@@ -1,4 +1,4 @@
-package com.nivelle.guide.javacore.thread;
+package com.nivelle.guide.javabase.javacore.thread;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.FutureTask;

@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="dubbo-api" />
         <module name="dubbo-provider" />
+        <module name="java-base" />
         <module name="springboot-all" />
       </profile>
     </annotationProcessing>
@@ -16,7 +17,7 @@
       <module name="dubbo-provider" target="1.8" />
       <module name="java-base" target="1.8" />
       <module name="javaguide" target="1.5" />
-      <module name="springboot-all" target="1.8" />
+      <module name="springboot-all" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

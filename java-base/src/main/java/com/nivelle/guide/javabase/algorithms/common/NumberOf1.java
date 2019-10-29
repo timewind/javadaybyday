@@ -1,4 +1,4 @@
-package com.nivelle.guides.javabase.algorithms.common;
+package com.nivelle.guide.javabase.algorithms.common;
 
 /**
  * 二进制中1的个数

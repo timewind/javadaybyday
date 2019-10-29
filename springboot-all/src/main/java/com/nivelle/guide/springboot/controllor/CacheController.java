@@ -2,8 +2,8 @@ package com.nivelle.guide.springboot.controllor;
 
 
 import com.nivelle.guide.springboot.cache.UserFactory;
-import com.nivelle.guide.springboot.pojo.User;
-import com.nivelle.guide.springboot.pojo.vo.ResponseResult;
+import com.nivelle.guide.javabase.pojo.User;
+import com.nivelle.guide.javabase.pojo.vo.ResponseResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

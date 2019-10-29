@@ -1,6 +1,6 @@
-package datastructures;
+package com.nivelle.guide.javabase.datastructures;
 
-import com.nivelle.guide.javacore.thread.MyAQSynchronizer;
+import com.nivelle.guide.javabase.javacore.thread.MyAQSynchronizer;
 
 /**
  * AQS

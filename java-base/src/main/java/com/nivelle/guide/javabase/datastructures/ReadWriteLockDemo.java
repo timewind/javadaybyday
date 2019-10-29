@@ -1,4 +1,5 @@
-package datastructures;
+package com.nivelle.guide.javabase.datastructures;
+
 
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 

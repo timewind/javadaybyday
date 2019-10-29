@@ -1,4 +1,4 @@
-package com.nivelle.guide.designpatterns.templatemethod;
+package com.nivelle.guide.javabase.designpatterns.templatemethod;
 
 public class Programmer extends  AbstractCompany{
 

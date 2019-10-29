@@ -1,7 +1,7 @@
 package com.nivelle.guide.springboot.controllor;
 
 import com.google.common.collect.Lists;
-import com.nivelle.guide.springboot.pojo.Menu;
+import com.nivelle.guide.javabase.pojo.Menu;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;

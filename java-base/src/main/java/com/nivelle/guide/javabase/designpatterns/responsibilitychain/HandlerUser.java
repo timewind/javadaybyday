@@ -1,4 +1,4 @@
-package com.nivelle.guide.designpatterns.responsibilitychain;
+package com.nivelle.guide.javabase.designpatterns.responsibilitychain;
 
 import lombok.Getter;
 import lombok.Setter;

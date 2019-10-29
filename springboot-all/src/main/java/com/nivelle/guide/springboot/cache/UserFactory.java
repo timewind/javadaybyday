@@ -1,7 +1,7 @@
 package com.nivelle.guide.springboot.cache;
 
 import com.google.common.collect.Lists;
-import com.nivelle.guide.springboot.pojo.User;
+import com.nivelle.guide.javabase.pojo.User;
 import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;

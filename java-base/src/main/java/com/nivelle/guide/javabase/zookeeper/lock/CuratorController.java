@@ -1,4 +1,4 @@
-package zookeeper.lock;
+package com.nivelle.guide.javabase.zookeeper.lock;
 
 /**
  * curator

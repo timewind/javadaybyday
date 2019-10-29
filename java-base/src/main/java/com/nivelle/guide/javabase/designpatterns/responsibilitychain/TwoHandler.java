@@ -1,4 +1,4 @@
-package com.nivelle.guide.designpatterns.responsibilitychain;
+package com.nivelle.guide.javabase.designpatterns.responsibilitychain;
 
 public class TwoHandler extends HandlerUser {
 

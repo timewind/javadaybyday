@@ -1,4 +1,4 @@
-package com.nivelle.guide.javacore.thread;
+package com.nivelle.guide.javabase.javacore.thread;
 
 /**
  * runnable

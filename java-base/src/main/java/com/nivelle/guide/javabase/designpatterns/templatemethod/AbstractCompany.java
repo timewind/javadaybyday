@@ -1,4 +1,4 @@
-package com.nivelle.guide.designpatterns.templatemethod;
+package com.nivelle.guide.javabase.designpatterns.templatemethod;
 
 import lombok.Getter;
 import lombok.Setter;

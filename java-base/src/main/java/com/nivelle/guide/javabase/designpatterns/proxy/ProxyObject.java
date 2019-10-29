@@ -1,6 +1,6 @@
-package com.nivelle.guide.designpatterns.proxy;
+package com.nivelle.guide.javabase.designpatterns.proxy;
 
-import com.nivelle.guide.springboot.pojo.User;
+import com.nivelle.guide.javabase.pojo.User;
 
 import java.util.Objects;
 

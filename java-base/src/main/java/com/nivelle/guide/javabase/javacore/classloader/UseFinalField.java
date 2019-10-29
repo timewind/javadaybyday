@@ -1,4 +1,4 @@
-package com.nivelle.guide.javacore.classloader;
+package com.nivelle.guide.javabase.javacore.classloader;
 
 /**
  * 静态常量初始化不会触发类的初始化

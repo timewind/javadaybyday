@@ -1,4 +1,5 @@
-package com.nivelle.guide.javacore.java8;
+package com.nivelle.guide.javabase.javacore.java8;
+
 
 @FunctionalInterface
 public interface FunctionTest<S,T> {

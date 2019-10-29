@@ -1,4 +1,4 @@
-package datastructures;
+package com.nivelle.guide.javabase.datastructures;
 
 /**
  * Long

@@ -1,7 +1,7 @@
 package com.nivelle.guide.springboot.controllor;
 
 import com.google.common.collect.Lists;
-import com.nivelle.guide.springboot.pojo.Book;
+import com.nivelle.guide.javabase.pojo.Book;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

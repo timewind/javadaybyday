@@ -1,4 +1,4 @@
-package com.nivelle.guide.javacore.java8;
+package com.nivelle.guide.javabase.javacore.java8;
 
 public interface MethodTestFactory<M extends MethodTest> {
 

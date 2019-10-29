@@ -1,4 +1,4 @@
-package com.nivelle.guide.javacore.instance;
+package com.nivelle.guide.javabase.javacore.instance;
 
 public class InstanceVariableInitializer {
 

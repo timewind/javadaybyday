@@ -1,4 +1,4 @@
-package com.nivelle.guide.javacore.proxy;
+package com.nivelle.guide.javabase.javacore.proxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

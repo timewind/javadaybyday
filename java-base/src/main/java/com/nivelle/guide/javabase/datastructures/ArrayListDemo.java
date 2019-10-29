@@ -1,6 +1,6 @@
-package datastructures;
+package com.nivelle.guide.javabase.datastructures;
 
-import com.nivelle.guide.springboot.enums.MyEnum;
+import com.nivelle.guide.javabase.enums.MyEnum;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
@@ -40,6 +40,7 @@ public class ArrayListDemo {
         arrayList.add(null);
         arrayList.add(null);
         System.out.println(arrayList);
+
 
         /**
          * ArrayList数据底层都保存在Object[]数组中,而且空集合会在第一次添加元素的时候进行底层扩展

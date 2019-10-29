@@ -1,4 +1,4 @@
-package com.nivelle.guides.javabase.algorithms.common;
+package com.nivelle.guide.javabase.algorithms.common;
 
 /**
  * 把一个数组最开始的若干个元素搬到数组的末尾，我们称之为数组的旋转。

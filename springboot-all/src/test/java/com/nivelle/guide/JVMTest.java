@@ -1,7 +1,7 @@
 package com.nivelle.guide;
 
 import com.google.common.collect.Lists;
-import com.nivelle.guide.springboot.pojo.User;
+import com.nivelle.guide.javabase.pojo.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,6 +1,6 @@
-package datastructures;
+package com.nivelle.guide.javabase.datastructures;
 
-import com.nivelle.guide.springboot.pojo.User;
+import com.nivelle.guide.javabase.pojo.User;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
@@ -37,7 +37,7 @@ public class ReflectDemo {
         Class driver = Class.forName("com.mysql.cj.jdbc.Driver");
         System.out.println(driver);
 
-        Class userClass = Class.forName("com.nivelle.guide.springboot.pojo.User");
+        Class userClass = Class.forName("com.nivelle.guide.javabase.pojo.User");
         System.out.println("反射获取的Class对象:" + userClass);
 
         //获取指定参数类型的构造函数,然后创建

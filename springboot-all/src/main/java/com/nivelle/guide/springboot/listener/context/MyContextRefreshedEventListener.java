@@ -1,10 +1,9 @@
 package com.nivelle.guide.springboot.listener.context;
 
-import com.nivelle.guide.springboot.pojo.TimeLine;
+import com.nivelle.guide.javabase.pojo.TimeLine;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
-import org.springframework.stereotype.Component;
 
 import java.util.Date;
 

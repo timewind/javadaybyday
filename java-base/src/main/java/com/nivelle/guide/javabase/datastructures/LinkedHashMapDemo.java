@@ -1,4 +1,4 @@
-package datastructures;
+package com.nivelle.guide.javabase.datastructures;
 
 import java.util.Collection;
 import java.util.LinkedHashMap;

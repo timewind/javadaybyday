@@ -1,8 +1,8 @@
-package com.nivelle.guide.javacore;
+package com.nivelle.guide.javabase.javacore;
 
-import com.nivelle.guide.javacore.instance.Father;
-import com.nivelle.guide.javacore.instance.Son;
-import com.nivelle.guide.springboot.pojo.User;
+import com.nivelle.guide.javabase.javacore.instance.Father;
+import com.nivelle.guide.javabase.javacore.instance.Son;
+import com.nivelle.guide.javabase.pojo.User;
 
 import java.util.ArrayList;
 import java.util.List;

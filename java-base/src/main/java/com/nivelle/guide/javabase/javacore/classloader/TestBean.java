@@ -1,4 +1,4 @@
-package com.nivelle.guide.javacore.classloader;
+package com.nivelle.guide.javabase.javacore.classloader;
 
 
 import lombok.Getter;

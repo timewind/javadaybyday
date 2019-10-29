@@ -2,7 +2,7 @@ package com.nivelle.guide.springboot.controllor;
 
 import com.nivelle.guide.springboot.entity.ActivityPvEntity;
 import com.nivelle.guide.springboot.params.ActivityParams;
-import com.nivelle.guide.springboot.pojo.vo.ResponseResult;
+import com.nivelle.guide.javabase.pojo.vo.ResponseResult;
 import com.nivelle.guide.springboot.service.ActivityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

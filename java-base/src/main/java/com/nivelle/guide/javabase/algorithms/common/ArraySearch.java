@@ -1,4 +1,4 @@
-package com.nivelle.guides.javabase.algorithms.common;
+package com.nivelle.guide.javabase.algorithms.common;
 
 /**
  * 二维数组的查找

@@ -1,6 +1,6 @@
 package com.nivelle.guide.springboot.hock;
 
-import com.nivelle.guide.springboot.pojo.TimeLine;
+import com.nivelle.guide.javabase.pojo.TimeLine;
 import org.springframework.beans.factory.FactoryBean;
 import org.springframework.stereotype.Component;
 

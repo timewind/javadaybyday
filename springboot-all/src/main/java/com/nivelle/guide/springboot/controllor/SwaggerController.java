@@ -1,7 +1,7 @@
 package com.nivelle.guide.springboot.controllor;
 
 import com.google.common.collect.Lists;
-import com.nivelle.guide.springboot.pojo.Menu;
+import com.nivelle.guide.javabase.pojo.Menu;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;

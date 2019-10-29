@@ -1,6 +1,6 @@
-package datastructures;
+package com.nivelle.guide.javabase.datastructures;
 
-import com.nivelle.guide.springboot.enums.MyEnum;
+import com.nivelle.guide.javabase.enums.MyEnum;
 
 /**
  * Enum
@@ -19,8 +19,6 @@ public class EnumDemo {
         MyEnum oneEnum = MyEnum.ONE;
 
         MyEnum oneEnum2 = MyEnum.ONE;
-
-
         MyEnum twoEnum = MyEnum.TWO;
 
 

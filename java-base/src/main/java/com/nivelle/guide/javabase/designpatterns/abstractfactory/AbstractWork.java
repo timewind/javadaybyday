@@ -1,4 +1,4 @@
-package com.nivelle.guide.designpatterns.abstractfactory;
+package com.nivelle.guide.javabase.designpatterns.abstractfactory;
 
 //抽象工作
 public interface AbstractWork {

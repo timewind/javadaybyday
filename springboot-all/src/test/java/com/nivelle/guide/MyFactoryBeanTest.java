@@ -2,8 +2,8 @@ package com.nivelle.guide;
 
 
 import com.nivelle.guide.springboot.hock.MyFactoryBean;
-import com.nivelle.guide.springboot.pojo.TimeLine;
-import com.nivelle.guide.springboot.pojo.User;
+import com.nivelle.guide.javabase.pojo.TimeLine;
+import com.nivelle.guide.javabase.pojo.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.nivelle.guide.javacore.jvm;
+package com.nivelle.guide.javabase.javacore.jvm;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,6 @@
 package com.nivelle.guide.configbean;
 
-import com.nivelle.guide.springboot.enums.ErrorStatus;
+import com.nivelle.guide.javabase.enums.ErrorStatus;
 import org.apache.shiro.authz.UnauthorizedException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -32,6 +32,7 @@ public class ControllerExceptionAdvice {
         if (ex != null) {
             message = ex.getMessage();
         }
+
         int errorCode = ErrorStatus.BADREQUEST.getErrorCode();
         if (ex instanceof MissingServletRequestParameterException) {  // 如果请求参数为必填但没有传则抛异常
             MissingServletRequestParameterException e =

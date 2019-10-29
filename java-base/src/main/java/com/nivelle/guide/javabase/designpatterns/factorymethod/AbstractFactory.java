@@ -1,7 +1,7 @@
-package com.nivelle.guide.designpatterns.factorymethod;
+package com.nivelle.guide.javabase.designpatterns.factorymethod;
 
-import com.nivelle.guide.springboot.pojo.Compont;
-import com.nivelle.guide.springboot.pojo.Menu;
+import com.nivelle.guide.javabase.pojo.Compont;
+import com.nivelle.guide.javabase.pojo.Menu;
 
 /**
  * 使用工程方法模式实现

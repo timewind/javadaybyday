@@ -1,4 +1,4 @@
-package com.nivelle.guide.javacore.proxy;
+package com.nivelle.guide.javabase.javacore.proxy;
 
 public class CGlibHosee {
 

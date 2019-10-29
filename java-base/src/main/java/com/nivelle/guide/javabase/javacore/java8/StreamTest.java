@@ -1,7 +1,7 @@
-package com.nivelle.guide.javacore.java8;
+package com.nivelle.guide.javabase.javacore.java8;
 
 import com.google.common.collect.Lists;
-import com.nivelle.guide.springboot.pojo.User;
+import com.nivelle.guide.javabase.pojo.User;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
@@ -24,6 +24,7 @@ public class StreamTest {
 
     List<User> users = new ArrayList<>();
     List<User> users2 = new ArrayList<>();
+
 
 
     {

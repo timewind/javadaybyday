@@ -1,4 +1,4 @@
-package com.nivelle.guides.javabase.algorithms.common;
+package com.nivelle.guide.javabase.algorithms.common;
 
 import java.util.Arrays;
 import java.util.Vector;
