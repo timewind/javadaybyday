@@ -2,347 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09fae382-911d-4cd0-8d25-ce0025512f0a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ArrayDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/zookeeper/CuratorConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/javaguides.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/javaguides.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/JavaBaseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/JavaBaseApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/common/ArraySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/common/ArraySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/common/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/common/Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/common/MinElementArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/common/MinElementArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/common/NumberOf1.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/common/NumberOf1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/common/Power.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/common/Power.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/common/PrintArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/common/PrintArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/common/RebuildTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/common/RebuildTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/common/StackForQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/common/StackForQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/common/StringReplaceBlank.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/common/StringReplaceBlank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/common/reOrderArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/common/reOrderArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ArrayListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ArrayListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/BigDecimalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/BigDecimalDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ConcurrentHashMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ConcurrentHashMapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/CopyOnWriterArrayListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/CopyOnWriterArrayListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/CountDownLatchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/CountDownLatchDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/CyclicBarrierDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/CyclicBarrierDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/EnumDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/EnumDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/FloatDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/FloatDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/HashMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/HashMapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/HashSetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/HashSetDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/IntegerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/IntegerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/LinkedHashMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/LinkedHashMapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/LinkedHashSetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/LinkedHashSetDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/LinkedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/LinkedListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/LockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/LockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/LongDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/LongDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/MyAQSynchronizerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/MyAQSynchronizerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ReadWriteLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ReadWriteLockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ReentrantLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ReentrantLockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ReflectDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ReflectDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/StackDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/StackDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/StringDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/StringDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ThreadLocalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ThreadLocalDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ThreadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ThreadPoolDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/TreeMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/TreeMapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/UnsafeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/UnsafeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/WeakHashMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/WeakHashMapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/abstractfactory/AbstractWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/abstractfactory/AbstractWork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/abstractfactory/AdministrationUserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/abstractfactory/AdministrationUserFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/abstractfactory/AdministrationWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/abstractfactory/AdministrationWork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/abstractfactory/CodeWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/abstractfactory/CodeWork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/abstractfactory/CompanyUserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/abstractfactory/CompanyUserFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/abstractfactory/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/abstractfactory/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/abstractfactory/ProgrommerUserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/abstractfactory/ProgrommerUserFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/adapter/Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/adapter/Adapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/adapter/Banner.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/adapter/Banner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/adapter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/adapter/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/adapter/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/adapter/Print.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/adapter/PrintBanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/adapter/PrintBanner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/adapter/Target.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/adapter/Target.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/bridge/AbstractCompanyUserWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/bridge/AbstractCompanyUserWork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/bridge/CompanyUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/bridge/CompanyUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/bridge/CompanyUserWorkImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/bridge/CompanyUserWorkImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/bridge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/bridge/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/bridge/Programmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/bridge/Programmer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/factorymethod/AbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/factorymethod/AbstractFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/factorymethod/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/factorymethod/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/factorymethod/MenuFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/factorymethod/MenuFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/iterator/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/iterator/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/iterator/CompanyIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/iterator/CompanyIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/iterator/Iterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/iterator/Iterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/iterator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/iterator/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/iterator/Organize.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/iterator/Organize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/iterator/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/iterator/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/proxy/CompanyUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/proxy/CompanyUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/proxy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/proxy/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/proxy/ProxyObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/proxy/ProxyObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/proxy/RealObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/proxy/RealObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/responsibilitychain/HandlerUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/responsibilitychain/HandlerUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/responsibilitychain/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/responsibilitychain/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/responsibilitychain/OneHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/responsibilitychain/OneHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/responsibilitychain/ThreeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/responsibilitychain/ThreeHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/responsibilitychain/TwoHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/responsibilitychain/TwoHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/strategy/LeftRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/strategy/LeftRead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/strategy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/strategy/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/strategy/RightRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/strategy/RightRead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/strategy/WorkStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/strategy/WorkStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/templatemethod/AbstractCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/templatemethod/AbstractCompany.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/templatemethod/Boss.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/templatemethod/Boss.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/templatemethod/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/templatemethod/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/templatemethod/Programmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/templatemethod/Programmer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/JavaKeyWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/JavaKeyWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/JavaMathDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/JavaMathDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/inherited/DBTable1.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/inherited/DBTable1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/inherited/DBTable2.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/inherited/DBTable2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/inherited/DeclaredOrNot.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/inherited/DeclaredOrNot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/inherited/Sub.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/inherited/Sub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/inherited/Super.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/inherited/Super.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/myannotion/ChineseUserImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/myannotion/ChineseUserImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/myannotion/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/myannotion/Container.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/myannotion/EnglishUserImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/myannotion/EnglishUserImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/myannotion/IUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/myannotion/IUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/myannotion/MyAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/myannotion/MyAnnotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/myannotion/MyAnnotationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/myannotion/MyAnnotationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/myannotion/UserLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/myannotion/UserLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/bug/StackErrorMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/bug/StackErrorMock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/bug/StringOomMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/bug/StringOomMock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/classloader/ClassForNameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/classloader/ClassForNameTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/classloader/ClassLoaderMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/classloader/ClassLoaderMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/classloader/ClassLoaderOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/classloader/ClassLoaderOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/classloader/MyClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/classloader/MyClassLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/classloader/TestBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/classloader/TestBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/classloader/UseFinalField.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/classloader/UseFinalField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/Bar.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/Bar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/ConstructorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/ConstructorExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/Father.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/Father.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/Foo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/Foo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/InstanceInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/InstanceInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/InstanceVariableInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/InstanceVariableInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/Son.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/Son.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/java8/FormulaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/java8/FormulaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/java8/FormulaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/java8/FormulaServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/java8/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/java8/FunctionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/java8/Java8ApiDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/java8/Java8ApiDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/java8/MethodTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/java8/MethodTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/java8/MethodTestFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/java8/MethodTestFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/java8/StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/java8/StreamTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/jvm/HeapOoMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/jvm/HeapOoMock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/jvm/PermGenOomMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/jvm/PermGenOomMock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/CGlibHosee.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/CGlibHosee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/CGlibHoseeProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/CGlibHoseeProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/CGlibProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/CGlibProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/DynamicProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/DynamicProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/HoseeDynamic.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/HoseeDynamic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/HoseeDynamicimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/HoseeDynamicimpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/MyProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/MyProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/NotInitialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/NotInitialization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/SClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/SClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/SSClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/SSClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/SubClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/SubClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/MyAQSynchronizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/MyAQSynchronizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/MySynchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/MySynchronized.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/SynchronizedKeyWordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/SynchronizedKeyWordTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadCallable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadCondition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadDaemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadDaemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadJoin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadPriority.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadPriority.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadReentrantLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadReentrantLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadRunnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadSecurity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadSleep.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadSleep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadWaitNotify.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadWaitNotify.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadYield.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadYield.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/zookeeper/leader/LeaderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/zookeeper/leader/LeaderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/zookeeper/leader/SelectorClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/zookeeper/leader/SelectorClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/zookeeper/lock/CuratorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/zookeeper/lock/CuratorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/zookeeper/lock/DistributedLockByCurator.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/zookeeper/lock/DistributedLockByCurator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/test/java/com/nivelle/guide/javabase/JavaBaseApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/algorithms/common/ArraySearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/algorithms/common/Fibonacci.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/algorithms/common/MinElementArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/algorithms/common/NumberOf1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/algorithms/common/Power.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/algorithms/common/PrintArrayList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/algorithms/common/RebuildTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/algorithms/common/StackForQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/algorithms/common/StringReplaceBlank.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/algorithms/common/reOrderArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/algorithms/sort/BubbleSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/algorithms/sort/HeapSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/algorithms/sort/InsertSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/algorithms/sort/MergeSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/algorithms/sort/QuickSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/algorithms/sort/RadixSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/algorithms/sort/SelectSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/algorithms/sort/ShellSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/algorithms/sort/binarysorttree/BinarySortTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/algorithms/sort/binarysorttree/Node.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/algorithms/sort/binarysorttree/TestBinarySortTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/configbean/ControllerExceptionAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/configbean/ControllerExceptionAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/datastructures/ArrayListDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/datastructures/BigDecimalDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/datastructures/ConcurrentHashMapDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/datastructures/CopyOnWriterArrayListDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/datastructures/CountDownLatchDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/datastructures/CyclicBarrierDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/datastructures/EnumDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/datastructures/FloatDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/datastructures/HashMapDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/datastructures/HashSetDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/datastructures/IntegerDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/datastructures/LinkedHashMapDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/datastructures/LinkedHashSetDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/datastructures/LinkedListDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/datastructures/LockDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/datastructures/LongDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/datastructures/MyAQSynchronizerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/datastructures/ReadWriteLockDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/datastructures/ReentrantLockDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/datastructures/ReflectDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/datastructures/StackDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/datastructures/StringDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/datastructures/ThreadLocalDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/datastructures/ThreadPoolDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/datastructures/TreeMapDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/datastructures/UnsafeDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/datastructures/WeakHashMapDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/abstractfactory/AbstractWork.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/abstractfactory/AdministrationUserFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/abstractfactory/AdministrationWork.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/abstractfactory/CodeWork.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/abstractfactory/CompanyUserFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/abstractfactory/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/abstractfactory/ProgrommerUserFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/adapter/Adapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/adapter/Banner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/adapter/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/adapter/Print.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/adapter/PrintBanner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/adapter/Target.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/bridge/AbstractCompanyUserWork.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/bridge/CompanyUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/bridge/CompanyUserWorkImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/bridge/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/bridge/Programmer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/factorymethod/AbstractFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/factorymethod/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/factorymethod/MenuFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/iterator/Company.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/iterator/CompanyIterator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/iterator/Iterator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/iterator/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/iterator/Organize.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/iterator/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/proxy/CompanyUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/proxy/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/proxy/ProxyObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/proxy/RealObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/responsibilitychain/HandlerUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/responsibilitychain/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/responsibilitychain/OneHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/responsibilitychain/ThreeHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/responsibilitychain/TwoHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/strategy/LeftRead.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/strategy/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/strategy/RightRead.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/strategy/WorkStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/templatemethod/AbstractCompany.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/templatemethod/Boss.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/templatemethod/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/templatemethod/Programmer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/JavaKeyWord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/JavaMathDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/annotion/inherited/DBTable1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/annotion/inherited/DBTable2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/annotion/inherited/DeclaredOrNot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/annotion/inherited/Sub.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/annotion/inherited/Super.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/annotion/myannotion/ChineseUserImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/annotion/myannotion/Container.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/annotion/myannotion/EnglishUserImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/annotion/myannotion/IUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/annotion/myannotion/MyAnnotation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/annotion/myannotion/MyAnnotationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/annotion/myannotion/UserLogin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/bug/StackErrorMock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/bug/StringOomMock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/classloader/ClassForNameTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/classloader/ClassLoaderMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/classloader/ClassLoaderOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/classloader/MyClassLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/classloader/TestBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/classloader/UseFinalField.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/instance/Bar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/instance/ConstructorExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/instance/Father.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/instance/Foo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/instance/InstanceInitializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/instance/InstanceVariableInitializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/instance/Son.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/instance/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/java8/FormulaService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/java8/FormulaServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/java8/FunctionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/java8/Java8ApiDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/java8/MethodTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/java8/MethodTestFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/java8/StreamTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/jvm/HeapOoMock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/jvm/PermGenOomMock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/proxy/CGlibHosee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/proxy/CGlibHoseeProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/proxy/CGlibProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/proxy/DynamicProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/proxy/HoseeDynamic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/proxy/HoseeDynamicimpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/proxy/MyProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/proxy/NotInitialization.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/proxy/SClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/proxy/SSClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/proxy/SubClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/thread/MyAQSynchronizer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/thread/MySynchronized.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/thread/SynchronizedKeyWordTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/thread/ThreadCallable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/thread/ThreadCondition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/thread/ThreadDaemon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/thread/ThreadJoin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/thread/ThreadPriority.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/thread/ThreadReentrantLock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/thread/ThreadRunnable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/thread/ThreadSecurity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/thread/ThreadSleep.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/thread/ThreadWaitNotify.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/javacore/thread/ThreadYield.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/rabbitmq/RabbitMqController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/rabbitmq/RabbitMqController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/redis/RedisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/redis/RedisController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/cache/UserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/cache/UserFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/controllor/ActivityPvController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/controllor/ActivityPvController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/controllor/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/controllor/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/controllor/CacheController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/controllor/CacheController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/controllor/MenuControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/controllor/MenuControllor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/controllor/SwaggerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/controllor/SwaggerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/controllor/TimeLineController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/controllor/TimeLineController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/enums/ErrorStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/enums/ErrorStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/enums/MyEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/enums/MyEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/hock/MyFactoryBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/hock/MyFactoryBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/listener/context/MyContextRefreshedEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/listener/context/MyContextRefreshedEventListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/pojo/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/pojo/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/pojo/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/pojo/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/pojo/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/pojo/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/pojo/Compont.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/pojo/Compont.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/pojo/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/pojo/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/pojo/TimeLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/pojo/TimeLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/pojo/vo/ResponseResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/pojo/vo/ResponseResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/valid/ValidDataControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/valid/ValidDataControllor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/test/java/com/nivelle/guide/JVMTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-all/src/test/java/com/nivelle/guide/JVMTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/test/java/com/nivelle/guide/MyFactoryBeanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-all/src/test/java/com/nivelle/guide/MyFactoryBeanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ArrayDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ArrayDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dubbo-provider/target/" />
     <ignored path="$PROJECT_DIR$/dubbo-api/target/" />
@@ -378,115 +39,97 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JavaBaseApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/JavaBaseApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#260#261#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpringBootAllApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/SpringBootAllApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CuratorConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/zookeeper/CuratorConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="34" lean-forward="true" selection-start-column="8" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayListDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ArrayListDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2422">
-              <caret line="164" column="17" selection-start-line="164" selection-start-column="8" selection-end-line="164" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ArrayDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ArrayDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-              <folding>
-                <element signature="e#221#222#0" expanded="true" />
-                <element signature="e#243#244#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="289">
+              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Arrays.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProtoStuffSerializerUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/redis/ProtoStuffSerializerUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisCommandService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/redis/RedisCommandService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/redis/RedisController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyBeanFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/hock/MyBeanFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyFactoryBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/hock/MyFactoryBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyImportBeanDefinitionRegistrar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/hock/MyImportBeanDefinitionRegistrar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InitResource1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/initresource/InitResource1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/valid/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Arrays.java" pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58833">
-              <caret line="3799" column="28" selection-start-line="3799" selection-start-column="19" selection-end-line="3799" selection-end-column="28" />
+            <state relative-caret-position="21">
+              <caret line="3805" column="34" selection-start-line="3805" selection-start-column="25" selection-end-line="3805" selection-end-column="34" />
               <folding>
                 <element signature="e#177013#177014#0" expanded="true" />
                 <element signature="e#177054#177055#0" expanded="true" />
                 <element signature="e#177353#177354#0" expanded="true" />
                 <element signature="e#177410#177411#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-all/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="13" selection-start-line="12" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-base/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ControllerExceptionAdvice.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/configbean/ControllerExceptionAdvice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -511,6 +154,7 @@
       <find>zoo</find>
       <find>fasterxml</find>
       <find>curator.connectionTimeoutMs</find>
+      <find>asList</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -625,87 +269,6 @@
             <path>
               <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="java-base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="java-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="java-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="java-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="java-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="java-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nivelle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="java-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nivelle" type="462c0819:PsiDirectoryNode" />
-              <item name="guide" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="java-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nivelle" type="462c0819:PsiDirectoryNode" />
-              <item name="guide" type="462c0819:PsiDirectoryNode" />
-              <item name="javabase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="java-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nivelle" type="462c0819:PsiDirectoryNode" />
-              <item name="guide" type="462c0819:PsiDirectoryNode" />
-              <item name="javabase" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -900,7 +463,7 @@
       <workItem from="1572356546520" duration="3048000" />
       <workItem from="1572360359733" duration="1345000" />
       <workItem from="1572361715853" duration="608000" />
-      <workItem from="1572362330696" duration="2534000" />
+      <workItem from="1572362330696" duration="3110000" />
     </task>
     <task id="LOCAL-00001">
       <created>1571757529298</created>
@@ -951,15 +514,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572361401788</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[将基础模块独立出来]">
+      <created>1572364984944</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1572364984944</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15021000" />
+    <option name="totallyTimeSpent" value="15597000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-1080" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49840257" weight="0.5234216" />
@@ -1077,76 +646,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/CGlibHoseeProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/CGlibProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/DynamicProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/HoseeDynamic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/HoseeDynamicimpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/MyProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/NotInitialization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/SClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/SSClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/SubClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/MyAQSynchronizer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1443,35 +942,101 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ArrayListDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2422">
-          <caret line="164" column="17" selection-start-line="164" selection-start-column="8" selection-end-line="164" selection-end-column="17" />
+        <state relative-caret-position="417">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ArrayDemo.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding>
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="106" column="13" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="200" column="24" selection-start-line="200" selection-start-column="24" selection-end-line="200" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58833">
-          <caret line="3799" column="28" selection-start-line="3799" selection-start-column="19" selection-end-line="3799" selection-end-column="28" />
+        <state relative-caret-position="21">
+          <caret line="3805" column="34" selection-start-line="3805" selection-start-column="25" selection-end-line="3805" selection-end-column="34" />
           <folding>
             <element signature="e#177013#177014#0" expanded="true" />
             <element signature="e#177054#177055#0" expanded="true" />
             <element signature="e#177353#177354#0" expanded="true" />
             <element signature="e#177410#177411#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ArrayDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/redis/ProtoStuffSerializerUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/redis/RedisCommandService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/redis/RedisController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/hock/MyBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/hock/MyFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/hock/MyImportBeanDefinitionRegistrar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/initresource/InitResource1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/valid/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
