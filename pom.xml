@@ -16,9 +16,13 @@
 
 
     <modules>
+        <module>base</module>
+
         <module>dubbo-api</module>
         <module>dubbo-provider</module>
         <module>springboot-all</module>
+        <module>java-base</module>
+
     </modules>
 
     

@@ -1,7 +1,6 @@
 package com.nivelle.guide;
 
 import com.nivelle.guide.configbean.LearnConfig;
-import com.nivelle.guide.javacore.instance.Son;
 import com.nivelle.guide.springboot.dao.ActivityDaoImpl;
 import com.nivelle.guide.springboot.entity.ActivityPvEntity;
 import com.nivelle.guide.springboot.listener.springApplicationRunListeners.MyEvent;
@@ -39,13 +38,11 @@ public class TestController {
 
         String desc = learnConfig.getDesc();
 
-        Son man = new Son(1,
-
-                "nivelle", 100);
+       // Son man = new Son(1, "nivelle", 100);
 
         System.out.println(desc);
 
-        System.out.println(man.getScore() + man.getName() + man.getAge());
+        //System.out.println(man.getScore() + man.getName() + man.getAge());
 
         return "hello world my name is " + desc;
     }
@@ -54,9 +51,10 @@ public class TestController {
     @ResponseBody
     public String hello() {
 
-        Son man = new Son(1, "nivelle", 100);
-        System.out.println(man.getScore() + man.getName() + man.getAge());
-        return "class extends name is:" + man.getName() + " " + "score is: " + man.getScore();
+//        Son man = new Son(1, "nivelle", 100);
+//        System.out.println(man.getScore() + man.getName() + man.getAge());
+//        return "class extends name is:" + man.getName() + " " + "score is: " + man.getScore();
+        return "";
     }
 
     /**

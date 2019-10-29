@@ -2,17 +2,350 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09fae382-911d-4cd0-8d25-ce0025512f0a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_34_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_yetus_audience_annotations_0_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_jute_3_5_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/JavaBaseApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/common/ArraySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/common/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/common/MinElementArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/common/NumberOf1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/common/Power.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/common/PrintArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/common/RebuildTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/common/StackForQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/common/StringReplaceBlank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/common/reOrderArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/sort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/sort/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/sort/InsertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/sort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/sort/RadixSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/sort/SelectSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/sort/ShellSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/sort/binarysorttree/BinarySortTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/sort/binarysorttree/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/sort/binarysorttree/TestBinarySortTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ArrayListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/BigDecimalDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ConcurrentHashMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/CopyOnWriterArrayListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/CountDownLatchDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/CyclicBarrierDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/EnumDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/FloatDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/HashMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/HashSetDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/IntegerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/LinkedHashMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/LinkedHashSetDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/LinkedListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/LockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/LongDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/MyAQSynchronizerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ReadWriteLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ReentrantLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ReflectDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/StackDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/StringDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ThreadLocalDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ThreadPoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/TreeMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/UnsafeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/WeakHashMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/abstractfactory/AbstractWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/abstractfactory/AdministrationUserFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/abstractfactory/AdministrationWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/abstractfactory/CodeWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/abstractfactory/CompanyUserFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/abstractfactory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/abstractfactory/ProgrommerUserFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/adapter/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/adapter/Banner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/adapter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/adapter/Print.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/adapter/PrintBanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/adapter/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/bridge/AbstractCompanyUserWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/bridge/CompanyUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/bridge/CompanyUserWorkImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/bridge/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/bridge/Programmer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/factorymethod/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/factorymethod/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/factorymethod/MenuFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/iterator/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/iterator/CompanyIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/iterator/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/iterator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/iterator/Organize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/iterator/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/proxy/CompanyUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/proxy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/proxy/ProxyObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/proxy/RealObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/responsibilitychain/HandlerUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/responsibilitychain/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/responsibilitychain/OneHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/responsibilitychain/ThreeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/responsibilitychain/TwoHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/strategy/LeftRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/strategy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/strategy/RightRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/strategy/WorkStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/templatemethod/AbstractCompany.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/templatemethod/Boss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/templatemethod/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/templatemethod/Programmer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/JavaKeyWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/JavaMathDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/inherited/DBTable1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/inherited/DBTable2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/inherited/DeclaredOrNot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/inherited/Sub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/inherited/Super.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/myannotion/ChineseUserImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/myannotion/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/myannotion/EnglishUserImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/myannotion/IUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/myannotion/MyAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/myannotion/MyAnnotationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/annotion/myannotion/UserLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/bug/StackErrorMock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/bug/StringOomMock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/classloader/ClassForNameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/classloader/ClassLoaderMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/classloader/ClassLoaderOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/classloader/MyClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/classloader/TestBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/classloader/UseFinalField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/Bar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/ConstructorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/Father.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/Foo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/InstanceInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/InstanceVariableInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/Son.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/java8/FormulaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/java8/FormulaServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/java8/FunctionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/java8/Java8ApiDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/java8/MethodTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/java8/MethodTestFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/java8/StreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/jvm/HeapOoMock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/jvm/PermGenOomMock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/CGlibHosee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/CGlibHoseeProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/CGlibProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/DynamicProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/HoseeDynamic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/HoseeDynamicimpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/MyProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/NotInitialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/SClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/SSClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/SubClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/MyAQSynchronizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/MySynchronized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/SynchronizedKeyWordTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadCallable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadDaemon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadPriority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadReentrantLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadSecurity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadSleep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadWaitNotify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadYield.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/test/java/com/nivelle/guide/javabase/JavaBaseApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/algorithms/common/ArraySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/algorithms/common/Fibonacci.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/algorithms/common/MinElementArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/algorithms/common/NumberOf1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/algorithms/common/Power.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/algorithms/common/PrintArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/algorithms/common/RebuildTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/algorithms/common/StackForQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/algorithms/common/StringReplaceBlank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/algorithms/common/reOrderArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/algorithms/sort/BubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/algorithms/sort/HeapSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/algorithms/sort/InsertSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/algorithms/sort/MergeSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/algorithms/sort/QuickSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/algorithms/sort/RadixSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/algorithms/sort/SelectSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/algorithms/sort/ShellSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/algorithms/sort/binarysorttree/BinarySortTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/algorithms/sort/binarysorttree/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/algorithms/sort/binarysorttree/TestBinarySortTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/datastructures/ArrayListDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/datastructures/BigDecimalDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/datastructures/ConcurrentHashMapDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/datastructures/CopyOnWriterArrayListDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/datastructures/CountDownLatchDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/datastructures/CyclicBarrierDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/datastructures/EnumDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/datastructures/FloatDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/datastructures/HashMapDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/datastructures/HashSetDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/datastructures/IntegerDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/datastructures/LinkedHashMapDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/datastructures/LinkedHashSetDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/datastructures/LinkedListDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/datastructures/LockDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/datastructures/LongDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/datastructures/MyAQSynchronizerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/datastructures/ReadWriteLockDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/datastructures/ReentrantLockDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/datastructures/ReflectDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/datastructures/StackDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/datastructures/StringDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/datastructures/ThreadLocalDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/datastructures/ThreadPoolDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/datastructures/TreeMapDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/datastructures/UnsafeDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/datastructures/WeakHashMapDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/abstractfactory/AbstractWork.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/abstractfactory/AdministrationUserFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/abstractfactory/AdministrationWork.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/abstractfactory/CodeWork.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/abstractfactory/CompanyUserFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/abstractfactory/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/abstractfactory/ProgrommerUserFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/adapter/Adapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/adapter/Banner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/adapter/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/adapter/Print.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/adapter/PrintBanner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/adapter/Target.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/bridge/AbstractCompanyUserWork.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/bridge/CompanyUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/bridge/CompanyUserWorkImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/bridge/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/bridge/Programmer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/factorymethod/AbstractFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/factorymethod/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/factorymethod/MenuFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/iterator/Company.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/iterator/CompanyIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/iterator/Iterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/iterator/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/iterator/Organize.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/iterator/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/proxy/CompanyUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/proxy/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/proxy/ProxyObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/proxy/RealObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/responsibilitychain/HandlerUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/responsibilitychain/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/responsibilitychain/OneHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/responsibilitychain/ThreeHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/responsibilitychain/TwoHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/strategy/LeftRead.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/strategy/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/strategy/RightRead.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/strategy/WorkStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/templatemethod/AbstractCompany.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/templatemethod/Boss.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/templatemethod/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/designpatterns/templatemethod/Programmer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/JavaKeyWord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/JavaMathDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/annotion/inherited/DBTable1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/annotion/inherited/DBTable2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/annotion/inherited/DeclaredOrNot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/annotion/inherited/Sub.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/annotion/inherited/Super.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/annotion/myannotion/ChineseUserImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/annotion/myannotion/Container.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/annotion/myannotion/EnglishUserImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/annotion/myannotion/IUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/annotion/myannotion/MyAnnotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/annotion/myannotion/MyAnnotationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/annotion/myannotion/UserLogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/bug/StackErrorMock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/bug/StringOomMock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/classloader/ClassForNameTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/classloader/ClassLoaderMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/classloader/ClassLoaderOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/classloader/MyClassLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/classloader/TestBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/classloader/UseFinalField.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/instance/Bar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/instance/ConstructorExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/instance/Father.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/instance/Foo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/instance/InstanceInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/instance/InstanceVariableInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/instance/Son.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/instance/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/java8/FormulaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/java8/FormulaServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/java8/FunctionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/java8/Java8ApiDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/java8/MethodTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/java8/MethodTestFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/java8/StreamTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/jvm/HeapOoMock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/jvm/PermGenOomMock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/proxy/CGlibHosee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/proxy/CGlibHoseeProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/proxy/CGlibProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/proxy/DynamicProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/proxy/HoseeDynamic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/proxy/HoseeDynamicimpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/proxy/MyProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/proxy/NotInitialization.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/proxy/SClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/proxy/SSClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/proxy/SubClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/thread/MyAQSynchronizer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/thread/MySynchronized.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/thread/SynchronizedKeyWordTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/thread/ThreadCallable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/thread/ThreadCondition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/thread/ThreadDaemon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/thread/ThreadJoin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/thread/ThreadPriority.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/thread/ThreadReentrantLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/thread/ThreadRunnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/thread/ThreadSecurity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/thread/ThreadSleep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/thread/ThreadWaitNotify.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/javacore/thread/ThreadYield.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-all/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/SpringBootAllApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/SpringBootAllApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/build/CompanyUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/designpatterns/build/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/zookeeper/leader/LeaderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/zookeeper/leader/LeaderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/zookeeper/leader/SelectorClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/zookeeper/leader/SelectorClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/zookeeper/lock/CuratorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/zookeeper/lock/CuratorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/zookeeper/lock/DistributedLockByCurator.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/zookeeper/lock/DistributedLockByCurator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/test/java/com/nivelle/guide/JDKTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/test/java/com/nivelle/guide/algorithms/StackForQueueTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dubbo-provider/target/" />
     <ignored path="$PROJECT_DIR$/dubbo-api/target/" />
     <ignored path="$PROJECT_DIR$/springboot-all/target/" />
+    <ignored path="$PROJECT_DIR$/data-structure/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,46 +379,16 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DubboProviderApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/guide/DubboProviderApplication.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-base/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="32" column="25" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConcreteBeanDefinitionRegistryPostProcessor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/guide/spring/hock/ConcreteBeanDefinitionRegistryPostProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyBeanAutoConfiguredRegistrar.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/guide/spring/hock/MyBeanAutoConfiguredRegistrar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpringBootAllApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/SpringBootAllApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="24" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -93,44 +396,70 @@
       <file leaf-file-name="TestController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="439">
+              <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JunitApplicationContext.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/guide/JunitApplicationContext.java">
+      <file leaf-file-name="JavaBaseApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/JavaBaseApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state>
+              <caret column="34" selection-start-column="8" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArraySearch.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/common/ArraySearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="42" selection-start-column="42" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractWork.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/abstractfactory/AbstractWork.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Fibonacci.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/common/Fibonacci.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayListDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ArrayListDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BigDecimalDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/BigDecimalDemo.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-all/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="240" column="21" lean-forward="true" selection-start-line="240" selection-start-column="21" selection-end-line="240" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo-provider/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo-api/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+              <caret line="15" column="13" selection-start-line="10" selection-start-column="3" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -160,8 +489,20 @@
         <option value="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/kafka/KafkaSendServiceImpl.java" />
         <option value="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/datastructures/LinkedTreeMapDemo.java" />
         <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/guide/JunitApplicationContext.java" />
+        <option value="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/SpringBootAllApplication.java" />
+        <option value="$PROJECT_DIR$/base/src/enums/MyEnum.java" />
+        <option value="$PROJECT_DIR$/data-structure/src/datastructures/ArrayListDemo.java" />
+        <option value="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/datastructures/ArrayListDemo.java" />
+        <option value="$PROJECT_DIR$/base/pom.xml" />
+        <option value="$PROJECT_DIR$/data-structure/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-all/pom.xml" />
+        <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guides/javabase/datastructures/ArrayListDemo.java" />
+        <option value="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/TestController.java" />
+        <option value="$PROJECT_DIR$/java-base/src/test/java/com/nivelle/guides/javabase/algorithms/StackForQueueTest.java" />
+        <option value="$PROJECT_DIR$/java-base/src/test/java/com/nivelle/guides/javabase/algorithms/JDKTest.java" />
+        <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guides/javabase/JavaBaseApplication.java" />
+        <option value="$PROJECT_DIR$/java-base/pom.xml" />
       </list>
     </option>
   </component>
@@ -197,10 +538,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-1200" />
-    <option name="y" value="-1057" />
-    <option name="width" value="1200" />
-    <option name="height" value="1920" />
+    <option name="x" value="-1920" />
+    <option name="y" value="-1080" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -209,8 +550,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,12 +560,14 @@
             <path>
               <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-all" type="462c0819:PsiDirectoryNode" />
+              <item name="java-base" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -245,13 +586,21 @@
     <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="com" />
+      <recent name="com.nivelle.guide.springboot" />
+      <recent name="com.nivelle.guide" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/springboot-all" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/springboot-all" />
-      <recent name="$PROJECT_DIR$/学习笔记" />
+      <recent name="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase" />
+      <recent name="$PROJECT_DIR$/dubbo-api" />
+      <recent name="$PROJECT_DIR$/java-base/src/test/java/com/nivelle/guides/javabase/algorithms" />
+      <recent name="$PROJECT_DIR$/java-base/src/test" />
+      <recent name="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guides/javabase" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -319,6 +668,16 @@
       </option>
       <patterns />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="java-base" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
     <configuration name="SpringBootAllApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot-all" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.nivelle.guide.SpringBootAllApplication" />
@@ -346,10 +705,10 @@
       <listeners />
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.SpringBootAllApplication" />
       <item itemvalue="Application.JunitApplicationContext" />
       <item itemvalue="Application.DubboProviderApplication" />
       <item itemvalue="Application.SpringBootAllApplication" />
-      <item itemvalue="Spring Boot.SpringBootAllApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -372,7 +731,11 @@
       <workItem from="1571755246540" duration="42000" />
       <workItem from="1571755524190" duration="2337000" />
       <workItem from="1571758055531" duration="2982000" />
-      <workItem from="1571795449555" duration="973000" />
+      <workItem from="1571795449555" duration="1012000" />
+      <workItem from="1572086870180" duration="1087000" />
+      <workItem from="1572228656565" duration="26000" />
+      <workItem from="1572356546520" duration="3048000" />
+      <workItem from="1572360359733" duration="1020000" />
     </task>
     <task id="LOCAL-00001">
       <created>1571757529298</created>
@@ -409,14 +772,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571795817985</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[升级pom]">
+      <created>1571797189148</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1571797189148</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6334000" />
+    <option name="totallyTimeSpent" value="11554000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1200" y="-1057" width="1200" height="1920" extended-state="0" />
+    <frame x="-1920" y="-1080" width="1920" height="1080" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -424,35 +794,35 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50106496" side_tool="true" weight="0.4124236" />
       <window_info anchor="right" id="Maven Projects" order="6" show_stripe_button="false" sideWeight="0.4990942" weight="0.26729107" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49893504" weight="0.6659878" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49946752" weight="0.42464358" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49893504" weight="0.45824847" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49893504" weight="0.19348268" />
       <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" side_tool="true" visible="true" weight="0.24068157" />
       <window_info anchor="bottom" id="Problems" order="15" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" side_tool="true" visible="true" weight="0.23229706" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3299712" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="5" weight="0.32960597" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.31364563" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24973376" />
       <window_info anchor="right" x="546" y="214" width="347" height="472" id="Ant Build" order="1" weight="0.18072917" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.33695653" />
       <window_info id="Favorites" order="6" side_tool="true" weight="0.32960597" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33695653" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Capture Tool" order="4" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49840257" visible="true" weight="0.32179227" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3140244" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49840257" weight="0.32179227" />
+      <window_info anchor="right" id="Coverage" order="10" sideWeight="0.5009058" side_tool="true" weight="0.07173447" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Coverage" order="10" sideWeight="0.5009058" side_tool="true" weight="0.07173447" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,134 +839,22 @@
     </ignored-roots>
     <MESSAGE value="[test]" />
     <MESSAGE value="[修改了下目录结构涉及maven知识点]" />
-    <option name="LAST_COMMIT_MESSAGE" value="[修改了下目录结构涉及maven知识点]" />
+    <MESSAGE value="[升级pom]" />
+    <option name="LAST_COMMIT_MESSAGE" value="[升级pom]" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/JavaBaseApplication.java</url>
+          <line>9</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/guide/DubboProviderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="25" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/guide/spring/hock/ConcreteBeanDefinitionRegistryPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/guide/spring/hock/MyBeanAutoConfiguredRegistrar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/guide/JunitApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/test/java/com/nivelle/guide/dubboprovider/DubboProviderApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-all/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5321">
-          <caret line="313" column="16" selection-start-line="313" selection-start-column="9" selection-end-line="313" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/kafka/KafkaSendServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/SpringBootAllApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/guide/DubboProviderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="27" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/SpringBootAllApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -613,34 +871,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/zookeeper/lock/DistributedLockByCurator.java">
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/zookeeper/lock/DistributedLockByCurator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/algorithms/common/StackForQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/algorithms/common/RebuildTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/algorithms/common/reOrderArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-200">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/algorithms/common/StackForQueue.java" />
+    <entry file="file://$PROJECT_DIR$/data-structure/src/algorithms/common/RebuildTree.java" />
+    <entry file="file://$PROJECT_DIR$/data-structure/src/algorithms/common/reOrderArray.java" />
     <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springmvc/MyWebConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-707">
@@ -667,9 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -677,23 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="15" column="28" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/guide/JunitApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/guide/DubboProviderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="32" column="25" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -711,37 +931,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/SpringBootAllApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dubbo-provider/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -749,10 +938,216 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/guide/spi/MySpi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/guide/JunitApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/guide/DubboProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="38" selection-start-line="28" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/enums/MyEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/springboot/enums/ErrorStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/java-base.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/base.iml" />
+    <entry file="file://$PROJECT_DIR$/data-structure/src/datastructures/ArrayListDemo.java" />
+    <entry file="file://$PROJECT_DIR$/base/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/nivelle/guides/base/BaseApplication.java" />
+    <entry file="file://$PROJECT_DIR$/data-structure/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/java-base/mvnw.cmd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/HELP.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="59" selection-start-line="3" selection-start-column="4" selection-end-line="8" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/JavaKeyWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/factorymethod/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="40" selection-start-column="26" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/test/java/com/nivelle/guides/datastructure/DataStructureApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/test/java/com/nivelle/guides/javabase/algorithms/StackForQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/test/java/com/nivelle/guides/javabase/algorithms/JDKTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/bug/StackErrorMock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/zookeeper/leader/LeaderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/mvnw">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1009" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/SpringBootAllApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-all/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="240" column="21" lean-forward="true" selection-start-line="240" selection-start-column="21" selection-end-line="240" selection-end-column="21" />
+        <state relative-caret-position="255">
+          <caret line="15" column="13" selection-start-line="10" selection-start-column="3" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-api/javabase/JavaBaseApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/common/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/BigDecimalDemo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/abstractfactory/AbstractWork.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/JavaBaseApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" selection-start-column="8" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/algorithms/common/ArraySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="42" selection-start-column="42" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ArrayListDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -808,11 +1203,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>springboot-all</last-edited>
+          <last-edited>dubbo-api</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

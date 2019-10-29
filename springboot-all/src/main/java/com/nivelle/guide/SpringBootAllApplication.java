@@ -14,6 +14,8 @@ import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
+
+
 @SpringBootApplication
 @ServletComponentScan//扫描servlet组件注解
 @EnableCaching//开启缓存注解,mybatis使用redis作为缓存
@@ -31,7 +33,8 @@ public class SpringBootAllApplication {
         springApplication.addListeners(new MyApplicationStartingEventListener());
         springApplication.addListeners(new MyApplicationEnvironmentPreparedEventListener());
         springApplication.addListeners(new MyApplicationReadyEventListener());
-        springApplication.addListeners(new MyApplicationFailedEventListener());//与MyApplicationStartedEventListener互斥
+        //与MyApplicationStartedEventListener互斥
+        springApplication.addListeners(new MyApplicationFailedEventListener());
         springApplication.addListeners(new MyApplicationStartedEventListener());
 
         /**
