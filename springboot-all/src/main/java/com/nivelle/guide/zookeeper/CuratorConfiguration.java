@@ -1,4 +1,4 @@
-package com.nivelle.guide.javabase.zookeeper;
+package com.nivelle.guide.zookeeper;
 
 /**
  * Curator
