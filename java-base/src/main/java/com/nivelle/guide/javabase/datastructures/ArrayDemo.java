@@ -1,8 +1,6 @@
 package com.nivelle.guide.javabase.datastructures;
 
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 /**
  * Arrays 和 Collections
@@ -58,17 +56,37 @@ public class ArrayDemo {
         System.out.println();
 
         /**
-         * Arrays.asList 返回的list底层是源数组,只不过是一个引用
+         * Arrays.asList 返回的list底层是源数组
          */
         list3.set(3, "5");
 
         for (int i = 0; i < stringArray.length; i++) {
-            System.out.print("stringArray" + i + ":" + stringArray[i]+" ");
+            System.out.print("stringArray" + i + ":" + stringArray[i] + " ");
         }
         System.out.println();
         System.out.println("list3:" + list3);
 
 
+        List<Integer> integerList = new ArrayList<>();
+        integerList.add(1);
+        integerList.add(2);
+        integerList.add(2);
+        System.out.println("integerList is:" + integerList);
+
+        /**
+         * Collection.toArray() 方法返回的是当前集合的拷贝,修改却不会修改源信息
+         */
+        Object[] objects = integerList.toArray();
+        objects[2] = 3;
+
+        integerList.set(0, 2);
+        System.out.println("integerList after set is:" + integerList);
+
+        for (int i = 0; i < objects.length; i++) {
+            System.out.print("object" + (i + 1) + ":" + objects[i] + " ");
+        }
+
     }
+
 
 }
