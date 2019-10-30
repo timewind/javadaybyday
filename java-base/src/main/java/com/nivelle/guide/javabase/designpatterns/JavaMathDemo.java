@@ -1,4 +1,4 @@
-package com.nivelle.guide.javabase.javacore;
+package com.nivelle.guide.javabase.designpatterns;
 
 import java.util.Random;
 

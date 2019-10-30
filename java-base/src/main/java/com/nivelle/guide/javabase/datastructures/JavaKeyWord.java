@@ -1,4 +1,4 @@
-package com.nivelle.guide.javabase.javacore;
+package com.nivelle.guide.javabase.datastructures;
 
 import com.nivelle.guide.javabase.javacore.instance.Father;
 import com.nivelle.guide.javabase.javacore.instance.Son;

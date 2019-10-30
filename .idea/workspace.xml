@@ -3,7 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="09fae382-911d-4cd0-8d25-ce0025512f0a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ArrayDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ArrayDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/JavaKeyWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/JavaKeyWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/JavaMathDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/JavaMathDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/bug/StackErrorMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/bugs/StackErrorMock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/bug/StringOomMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/bugs/StringOomMock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/InstanceInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/InitializerOrderDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/jvm/HeapOoMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/bugs/HeapOoMock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/jvm/PermGenOomMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/bugs/PermGenOomMock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/MySynchronized.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dubbo-provider/target/" />
     <ignored path="$PROJECT_DIR$/dubbo-api/target/" />
@@ -39,103 +46,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ArrayDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ArrayDemo.java">
+      <file leaf-file-name="InitializerOrderDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/InitializerOrderDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="76" column="38" selection-start-line="76" selection-start-column="38" selection-end-line="76" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Integer.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1718">
-              <caret line="848" column="11" selection-start-line="848" selection-start-column="11" selection-end-line="848" selection-end-column="11" />
+            <state relative-caret-position="97">
+              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
               <folding>
-                <element signature="e#32532#32533#0" expanded="true" />
-                <element signature="e#32566#32567#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#209#210#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/List.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="169" column="13" selection-start-line="169" selection-start-column="13" selection-end-line="169" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="379" column="40" selection-start-line="379" selection-start-column="29" selection-end-line="379" selection-end-column="40" />
-              <folding>
-                <element signature="e#13713#13714#0" expanded="true" />
-                <element signature="e#13768#13769#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractCollection.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/AbstractCollection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="135" column="14" selection-start-line="135" selection-start-column="8" selection-end-line="135" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Arrays.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="3783" column="35" selection-start-line="3783" selection-start-column="31" selection-end-line="3783" selection-end-column="41" />
-              <folding>
-                <element signature="e#177013#177014#0" expanded="true" />
-                <element signature="e#177054#177055#0" expanded="true" />
-                <element signature="e#177353#177354#0" expanded="true" />
-                <element signature="e#177410#177411#0" expanded="true" />
-                <element signature="e#177551#177552#0" expanded="true" />
-                <element signature="e#177591#177592#0" expanded="true" />
-                <element signature="e#178082#178083#0" expanded="true" />
-                <element signature="e#178121#178122#0" expanded="true" />
-                <element signature="e#178897#178898#0" expanded="true" />
-                <element signature="e#178976#178977#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Collection.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Collection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1810">
-              <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Spliterator.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Spliterator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7701">
-              <caret line="485" column="28" selection-start-line="485" selection-start-column="28" selection-end-line="485" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractList.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/AbstractList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="70" column="80" selection-start-line="70" selection-start-column="80" selection-end-line="70" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -168,12 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/java8/FormulaService.java" />
-        <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/java8/FormulaServiceImpl.java" />
-        <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/java8/FunctionTest.java" />
-        <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/java8/Java8ApiDemo.java" />
-        <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/java8/MethodTest.java" />
-        <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/java8/MethodTestFactory.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/jvm/HeapOoMock.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/jvm/PermGenOomMock.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/proxy/CGlibHosee.java" />
@@ -219,6 +132,12 @@
         <option value="$PROJECT_DIR$/java-base/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-provider/pom.xml" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ArrayDemo.java" />
+        <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/JavaKeyWord.java" />
+        <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/JavaMathDemo.java" />
+        <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/bugs/HeapOoMock.java" />
+        <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/bugs/PermGenOomMock.java" />
+        <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/InstanceInitializer.java" />
+        <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/InitializerOrderDemo.java" />
       </list>
     </option>
   </component>
@@ -351,7 +270,7 @@
               <item name="nivelle" type="462c0819:PsiDirectoryNode" />
               <item name="guide" type="462c0819:PsiDirectoryNode" />
               <item name="javabase" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
+              <item name="javacore" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
@@ -364,8 +283,8 @@
               <item name="nivelle" type="462c0819:PsiDirectoryNode" />
               <item name="guide" type="462c0819:PsiDirectoryNode" />
               <item name="javabase" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-              <item name="ArrayDemo" type="1a9f42e2:ClassTreeNode" />
+              <item name="javacore" type="462c0819:PsiDirectoryNode" />
+              <item name="instance" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -390,25 +309,26 @@
     <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.nivelle.guide" />
-      <recent name="com.nivelle.guide.javabase" />
-      <recent name="" />
-      <recent name="com" />
-      <recent name="com.nivelle.guide.springboot" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/springboot-all" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.nivelle.guide.javabase.zookeeper" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase" />
       <recent name="$PROJECT_DIR$/dubbo-api" />
       <recent name="$PROJECT_DIR$/java-base/src/test/java/com/nivelle/guides/javabase/algorithms" />
       <recent name="$PROJECT_DIR$/java-base/src/test" />
       <recent name="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guides/javabase" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.nivelle.guide.javabase" />
+      <recent name="com.nivelle.guide" />
+      <recent name="" />
+      <recent name="com" />
+      <recent name="com.nivelle.guide.springboot" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.nivelle.guide.javabase.bugs" />
+      <recent name="com.nivelle.guide.javabase.zookeeper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springboot-all" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -423,7 +343,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrayDemo">
+  <component name="RunManager">
     <configuration name="ArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nivelle.guide.javabase.datastructures.ArrayDemo" />
       <module name="java-base" />
@@ -446,13 +366,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="DubboProviderApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nivelle.guide.DubboProviderApplication" />
-      <module name="dubbo-provider" />
+    <configuration name="InitializerOrderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nivelle.guide.javabase.javacore.instance.InitializerOrderDemo" />
+      <module name="java-base" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nivelle.guide.*" />
+          <option name="PATTERN" value="com.nivelle.guide.javabase.javacore.instance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -526,19 +446,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.SpringBootAllApplication" />
-      <item itemvalue="Application.DubboProviderApplication" />
       <item itemvalue="Application.SpringBootAllApplication" />
       <item itemvalue="Application.JavaBaseApplication" />
       <item itemvalue="Application.ArrayListDemo" />
       <item itemvalue="Application.ArrayDemo" />
+      <item itemvalue="Application.InitializerOrderDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InitializerOrderDemo" />
         <item itemvalue="Application.ArrayDemo" />
         <item itemvalue="Application.SpringBootAllApplication" />
         <item itemvalue="Application.ArrayListDemo" />
         <item itemvalue="Application.JavaBaseApplication" />
-        <item itemvalue="Application.DubboProviderApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -565,7 +485,7 @@
       <workItem from="1572400029220" duration="382000" />
       <workItem from="1572404864118" duration="561000" />
       <workItem from="1572414018518" duration="2913000" />
-      <workItem from="1572419091507" duration="907000" />
+      <workItem from="1572419091507" duration="4197000" />
     </task>
     <task id="LOCAL-00001">
       <created>1571757529298</created>
@@ -651,11 +571,18 @@
       <option name="project" value="LOCAL" />
       <updated>1572417161198</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="【Arrays】">
+      <created>1572420077685</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1572420077685</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20440000" />
+    <option name="totallyTimeSpent" value="23730000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -668,26 +595,26 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50106496" side_tool="true" weight="0.4124236" />
       <window_info anchor="right" id="Maven Projects" order="6" show_stripe_button="false" sideWeight="0.4990942" weight="0.26729107" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49946752" weight="0.42464358" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49893504" visible="true" weight="0.24314214" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49946752" weight="0.12468828" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49893504" weight="0.35785535" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49893504" weight="0.19348268" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" side_tool="true" visible="true" weight="0.20314735" />
+      <window_info content_ui="combo" id="Project" order="0" side_tool="true" visible="true" weight="0.24248926" />
       <window_info anchor="bottom" id="Problems" order="15" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3299712" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="5" weight="0.32960597" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.24973376" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.31296757" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
       <window_info anchor="right" x="546" y="214" width="347" height="472" id="Ant Build" order="1" weight="0.18072917" />
       <window_info id="Favorites" order="6" side_tool="true" weight="0.32960597" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.33665836" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.33665836" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Capture Tool" order="4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.31364563" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -738,6 +665,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -776,131 +729,41 @@
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/InitializerOrderDemo.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/InitializerOrderDemo.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/InitializerOrderDemo.java</url>
+          <line>10</line>
+          <properties field="j" class="com.nivelle.guide.javabase.javacore.instance.InitializerOrderDemo" />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/InitializerOrderDemo.java</url>
+          <line>15</line>
+          <properties field="j" class="com.nivelle.guide.javabase.javacore.instance.InitializerOrderDemo" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="14" />
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="i" />
+        <watch expression="j" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadSleep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadWaitNotify.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/ThreadYield.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/JavaMathDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/JavaKeyWord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/zookeeper/leader/SelectorClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/zookeeper/leader/LeaderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/factorymethod/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/pojo/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/zookeeper/lock/DistributedLockByCurator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/zookeeper/lock/CuratorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/MyAQSynchronizerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/pojo/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/src/test/java/com/nivelle/guide/javabase/JavaBaseApplicationTests.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/configbean/CuratorConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/configbean/TomcatConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/configbean/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/configbean/ControllerExceptionAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-all/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -924,13 +787,6 @@
             <element signature="e#260#261#0" expanded="true" />
             <element signature="e#330#331#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ArrayListDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -1146,8 +1002,148 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ArrayDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="76" column="38" selection-start-line="76" selection-start-column="38" selection-end-line="76" selection-end-column="38" />
+        <state relative-caret-position="230">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ArrayListDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3426">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/BigDecimalDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/JavaKeyWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/JavaMathDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/classloader/ClassForNameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/classloader/ClassLoaderMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/classloader/ClassLoaderOrder.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/jvm/HeapOoMock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/bugs/HeapOoMock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/jvm/PermGenOomMock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/bugs/PermGenOomMock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/classloader/TestBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/ConstructorExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/Father.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/InstanceVariableInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-414">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/Son.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/thread/MySynchronized.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/instance/InitializerOrderDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
