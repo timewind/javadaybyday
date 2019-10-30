@@ -1,7 +1,7 @@
 package com.nivelle.guide.javabase.datastructures;
 
-import com.nivelle.guide.javabase.javacore.instance.Father;
-import com.nivelle.guide.javabase.javacore.instance.Son;
+import com.nivelle.guide.javabase.pojo.Father;
+import com.nivelle.guide.javabase.pojo.Son;
 import com.nivelle.guide.javabase.pojo.User;
 
 import java.util.ArrayList;

@@ -1,8 +1,11 @@
-package com.nivelle.guide.javabase.javacore.classloader;
+package com.nivelle.guide.javabase.javacore.loadclass;
 
 import java.lang.reflect.Constructor;
 
-public class ClassForNameTest {
+/**
+ * 通过类路径获取类对象
+ */
+public class ClassForNameDemo {
 
 
     public static void main(String args[]) {
@@ -11,12 +14,14 @@ public class ClassForNameTest {
 
             System.out.println(System.getProperty("java.class.path"));
             //获取类对象
-            Class typeLoaded = Class.forName("com.nivelle.guide.javacore.classloader.TestBean");
-            System.out.println(typeLoaded.getClassLoader());
+            Class classObject = Class.forName(TestBean.class.getName());
+
+            System.out.println("classLoader:" + classObject.getClassLoader());
             //获取构造函数
-            Constructor<?>[] constructor = typeLoaded.getConstructors();
+            Constructor<?>[] constructor = classObject.getConstructors();
             //通过构造函数构造实例
             TestBean testBeans = (TestBean) constructor[0].newInstance("nivelle");
+
             System.out.println(testBeans.getMessage());
 
         } catch (Exception e) {

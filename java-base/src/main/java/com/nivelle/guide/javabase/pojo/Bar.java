@@ -1,9 +1,13 @@
-package com.nivelle.guide.javabase.javacore.instance;
+package com.nivelle.guide.javabase.pojo;
 
+/**
+ * 子类
+ */
 public class Bar extends Foo {
+
     int j = 1;
 
-    Bar() {
+    public Bar() {
         j = 2;
     }
 
@@ -12,7 +16,7 @@ public class Bar extends Foo {
     }
 
     @Override
-    protected int getValue() {
+    public int getValue() {
         return j;
     }
 

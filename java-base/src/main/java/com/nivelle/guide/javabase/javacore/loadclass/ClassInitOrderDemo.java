@@ -1,13 +1,14 @@
-package com.nivelle.guide.javabase.javacore.classloader;
+package com.nivelle.guide.javabase.javacore.loadclass;
 
 /**
  * 类加载顺序:
- * 父类静态属性--->父类静态代码块--->子类静态属性--->子类静态代码块--->父类实例属性--->
- * 父类动态代码块--->父类无参构造--->子类实例属性--->子类动态代码块--->子类无参构造
+ * 父类静态属性--->父类静态代码块--->子类静态属性--->子类静态代码块--->父类实例属性--->父类动态代码块--->父类无参构造--->子类实例属性--->子类动态代码块--->子类无参构造
  **/
 
 class Base {
+
     public static String baseStaticVariable = Method();
+
     String baseVariable = "父类实例属性";
 
     static {
@@ -39,6 +40,9 @@ class Base {
 
 class Sub extends Base {
 
+    /**
+     * 静态属性
+     */
     public static String subStaticVariable = Method();
 
     String subVariable = "子类实例属性";
@@ -72,23 +76,22 @@ class Sub extends Base {
 }
 
 
-public class ClassLoaderOrder {
+public class ClassInitOrderDemo {
+
     public static void main(String[] args) {
-//        /**
-//         * 父类静态代码块
-//         * 子类静态属性
-//         * 子类静态代码块
-//         * 子类静态方法
-//         */
-//        Sub.subStaticMethod();
+        /**
+         * 父类静态代码块
+         * 子类静态属性
+         * 子类静态代码块
+         * 子类静态方法
+         */
+        Sub.subStaticMethod();
 
-
-//
-//        /**
-//         * 父类静态代码块
-//         * 父类静态变量
-//         */
-//         System.out.println(Base.baseStaticVariable);
+        /**
+         * 父类静态代码块
+         * 父类静态变量
+         */
+         System.out.println(Base.baseStaticVariable);
 
 
         /**
@@ -101,7 +104,7 @@ public class ClassLoaderOrder {
          * 子类构造方法
          */
         Sub sub = new Sub();
-        //sub.subStaticMethod();
+        Sub.subStaticMethod();
 
 
     }

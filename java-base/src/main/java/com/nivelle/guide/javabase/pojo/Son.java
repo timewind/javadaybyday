@@ -1,4 +1,4 @@
-package com.nivelle.guide.javabase.javacore.instance;
+package com.nivelle.guide.javabase.pojo;
 
 import lombok.Getter;
 import lombok.Setter;

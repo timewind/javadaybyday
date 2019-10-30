@@ -1,13 +1,11 @@
-package com.nivelle.guide.javabase.javacore.classloader;
+package com.nivelle.guide.javabase.javacore.loadclass;
 
 
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Getter
 @Setter
-@NoArgsConstructor
 public class TestBean {
 
     private String message = "fuck";

@@ -1,7 +1,7 @@
-package com.nivelle.guide.javabase.javacore.instance;
+package com.nivelle.guide.javabase.javacore.loadclass;
 
 /**
- * 实例初始化顺序
+ * 实例初始化顺序,成员变量有方法赋值
  *
  * @author
  */
