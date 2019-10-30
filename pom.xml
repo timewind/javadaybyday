@@ -14,13 +14,10 @@
     <name>java-guides</name>
     <description>javaguide project for Spring Boot</description>
 
-
     <modules>
         <module>java-base</module>
-        <module>dubbo-api</module>
         <module>dubbo-provider</module>
         <module>springboot-all</module>
-
     </modules>
 
     

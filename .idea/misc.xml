@@ -7,7 +7,6 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/dubbo-provider/pom.xml" />
-        <option value="$PROJECT_DIR$/dubbo-api/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-all/pom.xml" />
         <option value="$PROJECT_DIR$/data-structure/pom.xml" />
         <option value="$PROJECT_DIR$/java-base/pom.xml" />
