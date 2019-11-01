@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09fae382-911d-4cd0-8d25-ce0025512f0a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ByteDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ByteDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dubbo-provider/target/" />
@@ -42,8 +43,55 @@
       <file leaf-file-name="ByteDemo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ByteDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+            <state relative-caret-position="514">
+              <caret line="176" column="11" lean-forward="true" selection-start-line="176" selection-start-column="11" selection-end-line="176" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="3655">
+                <caret line="215" selection-start-line="215" selection-end-line="215" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadLocalDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ThreadLocalDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="34" column="15" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Thread.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="181" column="24" selection-start-line="181" selection-start-column="24" selection-end-line="181" selection-end-column="24" />
+              <folding>
+                <element signature="e#19132#19133#0" expanded="true" />
+                <element signature="e#19175#19176#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadLocal.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/ThreadLocal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="462" column="43" selection-start-line="462" selection-start-column="24" selection-end-line="462" selection-end-column="43" />
+              <folding>
+                <element signature="e#8486#8487#0" expanded="true" />
+                <element signature="e#8538#8539#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,6 +117,8 @@
       <find>curator.connectionTimeoutMs</find>
       <find>asList</find>
       <find>stu</find>
+      <find>ThreadLocalMap</find>
+      <find>threadLocals</find>
     </findStrings>
     <replaceStrings>
       <replace>constructor</replace>
@@ -80,7 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/zookeeper/lock/DistributedLockByCurator.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/designpatterns/factorymethod/Main.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/zookeeper/lock/CuratorController.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/MyAQSynchronizerTest.java" />
@@ -130,6 +179,7 @@
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/javacore/loadclass/ConstructorInitializerOrderDemo.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/pojo/Bar.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/BitDemo.java" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ByteDemo.java" />
       </list>
     </option>
@@ -178,7 +228,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,13 +328,14 @@
               <item name="guide" type="462c0819:PsiDirectoryNode" />
               <item name="javabase" type="462c0819:PsiDirectoryNode" />
               <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-              <item name="ByteDemo" type="1a9f42e2:ClassTreeNode" />
+              <item name="ThreadLocalDemo" type="1a9f42e2:ClassTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -338,7 +388,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ByteDemo">
     <configuration name="ByteDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nivelle.guide.javabase.datastructures.ByteDemo" />
       <module name="java-base" />
@@ -495,7 +545,8 @@
       <workItem from="1572419091507" duration="5771000" />
       <workItem from="1572445023557" duration="5184000" />
       <workItem from="1572509525607" duration="2319000" />
-      <workItem from="1572573953176" duration="14699000" />
+      <workItem from="1572573953176" duration="14877000" />
+      <workItem from="1572618236971" duration="2991000" />
     </task>
     <task id="LOCAL-00001">
       <created>1571757529298</created>
@@ -609,14 +660,28 @@
       <option name="project" value="LOCAL" />
       <updated>1572582224000</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="【byte】">
+      <created>1572609472754</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1572609472754</updated>
+    </task>
+    <task id="LOCAL-00018" summary="【byte】">
+      <created>1572609584025</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1572609584025</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47506000" />
+    <option name="totallyTimeSpent" value="50675000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1200" y="-1057" width="1200" height="1920" extended-state="0" />
+    <frame x="-1000" y="-1080" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -626,12 +691,12 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50106496" side_tool="true" weight="0.4124236" />
       <window_info anchor="right" id="Maven Projects" order="6" show_stripe_button="false" sideWeight="0.4990942" weight="0.26729107" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49893504" visible="true" weight="0.20875764" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49946752" weight="0.11303462" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49893504" visible="true" weight="0.14489572" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49893504" weight="0.42394015" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" side_tool="true" visible="true" weight="0.050949913" />
+      <window_info content_ui="combo" id="Project" order="0" side_tool="true" visible="true" weight="0.2827476" />
       <window_info anchor="bottom" id="Problems" order="15" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3299712" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
@@ -639,8 +704,8 @@
       <window_info anchor="right" id="Database" order="5" weight="0.32960597" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
       <window_info anchor="right" x="546" y="214" width="347" height="472" id="Ant Build" order="1" weight="0.18072917" />
-      <window_info id="Favorites" order="6" side_tool="true" weight="0.32904148" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2543641" />
+      <window_info id="Favorites" order="6" side_tool="true" weight="0.32904148" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Capture Tool" order="4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -959,7 +1024,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="44" />
+      <option name="time" value="45" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -985,34 +1050,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/guide/SpringBootAllApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-all/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dubbo-provider/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1045,18 +1082,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="3783" column="35" selection-start-line="3783" selection-start-column="31" selection-end-line="3783" selection-end-column="41" />
-          <folding>
-            <element signature="e#177013#177014#0" expanded="true" />
-            <element signature="e#177054#177055#0" expanded="true" />
-            <element signature="e#177353#177354#0" expanded="true" />
-            <element signature="e#177410#177411#0" expanded="true" />
-            <element signature="e#177551#177552#0" expanded="true" />
-            <element signature="e#177591#177592#0" expanded="true" />
-            <element signature="e#178082#178083#0" expanded="true" />
-            <element signature="e#178121#178122#0" expanded="true" />
-            <element signature="e#178897#178898#0" expanded="true" />
-            <element signature="e#178976#178977#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1348,10 +1373,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="3655">
+            <caret line="215" selection-start-line="215" selection-end-line="215" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="181" column="24" selection-start-line="181" selection-start-column="24" selection-end-line="181" selection-end-column="24" />
+          <folding>
+            <element signature="e#19132#19133#0" expanded="true" />
+            <element signature="e#19175#19176#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="462" column="43" selection-start-line="462" selection-start-column="24" selection-end-line="462" selection-end-column="43" />
+          <folding>
+            <element signature="e#8486#8487#0" expanded="true" />
+            <element signature="e#8538#8539#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ThreadLocalDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="34" column="15" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/guide/javabase/datastructures/ByteDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+        <state relative-caret-position="514">
+          <caret line="176" column="11" lean-forward="true" selection-start-line="176" selection-start-column="11" selection-end-line="176" selection-end-column="11" />
         </state>
       </provider>
     </entry>

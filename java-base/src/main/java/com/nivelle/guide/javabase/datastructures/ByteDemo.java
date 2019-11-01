@@ -1,7 +1,5 @@
 package com.nivelle.guide.javabase.datastructures;
 
-import java.math.BigInteger;
-
 /**
  * 位操作
  *
@@ -125,6 +123,70 @@ public class ByteDemo {
         System.out.println("-11的二进制位左移一位:" + Integer.toBinaryString(leftNegativeNum));
 
         System.out.println(leftNegativeNum / negativeIntToByte);
+
+
+        /**
+         * 右移 >>
+         *
+         * 将一个数的各二进制位全部右移若干位，正数左补0,负数左补1 然后右边丢弃.操作数每向右边移动一位,相当于该数除以2
+         */
+
+        int negativeNumRight = 0b00000100;
+        System.out.println(negativeNumRight);
+        System.out.println(negativeNumRight >> 1);
+        System.out.println(Integer.toBinaryString(negativeNumRight >> 3));
+
+
+        /**
+         * 无符号右移 >>>
+         *
+         * 各个位向右移指定的位数。右移后左边空出的位用零来填充，移出右边的位被丢弃
+         */
+
+        int unSignRightMove = 0b00000100;
+
+        int showUnSignRightMove = unSignRightMove >>> 2;
+        System.out.println(showUnSignRightMove);
+
+
+        /***********************************************************/
+
+        /**
+         * 1. 原码: 一个整数按照绝对值大小转换成的二进制数称为原码
+         *
+         * 2. 反码: 将二进制按位取反，所得的新二进制数称位原二进制数的反码
+         *
+         * 3. 补码: 反码加1称为补码
+         *
+         * */
+
+        System.out.println("转换为二进制:" + Integer.toBinaryString(8));
+        System.out.println("转换为八进制:" + Integer.toOctalString(8));
+        System.out.println("转换为十六进制:" + Integer.toHexString(8));
+
+
+        System.out.println("二进制转换为十进制:" + Integer.valueOf("1000", 2).toString());
+        System.out.println("八进制转换为十进制:" + Integer.valueOf("10", 8).toString());
+        System.out.println("十六进制转换为十进制:" + Integer.valueOf("8", 16).toString());
+
+
+        /***********************************************************/
+
+        /**
+         * 奇偶判断,1&1才是1,末位是1，则1*1^0 = 1
+         */
+        System.out.println("奇数:" + ((3 & 1) == 1));
+        System.out.println("偶数:" + ((4 & 1) == 0));
+
+        /**
+         * x的反数
+         */
+        System.out.println("1的反数:" + ((~1) + 1));
+
+        /**
+         * 输入2的n次方
+         */
+        System.out.println(2<<4);
 
 
     }
