@@ -11,10 +11,6 @@ import java.util.concurrent.CountDownLatch;
 public class CountDownLatchDemo {
 
     /**多个线程共享一个state状态值,countDow**/
-    /*
-     * @param args
-     * @throws Exception
-     */
     public static void main(String[] args) throws Exception {
 
         CountDownLatch countDownLatch = new CountDownLatch(2);

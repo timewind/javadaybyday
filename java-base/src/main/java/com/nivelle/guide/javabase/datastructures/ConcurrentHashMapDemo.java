@@ -1,9 +1,11 @@
 package com.nivelle.guide.javabase.datastructures;
 
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Random;
 import java.util.UUID;
 import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -22,11 +24,14 @@ public class ConcurrentHashMapDemo {
                 new ThreadPoolExecutor(5, 10, 200, TimeUnit.MILLISECONDS,
                         new ArrayBlockingQueue(5), new ThreadPoolExecutor.CallerRunsPolicy());
         /**
-         * 同步HashMap
+         * 非线程安全:HashMap
+         * 线程安全:concurrentHashMap
          */
-        final HashMap<AtomicInteger, String> map = new HashMap(2);
+        //final HashMap<AtomicInteger, String> map = new HashMap(2);
+        final ConcurrentHashMap<AtomicInteger, String> concurrentHashMap = new ConcurrentHashMap(2);
+
         for (int i = 0; i < 1000; i++) {
-            executor.execute(new MyTask1(map));
+            executor.execute(new MyTask1(concurrentHashMap));
         }
 
     }
@@ -38,11 +43,11 @@ public class ConcurrentHashMapDemo {
  * 线程安全异常模拟
  */
 class MyTask1 implements Runnable {
-    HashMap<AtomicInteger, String> map;
+    Map<AtomicInteger, String> map;
 
     AtomicInteger atomicInteger = new AtomicInteger(1);
 
-    public MyTask1(HashMap<AtomicInteger, String> map) {
+    public MyTask1(Map<AtomicInteger, String> map) {
         this.map = map;
     }
     @Override
@@ -58,8 +63,13 @@ class MyTask1 implements Runnable {
                 map.get(UUID.randomUUID().toString());
             }
         } catch (Exception e) {
-            System.out.println(e);
+            System.err.println(e.getStackTrace());
+            System.err.println();
+            System.err.println(e.getMessage());
+            System.err.println(e.getCause());
+
         }
         System.out.println(map);
+
     }
 }

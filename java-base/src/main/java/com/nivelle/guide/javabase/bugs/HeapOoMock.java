@@ -3,6 +3,9 @@ package com.nivelle.guide.javabase.bugs;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * oom
+ */
 public class HeapOoMock {
 
     public static void main(String args[]){
@@ -12,11 +15,13 @@ public class HeapOoMock {
         while(flag){
             try {
                 i++;
-                list.add(new byte[1024 * 1024]);//每次增加一个1M大小的数组对象
+                //每次增加一个1M大小的数组对象
+                list.add(new byte[1024 * 1024]);
             }catch (Throwable e){
                 e.printStackTrace();
                 flag = false;
-                System.out.println("count="+i);//记录运行的次数
+                //记录运行的次数
+                System.out.println("count="+i);
             }
         }
     }
