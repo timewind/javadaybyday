@@ -34,7 +34,8 @@ public class ControllerExceptionAdvice {
         }
 
         int errorCode = ErrorStatus.BADREQUEST.getErrorCode();
-        if (ex instanceof MissingServletRequestParameterException) {  // 如果请求参数为必填但没有传则抛异常
+        // 如果请求参数为必填但没有传则抛异常
+        if (ex instanceof MissingServletRequestParameterException) {
             MissingServletRequestParameterException e =
                     (MissingServletRequestParameterException) ex;
             String parameterName = e.getParameterName();

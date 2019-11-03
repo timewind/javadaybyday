@@ -224,6 +224,7 @@ public class ArrayListDemo {
         arrayList5.add("11");
         /**
          *  1.在指定的位置插入指定的元素,底层实现是将指定位置后移，通过复制实现。
+         *
          *  System.arraycopy(elementData, index, elementData, index + 1,size - index);
          */
         arrayList5.add(9, "12");
