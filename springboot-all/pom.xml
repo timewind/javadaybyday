@@ -306,21 +306,31 @@
         <!-- Spring Boot HBase 依赖 -->
         <dependency>
             <groupId>org.apache.hbase</groupId>
-            <artifactId>hbase-protocol</artifactId>
+            <artifactId>hbase-client</artifactId>
             <version>${hbase.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.hbase</groupId>
-            <artifactId>hbase-common</artifactId>
-            <version>${hbase.version}</version>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-hadoop-hbase</artifactId>
+            <version>2.5.0.RELEASE</version>
         </dependency>
         <dependency>
-
-            <groupId>org.apache.hbase</groupId>
-            <artifactId>hbase-server</artifactId>
-            <version>${hbase.version}</version>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-hadoop-core</artifactId>
+            <version>2.5.0.RELEASE</version>
         </dependency>
-
+        <!--hadoop -->
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-common</artifactId>
+            <version>3.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-client</artifactId>
+            <version>3.1.1</version>
+        </dependency>
+        <!-- Spring Boot HBase 依赖 结束-->
         <dependency>
             <groupId>com.nivelle.guide</groupId>
             <artifactId>java-base</artifactId>
