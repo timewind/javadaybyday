@@ -24,9 +24,10 @@ public class ArrayDemo {
          *
          * （3）不支持add和remove方法
          */
-        int[] intArray = {1, 2, 3, 4};
+        int[] intArray = {5, 1, 2, 3, 4, 0};
         List list = Arrays.asList(intArray);
-        System.out.println(list);
+        System.out.println("排序前:" + list);
+
 
         /**
          * 只有元素是对象类型的才能够转换为List,因为用到了范型
@@ -88,6 +89,9 @@ public class ArrayDemo {
             System.out.print("object" + (i + 1) + ":" + objects[i] + " ");
         }
 
+        /**
+         * Collections排序:底层使用的是Arrays.sort()
+         */
         List<Integer> intArraySort = Lists.newArrayList();
         intArraySort.add(1);
         intArraySort.add(2);
@@ -96,14 +100,44 @@ public class ArrayDemo {
         intArraySort.add(0);
         System.out.println();
         System.out.println("排序前:" + intArraySort);
+        /**
+         * Collections.sort()->List.sort()->Arrays.sort()->TimSort()
+         *
+         * 底层实现都是 TimSort 实现的，这是jdk1.7新增的，以前是归并排序。
+         * TimSort算法就是找到已经排好序数据的子序列,然后对剩余部分排序,然后合并起来;
+         */
+
+        /**
+         * TimSort 是一个归并排序做了大量优化的版本。对归并排序排在已经反向排好序的输入时表现O(n2)的特点做了特别优化。对已经正向排好序的输入减少回溯。对两种情况混合（一会升序，一会降序）的输入处理比较好。
+         */
         rankSort(intArraySort);
         System.out.println("排序后:" + intArraySort);
 
+        /**
+         *
+         * 调用的是:Arrays.sort(a, (Comparator) c);
+         */
+        intArraySort.sort((x, y) -> {
+            if (x > y) {
+                return 1;
+            } else if (x < y) {
+                return -1;
+            } else {
+                return 0;
+            }
+        });
+        System.out.println("第二次排序后:" + intArraySort);
+
+        System.out.println("第三次排序后:");
+        Arrays.sort(intArraySort.stream().mapToInt(x -> x.intValue()).toArray());
+        System.out.println(intArraySort);
 
     }
 
     private static void rankSort(List<Integer> lsts) {
-
+        /**
+         * 调用的是List.sort()方法
+         */
         Collections.sort(lsts, (x, y) -> {
             if (x > y) {
                 return -1;
