@@ -1,5 +1,7 @@
 package com.nivelle.guide.javabase.datastructures;
 
+import com.google.common.collect.Lists;
+
 import java.util.*;
 
 /**
@@ -86,6 +88,31 @@ public class ArrayDemo {
             System.out.print("object" + (i + 1) + ":" + objects[i] + " ");
         }
 
+        List<Integer> intArraySort = Lists.newArrayList();
+        intArraySort.add(1);
+        intArraySort.add(2);
+        intArraySort.add(3);
+        intArraySort.add(5);
+        intArraySort.add(0);
+        System.out.println();
+        System.out.println("排序前:" + intArraySort);
+        rankSort(intArraySort);
+        System.out.println("排序后:" + intArraySort);
+
+
+    }
+
+    private static void rankSort(List<Integer> lsts) {
+
+        Collections.sort(lsts, (x, y) -> {
+            if (x > y) {
+                return -1;
+            } else if (x < y) {
+                return 1;
+            } else {
+                return 0;
+            }
+        });
     }
 
 
