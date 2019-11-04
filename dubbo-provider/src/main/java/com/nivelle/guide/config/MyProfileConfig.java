@@ -16,7 +16,7 @@ import org.springframework.util.StringValueResolver;
  * @date 2019/09/25
  */
 @Configuration
-@PropertySource(value = "classpath:application.properties")
+@PropertySource(value = "classpath:application-provider.properties")
 public class MyProfileConfig implements EmbeddedValueResolverAware {
 
 

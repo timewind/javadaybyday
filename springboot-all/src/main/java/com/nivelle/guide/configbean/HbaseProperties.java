@@ -1,4 +1,4 @@
-package com.nivelle.guide.hbase.config;
+package com.nivelle.guide.configbean;
 
 import lombok.*;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -12,5 +12,6 @@ import java.util.Map;
 @Component
 @ConfigurationProperties(prefix = "hbase")
 public class HbaseProperties {
+
     private Map<String,String> config;
 }

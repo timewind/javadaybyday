@@ -8,7 +8,6 @@ import com.nivelle.guide.service.impl.XmlBeanServiceImpl;
 import com.nivelle.guide.spring.initdemo.InitSpringBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.context.WebApplicationContext;
 
@@ -109,38 +108,40 @@ public class TestDubboProvider {
 
     /**
      * 多实例测试
+     *
      * @return
      */
     @RequestMapping("/prototypeBean")
-    public Object prototypeBeanTest(){
-        Dog dog =(Dog) webApplicationConnect.getBean("buDingDog");
-        Dog dog2 =(Dog) webApplicationConnect.getBean("buDingDog");
-        if(dog==dog2){
+    public Object prototypeBeanTest() {
+        Dog dog = (Dog) webApplicationConnect.getBean("buDingDog");
+        Dog dog2 = (Dog) webApplicationConnect.getBean("buDingDog");
+        if (dog == dog2) {
             return true;
-        }else {
+        } else {
             return false;
         }
     }
 
     /**
      * 单实例测试
+     *
      * @return
      */
     @RequestMapping("/singletonBean")
-    public Object singletonTest(){
-        Dog dog =(Dog) webApplicationConnect.getBean("bigDog");
+    public Object singletonTest() {
+        Dog dog = (Dog) webApplicationConnect.getBean("bigDog");
         System.out.println(dog.getClass().getName());
-        Dog dog2 =(Dog) webApplicationConnect.getBean("bigDog");
-        if(dog==dog2){
+        Dog dog2 = (Dog) webApplicationConnect.getBean("bigDog");
+        if (dog == dog2) {
             return true;
-        }else {
+        } else {
             return false;
         }
     }
 
     @RequestMapping("/registerBean")
-    public Object registerBean(){
-        Cat cat =(Cat) webApplicationConnect.getBean("com.nivelle.guide.model.Cat");
+    public Object registerBean() {
+        Cat cat = (Cat) webApplicationConnect.getBean("com.nivelle.guide.model.Cat");
         System.out.println(cat);
         return cat;
     }

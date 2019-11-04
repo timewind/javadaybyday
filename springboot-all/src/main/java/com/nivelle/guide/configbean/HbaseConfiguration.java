@@ -1,4 +1,4 @@
-package com.nivelle.guide.hbase.config;
+package com.nivelle.guide.configbean;
 
 import org.apache.hadoop.hbase.HBaseConfiguration;
 import org.springframework.beans.factory.annotation.Autowired;

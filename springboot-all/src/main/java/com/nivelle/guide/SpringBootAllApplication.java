@@ -11,6 +11,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.cache.annotation.EnableCaching;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
@@ -23,6 +24,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableRabbit//开启rabbitMQ注解支持
 @EnableSwagger2 //swagger2支持
 @EnableDubbo//开启dubbo
+@PropertySource(value={"classpath:application-boot.properties"})
 public class SpringBootAllApplication {
     public static void main(String[] args) {
         SpringApplication springApplication = new SpringApplication(SpringBootAllApplication.class);

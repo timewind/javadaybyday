@@ -8,6 +8,7 @@
         <version>2.1.4.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
     <groupId>com.nivelle</groupId>
     <artifactId>javaguides</artifactId>
     <version>1.0.1</version>
@@ -20,5 +21,4 @@
         <module>springboot-all</module>
     </modules>
 
-    
 </project>

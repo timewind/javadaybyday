@@ -11,6 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.scheduling.annotation.EnableAsync;
 
 import java.util.Arrays;
@@ -21,6 +22,7 @@ import java.util.Iterator;
 @EnableDubbo
 @EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class})
 @EnableAsync
+@PropertySource(value={"classpath:application-provider.properties"})
 //@ComponentScan(value = "com.nivelle.guide", excludeFilters ={@ComponentScan.Filter(type = FilterType.CUSTOM, classes = {MyTypeFilter.class})})
 public class DubboProviderApplication {
 
