@@ -13,7 +13,7 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.scheduling.annotation.EnableScheduling;
-import springfox.documentation.swagger2.annotations.EnableSwagger2;
+//import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 
 /**
@@ -24,7 +24,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableCaching//开启缓存注解,mybatis使用redis作为缓存
 @EnableScheduling//开启定时任务注解
 @EnableRabbit//开启rabbitMQ注解支持
-@EnableSwagger2 //swagger2支持
+//@EnableSwagger2 //swagger2支持
 @EnableDubbo//开启dubbo
 @ComponentScan(basePackages = "com.nivelle.spring")
 public class SpringBootAllApplication {
