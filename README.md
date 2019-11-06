@@ -261,6 +261,10 @@ docker整合【下载:docker pull nivelle/nivelle:1.0.2】【运行:sudo docker 
 
 ✅【scan】
 
+✅【get】
+
+✅【delete】
+
 
 ## 待实践。。。。
 
