@@ -142,7 +142,6 @@ docker整合【下载:docker pull nivelle/nivelle:1.0.2】【运行:sudo docker 
 
 ✅ 【rabbitMQ】
 
-
 ## Kafka
 
 ⌛ 【细节分析】
@@ -246,9 +245,9 @@ docker整合【下载:docker pull nivelle/nivelle:1.0.2】【运行:sudo docker 
 
 ## Dubbo 实践
 
-✅【dubbo-api】
+✅【dubbo:@Reference】
 
-✅【dubbo-provider】
+✅【dubbo:@Service】
 
 ⌛️ 待分析细节。。。
 
@@ -256,10 +255,10 @@ docker整合【下载:docker pull nivelle/nivelle:1.0.2】【运行:sudo docker 
 
 ✅ 【ConfigurableServletWebServerFactory:自定义Tomcat】
 
+## HBase实践
+
 ## 待实践。。。。
 
 ⌛ Netty实践
-
-⌛ HBase实践
 
 ⌛ SpringMVC http协议分析
