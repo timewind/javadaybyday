@@ -152,9 +152,8 @@ public class MyWebConfig implements WebMvcConfigurer {
         converters.add(0, fjc);
 //        Jackson2ObjectMapperBuilder builder = Jackson2ObjectMapperBuilder.xml();
 //        builder.indentOutput(true);
-//        converters.add(1,new MappingJackson2XmlHttpMessageConverter(builder.build()));
-//        converters.add(2,converter());
-
+//        converters.add(1, new MappingJackson2XmlHttpMessageConverter(builder.build()));
+//        converters.add(2, converter());
     }
 
     /**
