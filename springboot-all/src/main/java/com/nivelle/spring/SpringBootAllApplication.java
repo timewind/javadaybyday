@@ -13,8 +13,6 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.scheduling.annotation.EnableScheduling;
-//import springfox.documentation.swagger2.annotations.EnableSwagger2;
-
 
 /**
  * nivelle
@@ -24,9 +22,8 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableCaching//开启缓存注解,mybatis使用redis作为缓存
 @EnableScheduling//开启定时任务注解
 @EnableRabbit//开启rabbitMQ注解支持
-//@EnableSwagger2 //swagger2支持
 @EnableDubbo//开启dubbo
-@ComponentScan(basePackages = "com.nivelle.spring")
+@ComponentScan(basePackages = {"com.nivelle.spring","com.nivelle.base"})
 public class SpringBootAllApplication {
     public static void main(String[] args) {
         SpringApplication springApplication = new SpringApplication(SpringBootAllApplication.class);

@@ -329,11 +329,6 @@
             <artifactId>java-base</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
-        <dependency>
-            <groupId>com.nivelle.guide</groupId>
-            <artifactId>dubbo-provider</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
     </dependencies>
     <build>
         <plugins>

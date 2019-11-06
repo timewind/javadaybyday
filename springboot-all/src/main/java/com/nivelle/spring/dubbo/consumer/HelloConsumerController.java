@@ -2,11 +2,11 @@ package com.nivelle.spring.dubbo.consumer;
 
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.nivelle.dubbo.dubbo.HelloDubboService;
+import com.nivelle.base.commonservice.HelloDubboService;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
 
 /**
  * dubbo demo
@@ -14,13 +14,12 @@ import org.springframework.web.bind.annotation.RestController;
  * @author fuxinzhong
  * @date 2019/08/16
  */
-@RestController
+@Controller
 @RequestMapping("/dubbo")
 public class HelloConsumerController {
 
     @Reference(version = "${helloDubbo.service.version}")
     private HelloDubboService helloDubboService;
-
 
     @RequestMapping("/sayHello/{name}")
     @ResponseBody

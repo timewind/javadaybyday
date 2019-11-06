@@ -76,7 +76,13 @@ public class ControllerExceptionAdvice {
         } else {
             message = "未知异常";
             System.err.println(message);
-            System.err.println(ex);
+            System.err.println(ex.getCause());
+            System.err.println(ex.getMessage());
+            System.err.println(ex.getStackTrace());
+            System.err.println(ex.getLocalizedMessage());
+
+
+
         }
         return message;
     }

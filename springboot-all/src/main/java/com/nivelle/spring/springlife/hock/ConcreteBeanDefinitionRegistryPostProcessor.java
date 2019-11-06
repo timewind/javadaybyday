@@ -1,6 +1,7 @@
 package com.nivelle.spring.springlife.hock;
 
-import com.nivelle.dubbo.model.UserInfo;
+import com.nivelle.base.pojo.User;
+import com.nivelle.base.pojo.UserInfo;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.MutablePropertyValues;
 import org.springframework.beans.factory.config.BeanDefinition;
@@ -28,6 +29,7 @@ public class ConcreteBeanDefinitionRegistryPostProcessor implements BeanDefiniti
         BeanDefinition beanDefinition = BeanDefinitionBuilder
                 .genericBeanDefinition(UserInfo.class)
                 .getBeanDefinition();
+
         registry.registerBeanDefinition(beanName, beanDefinition);
     }
 

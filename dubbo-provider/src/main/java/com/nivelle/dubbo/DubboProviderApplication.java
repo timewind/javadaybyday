@@ -13,6 +13,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.scheduling.annotation.EnableAsync;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 import java.util.Arrays;
 import java.util.Iterator;
@@ -22,7 +23,8 @@ import java.util.Iterator;
 @EnableDubbo
 @EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class})
 @EnableAsync
-@ComponentScan(basePackages = "com.nivelle.dubbo")
+@EnableSwagger2 //swagger2支持
+@ComponentScan(basePackages = {"com.nivelle.dubbo", "com.nivelle.base"})
 //@ComponentScan(value = "com.nivelle.guide", excludeFilters ={@ComponentScan.Filter(type = FilterType.CUSTOM, classes = {MyTypeFilter.class})})
 public class DubboProviderApplication {
 
@@ -34,7 +36,7 @@ public class DubboProviderApplication {
         ServiceLoader<MySpi> serviceLoader = ServiceLoader.load(MySpi.class);
         System.out.println("Java SPI");
         Iterator iterator = serviceLoader.iterator();
-        if(iterator.hasNext()){
+        if (iterator.hasNext()) {
             System.err.println(iterator.next());
         }
         serviceLoader.forEach(MySpi::sayHello);

@@ -1,6 +1,7 @@
 package com.nivelle.dubbo.service.impl;
 
-import com.nivelle.dubbo.dubbo.HelloDubboService;
+import com.alibaba.dubbo.config.annotation.Service;
+import com.nivelle.base.commonservice.HelloDubboService;
 
 import java.net.InetAddress;
 
@@ -12,9 +13,8 @@ import java.net.InetAddress;
  */
 
 
-//@Service(version = "${helloDubbo.service.version}")
+@Service(version = "${helloDubbo.service.version}")
 public class HelloDubboServiceImpl implements HelloDubboService {
-
 
     @Override
     public String sayHello(String name) {
