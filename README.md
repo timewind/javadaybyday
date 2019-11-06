@@ -257,6 +257,9 @@ docker整合【下载:docker pull nivelle/nivelle:1.0.2】【运行:sudo docker 
 
 ## HBase实践
 
+✅【put】
+
+
 ## 待实践。。。。
 
 ⌛ Netty实践
