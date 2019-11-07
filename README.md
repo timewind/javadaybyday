@@ -109,6 +109,14 @@ docker整合【下载:docker pull nivelle/nivelle:1.0.2】【运行:sudo docker 
 ✅ 【WebMvcConfigurer && @EnableWebMvc】
 
 
+## Mybatis实践
+
+✅ 【mybatis 整合到springBoot】
+
+✅ 【mybatis 使用redis做缓存组件】
+
+--------------------------
+
 ## 算法实践
 
 ✅ 【有序二维数组查】
@@ -130,40 +138,6 @@ docker整合【下载:docker pull nivelle/nivelle:1.0.2】【运行:sudo docker 
 ✅ 【数值的整数次方】
 
 ✅ 【数组奇数偶数相对排序】
-
-
-## JVM实践
-
-✅ 【自定义类加载器】
-
-✅ 【类实例化过程实例】
-
-## RabbitMQ
-
-✅ 【rabbitMQ】
-
-## Kafka
-
-⌛ 【细节分析】
-
-## 分布式实践
-
-⌛ 自己实现RPC 
-
-✅ 【zookeeper选主】
-
-✅ 【zookeeper分布式锁】
-⌛ 分布式事物
-
-## Mybatis实践
-
-✅ 【mybatis 整合到springBoot】
-
-✅ 【mybatis 使用redis做缓存组件】
-
-## Redis实践
-
-✅ 【redis实践】
 
 ## Java2e实践
 
@@ -237,6 +211,39 @@ docker整合【下载:docker pull nivelle/nivelle:1.0.2】【运行:sudo docker 
 
 ✅ 【抽象工厂模式】
 
+-------------------------
+
+## JVM实践
+
+✅ 【自定义类加载器】
+
+✅ 【类实例化过程实例】
+
+
+## zookeeper实践
+
+⌛ 自己实现RPC 
+
+✅ 【zookeeper选主】
+
+✅ 【zookeeper分布式锁】
+
+⌛ 分布式事物
+
+
+## Redis实践
+
+✅ 【redis实践】
+
+## RabbitMQ
+
+✅ 【rabbitMQ】
+
+## Kafka
+
+⌛ 【细节分析】
+
+
 ## MySQL实践
 
 ✅ 【mysql常用语句】
@@ -271,3 +278,5 @@ docker整合【下载:docker pull nivelle/nivelle:1.0.2】【运行:sudo docker 
 ⌛ Netty实践
 
 ⌛ SpringMVC http协议分析
+
+⌛ ElasticSearch
