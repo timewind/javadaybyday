@@ -19,31 +19,37 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class HBaseController {
 
     @Autowired
-    MyHBaseDao myHBaseDao;
+    MyHBaseDaoImpl myHBaseDaoImpl;
 
     @RequestMapping("/put/{tableName}/{rowKey}/{family}/{qualifier}/{value}")
     @ResponseBody
     public Object put(@PathVariable String tableName, @PathVariable String rowKey, @PathVariable String family, @PathVariable String qualifier, @PathVariable String value) {
-        myHBaseDao.putData(tableName, rowKey, family, qualifier, value);
+        myHBaseDaoImpl.putData(tableName, rowKey, family, qualifier, value);
         return true;
     }
 
     @RequestMapping("/scan/{tableName}/{rowKey}/{family}")
     @ResponseBody
     public Object scan(@PathVariable String tableName, @PathVariable String rowKey, @PathVariable String family) {
-        return myHBaseDao.scanData(tableName, rowKey, family);
+        return myHBaseDaoImpl.scanData(tableName, rowKey, family);
     }
 
     @RequestMapping("/delete/{tableName}/{rowKey}/{family}/{qualifier}")
     @ResponseBody
     public Object delete(@PathVariable String tableName, @PathVariable String rowKey, @PathVariable String family, @PathVariable String qualifier) {
-        return myHBaseDao.deleteData(tableName, rowKey, family, qualifier);
+        return myHBaseDaoImpl.deleteData(tableName, rowKey, family, qualifier);
     }
 
     @RequestMapping("/get/{tableName}/{rowKey}/{family}/{qualifier}")
     @ResponseBody
     public Object get(@PathVariable String tableName, @PathVariable String rowKey, @PathVariable String family, @PathVariable String qualifier) {
-        return myHBaseDao.getData(tableName, rowKey, family, qualifier);
+        return myHBaseDaoImpl.getData(tableName, rowKey, family, qualifier);
+    }
+
+    @RequestMapping("/deleteAll/{tableName}/{rowKey}/{family}/{qualifier}")
+    @ResponseBody
+    public Object deleteAll(@PathVariable String tableName, @PathVariable String rowKey, @PathVariable String family, @PathVariable String qualifier) {
+        return myHBaseDaoImpl.deleteAllData(tableName, rowKey, family, qualifier);
     }
 
 

@@ -6,24 +6,23 @@ import org.apache.hadoop.hbase.client.*;
 import org.apache.hadoop.hbase.util.Bytes;
 import org.apache.logging.log4j.util.Strings;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.hadoop.hbase.HbaseTemplate;
 import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
 @Repository
 @Slf4j
-public class MyHBaseDao {
-
-    private final static String TABLE = "test";
+public class MyHBaseDaoImpl {
 
     private static final String DEFAULT_FAMILY = "f1";
 
     private static final String SPLIT_CHAR = "-";
 
     private static final Integer DEFAULT_MAX_NUM = 100;
-
+    
     @Autowired
-    private MyHBasePoolTemplate myHBasePoolTemplate;
+    private HbaseTemplate hbaseTemplate;
 
     /**
      * 添加数据
@@ -36,22 +35,16 @@ public class MyHBaseDao {
      * @return
      */
     public boolean putData(String tableName, String rowKey, String family, String qualifier, String value) {
-        boolean flag;
+        boolean flag = false;
         long startTime = System.currentTimeMillis();
         try {
-            flag = myHBasePoolTemplate.execute(tableName, (HTableInterface tableInterface) -> {
-                Put put = new Put(Bytes.toBytes(getRowKey(rowKey)));
-                put.addColumn(Bytes.toBytes(Strings.isNotBlank(family) ? family : DEFAULT_FAMILY), Bytes.toBytes(qualifier),
-                        Bytes.toBytes(value));
-                tableInterface.put(put);
-                return true;
-            });
+            hbaseTemplate.put(tableName, getRowKey(rowKey), (Strings.isNotBlank(family) ? family : DEFAULT_FAMILY), qualifier, Bytes.toBytes(value));
+            return true;
         } finally {
             long endTime = System.currentTimeMillis();
             System.out.println("putData cost time:" + (endTime - startTime));
-
+            return flag;
         }
-        return flag;
     }
 
     /**
@@ -72,7 +65,7 @@ public class MyHBaseDao {
         scan.addFamily(Strings.isNotBlank(family) ? family.getBytes() : DEFAULT_FAMILY.getBytes());
         scan.setMaxVersions(3);
         try {
-            return myHBasePoolTemplate.find(tableName, scan, (ResultScanner resultScanner) -> {
+            return hbaseTemplate.find(tableName, scan, (ResultScanner resultScanner) -> {
                 List<Map<String, String>> list = new ArrayList<>();
                 Result[] res = resultScanner.next(DEFAULT_MAX_NUM);
                 List<Result> results = Arrays.asList(res);
@@ -98,7 +91,7 @@ public class MyHBaseDao {
     }
 
     /**
-     * 删除数据
+     * 删除最大版本数据
      *
      * @param tableName
      * @param rowKey
@@ -108,13 +101,40 @@ public class MyHBaseDao {
      */
     public boolean deleteData(String tableName, String rowKey, String family, String qualifier) {
         try {
-            myHBasePoolTemplate.delete(tableName, getRowKey(rowKey), family, qualifier);
+            hbaseTemplate.delete(tableName, getRowKey(rowKey), family, qualifier);
             return true;
         } catch (Exception e) {
             System.out.println("HBase delete error!" + e);
         }
         return false;
     }
+
+    /**
+     * 删除所有版本的数据
+     *
+     * @param tableName
+     * @param rowKey
+     * @param family
+     * @param qualifier
+     * @return
+     */
+    public boolean deleteAllData(String tableName, String rowKey, String family, String qualifier) {
+        Boolean flag = false;
+        try {
+            Delete delete = new Delete(getRowKey(rowKey).getBytes());
+            delete.addColumns(family.getBytes(), qualifier.getBytes(), System.currentTimeMillis());
+            hbaseTemplate.execute(tableName, (HTableInterface hTableInterface) -> {
+                hTableInterface.delete(delete);
+                return null;
+            });
+            return true;
+        } catch (Exception e) {
+            System.out.println("HBase delete error!" + e);
+        }
+        return flag;
+
+    }
+
 
     /**
      * 获取指定数据
@@ -128,7 +148,7 @@ public class MyHBaseDao {
     public Map<String, String> getData(String tableName, String rowKey, String family, String qualifier) {
         Map<String, String> dataMap = Maps.newHashMap();
         try {
-            return myHBasePoolTemplate.get(tableName, getRowKey(rowKey), family, qualifier, (Result result, int row) -> {
+            return hbaseTemplate.get(tableName, getRowKey(rowKey), family, qualifier, (Result result, int row) -> {
                 dataMap.put(getGetKey(family, qualifier), Bytes.toString(result.getValue(family.getBytes(), qualifier.getBytes())));
                 return dataMap;
             });

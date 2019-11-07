@@ -6,6 +6,7 @@ import org.apache.hadoop.hbase.HConstants;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.PropertySource;
+import org.springframework.data.hadoop.hbase.HbaseTemplate;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -54,8 +55,8 @@ public class MyHBaseConfiguration {
 
 
     @Bean
-    public MyHBasePoolTemplate myHBasePoolTemplate(org.apache.hadoop.conf.Configuration configuration) {
-        return new MyHBasePoolTemplate(configuration, 5);
+    public HbaseTemplate myHBaseTemplate(org.apache.hadoop.conf.Configuration configuration) {
+        return new HbaseTemplate(configuration);
     }
 
 }
