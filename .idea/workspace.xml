@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="09fae382-911d-4cd0-8d25-ce0025512f0a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/dubbo/consumer/HelloConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/dubbo/consumer/HelloConsumerController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dubbo-provider/target/" />
     <ignored path="$PROJECT_DIR$/dubbo-api/target/" />
@@ -1837,7 +1836,7 @@
       <workItem from="1573104906594" duration="2972000" />
       <workItem from="1573135792820" duration="4154000" />
       <workItem from="1573205650410" duration="1319000" />
-      <workItem from="1573223777857" duration="3014000" />
+      <workItem from="1573223777857" duration="3149000" />
     </task>
     <task id="LOCAL-00001">
       <created>1571757529298</created>
@@ -2091,11 +2090,18 @@
       <option name="project" value="LOCAL" />
       <updated>1573141669743</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="【dubbo使用】">
+      <created>1573233227253</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1573233227254</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147543000" />
+    <option name="totallyTimeSpent" value="147678000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2108,7 +2114,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-290" y="-1080" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5021299" side_tool="true" weight="0.67107946" />
       <window_info anchor="right" id="Maven Projects" order="6" sideWeight="0.4990942" weight="0.37539935" />
@@ -2252,7 +2257,8 @@
     <MESSAGE value="【scan】" />
     <MESSAGE value="【delete&amp;get】" />
     <MESSAGE value="【README】" />
-    <option name="LAST_COMMIT_MESSAGE" value="【README】" />
+    <MESSAGE value="【dubbo使用】" />
+    <option name="LAST_COMMIT_MESSAGE" value="【dubbo使用】" />
   </component>
   <component name="WindowStateProjectService">
     <state width="380" height="690" key="Git.Branch.Popup" />

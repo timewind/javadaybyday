@@ -256,7 +256,12 @@ docker整合【下载:docker pull nivelle/nivelle:1.0.2】【运行:sudo docker 
 
 ✅【dubbo:@Service】
 
-⌛️ 待分析细节。。。
+✅【dubbo:check】:启动检查
+
+✅【dubbo:cluster】:集群容错
+
+✅【dubbo:loadbalance】:负载均衡
+
 
 ## Tomcat实践
 
