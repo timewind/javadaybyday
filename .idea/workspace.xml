@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="09fae382-911d-4cd0-8d25-ce0025512f0a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/configbean/MyHBaseConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/configbean/MyHBaseConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/hbase/HBaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/hbase/HBaseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/hbase/MyHBaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/hbase/MyHBaseDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/dubbo/consumer/HelloConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/dubbo/consumer/HelloConsumerController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dubbo-provider/target/" />
     <ignored path="$PROJECT_DIR$/dubbo-api/target/" />
@@ -44,107 +41,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HBaseController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/hbase/HBaseController.java">
+      <file leaf-file-name="KafkaSendServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/kafka/KafkaSendServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="48" column="31" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="31" />
+            <state relative-caret-position="204">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloConsumerController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/dubbo/consumer/HelloConsumerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="46" column="6" lean-forward="true" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2233#2234#0" expanded="true" />
+                <element signature="e#2288#2289#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="303">
-                <caret line="271" lean-forward="true" selection-start-line="271" selection-end-line="271" />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="Reference.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/com/alibaba/dubbo/config/annotation/Reference.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyHBaseDaoImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/hbase/MyHBaseDaoImpl.java">
+      <file leaf-file-name="HelloDubboService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/commonservice/HelloDubboService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#5380#5381#0" expanded="true" />
-                <element signature="e#5427#5428#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HbaseOperations.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-hadoop-hbase/2.5.0.RELEASE/spring-data-hadoop-hbase-2.5.0.RELEASE-sources.jar!/org/springframework/data/hadoop/hbase/HbaseOperations.java">
+      <file leaf-file-name="HelloDubboServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/service/impl/HelloDubboServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="42" column="17" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="17" />
+            <state relative-caret-position="170">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HTableInterface.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-client/1.2.5/hbase-client-1.2.5-sources.jar!/org/apache/hadoop/hbase/client/HTableInterface.java">
+      <file leaf-file-name="Service.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/com/alibaba/dubbo/config/annotation/Service.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="36" column="44" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HTable.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-client/1.2.5/hbase-client-1.2.5-sources.jar!/org/apache/hadoop/hbase/client/HTable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="115" column="19" selection-start-line="115" selection-start-column="13" selection-end-line="115" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Table.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-client/1.2.5/hbase-client-1.2.5-sources.jar!/org/apache/hadoop/hbase/client/Table.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="52" column="18" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyHBasePoolTemplate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/hbase/MyHBasePoolTemplate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyHBaseConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/configbean/MyHBaseConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="591">
-              <caret line="57" column="24" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HbaseTemplate.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-hadoop-hbase/2.5.0.RELEASE/spring-data-hadoop-hbase-2.5.0.RELEASE-sources.jar!/org/springframework/data/hadoop/hbase/HbaseTemplate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="233" column="11" selection-start-line="233" selection-start-column="11" selection-end-line="233" selection-end-column="11" />
-              <folding>
-                <element signature="e#7055#7499#0" expanded="true" />
-                <element signature="e#7498#7499#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-613">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -203,7 +153,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response15.properties" root0="SKIP_INSPECTION" />
+    <setting file="dummy://restClient/response47.properties" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -247,9 +197,7 @@
         <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/DubboProviderApplication.java" />
         <option value="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/dubbo/HelloDubboService.java" />
         <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/service/HelloDubboService.java" />
-        <option value="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/dubbo/consumer/HelloConsumerController.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/commonservice/HelloDubboService.java" />
-        <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/service/impl/HelloDubboServiceImpl.java" />
         <option value="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/hbase/HbaseUtils.java" />
         <option value="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springmvc/MyWebConfig.java" />
         <option value="$PROJECT_DIR$/springboot-all/pom.xml" />
@@ -259,6 +207,8 @@
         <option value="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/configbean/MyHBaseConfiguration.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/hbase/MyHBaseDaoImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/service/impl/HelloDubboServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/dubbo/consumer/HelloConsumerController.java" />
       </list>
     </option>
   </component>
@@ -313,6 +263,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -323,6 +274,101 @@
             <path>
               <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaguides" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nivelle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nivelle" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nivelle" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nivelle" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nivelle" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="HelloDubboServiceImpl" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
               <item name="springboot-all" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -386,7 +432,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="nivelle" type="462c0819:PsiDirectoryNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="configbean" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
@@ -398,27 +444,14 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="nivelle" type="462c0819:PsiDirectoryNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="configbean" type="462c0819:PsiDirectoryNode" />
-              <item name="MyHBaseConfiguration" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-all" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nivelle" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="hbase" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -469,6 +502,37 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/dubbo" />
+                <option name="value" value="2337D9A128817BDBD763BBA392CFF7D4" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/springBoot/dubbo/sayHello/ojbk" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="biscuits">
             <list>
@@ -1771,7 +1835,9 @@
       <workItem from="1573092286587" duration="1723000" />
       <workItem from="1573099857994" duration="40000" />
       <workItem from="1573104906594" duration="2972000" />
-      <workItem from="1573135792820" duration="3793000" />
+      <workItem from="1573135792820" duration="4154000" />
+      <workItem from="1573205650410" duration="1319000" />
+      <workItem from="1573223777857" duration="3014000" />
     </task>
     <task id="LOCAL-00001">
       <created>1571757529298</created>
@@ -2018,11 +2084,18 @@
       <option name="project" value="LOCAL" />
       <updated>1573093442258</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="【README】">
+      <created>1573141669743</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1573141669743</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142849000" />
+    <option name="totallyTimeSpent" value="147543000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2035,8 +2108,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-290" y="-1080" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5017271" side_tool="true" weight="0.2316136" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5021299" side_tool="true" weight="0.67107946" />
       <window_info anchor="right" id="Maven Projects" order="6" sideWeight="0.4990942" weight="0.37539935" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info id="Designer" order="3" />
@@ -2049,17 +2123,16 @@
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49840257" weight="0.2859495" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
-      <window_info anchor="bottom" id="REST Client" order="16" visible="true" weight="0.31160897" />
+      <window_info anchor="bottom" id="REST Client" order="16" sideWeight="0.49840257" visible="true" weight="0.404277" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4974093" weight="0.14489572" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4982729" weight="0.16191445" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978701" weight="0.48065174" />
       <window_info anchor="bottom" x="-1179" y="-398" width="1158" height="601" id="Spring" order="7" weight="0.3298573" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49893504" weight="0.5784114" />
       <window_info anchor="bottom" id="Problems" order="15" weight="0.3298573" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.5008503" side_tool="true" visible="true" weight="0.21618743" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.5008503" side_tool="true" visible="true" weight="0.22151224" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3299712" />
-      <window_info id="ZooKeeper" order="0" sideWeight="0.49914965" side_tool="true" weight="0.34801382" />
+      <window_info id="ZooKeeper" order="0" sideWeight="0.49914965" side_tool="true" weight="0.2284345" />
       <window_info id="Web" order="8" side_tool="true" weight="0.3298791" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49913645" weight="0.3122942" />
       <window_info anchor="right" id="SciView" order="11" />
       <window_info id="Favorites" order="7" side_tool="true" weight="0.328152" />
       <window_info id="Capture Tool" order="5" />
@@ -2069,6 +2142,7 @@
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="10" sideWeight="0.5009058" side_tool="true" weight="0.07173447" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49913645" weight="0.3122942" />
       <window_info id="UI Designer" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -2076,41 +2150,44 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
     </layout>
     <layout-to-restore>
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49893504" weight="0.45824847" />
+      <window_info id="Designer" order="3" />
+      <window_info anchor="bottom" id="REST Client" order="16" visible="true" weight="0.31160897" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49840257" weight="0.2859495" />
+      <window_info anchor="bottom" x="-1179" y="-398" width="1158" height="601" id="Spring" order="7" weight="0.3298573" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4982729" weight="0.16191445" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" x="546" y="214" width="347" height="472" id="Ant Build" order="1" weight="0.18072917" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" weight="0.32960597" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49893504" weight="0.19348268" />
+      <window_info anchor="right" x="546" y="214" width="347" height="472" id="Ant Build" order="1" weight="0.21761657" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" weight="0.328152" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49893504" weight="0.5784114" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50106496" side_tool="true" weight="0.4124236" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49840257" weight="0.32179227" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5017271" side_tool="true" weight="0.2316136" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298573" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Problems" order="15" />
+      <window_info anchor="bottom" id="Problems" order="15" weight="0.3298573" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49946752" weight="0.42464358" />
-      <window_info anchor="right" id="Maven Projects" order="6" show_stripe_button="false" sideWeight="0.4990942" weight="0.26729107" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" side_tool="true" visible="true" weight="0.24068157" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4974093" weight="0.14489572" />
+      <window_info anchor="right" id="Maven Projects" order="6" sideWeight="0.4990942" weight="0.37539935" />
+      <window_info id="ZooKeeper" order="0" sideWeight="0.49914965" side_tool="true" weight="0.34801382" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49913645" weight="0.3122942" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.5008503" side_tool="true" visible="true" weight="0.22151224" />
+      <window_info anchor="right" id="SciView" order="11" />
       <window_info anchor="right" id="Database" order="5" weight="0.32960597" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Web" order="8" side_tool="true" weight="0.3298791" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.24973376" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.24870466" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Coverage" order="10" sideWeight="0.5009058" side_tool="true" weight="0.07173447" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.31364563" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3496158" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3299712" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.33695653" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2469,6 +2546,92 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.2.5.RELEASE/spring-kafka-2.2.5.RELEASE.jar!/org/springframework/kafka/core/KafkaTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="85" column="28" selection-start-line="85" selection-start-column="28" selection-end-line="85" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/hbase/HBaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="48" column="31" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="4607">
+            <caret line="271" lean-forward="true" selection-start-line="271" selection-end-line="271" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-hadoop-hbase/2.5.0.RELEASE/spring-data-hadoop-hbase-2.5.0.RELEASE-sources.jar!/org/springframework/data/hadoop/hbase/HbaseOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="42" column="17" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-client/1.2.5/hbase-client-1.2.5-sources.jar!/org/apache/hadoop/hbase/client/HTableInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="36" column="44" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-client/1.2.5/hbase-client-1.2.5-sources.jar!/org/apache/hadoop/hbase/client/HTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="115" column="19" selection-start-line="115" selection-start-column="13" selection-end-line="115" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-client/1.2.5/hbase-client-1.2.5-sources.jar!/org/apache/hadoop/hbase/client/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="52" column="18" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/hbase/MyHBasePoolTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/configbean/MyHBaseConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="57" column="24" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-hadoop-hbase/2.5.0.RELEASE/spring-data-hadoop-hbase-2.5.0.RELEASE-sources.jar!/org/springframework/data/hadoop/hbase/HbaseTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3468">
+          <caret line="233" column="11" selection-start-line="233" selection-start-column="11" selection-end-line="233" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/hbase/MyHBaseDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2295">
+          <caret line="144" column="23" selection-start-line="144" selection-start-column="14" selection-end-line="144" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/hbase/HBaseController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -2485,8 +2648,6 @@
           <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5380#5381#0" expanded="true" />
-            <element signature="e#5427#5428#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2530,10 +2691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1258">
           <caret line="74" column="20" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="20" />
-          <folding>
-            <element signature="e#3421#3422#0" expanded="true" />
-            <element signature="e#3469#3470#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2548,10 +2705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="81" column="29" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
-          <folding>
-            <element signature="e#7055#7499#0" expanded="true" />
-            <element signature="e#7498#7499#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2580,10 +2733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4216">
           <caret line="288" column="29" selection-start-line="288" selection-start-column="16" selection-end-line="288" selection-end-column="29" />
-          <folding>
-            <element signature="e#3421#3422#0" expanded="true" />
-            <element signature="e#3469#3470#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2606,32 +2755,28 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-hadoop-hbase/2.5.0.RELEASE/spring-data-hadoop-hbase-2.5.0.RELEASE-sources.jar!/org/springframework/data/hadoop/hbase/HbaseOperations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
+        <state relative-caret-position="442">
           <caret line="42" column="17" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/hbase/MyHBasePoolTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
+        <state relative-caret-position="374">
           <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-hadoop-hbase/2.5.0.RELEASE/spring-data-hadoop-hbase-2.5.0.RELEASE-sources.jar!/org/springframework/data/hadoop/hbase/HbaseTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
+        <state relative-caret-position="3468">
           <caret line="233" column="11" selection-start-line="233" selection-start-column="11" selection-end-line="233" selection-end-column="11" />
-          <folding>
-            <element signature="e#7055#7499#0" expanded="true" />
-            <element signature="e#7498#7499#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-client/1.2.5/hbase-client-1.2.5-sources.jar!/org/apache/hadoop/hbase/client/HTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
+        <state relative-caret-position="663">
           <caret line="115" column="19" selection-start-line="115" selection-start-column="13" selection-end-line="115" selection-end-column="19" />
         </state>
       </provider>
@@ -2652,7 +2797,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/hbase/HBaseController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
+        <state relative-caret-position="731">
           <caret line="48" column="31" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -2663,8 +2808,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="303">
-            <caret line="271" lean-forward="true" selection-start-line="271" selection-end-line="271" />
+          <first_editor relative-caret-position="4607">
+            <caret line="271" selection-start-line="271" selection-end-line="271" />
           </first_editor>
           <second_editor />
         </state>
@@ -2672,19 +2817,115 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/configbean/MyHBaseConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
+        <state relative-caret-position="850">
           <caret line="57" column="24" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/hbase/MyHBaseDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        <state relative-caret-position="2295">
+          <caret line="144" column="23" selection-start-line="144" selection-start-column="14" selection-end-line="144" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5380#5381#0" expanded="true" />
-            <element signature="e#5427#5428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/kafka/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/kafka/KafkaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/kafka/KafkaSendService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.2.5.RELEASE/spring-kafka-2.2.5.RELEASE.jar!/org/springframework/kafka/core/KafkaTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="85" column="28" selection-start-line="85" selection-start-column="28" selection-end-line="85" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/kafka/KafkaSendServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/com/alibaba/dubbo/config/spring/context/annotation/EnableDubbo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/commonservice/HelloDubboService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/DubboProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/SpringBootAllApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="29" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/com/alibaba/dubbo/config/annotation/Reference.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/com/alibaba/dubbo/config/annotation/Service.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-613">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/service/impl/HelloDubboServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/dubbo/consumer/HelloConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="46" column="6" lean-forward="true" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
+          <folding>
+            <element signature="e#2233#2234#0" expanded="true" />
+            <element signature="e#2288#2289#0" expanded="true" />
           </folding>
         </state>
       </provider>
