@@ -26,4 +26,5 @@ public class ParadigmClass<E> {
     public ParadigmClass(E element) {
         this.element = element;
     }
+
 }

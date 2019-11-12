@@ -76,5 +76,14 @@ public class ParadigmClassMethod<T> {
         return;
     }
 
+    /**
+     * 如果在类中定义使用泛型的静态方法，需要添加额外的泛型声明（将这个方法定义成泛型方法）即使静态方法要使用泛型类中已经声明过的泛型也不可以
+     * @param t
+     * @param <T>
+     */
+    public static <T> void showStaticType(T t) {
+        System.out.println(t.getClass().getTypeName());
+    }
+
 
 }

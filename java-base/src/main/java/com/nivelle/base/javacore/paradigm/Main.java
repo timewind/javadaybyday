@@ -57,5 +57,7 @@ public class Main {
         paradigmClassMethod.getParam2(1456);
         paradigmClassMethod.getParam3(1789);
 
+        ParadigmClassMethod.showStaticType(124 );
+
     }
 }
