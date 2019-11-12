@@ -8,6 +8,11 @@ package com.nivelle.base.javacore.paradigm;
  */
 public class Main {
 
+    /**
+     * 泛型类,是在实例化类的时候指明泛型的具体类型；泛型方法，是在调用方法的时候指明泛型的具体类型 。
+     *
+     */
+
     public static void main(String[] args) {
         /**
          * new ParadigmClass<> 范型可以省略
