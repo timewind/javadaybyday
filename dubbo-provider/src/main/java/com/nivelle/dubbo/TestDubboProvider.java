@@ -2,9 +2,9 @@ package com.nivelle.dubbo;
 
 import com.nivelle.dubbo.model.Cat;
 import com.nivelle.dubbo.model.Dog;
-import com.nivelle.dubbo.service.AsyncService;
+import com.nivelle.dubbo.service.other.AsyncService;
 import com.nivelle.dubbo.service.ConcreteService;
-import com.nivelle.dubbo.service.impl.XmlBeanServiceImpl;
+import com.nivelle.dubbo.service.other.XmlBeanServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

@@ -1,4 +1,4 @@
-package com.nivelle.dubbo.service.impl;
+package com.nivelle.dubbo.service.other;
 
 /**
  * @author fuxinzhong

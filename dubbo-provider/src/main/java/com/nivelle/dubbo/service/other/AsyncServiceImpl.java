@@ -1,6 +1,5 @@
-package com.nivelle.dubbo.service.impl;
+package com.nivelle.dubbo.service.other;
 
-import com.nivelle.dubbo.service.AsyncService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.scheduling.annotation.AsyncResult;
