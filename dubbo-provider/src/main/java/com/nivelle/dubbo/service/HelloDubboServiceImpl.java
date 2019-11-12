@@ -1,7 +1,7 @@
 package com.nivelle.dubbo.service;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.nivelle.base.commonservice.HelloDubboService;
+import com.nivelle.base.dubboservice.HelloDubboService;
 
 import java.net.InetAddress;
 

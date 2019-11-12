@@ -1,4 +1,4 @@
-package com.nivelle.base.commonservice;
+package com.nivelle.base.dubboservice;
 
 /**
  * TODO:DOCUMENT ME!
