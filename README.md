@@ -282,11 +282,11 @@ docker整合【下载:docker pull nivelle/nivelle:1.0.2】【运行:sudo docker 
 
 ✅【delete所有版本数据】
 
+## Netty实践 
+
+✅【客户端&服务端】
+
 
 ## 待实践。。。。
 
-⌛ Netty实践
-
-⌛ SpringMVC http协议分析
-
-⌛ ElasticSearch
+⌛ ElasticSearch实践

@@ -40,7 +40,7 @@ public class ParadigmClassMethod<T> {
 
 
     /**
-     * 范型方法2
+     * 范型方法2变异
      *
      * @param <T>
      * @return
@@ -66,6 +66,8 @@ public class ParadigmClassMethod<T> {
 
     /**
      * 非范型方法：只是一个使用了范型类的方法
+     * <p>
+     * 范型参数需要声明范型类型:返回值<T>或者使用范型类
      *
      * @param
      * @return
@@ -77,12 +79,40 @@ public class ParadigmClassMethod<T> {
     }
 
     /**
-     * 如果在类中定义使用泛型的静态方法，需要添加额外的泛型声明（将这个方法定义成泛型方法）即使静态方法要使用泛型类中已经声明过的泛型也不可以
+     * 如果在类中定义使用泛型的静态方法，需要添加额外的泛型声明（将这个方法定义成泛型方法）
+     * 即使静态方法要使用泛型类中已经声明过的泛型也不可以
+     *
      * @param t
      * @param <T>
      */
     public static <T> void showStaticType(T t) {
         System.out.println(t.getClass().getTypeName());
+    }
+
+    /**
+     * <E>:声明了一个范型类型
+     *
+     * @param params
+     * @param <E>
+     * @return
+     */
+    public <E> String getParam5(E params) {
+        E result = params;
+        System.out.println(result);
+        return "";
+    }
+
+    /**
+     * 返回值是声明的范型类型
+     *
+     * @param params
+     * @param <E>
+     * @return
+     */
+    public <E> E getParam6(E params) {
+        E result = params;
+        System.out.println(result);
+        return result;
     }
 
 
