@@ -10,7 +10,6 @@ public class Main {
 
     /**
      * 泛型类,是在实例化类的时候指明泛型的具体类型；泛型方法，是在调用方法的时候指明泛型的具体类型 。
-     *
      */
 
     public static void main(String[] args) {
@@ -57,10 +56,14 @@ public class Main {
         paradigmClassMethod.getParam2(1456);
         paradigmClassMethod.getParam3(1789);
 
+        paradigmClassMethod.getParam4(101112);
+        paradigmClassMethod.getParam5(10111213);
+        paradigmClassMethod.getParam6(1011121314);
+
         /**
          * 静态范型方法
          */
-        ParadigmClassMethod.showStaticType(124 );
+        ParadigmClassMethod.showStaticType(124);
 
     }
 }

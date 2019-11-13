@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09fae382-911d-4cd0-8d25-ce0025512f0a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/netty/NettyClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/netty/NettyClientFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/netty/NettyClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/netty/NettyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/netty/NettyServerFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/netty/NettyServerHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/paradigm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/paradigm/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/paradigm/ParadigmClassMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/paradigm/ParadigmClassMethod.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dubbo-provider/target/" />
     <ignored path="$PROJECT_DIR$/dubbo-api/target/" />
@@ -107,20 +98,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/paradigm/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="62" column="31" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="42" />
+            <state relative-caret-position="415">
+              <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParadigmClassMethod.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ParadigmClassMethod.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/paradigm/ParadigmClassMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="104" column="18" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
+            <state relative-caret-position="-295">
+              <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
               <folding>
                 <element signature="e#1381#1382#0" expanded="true" />
                 <element signature="e#1443#1444#0" expanded="true" />
@@ -264,7 +255,6 @@
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/paradigm/ParadigmMain.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/paradigm/ParadigmMethod.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/paradigm/ParadigmClass.java" />
-        <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/paradigm/Main.java" />
         <option value="$PROJECT_DIR$/java-base/pom.xml" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/netty/NettyServer.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/netty/NettyClientFilter.java" />
@@ -274,6 +264,7 @@
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/netty/NettyClientHandler.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/netty/NettyServerHandler.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/paradigm/ParadigmClassMethod.java" />
+        <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/paradigm/Main.java" />
       </list>
     </option>
   </component>
@@ -428,12 +419,7 @@
               <item name="base" type="462c0819:PsiDirectoryNode" />
               <item name="javacore" type="462c0819:PsiDirectoryNode" />
               <item name="paradigm" type="462c0819:PsiDirectoryNode" />
-              <item name="ParadigmClassMethod" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-all" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
@@ -1653,7 +1639,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NettyClient">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="DubboProviderApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nivelle.dubbo.DubboProviderApplication" />
       <module name="dubbo-provider" />
@@ -1796,6 +1782,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.NettyClient" />
         <item itemvalue="Application.NettyServer" />
         <item itemvalue="Application.SpringBootAllApplication" />
@@ -1865,7 +1852,7 @@
       <workItem from="1573443325416" duration="39000" />
       <workItem from="1573443398868" duration="293000" />
       <workItem from="1573539577390" duration="9193000" />
-      <workItem from="1573610096365" duration="811000" />
+      <workItem from="1573610096365" duration="1172000" />
     </task>
     <task id="LOCAL-00001">
       <created>1571757529298</created>
@@ -2161,11 +2148,18 @@
       <option name="project" value="LOCAL" />
       <updated>1573560057043</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="【范型&amp;Netty】">
+      <created>1573610930647</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1573610930647</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158449000" />
+    <option name="totallyTimeSpent" value="158810000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2298,7 +2292,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/javaGuides" />
     </ignored-roots>
-    <MESSAGE value="[修改了下目录结构涉及maven知识点]" />
     <MESSAGE value="[升级pom]" />
     <MESSAGE value="[将基础模块独立出来]" />
     <MESSAGE value="[Arrays.asList()方法的注意点]" />
@@ -2323,7 +2316,8 @@
     <MESSAGE value="【README】" />
     <MESSAGE value="【dubbo使用】" />
     <MESSAGE value="【范型】" />
-    <option name="LAST_COMMIT_MESSAGE" value="【范型】" />
+    <MESSAGE value="【范型&amp;Netty】" />
+    <option name="LAST_COMMIT_MESSAGE" value="【范型&amp;Netty】" />
   </component>
   <component name="WindowStateProjectService">
     <state width="380" height="690" key="Git.Branch.Popup" />
@@ -2975,21 +2969,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/paradigm/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="62" column="31" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/paradigm/ParadigmClassMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="104" column="18" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
+        <state relative-caret-position="-295">
+          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
           <folding>
             <element signature="e#1381#1382#0" expanded="true" />
             <element signature="e#1443#1444#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/paradigm/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
         </state>
       </provider>
     </entry>
