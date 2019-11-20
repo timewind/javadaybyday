@@ -2,8 +2,6 @@ package com.nivelle.dubbo;
 
 import com.alibaba.dubbo.config.spring.context.annotation.EnableDubbo;
 import com.nivelle.dubbo.model.Cat;
-import com.nivelle.dubbo.spi.MySpi;
-import com.sun.tools.javac.util.ServiceLoader;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -16,7 +14,6 @@ import org.springframework.scheduling.annotation.EnableAsync;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 import java.util.Arrays;
-import java.util.Iterator;
 
 
 @SpringBootApplication
@@ -31,15 +28,6 @@ public class DubboProviderApplication {
     public static void main(String[] args) {
 
         SpringApplication.run(DubboProviderApplication.class, args);
-
-        //JDK SPI机制
-        ServiceLoader<MySpi> serviceLoader = ServiceLoader.load(MySpi.class);
-        System.out.println("Java SPI");
-        Iterator iterator = serviceLoader.iterator();
-        if (iterator.hasNext()) {
-            System.err.println(iterator.next());
-        }
-        serviceLoader.forEach(MySpi::sayHello);
 
     }
 

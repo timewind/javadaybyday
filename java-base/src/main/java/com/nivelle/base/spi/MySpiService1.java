@@ -1,4 +1,4 @@
-package com.nivelle.dubbo.spi;
+package com.nivelle.base.spi;
 
 /**
  * TODO:DOCUMENT ME!
@@ -9,8 +9,8 @@ package com.nivelle.dubbo.spi;
 public class MySpiService1 implements MySpi{
 
     @Override
-    public void sayHello(){
-        System.out.println("spi service 1");
+    public void sayHelloSpi(){
+        System.err.println("spi service 1");
     }
 
 }

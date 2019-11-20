@@ -1,6 +1,6 @@
 package com.nivelle.spring.dubboprovider;
 
-import com.nivelle.dubbo.spi.MySpi;
+import com.nivelle.base.spi.MySpi;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -18,7 +18,7 @@ public class DubboProviderApplicationTests {
         //JDK SPI机制
         ServiceLoader<MySpi> serviceLoader = ServiceLoader.load(MySpi.class);
         System.out.println("Java SPI");
-        serviceLoader.forEach(MySpi::sayHello);
+        serviceLoader.forEach(MySpi::sayHelloSpi);
     }
 
 }
