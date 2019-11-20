@@ -7,6 +7,7 @@ import io.netty.channel.Channel;
 import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioSocketChannel;
+
 /**
  * netty客户端
  *
@@ -16,10 +17,15 @@ import io.netty.channel.socket.nio.NioSocketChannel;
 public class NettyClient {
     public static String host = "127.0.0.1";
     public static int port = 6789;
-    /// 反应器类型：通过nio方式来接收连接和处理连接
-    private static EventLoopGroup group = new NioEventLoopGroup();
-    //启动类:组装类和集成器
-    private static  Bootstrap b = new Bootstrap();
+    /**
+     * 反应器类型：通过nio方式来接收连接和处理连接
+     */
+    private static EventLoopGroup groupBoss = new NioEventLoopGroup();
+
+    /**
+     * 启动类:组装类和集成器
+     */
+    private static Bootstrap b = new Bootstrap();
     private static Channel ch;
 
     /**
@@ -28,7 +34,7 @@ public class NettyClient {
      **/
     public static void main(String[] args) throws InterruptedException, IOException {
         System.out.println("客户端成功启动...");
-        b.group(group);
+        b.group(groupBoss);
         b.channel(NioSocketChannel.class);
         b.handler(new NettyClientFilter());
         // 连接服务端
@@ -36,9 +42,9 @@ public class NettyClient {
         star();
     }
 
-    public static void star() throws IOException{
-        String str="Hello Netty";
+    public static void star() {
+        String str = "Hello Netty";
         ch.writeAndFlush(str);
-        System.out.println("客户端发送数据:"+str);
+        System.out.println("客户端发送数据:" + str);
     }
 }
