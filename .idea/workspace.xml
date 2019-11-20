@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09fae382-911d-4cd0-8d25-ce0025512f0a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java-base/src/main/resources/META-INF/dubbo/com.nivelle.base.spi.MySpi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/spi/MySpi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/resources/META-INF/dubbo/internal/com.nivelle.base.spi.MySpi" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/java-base/src/main/resources/META-INF/services/com.nivelle.base.spi.MySpi" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/dubbo/consumer/dubbo_core" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/DubboProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/DubboProviderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/spi/MySpi.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/spi/MySpi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/spi/MySpi.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/spi/MySpiService1.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/spi/MySpiService1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/spi/MySpiService2.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/spi/MySpiService2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/resources/META-INF/services/com.nivelle.dubbo.spi.MySpi" beforeDir="false" />
@@ -60,20 +61,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JavaBaseApplication.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="JavaBaseApplication.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/JavaBaseApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="51" />
+            <state relative-caret-position="93">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExtensionLoader.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ExtensionLoader.java" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2-sources.jar!/com/alibaba/dubbo/common/extension/ExtensionLoader.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="563" column="34" selection-start-line="563" selection-start-column="34" selection-end-line="563" selection-end-column="34" />
+              <caret line="66" column="86" selection-start-line="66" selection-start-column="78" selection-end-line="66" selection-end-column="86" />
               <folding>
                 <element signature="e#2954#2972#0" expanded="true" />
               </folding>
@@ -118,7 +119,7 @@
         </entry>
       </file>
       <file leaf-file-name="com.nivelle.base.spi.MySpi" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-base/src/main/resources/META-INF/dubbo/com.nivelle.base.spi.MySpi">
+        <entry file="file://$PROJECT_DIR$/java-base/src/main/resources/META-INF/dubbo/internal/com.nivelle.base.spi.MySpi">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="13" selection-end-column="13" />
@@ -157,7 +158,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>context-path</find>
       <find>9090</find>
       <find>helloDubbo</find>
       <find>ConcreteService</find>
@@ -187,6 +187,7 @@
       <find>err</find>
       <find>范型</find>
       <find>*</find>
+      <find>load</find>
     </findStrings>
     <replaceStrings>
       <replace>constructor</replace>
@@ -294,7 +295,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -309,229 +310,6 @@
       <pane id="ProjectPane">
         <subPane>
           <expand>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nivelle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nivelle" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nivelle" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="DubboProviderApplication" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="java-base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="java-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="java-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="java-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="java-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="java-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nivelle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="java-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nivelle" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="java-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nivelle" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="spi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="java-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nivelle" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="spi" type="462c0819:PsiDirectoryNode" />
-              <item name="MySpi" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="java-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nivelle" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="spi" type="462c0819:PsiDirectoryNode" />
-              <item name="MySpiService1" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="java-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nivelle" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaBaseApplication" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="java-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="java-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="java-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="java-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
             <path>
               <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
@@ -584,11 +362,11 @@
       <recent name="com.nivelle.base.pojo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/java-base/src/main/resources/META-INF/dubbo/internal" />
       <recent name="$PROJECT_DIR$/springboot-all/src/main/resources" />
       <recent name="$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/controller" />
       <recent name="$PROJECT_DIR$/dubbo-provider/src/main/resources" />
       <recent name="$PROJECT_DIR$/springboot-all" />
-      <recent name="$PROJECT_DIR$/dubbo-provider" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -2032,7 +1810,7 @@
       <workItem from="1573610096365" duration="2143000" />
       <workItem from="1574171106411" duration="1782000" />
       <workItem from="1574215889576" duration="1864000" />
-      <workItem from="1574233943340" duration="3612000" />
+      <workItem from="1574233943340" duration="3801000" />
     </task>
     <task id="LOCAL-00001">
       <created>1571757529298</created>
@@ -2367,7 +2145,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167039000" />
+    <option name="totallyTimeSpent" value="167228000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2380,7 +2158,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298573" />
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49840257" weight="0.2859495" />
@@ -2389,12 +2166,12 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5021299" side_tool="true" weight="0.67107946" />
       <window_info anchor="right" id="Maven Projects" order="6" sideWeight="0.4990942" weight="0.37539935" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4978701" visible="true" weight="0.1820449" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978701" weight="0.68204486" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4974093" weight="0.1446384" />
       <window_info anchor="bottom" x="-1179" y="-398" width="1158" height="601" id="Spring" order="7" weight="0.3298573" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49893504" weight="0.5784114" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49893504" visible="true" weight="0.57730675" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.5008503" side_tool="true" visible="true" weight="0.15450644" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.5008503" side_tool="true" visible="true" weight="0.26180258" />
       <window_info anchor="bottom" id="Problems" order="15" weight="0.3298573" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3299712" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
@@ -3168,20 +2945,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/resources/META-INF/dubbo/com.nivelle.base.spi.MySpi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/JavaBaseApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2-sources.jar!/com/alibaba/dubbo/common/utils/Holder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -3199,10 +2962,24 @@
     <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2-sources.jar!/com/alibaba/dubbo/common/extension/ExtensionLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="563" column="34" selection-start-line="563" selection-start-column="34" selection-end-line="563" selection-end-column="34" />
+          <caret line="66" column="86" selection-start-line="66" selection-start-column="78" selection-end-line="66" selection-end-column="86" />
           <folding>
             <element signature="e#2954#2972#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/resources/META-INF/dubbo/internal/com.nivelle.base.spi.MySpi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/JavaBaseApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
         </state>
       </provider>
     </entry>
