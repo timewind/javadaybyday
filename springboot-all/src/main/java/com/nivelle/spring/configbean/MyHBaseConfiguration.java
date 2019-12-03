@@ -1,6 +1,5 @@
 package com.nivelle.spring.configbean;
 
-import com.nivelle.spring.hbase.MyHBasePoolTemplate;
 import org.apache.hadoop.hbase.HBaseConfiguration;
 import org.apache.hadoop.hbase.HConstants;
 import org.springframework.beans.factory.annotation.Value;

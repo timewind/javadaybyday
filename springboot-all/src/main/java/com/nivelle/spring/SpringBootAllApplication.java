@@ -12,6 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.kafka.annotation.EnableKafka;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
@@ -23,6 +24,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableScheduling//开启定时任务注解
 @EnableRabbit//开启rabbitMQ注解支持
 @EnableDubbo//开启dubbo
+@EnableKafka
 @ComponentScan(basePackages = {"com.nivelle.spring","com.nivelle.base"})
 public class SpringBootAllApplication {
     public static void main(String[] args) {

@@ -24,4 +24,11 @@ public class KafkaController {
         kafkaSendService.send();
         return "success";
     }
+
+    @RequestMapping("/send2")
+    @ResponseBody
+    public String sendKafka2() {
+        kafkaSendService.send2();
+        return "success";
+    }
 }
