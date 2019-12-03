@@ -1,13 +1,11 @@
 package com.nivelle.spring.kafka;
 
-import com.nivelle.spring.kafka.MyPartitioner;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
-import org.springframework.kafka.annotation.EnableKafka;
 import org.springframework.kafka.core.DefaultKafkaProducerFactory;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.core.ProducerFactory;
@@ -22,7 +20,6 @@ import java.util.Map;
  * @date 2019/12/02
  */
 @Configuration
-@EnableKafka
 @PropertySource("classpath:config/application.properties")
 public class KafkaProducerConfig {
     @Value("${spring.kafka.producer.servers}")
@@ -54,14 +51,25 @@ public class KafkaProducerConfig {
         props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
         //producer端的消息确认机制,-1和all都表示消息不仅要写入本地的leader中还要写入对应的副本中
         props.put(ProducerConfig.ACKS_CONFIG, "-1");
-        //单条消息的最大值以字节为单位,默认值为1048576
-        // props.put(ProducerConfig.LINGER_MS_CONFIG, 10485760);
-        //设置broker响应时间，如果broker在60秒之内还是没有返回给producer确认消息，则认为发送失败
-        //props.put(ProducerConfig.REQUEST_TIMEOUT_MS_CONFIG, 60000);
-        //指定拦截器(value为对应的class)
-        //props.put(ProducerConfig.INTERCEPTOR_CLASSES_CONFIG, "com.te.handler.KafkaProducerInterceptor");
-        //设置压缩算法
-        //props.put(ProducerConfig.COMPRESSION_TYPE_CONFIG, "LZ4");
+        /**
+         * 单条消息的最大值以字节为单位, 默认值为1048576
+         * props.put(ProducerConfig.LINGER_MS_CONFIG, 10485760);
+         */
+        /**
+         * 设置broker响应时间，如果broker在60秒之内还是没有返回给producer确认消息，则认为发送失败
+         * props.put(ProducerConfig.REQUEST_TIMEOUT_MS_CONFIG, 60000);
+         */
+        /**
+         * 指定拦截器(value为对应的class全限定名)
+         * props.put(ProducerConfig.INTERCEPTOR_CLASSES_CONFIG, "");
+         */
+        /**
+         * 设置压缩算法
+         * props.put(ProducerConfig.COMPRESSION_TYPE_CONFIG, "LZ4");
+         */
+        /**
+         * 自定义分区器
+         */
         props.put(ProducerConfig.PARTITIONER_CLASS_CONFIG, MyPartitioner.class);
 
         return props;

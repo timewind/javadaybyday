@@ -28,7 +28,7 @@ public class Consumer {
 
     }
 
-    @KafkaListener(topics = "defautTopic")
+    @KafkaListener(id = "defaultId" ,topics = "defautTopic")
     public void listen2(ConsumerRecord<?, ?> record) {
         Optional<?> kafkaMessage = Optional.ofNullable(record.value());
         if (kafkaMessage.isPresent()) {
