@@ -6,7 +6,7 @@ import org.springframework.kafka.listener.ListenerExecutionFailedException;
 import org.springframework.messaging.Message;
 
 /**
- * TODO:DOCUMENT ME!
+ * 异常处理器
  *
  * @author fuxinzhong
  * @date 2019/12/02

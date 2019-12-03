@@ -23,7 +23,7 @@ public class Consumer {
         Optional<?> kafkaMessage = Optional.ofNullable(record.value());
         if (kafkaMessage.isPresent()) {
             Object message = kafkaMessage.get();
-            System.err.println("record---->" + record + "record ------>" + message);
+            System.err.println("top is" + record.topic() + ";record" + record);
         }
 
     }
@@ -33,8 +33,7 @@ public class Consumer {
         Optional<?> kafkaMessage = Optional.ofNullable(record.value());
         if (kafkaMessage.isPresent()) {
             Object message = kafkaMessage.get();
-            System.err.println("record---->" + record + "record ------>" + message);
+            System.err.println("top is" + record.topic() + ";record" + record);
         }
-
     }
 }
