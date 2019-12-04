@@ -246,8 +246,15 @@ SpringBoot依赖相关中间件,需要安装依赖的中间件,然后使用 loca
 
 ## Kafka
 
-⌛ 【细节分析】
+✅【Produce】
 
+✅【Consumer】
+
+✅【Filter】
+
+✅【ErrorHandler】
+
+✅【Partitioner】
 
 ## MySQL实践
 
