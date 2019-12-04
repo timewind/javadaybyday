@@ -19,13 +19,13 @@ public class KafkaSendService {
     @Autowired
     private KafkaTemplate kafkaTemplate;
 
-    public void send() {
+    public void send1() {
         try {
             KafkaMessage message = new KafkaMessage();
             message.setId("NIVELLE_" + System.currentTimeMillis());
             message.setMsg("nivelle1");
             message.setSendTime(new Date());
-            kafkaTemplate.send("KafkaLearn", "nivelle", message.toString());
+            kafkaTemplate.send("kafkaLearn", "nivelle", message.toString());
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
@@ -38,7 +38,7 @@ public class KafkaSendService {
             message.setId("NIVELLE_" + System.currentTimeMillis());
             message.setMsg("jessy1");
             message.setSendTime(new Date());
-            kafkaTemplate.send("defautTopic", message.toString());
+            kafkaTemplate.send("defautTopic", "default",message.toString());
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
@@ -51,6 +51,30 @@ public class KafkaSendService {
             message.setMsg("jessy2");
             message.setSendTime(new Date());
             kafkaTemplate.send("filterTopic", "jessy", message.toString());
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+    }
+
+    public void send4() {
+        try {
+            KafkaMessage message = new KafkaMessage();
+            message.setId("NIVELLE_" + System.currentTimeMillis());
+            message.setMsg("jessy3");
+            message.setSendTime(new Date());
+            kafkaTemplate.send("ackTopic", "nivelle", message.toString());
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+    }
+
+    public void send5() {
+        try {
+            KafkaMessage message = new KafkaMessage();
+            message.setId("NIVELLE_" + System.currentTimeMillis());
+            message.setMsg("jessy3");
+            message.setSendTime(new Date());
+            kafkaTemplate.send("topic.quick.batch", "nivelle", message.toString());
         } catch (Exception e) {
             System.out.println(e);
         }

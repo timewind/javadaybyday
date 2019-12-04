@@ -1,5 +1,6 @@
 package com.nivelle.spring.kafka;
 
+import org.apache.kafka.clients.admin.NewTopic;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -10,8 +11,7 @@ import org.springframework.kafka.config.KafkaListenerContainerFactory;
 import org.springframework.kafka.core.ConsumerFactory;
 import org.springframework.kafka.core.DefaultKafkaConsumerFactory;
 import org.springframework.kafka.listener.ConcurrentMessageListenerContainer;
-import org.springframework.kafka.support.converter.MessagingMessageConverter;
-import org.springframework.kafka.support.converter.StringJsonMessageConverter;
+import org.springframework.kafka.listener.ContainerProperties;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -57,6 +57,7 @@ public class KafkaConsumerConfig {
         props.put(ConsumerConfig.SESSION_TIMEOUT_MS_CONFIG, sessionTimeOut);
         props.put(ConsumerConfig.AUTO_COMMIT_INTERVAL_MS_CONFIG, autoCommitInterval);
         props.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, autoOffSetReset);
+        //一次拉取的数量
         props.put(ConsumerConfig.MAX_POLL_RECORDS_CONFIG, concurrency);
         return props;
     }
@@ -68,8 +69,47 @@ public class KafkaConsumerConfig {
         return factory;
     }
 
+    /**
+     * 8 个分区副本数为1
+     *
+     * @return
+     */
+    @Bean
+    public NewTopic batchTopic() {
+        return new NewTopic("topic.quick.batch", 8, (short) 1);
+    }
+
+
     @Bean(value = "concurrentListenContainerFactory")
     public KafkaListenerContainerFactory<ConcurrentMessageListenerContainer<Integer, String>> concurrentListenContainerFactory() {
+        ConcurrentKafkaListenerContainerFactory<Integer, String> factory = new
+                ConcurrentKafkaListenerContainerFactory<>();
+        factory.setConsumerFactory(listenContainerFactory());
+        //设置可以丢弃消息  配合RecordFilterStrategy使用
+        //factory.setAckDiscarded(true);
+        //设置并发量，小于或等于Topic的分区数
+        factory.setConcurrency(1);
+        //设置为批量监听
+        factory.setBatchListener(true);
+        factory.setRecordFilterStrategy(new MyKafkaRecordFilterStrategy());
+        return factory;
+    }
+
+    /**
+     * 监听Topic中指定的分区
+     */
+    @Bean
+    public NewTopic batchWithPartitionTopic() {
+        return new NewTopic("topic.quick.batch.partition", 8, (short) 1);
+    }
+
+    /**
+     * 手动确认
+     *
+     * @return
+     */
+    @Bean(value = "ackListenContainerFactory")
+    public KafkaListenerContainerFactory<ConcurrentMessageListenerContainer<Integer, String>> ackListenContainerFactory() {
         ConcurrentKafkaListenerContainerFactory<Integer, String> factory = new
                 ConcurrentKafkaListenerContainerFactory<>();
         factory.setConsumerFactory(listenContainerFactory());
@@ -78,6 +118,12 @@ public class KafkaConsumerConfig {
         //设置为批量监听
         factory.setBatchListener(true);
         factory.setRecordFilterStrategy(new MyKafkaRecordFilterStrategy());
+        /**
+         * RECORD  每处理一条commit一次
+         * BATCH(默认) 每次poll的时候批量提交一次，频率取决于每次poll的调用频率
+         * MANUAL_IMMEDIATE listner负责ack，每调用一次，就立即commit
+         */
+        factory.getContainerProperties().setAckMode(ContainerProperties.AckMode.MANUAL_IMMEDIATE);
         return factory;
     }
 }

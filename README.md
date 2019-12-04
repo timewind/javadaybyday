@@ -250,11 +250,11 @@ SpringBoot依赖相关中间件,需要安装依赖的中间件,然后使用 loca
 
 ✅【Consumer】
 
-✅【Filter】
+✅【Filter:过滤器】
 
 ✅【ErrorHandler】
 
-✅【Partitioner】
+✅【Partitioner:自定义分区】
 
 ## MySQL实践
 

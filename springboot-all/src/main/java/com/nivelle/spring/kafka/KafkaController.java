@@ -20,17 +20,19 @@ public class KafkaController {
 
     /**
      * 自定义分区
+     *
      * @return
      */
-    @RequestMapping("/send")
+    @RequestMapping("/send1")
     @ResponseBody
     public String sendKafka() {
-        kafkaSendService.send();
+        kafkaSendService.send1();
         return "success";
     }
 
     /**
      * 默认分区
+     *
      * @return
      */
     @RequestMapping("/send2")
@@ -42,12 +44,37 @@ public class KafkaController {
 
     /**
      * 过滤器
+     *
      * @return
      */
     @RequestMapping("/send3")
     @ResponseBody
     public String sendKafka3() {
         kafkaSendService.send3();
+        return "success";
+    }
+
+    /**
+     * 过滤器
+     *
+     * @return
+     */
+    @RequestMapping("/send4")
+    @ResponseBody
+    public String sendKafka4() {
+        kafkaSendService.send4();
+        return "success";
+    }
+
+    /**
+     * 批处理
+     *
+     * @return
+     */
+    @RequestMapping("/send5")
+    @ResponseBody
+    public String sendKafka5() {
+        kafkaSendService.send5();
         return "success";
     }
 }
