@@ -36,7 +36,7 @@ public class MyPartitioner implements Partitioner {
         }
         String keyStr = key.toString();
         int lastPartitionInfoIndex = partitionCount - 1;
-        System.err.println("lastPartitionInfoIndex is " + lastPartitionInfoIndex);
+        System.err.println("PartitionInfoIndex is:" + lastPartitionInfoIndex);
         if (Strings.isBlank(keyStr) || !keyStr.contains("nivelle")) {
             return 0;
         }

@@ -23,17 +23,26 @@ public class Consumer {
         Optional<?> kafkaMessage = Optional.ofNullable(record.value());
         if (kafkaMessage.isPresent()) {
             Object message = kafkaMessage.get();
-            System.err.println("top is" + record.topic() + ";record" + record);
+            System.err.println("top is:" + record.topic() + ";record:" + record);
         }
 
     }
 
-    @KafkaListener(id = "defaultId" ,topics = "defautTopic")
+    @KafkaListener(id = "defaultId", topics = "defautTopic",containerFactory = "concurrentListenContainerFactory")
     public void listen2(ConsumerRecord<?, ?> record) {
         Optional<?> kafkaMessage = Optional.ofNullable(record.value());
         if (kafkaMessage.isPresent()) {
             Object message = kafkaMessage.get();
-            System.err.println("top is" + record.topic() + ";record" + record);
+            System.err.println("top is:" + record.topic() + ";record:" + record);
         }
+    }
+
+    @KafkaListener(id = "filterTopicId", topics = "filterTopic", containerFactory = "concurrentListenContainerFactory",
+            errorHandler = "consumerAwareErrorHandler")
+    public void listen3(String data) {
+        /**
+         * 被过滤掉的空消息不能转为ConsumerRecord
+         */
+        System.out.println("record is:" + data);
     }
 }
