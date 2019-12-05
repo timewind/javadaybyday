@@ -77,4 +77,32 @@ public class KafkaController {
         kafkaSendService.send5();
         return "success";
     }
+
+    /**
+     * 消息头
+     *
+     * @return
+     */
+    @RequestMapping("/send6")
+    @ResponseBody
+    public String sendKafka6() {
+        kafkaSendService.send6();
+        return "success";
+    }
+
+    /**
+     * 监听Topic中指定的分区
+     *
+     * @return
+     */
+    @RequestMapping("/send7")
+    @ResponseBody
+    public String sendKafka7() {
+        try {
+            kafkaSendService.send7();
+        } catch (Exception e) {
+            System.err.println(e);
+        }
+        return "success";
+    }
 }

@@ -88,10 +88,23 @@ public class KafkaConsumerConfig {
         //设置可以丢弃消息  配合RecordFilterStrategy使用
         //factory.setAckDiscarded(true);
         //设置并发量，小于或等于Topic的分区数
-        factory.setConcurrency(1);
+        //factory.setConcurrency(2);
+        //设置为批量监听
+        //factory.setBatchListener(true);
+        factory.setRecordFilterStrategy(new MyKafkaRecordFilterStrategy());
+        return factory;
+    }
+
+
+    @Bean(value = "batchListenContainerFactory")
+    public KafkaListenerContainerFactory<ConcurrentMessageListenerContainer<Integer, String>> batchListenContainerFactory() {
+        ConcurrentKafkaListenerContainerFactory<Integer, String> factory = new
+                ConcurrentKafkaListenerContainerFactory<>();
+        factory.setConsumerFactory(listenContainerFactory());
+        //设置并发量，小于或等于Topic的分区数
+        factory.setConcurrency(5);
         //设置为批量监听
         factory.setBatchListener(true);
-        factory.setRecordFilterStrategy(new MyKafkaRecordFilterStrategy());
         return factory;
     }
 

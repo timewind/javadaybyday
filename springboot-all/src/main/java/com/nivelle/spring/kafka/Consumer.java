@@ -27,12 +27,11 @@ public class Consumer {
 
     /**
      * 消费者接受数据类型:
-     *
+     * <p>
      * data:对于data值的类型其实并没有限定，根据KafkaTemplate所定义的类型来决定。data为List集合的则是用作批量消费。
      * ConsumerRecord:具体消费数据类，包含Headers信息、分区信息、时间戳等
      * Acknowledgment:用作Ack机制的接口
      * Consumer:消费者类，使用该类我们可以手动提交偏移量、控制消费速率等功能
-     *
      */
 
     @KafkaListener(topics = "kafkaLearn")
@@ -77,15 +76,22 @@ public class Consumer {
 
     @KafkaListener(id = "batch", clientIdPrefix = "batch",
             topicPattern = "0", topics = {"topic.quick.batch"}, containerFactory =
-            "concurrentListenContainerFactory")
-    public void listen5(String data) {
-        System.err.println("topic.quick.ack receive : " + data);
+            "batchListenContainerFactory")
+    public void listen5(List<String> data) {
+        for (int i = 0; i < data.size(); i++) {
+            System.err.println("topic.quick.ack receive : " + data.get(i));
+        }
     }
 
-    @KafkaListener(id = "batchWithPartition", clientIdPrefix = "bwp", containerFactory = "concurrentListenContainerFactory",
-     topicPartitions = {
-     @TopicPartition(topic = "topic.quick.batch.partition", partitions = {"1", "3"}),
-     @TopicPartition(topic = "topic.quick.batch.partition", partitions = {"0", "4"}, partitionOffsets = @PartitionOffset(partition = "2", initialOffset = "100"))
+    /**
+     * 获取指定分区消息
+     * @param data
+     */
+    @KafkaListener(id = "batchWithPartition", clientIdPrefix = "bwp",
+            containerFactory = "batchListenContainerFactory",
+            topicPartitions = {
+                    @TopicPartition(topic = "topic.quick.batch.partition", partitions = {"1", "3"}),
+                    @TopicPartition(topic = "topic.quick.batch.partition", partitions = {"0", "4"},partitionOffsets = @PartitionOffset(partition = "2", initialOffset = "100"))
             }
     )
     public void batchListenerWithPartition(List<String> data) {
@@ -94,6 +100,14 @@ public class Consumer {
         }
     }
 
+    /**
+     * 注解获取消息头以及消息体
+     * @param data
+     * @param key
+     * @param partition
+     * @param topic
+     * @param ts
+     */
     @KafkaListener(id = "anno", topics = "topic.quick.anno")
     public void annoListener(@Payload String data,
                              @Header(KafkaHeaders.RECEIVED_MESSAGE_KEY) Integer key,
