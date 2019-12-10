@@ -1,7 +1,7 @@
 package com.nivelle.base.spi;
 
 /**
- * TODO:DOCUMENT ME!
+ * SPI 机制
  *
  * @author fuxinzhong
  * @date 2019/10/07
