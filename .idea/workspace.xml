@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09fae382-911d-4cd0-8d25-ce0025512f0a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/ObjectDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/resources/confing/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store-notes/java基础/java基础" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/StringDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/StringDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/spi/MySpi.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/spi/MySpi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/spi/MySpiService1.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/spi/MySpiService1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/JavaKeyWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/JavaKeyWord.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dubbo-provider/target/" />
     <ignored path="$PROJECT_DIR$/dubbo-api/target/" />
@@ -43,95 +44,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StringDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/StringDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4484">
-              <caret line="239" column="40" selection-start-line="239" selection-start-column="40" selection-end-line="239" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloDubboService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/dubboservice/HelloDubboService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MySpiService1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/spi/MySpiService1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-              <folding>
-                <element signature="e#183#184#0" expanded="true" />
-                <element signature="e#234#235#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MySpi.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/spi/MySpi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JavaBaseApplication.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/JavaBaseApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Adaptive.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2-sources.jar!/com/alibaba/dubbo/common/extension/Adaptive.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="35" column="26" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="com.nivelle.base.spi.MySpi" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-base/src/main/resources/META-INF/dubbo/internal/com.nivelle.base.spi.MySpi">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SPI.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2-sources.jar!/com/alibaba/dubbo/common/extension/SPI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="26" column="23" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SynchronizedDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/SynchronizedDemo.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="StackDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/StackDemo.java">
+      <file leaf-file-name="JavaKeyWord.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/JavaKeyWord.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ObjectDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/ObjectDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Object.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="229" column="55" selection-start-line="229" selection-start-column="36" selection-end-line="229" selection-end-column="55" />
+              <folding>
+                <element signature="e#10065#10066#0" expanded="true" />
+                <element signature="e#10148#10149#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Integer.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="625">
+              <caret line="232" column="32" selection-start-line="232" selection-start-column="15" selection-end-line="232" selection-end-column="32" />
+              <folding>
+                <element signature="e#7967#7968#0" expanded="true" />
+                <element signature="e#8013#8014#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="java基础" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store-notes/java基础/java基础">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="133">
+                <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -148,16 +112,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>partitioner.class</find>
-      <find>spring.kafka.consumer</find>
-      <find>PARTITIONER_CLASS_CONFIG</find>
-      <find>enable.auto.commit</find>
-      <find>timeoutMillis</find>
-      <find>demoListenerContainer</find>
-      <find>DE</find>
-      <find>spring.kafka.consumer.group-id</find>
-      <find>consumerFactory</find>
-      <find>concurrency</find>
       <find>kafka</find>
       <find>spring.kafka.consumer.auto.offset.reset</find>
       <find>con</find>
@@ -178,6 +132,16 @@
       <find>MAX_VALUE</find>
       <find>MaxStringLenthtMaxStringLentht</find>
       <find>maxStringLenth</find>
+      <find>log</find>
+      <find>The service ready on spring started. service</find>
+      <find>ready</find>
+      <find>The service ready on spring started</find>
+      <find>Export dubbo service</find>
+      <find>method</find>
+      <find>methodAccessor</find>
+      <find>config</find>
+      <find>provider</find>
+      <find>Use System Property</find>
     </findStrings>
     <replaceStrings>
       <replace>constructor</replace>
@@ -195,16 +159,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/service/HelloDubboServiceImpl.java" />
-        <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/service/other/AsyncService.java" />
-        <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/paradigm/ParadigmInterfaceService.java" />
-        <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/paradigm/ParadigmInterfaceService2.java" />
-        <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/paradigm/ParadigmInterfaceService3.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/paradigm/ParadigmInterface.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/paradigm/ParadigmMain.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/paradigm/ParadigmMethod.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/paradigm/ParadigmClass.java" />
-        <option value="$PROJECT_DIR$/java-base/pom.xml" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/netty/NettyServerHandler.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/paradigm/ParadigmClassMethod.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/paradigm/Main.java" />
@@ -218,7 +176,6 @@
         <option value="$PROJECT_DIR$/java-base/src/main/resources/META-INF/services/com.nivelle.dubbo.com.nivelle.base.spi.MySpi" />
         <option value="$PROJECT_DIR$/java-base/src/main/resources/META-INF/services/org.apache.spi.MySpi" />
         <option value="$PROJECT_DIR$/java-base/src/main/resources/META-INF/dubbo/com.nivelle.base.spi.MySpi" />
-        <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/JavaBaseApplication.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/netty/NettyClientHandler.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/netty/NettyClientHandler2.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/netty/NettyClientFilter.java" />
@@ -246,6 +203,13 @@
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/spi/MySpiService1.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/StringDemo.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/spi/MySpi.java" />
+        <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/JavaBaseApplication.java" />
+        <option value="$PROJECT_DIR$/java-base/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/java-base/src/main/resources/confing/application.properties" />
+        <option value="$PROJECT_DIR$/java-base/pom.xml" />
+        <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/JavaKeyWord.java" />
+        <option value="$PROJECT_DIR$/store-notes/java基础/java基础" />
+        <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/ObjectDemo.java" />
       </list>
     </option>
   </component>
@@ -286,9 +250,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="-1200" />
+    <option name="y" value="-1057" />
+    <option name="width" value="1200" />
+    <option name="height" value="1920" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -305,12 +271,104 @@
               <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaguides" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
+              <item name="java-base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
+              <item name="java-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
+              <item name="java-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
+              <item name="java-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
+              <item name="java-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
+              <item name="java-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nivelle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
+              <item name="java-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nivelle" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
+              <item name="java-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nivelle" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
+              <item name="java-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nivelle" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
+              <item name="ObjectDemo" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
+              <item name="store-notes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
+              <item name="store-notes" type="462c0819:PsiDirectoryNode" />
+              <item name="java基础" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -319,7 +377,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="ExtensionLoader&#9;PSI&#9;JAVA://com.alibaba.dubbo.common.extension.ExtensionLoader&#10;MySpiService1&#9;FILE&#9;file:///Users/nivellefu/IdeaProjects/javaguides/java-base/src/main/java/com/nivelle/base/spi/MySpiService1.java&#10;internalKafkaListenerEndpointRegistry&#9;null&#9;null&#10;loadbalance&#9;PSI&#9;JAVA://com.alibaba.dubbo.rpc.cluster.LoadBalance&#10;dubbo&#9;RUN_CONFIGURATION&#9;DubboProviderApplication&#10;spring-boot-starter-test&#9;FILE&#9;jar:///Users/nivellefu/.m2/repository/org/springframework/boot/spring-boot-starter-test/2.1.4.RELEASE/spring-boot-starter-test-2.1.4.RELEASE.jar!/" />
+    <property name="SearchEverywhereHistoryKey" value="ServiceB&#9;FILE&#9;jar:///Users/nivellefu/.m2/repository/com/alibaba/dubbo/2.6.2/dubbo-2.6.2-sources.jar!/com/alibaba/dubbo/config/spring/ServiceBean.java&#10;c.a.dubbo.common.logger.LoggerFactory&#9;PSI&#9;JAVA://com.alibaba.dubbo.common.logger.LoggerFactory&#10;isExported&#9;PSI&#9;JAVA://com.alibaba.dubbo.config.ServiceConfig#isExported&#10;ExtensionLoader&#9;PSI&#9;JAVA://com.alibaba.dubbo.common.extension.ExtensionLoader&#10;MySpiService1&#9;FILE&#9;file:///Users/nivellefu/IdeaProjects/javaguides/java-base/src/main/java/com/nivelle/base/spi/MySpiService1.java&#10;internalKafkaListenerEndpointRegistry&#9;null&#9;null&#10;loadbalance&#9;PSI&#9;JAVA://com.alibaba.dubbo.rpc.cluster.LoadBalance&#10;dubbo&#9;RUN_CONFIGURATION&#9;DubboProviderApplication&#10;spring-boot-starter-test&#9;FILE&#9;jar:///Users/nivellefu/.m2/repository/org/springframework/boot/spring-boot-starter-test/2.1.4.RELEASE/spring-boot-starter-test-2.1.4.RELEASE.jar!/" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last.edited.regexp" value="Sample Text" />
@@ -333,17 +391,19 @@
     <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springboot-all/src/main/resources" />
+      <recent name="$PROJECT_DIR$/java-base/src/main/resources/META-INF/dubbo/internal" />
+      <recent name="$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/controller" />
+      <recent name="$PROJECT_DIR$/dubbo-provider/src/main/resources" />
+      <recent name="$PROJECT_DIR$/springboot-all" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.nivelle.spring" />
       <recent name="com.nivelle.javabase" />
       <recent name="com.nivelle.guide.javabase" />
       <recent name="com.nivelle.guide" />
       <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/java-base/src/main/resources/META-INF/dubbo" />
-      <recent name="$PROJECT_DIR$/java-base/src/main/resources" />
-      <recent name="$PROJECT_DIR$/springboot-all" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.nivelle.base.netty" />
@@ -352,11 +412,10 @@
       <recent name="com.nivelle.dubbo.service" />
       <recent name="com.nivelle.spring.dubbo" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/springboot-all/src/main/resources" />
-      <recent name="$PROJECT_DIR$/java-base/src/main/resources/META-INF/dubbo/internal" />
-      <recent name="$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/controller" />
-      <recent name="$PROJECT_DIR$/dubbo-provider/src/main/resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/java-base/src/main/resources/confing" />
+      <recent name="$PROJECT_DIR$/java-base/src/main/resources/META-INF/dubbo" />
+      <recent name="$PROJECT_DIR$/java-base/src/main/resources" />
       <recent name="$PROJECT_DIR$/springboot-all" />
     </key>
   </component>
@@ -1802,7 +1861,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.JavaBaseApplication">
+  <component name="RunManager" selected="Application.ObjectDemo">
     <configuration name="DubboProviderApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nivelle.dubbo.DubboProviderApplication" />
       <module name="dubbo-provider" />
@@ -1814,13 +1873,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="NettyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nivelle.base.netty.NettyClient" />
+    <configuration name="JavaKeyWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nivelle.base.datastructures.JavaKeyWord" />
       <module name="java-base" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nivelle.base.netty.*" />
+          <option name="PATTERN" value="com.nivelle.base.datastructures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1832,6 +1891,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.nivelle.base.netty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ObjectDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nivelle.base.datastructures.ObjectDemo" />
+      <module name="java-base" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nivelle.base.datastructures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1876,17 +1946,6 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
-    </configuration>
-    <configuration name="DubboProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
-      <module name="dubbo-provider" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nivelle.dubbo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nivelle.dubbo.DubboProviderApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
     <configuration name="JavaBaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="java-base" />
@@ -1937,18 +1996,19 @@
       <item itemvalue="Spring Boot.SpringBootAllApplication" />
       <item itemvalue="Spring Boot.SpringBootAllApplication (1)" />
       <item itemvalue="Spring Boot.JavaBaseApplication" />
-      <item itemvalue="Spring Boot.DubboProviderApplication" />
       <item itemvalue="Application.SpringBootAllApplication" />
       <item itemvalue="Application.DubboProviderApplication" />
-      <item itemvalue="Application.NettyClient" />
       <item itemvalue="Application.NettyServer" />
+      <item itemvalue="Application.JavaKeyWord" />
+      <item itemvalue="Application.ObjectDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObjectDemo" />
+        <item itemvalue="Application.JavaKeyWord" />
+        <item itemvalue="Application.DubboProviderApplication" />
         <item itemvalue="Application.SpringBootAllApplication" />
         <item itemvalue="Application.NettyServer" />
-        <item itemvalue="Application.NettyClient" />
-        <item itemvalue="Application.DubboProviderApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -2032,6 +2092,13 @@
       <workItem from="1575544663306" duration="5820000" />
       <workItem from="1575875385055" duration="7915000" />
       <workItem from="1575902329329" duration="142000" />
+      <workItem from="1575950496771" duration="1718000" />
+      <workItem from="1575962947812" duration="6899000" />
+      <workItem from="1575985687738" duration="4275000" />
+      <workItem from="1576030570219" duration="53000" />
+      <workItem from="1576073743857" duration="1250000" />
+      <workItem from="1576116892732" duration="13000" />
+      <workItem from="1576158363485" duration="3036000" />
     </task>
     <task id="LOCAL-00001">
       <created>1571757529298</created>
@@ -2373,7 +2440,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231907000" />
+    <option name="totallyTimeSpent" value="249151000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2385,20 +2452,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="-290" y="-1080" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32793018" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49840257" weight="0.50124687" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.3299389" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50259066" side_tool="true" weight="0.3677278" />
-      <window_info anchor="right" id="Maven Projects" order="6" sideWeight="0.4990942" weight="0.3747841" />
+      <window_info anchor="right" id="Maven Projects" order="6" sideWeight="0.4990942" weight="0.3743344" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4974093" weight="0.13092269" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4974093" weight="0.19551934" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4974093" weight="0.14339152" />
       <window_info anchor="bottom" x="-1179" y="-398" width="1158" height="601" id="Spring" order="7" weight="0.32892057" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49893504" visible="true" weight="0.701995" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49893504" weight="0.30244398" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.5008503" side_tool="true" visible="true" weight="0.26824033" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.5008503" side_tool="true" visible="true" weight="0.23482428" />
       <window_info anchor="bottom" id="Problems" order="15" weight="0.32917705" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3299712" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
@@ -2417,54 +2486,53 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="10" sideWeight="0.5009058" side_tool="true" weight="0.07173447" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49913645" weight="0.33167082" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49840257" weight="0.17456359" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49913645" weight="0.138404" />
       <window_info id="UI Designer" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Coverage" order="10" sideWeight="0.5009058" side_tool="true" weight="0.07173447" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="3" />
-      <window_info anchor="bottom" id="REST Client" order="16" visible="true" weight="0.31160897" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" x="-1179" y="-398" width="1158" height="601" id="Spring" order="7" weight="0.3298573" />
+      <window_info anchor="bottom" id="REST Client" order="16" sideWeight="0.5647668" weight="0.53366584" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49840257" weight="0.50124687" />
+      <window_info anchor="bottom" x="-1179" y="-398" width="1158" height="601" id="Spring" order="7" weight="0.32892057" />
       <window_info id="Image Layers" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4982729" weight="0.16191445" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4974093" weight="0.46741346" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" x="546" y="214" width="347" height="472" id="Ant Build" order="1" weight="0.21761657" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="UI Designer" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" weight="0.328152" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49893504" weight="0.5784114" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49893504" visible="true" weight="0.30244398" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5017271" side_tool="true" weight="0.2316136" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49840257" weight="0.2859495" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298573" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50259066" side_tool="true" weight="0.3677278" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32793018" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Problems" order="15" weight="0.3298573" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Problems" order="15" weight="0.32917705" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.3299389" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4974093" weight="0.14489572" />
-      <window_info anchor="right" id="Maven Projects" order="6" sideWeight="0.4990942" weight="0.37539935" />
-      <window_info id="ZooKeeper" order="0" sideWeight="0.49914965" side_tool="true" weight="0.34801382" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.5008503" side_tool="true" visible="true" weight="0.22151224" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4974093" weight="0.14339152" />
+      <window_info anchor="right" id="Maven Projects" order="6" sideWeight="0.4990942" weight="0.3743344" />
+      <window_info id="ZooKeeper" order="0" sideWeight="0.49914965" side_tool="true" weight="0.2284345" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49913645" weight="0.138404" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.5008503" side_tool="true" visible="true" weight="0.23482428" />
       <window_info anchor="right" id="SciView" order="11" />
       <window_info anchor="right" id="Database" order="5" weight="0.32960597" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Web" order="8" side_tool="true" weight="0.3298791" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.24870466" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.24866879" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Coverage" order="10" sideWeight="0.5009058" side_tool="true" weight="0.07173447" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49913645" weight="0.3122942" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3299712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3496158" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3299712" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2829,328 +2897,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.2.5.RELEASE/spring-kafka-2.2.5.RELEASE.jar!/org/springframework/kafka/annotation/KafkaListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="375">
-            <caret line="252" column="12" selection-start-line="252" selection-start-column="12" selection-end-line="252" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.2.5.RELEASE/spring-kafka-2.2.5.RELEASE.jar!/org/springframework/kafka/support/Acknowledgment.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/resources/config/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="119" column="46" selection-start-line="119" selection-start-column="46" selection-end-line="119" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/kafka/MyKafkaRecordFilterStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.2.5.RELEASE/spring-kafka-2.2.5.RELEASE.jar!/org/springframework/kafka/core/ConsumerFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.2.5.RELEASE/spring-kafka-2.2.5.RELEASE.jar!/org/springframework/kafka/listener/ContainerProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="292" column="16" selection-start-line="292" selection-start-column="16" selection-end-line="292" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/kafka/ConsumerAwareErrorHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" selection-start-line="15" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.2.5.RELEASE/spring-kafka-2.2.5.RELEASE.jar!/org/springframework/kafka/config/ConcurrentKafkaListenerContainerFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/SpringBootAllApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="47" column="22" selection-start-line="26" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/entity/KafkaMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.2.5.RELEASE/spring-kafka-2.2.5.RELEASE.jar!/org/springframework/kafka/core/KafkaTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="124" column="78" selection-start-line="124" selection-start-column="50" selection-end-line="124" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.0.1/kafka-clients-2.0.1-sources.jar!/org/apache/kafka/clients/producer/ProducerRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="50" column="20" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.0.1/kafka-clients-2.0.1-sources.jar!/org/apache/kafka/common/header/Headers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.0.1/kafka-clients-2.0.1-sources.jar!/org/apache/kafka/common/header/internals/RecordHeader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/5.1.6.RELEASE/spring-messaging-5.1.6.RELEASE.jar!/org/springframework/messaging/support/GenericMessage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="352" column="30" selection-start-line="352" selection-start-column="30" selection-end-line="352" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="3111" column="25" selection-start-line="3111" selection-start-column="25" selection-end-line="3111" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.2.5.RELEASE/spring-kafka-2.2.5.RELEASE.jar!/org/springframework/kafka/support/KafkaHeaders.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.2.5.RELEASE/spring-kafka-2.2.5.RELEASE.jar!/org/springframework/kafka/annotation/PartitionOffset.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/kafka/KafkaController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-641">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.2.5.RELEASE/spring-kafka-2.2.5.RELEASE-sources.jar!/org/springframework/kafka/annotation/PartitionOffset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="41" column="25" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.0.1/kafka-clients-2.0.1-sources.jar!/org/apache/kafka/clients/admin/NewTopic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.2.5.RELEASE/spring-kafka-2.2.5.RELEASE-sources.jar!/org/springframework/kafka/annotation/TopicPartition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/kafka/KafkaConsumerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1862">
-          <caret line="115" column="56" selection-start-line="115" selection-start-column="29" selection-end-line="115" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/kafka/KafkaSendService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1767">
-          <caret line="106" column="34" selection-start-line="106" selection-start-column="34" selection-end-line="106" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/kafka/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="92" column="35" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2-sources.jar!/com/alibaba/dubbo/config/annotation/Reference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/dubbo/consumer/dubbo_core">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-52" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/spi/MySpiService2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/IllegalStateException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="149" column="7" selection-start-line="149" selection-start-column="7" selection-end-line="149" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/dubbo/consumer/HelloConsumerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/service/HelloDubboServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/TestDubboProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/JunitApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="3423" column="19" selection-start-line="3423" selection-start-column="19" selection-end-line="3423" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/DubboProviderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2-sources.jar!/com/alibaba/dubbo/common/extension/ExtensionLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="556" selection-start-line="556" selection-end-line="557" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="337" column="29" selection-start-line="337" selection-start-column="25" selection-end-line="337" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/StackDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/SynchronizedDemo.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/StringDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4484">
-          <caret line="239" column="40" selection-start-line="239" selection-start-column="40" selection-end-line="239" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/dubboservice/HelloDubboService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2-sources.jar!/com/alibaba/dubbo/common/extension/SPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-base/src/main/resources/META-INF/dubbo/internal/com.nivelle.base.spi.MySpi">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -3169,10 +2915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-          <folding>
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3180,16 +2922,349 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2-sources.jar!/com/alibaba/dubbo/config/annotation/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/context/ApplicationListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2-sources.jar!/com/alibaba/dubbo/common/logger/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-532">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-all/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="313" selection-start-line="309" selection-end-line="313" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar!/ch/qos/logback/core/ConsoleAppender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/resources/logback.xml" />
+    <entry file="file://$PROJECT_DIR$/java-base/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/resources/confing/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/JavaBaseApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2-sources.jar!/com/alibaba/dubbo/common/logger/LoggerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="83" column="20" selection-start-line="83" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/resources/config/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.9/zookeeper-3.4.9.jar!/org/apache/zookeeper/ClientCnxnSocketNIO.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="269" selection-start-line="269" selection-end-line="269" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/DubboProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2-sources.jar!/com/alibaba/dubbo/config/ProviderConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1948">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2-sources.jar!/com/alibaba/dubbo/common/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2793">
+          <caret line="163" column="31" selection-start-line="163" selection-start-column="31" selection-end-line="163" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/algorithms/common/NumberOf1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/algorithms/common/MinElementArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/algorithms/common/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/resources/config/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-all.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/algorithms/common/reOrderArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/algorithms/common/ArraySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/algorithms/common/StringReplaceBlank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2-sources.jar!/com/alibaba/dubbo/config/spring/ServiceBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="122" column="15" selection-start-line="122" selection-start-column="12" selection-end-line="122" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/TimeUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="104" column="4" selection-start-line="104" selection-start-column="4" selection-end-line="104" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2-sources.jar!/com/alibaba/dubbo/config/AbstractServiceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-318">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="1957" column="18" selection-start-line="1957" selection-start-column="18" selection-end-line="1957" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2-sources.jar!/com/alibaba/dubbo/common/utils/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="385" column="25" selection-start-line="385" selection-start-column="25" selection-end-line="385" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/MethodAccessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8303">
+          <caret line="497" column="22" selection-start-line="497" selection-start-column="18" selection-end-line="497" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2-sources.jar!/com/alibaba/dubbo/config/AbstractConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="100" column="46" selection-start-line="100" selection-start-column="46" selection-end-line="100" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2-sources.jar!/com/alibaba/dubbo/config/ModuleConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#3503#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2-sources.jar!/com/alibaba/dubbo/config/AbstractInterfaceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="87" column="19" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/JavaBaseApplication.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2-sources.jar!/com/alibaba/dubbo/rpc/service/GenericService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        <state relative-caret-position="152">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/reflect/Modifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7125">
+          <caret line="428" column="24" selection-start-line="428" selection-start-column="24" selection-end-line="428" selection-end-column="24" />
+          <folding>
+            <element signature="e#14261#14262#0" expanded="true" />
+            <element signature="e#14299#14300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3667">
+          <caret line="260" column="27" selection-start-line="260" selection-start-column="27" selection-end-line="260" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/loadclass/ClassForNameDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2-sources.jar!/com/alibaba/dubbo/config/ProtocolConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="39" column="35" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2-sources.jar!/com/alibaba/dubbo/config/ServiceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5491">
+          <caret line="356" column="19" selection-start-line="356" selection-start-column="13" selection-end-line="356" selection-end-column="27" />
+          <folding>
+            <element signature="e#7016#7017#0" expanded="true" />
+            <element signature="e#7101#7102#0" expanded="true" />
+            <element signature="e#7228#7229#0" expanded="true" />
+            <element signature="e#7259#7260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/target/classes/com/nivelle/base/datastructures/JavaKeyWord.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#2773#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-notes/java基础/java基础">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="133">
+            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/JavaKeyWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="232" column="32" selection-start-line="232" selection-start-column="15" selection-end-line="232" selection-end-column="32" />
+          <folding>
+            <element signature="e#7967#7968#0" expanded="true" />
+            <element signature="e#8013#8014#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="229" column="55" selection-start-line="229" selection-start-column="36" selection-end-line="229" selection-end-column="55" />
+          <folding>
+            <element signature="e#10065#10066#0" expanded="true" />
+            <element signature="e#10148#10149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/ObjectDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>

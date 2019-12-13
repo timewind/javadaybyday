@@ -25,6 +25,8 @@ public class JavaKeyWord {
         instanceOfTest();
         System.out.println("================================");
         finalTest();
+
+        test();
     }
 
     /**
@@ -108,6 +110,22 @@ public class JavaKeyWord {
     private static int changeInt(int temp) {
         temp++;
         return temp;
+    }
+
+    /**
+     * continue :跳转到条件判断处
+     */
+    public static void test() {
+        int i = 0;
+        while (i<=5) {
+            if (i == 3) {
+                i++;
+                continue;
+            }
+            System.err.println(" i=" + i);
+            i+=1;
+        }
+        System.err.println("end i=" + i);
     }
 
 }
