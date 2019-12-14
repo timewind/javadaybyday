@@ -27,10 +27,11 @@ public class ValidDataControllor {
     public ResponseResult savePerson(@RequestBody @Validated  Person rerson) {
 
         LOG.info("保存用户请求参数person={}", rerson);
-        Map <String,Object>result = new HashMap();//范性放在变量处
+        //范性放在变量处
+        Map <String,Object>result = new HashMap();
         result.put("haha","haha");
-
-        return ResponseResult.newResponseResult().setSuccess(result);//转成json数据依赖与java对象的set方法
+        //转成json数据依赖与java对象的set方法
+        return ResponseResult.newResponseResult().setSuccess(result);
 
     }
 
