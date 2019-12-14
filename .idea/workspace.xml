@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09fae382-911d-4cd0-8d25-ce0025512f0a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/ObjectDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/ObjectDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/valid/ValidDataControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/valid/ValidDataControllor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dubbo-provider/target/" />
     <ignored path="$PROJECT_DIR$/dubbo-api/target/" />
@@ -51,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ObjectDemo.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ObjectDemo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/ObjectDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+            <state relative-caret-position="380">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,7 +79,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ValidDataControllor.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ValidDataControllor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/valid/ValidDataControllor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
@@ -254,8 +252,8 @@
         <option value="$PROJECT_DIR$/java-base/pom.xml" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/JavaKeyWord.java" />
         <option value="$PROJECT_DIR$/store-notes/java基础/java基础" />
-        <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/ObjectDemo.java" />
         <option value="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/valid/ValidDataControllor.java" />
+        <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/ObjectDemo.java" />
       </list>
     </option>
   </component>
@@ -374,6 +372,31 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="nivelle" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
+              <item name="java-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nivelle" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
+              <item name="java-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nivelle" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
+              <item name="ObjectDemo" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
@@ -2308,7 +2331,7 @@
       <workItem from="1576203090598" duration="537000" />
       <workItem from="1576220776482" duration="152000" />
       <workItem from="1576222900064" duration="1509000" />
-      <workItem from="1576227398708" duration="928000" />
+      <workItem from="1576227398708" duration="1009000" />
     </task>
     <task id="LOCAL-00001">
       <created>1571757529298</created>
@@ -2650,7 +2673,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="252277000" />
+    <option name="totallyTimeSpent" value="252358000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2674,15 +2697,15 @@
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4974093" weight="0.19451371" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4974093" weight="0.14339152" />
       <window_info anchor="bottom" x="-1179" y="-398" width="1158" height="601" id="Spring" order="7" weight="0.32892057" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49893504" weight="0.30241492" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49893504" visible="true" weight="0.30142567" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.5008503" side_tool="true" visible="true" weight="0.09850905" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.5008503" side_tool="true" visible="true" weight="0.23855165" />
       <window_info anchor="bottom" id="Problems" order="15" weight="0.32917705" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3299712" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info id="Web" order="8" side_tool="true" weight="0.3298791" />
       <window_info anchor="right" id="Database" order="5" weight="0.32960597" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" sideWeight="0.49913645" visible="true" weight="0.3503055" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49913645" weight="0.5824847" />
       <window_info anchor="right" id="SciView" order="11" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.24866879" />
       <window_info anchor="right" x="546" y="214" width="347" height="472" id="Ant Build" order="1" weight="0.21761657" />
@@ -3416,16 +3439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/ObjectDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springmvc/ParameterBindController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -3458,6 +3471,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/ObjectDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
