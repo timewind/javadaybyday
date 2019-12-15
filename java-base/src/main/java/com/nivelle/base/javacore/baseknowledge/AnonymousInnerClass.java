@@ -8,7 +8,7 @@ package com.nivelle.base.javacore.baseknowledge;
  */
 public class AnonymousInnerClass {
 
-    public void annoymousInber(final int x, final int y) {
+    public int annoymousInber(final int x, final int y) {
         /**
          * new 父类(参数列表)or父接口{
          *     匿名内部类实现
@@ -23,6 +23,7 @@ public class AnonymousInnerClass {
             }
         };
         System.out.println(innerClassMethod.innerClassMethodValue());
+        return innerClassMethod.innerClassMethodValue();
     }
 
 
