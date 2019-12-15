@@ -9,7 +9,8 @@ package com.nivelle.base.enums;
 public enum MyEnum {
 
     ONE(1,"one"),
-    TWO(2,"two");
+    TWO(2,"two"),
+    THIRD(3,"third");
 
     private int type;
     private String desc;
