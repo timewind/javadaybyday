@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09fae382-911d-4cd0-8d25-ce0025512f0a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/EnumDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/EnumDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/enums/MyEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/enums/MyEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/ExceptionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dubbo-provider/target/" />
     <ignored path="$PROJECT_DIR$/dubbo-api/target/" />
@@ -50,11 +50,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EnumDemo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EnumDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/EnumDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+            <state relative-caret-position="336">
+              <caret line="25" column="102" selection-start-line="25" selection-start-column="102" selection-end-line="25" selection-end-column="102" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExceptionDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/ExceptionDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -108,15 +117,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-838">
               <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Son.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/pojo/Son.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -204,7 +204,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/spi/MySpiService2.java" />
         <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/DubboProviderApplication.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/resources/META-INF/services/com.nivelle.dubbo.com.nivelle.base.spi.MySpi" />
         <option value="$PROJECT_DIR$/java-base/src/main/resources/META-INF/services/org.apache.spi.MySpi" />
@@ -255,6 +254,7 @@
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/baseknowledge/AnonymousInnerClass.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/enums/MyEnum.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/EnumDemo.java" />
+        <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/ExceptionDemo.java" />
       </list>
     </option>
   </component>
@@ -385,19 +385,6 @@
               <item name="nivelle" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
               <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="java-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nivelle" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-              <item name="EnumDemo" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
@@ -2370,7 +2357,7 @@
       <workItem from="1576220776482" duration="152000" />
       <workItem from="1576222900064" duration="1509000" />
       <workItem from="1576227398708" duration="2539000" />
-      <workItem from="1576388595756" duration="9788000" />
+      <workItem from="1576388595756" duration="10888000" />
     </task>
     <task id="LOCAL-00001">
       <created>1571757529298</created>
@@ -2719,7 +2706,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="263676000" />
+    <option name="totallyTimeSpent" value="264776000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2742,9 +2729,9 @@
       <window_info anchor="right" id="Maven Projects" order="6" sideWeight="0.4990942" weight="0.3743344" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4974093" weight="0.14339152" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4974093" visible="true" weight="0.4551935" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4974093" weight="0.4551935" />
       <window_info anchor="bottom" x="-1179" y="-398" width="1158" height="601" id="Spring" order="7" weight="0.32892057" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49893504" weight="0.23319755" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49893504" visible="true" weight="0.23421589" />
       <window_info id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="1" sideWeight="0.5008503" side_tool="true" visible="true" weight="0.24121405" />
       <window_info anchor="bottom" id="Problems" order="15" weight="0.32917705" />
@@ -3176,13 +3163,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/algorithms/common/NumberOf1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/algorithms/common/MinElementArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -3560,8 +3540,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/EnumDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+        <state relative-caret-position="336">
+          <caret line="25" column="102" selection-start-line="25" selection-start-column="102" selection-end-line="25" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/ExceptionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
         </state>
       </provider>
     </entry>
