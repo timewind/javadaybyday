@@ -1,12 +1,13 @@
 package com.nivelle.base.netty;
 
-import java.io.IOException;
-
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.Channel;
 import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioSocketChannel;
+
+import java.io.IOException;
+import java.util.Scanner;
 
 /**
  * netty客户端
@@ -39,12 +40,18 @@ public class NettyClient {
         b.handler(new NettyClientFilter());
         // 连接服务端
         ch = b.connect(host, port).sync().channel();
-        star();
+        Scanner scanner = new Scanner(System.in);
+        while (true) {
+            String line = scanner.nextLine();
+            star(line);
+        }
     }
 
-    public static void star() {
-        String str = "Hello Netty";
-        ch.writeAndFlush(str);
-        System.out.println("客户端发送数据:" + str);
+    public static void star(String line) {
+        for (int i = 0; i <= 100; i++) {
+            String str = "Hello Netty" + line;
+            ch.writeAndFlush(str);
+            System.out.println("客户端发送数据:" + str);
+        }
     }
 }

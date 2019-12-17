@@ -25,8 +25,7 @@ public class JavaKeyWord {
         instanceOfTest();
         System.out.println("================================");
         finalTest();
-
-        test();
+        continueTest();
     }
 
     /**
@@ -116,7 +115,7 @@ public class JavaKeyWord {
     /**
      * continue :跳转到条件判断处
      */
-    public static void test() {
+    public static void continueTest() {
         int i = 0;
         while (i<=5) {
             if (i == 3) {
