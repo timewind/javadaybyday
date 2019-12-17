@@ -1,4 +1,4 @@
-package com.nivelle.base.javacore.baseknowledge;
+package com.nivelle.base.javacore.innerclass;
 
 /**
  * 静态内部类

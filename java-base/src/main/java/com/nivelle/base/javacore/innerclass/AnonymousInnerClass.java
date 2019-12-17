@@ -1,4 +1,4 @@
-package com.nivelle.base.javacore.baseknowledge;
+package com.nivelle.base.javacore.innerclass;
 
 /**
  * 匿名内部类

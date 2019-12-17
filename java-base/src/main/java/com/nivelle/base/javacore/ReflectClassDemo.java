@@ -1,4 +1,4 @@
-package com.nivelle.base.datastructures;
+package com.nivelle.base.javacore;
 
 import com.nivelle.base.pojo.User;
 
@@ -7,12 +7,12 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
 /**
- * Reflection
+ * 反射
  *
  * @author fuxinzhong
  * @date 2019/07/19
  */
-public class ReflectDemo {
+public class ReflectClassDemo {
 
     /**
      * Java反射（Reflection）框架主要提供以下功能：

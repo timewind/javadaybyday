@@ -41,7 +41,6 @@ public class CharacterDemo {
             char[] codeToChar = Character.toChars(22826);
             System.out.println("code to char is:"+new String(codeToChar));
 
-
             System.out.println("ASCII 码:");
             System.out.println('a' + 0);
             System.out.println((char) 97);

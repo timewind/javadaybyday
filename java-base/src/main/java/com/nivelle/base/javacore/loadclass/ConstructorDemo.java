@@ -14,7 +14,8 @@ public class ConstructorDemo implements Cloneable, Serializable {
     public ConstructorDemo(Integer id) {
         this.id = id;
     }
-    public ConstructorDemo(){
+
+    public ConstructorDemo() {
 
     }
 

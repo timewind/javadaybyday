@@ -1,4 +1,4 @@
-package com.nivelle.base.datastructures;
+package com.nivelle.base.javacore;
 
 /**
  * 异常学习

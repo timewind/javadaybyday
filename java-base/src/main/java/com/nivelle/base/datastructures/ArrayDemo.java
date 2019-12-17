@@ -116,6 +116,7 @@ public class ArrayDemo {
         /**
          *
          * 调用的是:Arrays.sort(a, (Comparator) c);
+         *
          */
         intArraySort.sort((x, y) -> {
             if (x > y) {

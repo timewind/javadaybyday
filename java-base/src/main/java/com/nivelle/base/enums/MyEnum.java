@@ -1,7 +1,7 @@
 package com.nivelle.base.enums;
 
 /**
- * TODO:DOCUMENT MEe
+ * 枚举类
  *
  * @author fuxinzhong
  * @date 2019/06/19

@@ -1,4 +1,4 @@
-package com.nivelle.base.datastructures;
+package com.nivelle.base.javacore;
 
 import com.nivelle.base.enums.MyEnum;
 import com.nivelle.base.enums.MyEnum;

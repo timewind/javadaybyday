@@ -1,4 +1,4 @@
-package com.nivelle.base.datastructures;
+package com.nivelle.base.javacore;
 
 import com.nivelle.base.pojo.User;
 import sun.misc.Unsafe;
@@ -11,7 +11,7 @@ import java.lang.reflect.Field;
  * @author fuxinzhong
  * @date 2019/07/12
  */
-public class UnsafeDemo {
+public class UnsafeClassDemo {
     /**
      * Unsafe是位于sun.misc包下的一个类，主要提供一些用于执行低级别、不安全操作的方法，
      * 如直接访问系统内存资源、自主管理内存资源等

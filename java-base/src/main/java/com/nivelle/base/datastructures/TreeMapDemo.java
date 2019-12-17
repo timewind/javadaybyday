@@ -57,6 +57,8 @@ public class TreeMapDemo {
     }
 
     static class MyComparator implements Comparator {
+
+        @Override
         public int compare(Object o1, Object o2) {
             int a = (int) o1;
             int b = (int) o2;

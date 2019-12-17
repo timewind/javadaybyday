@@ -1,4 +1,4 @@
-package com.nivelle.base.javacore.paradigm;
+package com.nivelle.base.javacore.generics;
 
 /**
  * 范型类&范型方法
