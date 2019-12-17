@@ -186,7 +186,8 @@ public class ByteDemo {
         /**
          * 输入2的n次方
          */
-        System.out.println(2<<4);
+        System.out.println(2 << 4);
+
 
 
     }

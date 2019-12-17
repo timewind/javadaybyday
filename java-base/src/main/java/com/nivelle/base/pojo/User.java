@@ -8,6 +8,8 @@ public class User implements Serializable {
 
     private String name;
 
+    private byte sex;
+
     public Integer getAge() {
         return age;
     }
@@ -27,6 +29,14 @@ public class User implements Serializable {
     public User(Integer age, String name) {
         this.age = age;
         this.name = name;
+    }
+
+    public byte getSex() {
+        return sex;
+    }
+
+    public void setSex(byte sex) {
+        this.sex = sex;
     }
 
     public User() {
