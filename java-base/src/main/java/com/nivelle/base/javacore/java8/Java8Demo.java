@@ -200,7 +200,7 @@ public class Java8Demo {
         //时区:时区是通过 ZoneId来表示，它提供了很多静态方法。时区定义了在瞬间和本地日期和时间之间转换的重要偏移。
         //System.out.println(ZoneId.getAvailableZoneIds());
 
-        System.out.println(ZoneId.of("Asia/Shanghai"));
+        System.out.print(ZoneId.of("Asia/Shanghai"));
 
 
         //本地时间:LocalTime表示没有时区的时间，如晚上10点 或者 17:30:15。
