@@ -14,7 +14,7 @@ import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
 
-public class Java8ApiDemo {
+public class Java8Demo {
 
     public static void main(String[] args) {
         List<String> names = Arrays.asList("peter", "anna", "mike", "xenia");

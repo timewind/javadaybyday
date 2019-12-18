@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="09fae382-911d-4cd0-8d25-ce0025512f0a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/JavaKeyWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/JavaKeyWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/java8/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/java8/FunctionInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/java8/Java8ApiDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/java8/Java8ApiDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/pojo/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/pojo/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/java8/Java8ApiDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/java8/Java8Demo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dubbo-provider/target/" />
     <ignored path="$PROJECT_DIR$/dubbo-api/target/" />
@@ -45,11 +41,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Java8ApiDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/java8/Java8ApiDemo.java">
+      <file leaf-file-name="Java8Demo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/java8/Java8Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="182" column="33" selection-start-line="182" selection-start-column="33" selection-end-line="182" selection-end-column="33" />
+            <state relative-caret-position="-293">
+              <caret line="190" selection-start-line="186" selection-end-line="190" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -200,7 +196,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/spi/MySpiService1.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/StringDemo.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/spi/MySpi.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/JavaBaseApplication.java" />
@@ -251,6 +246,7 @@
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/JavaKeyWord.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/pojo/UserInfo.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/java8/Java8ApiDemo.java" />
+        <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/java8/Java8Demo.java" />
       </list>
     </option>
   </component>
@@ -392,20 +388,6 @@
               <item name="base" type="462c0819:PsiDirectoryNode" />
               <item name="javacore" type="462c0819:PsiDirectoryNode" />
               <item name="java8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="java-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nivelle" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="javacore" type="462c0819:PsiDirectoryNode" />
-              <item name="java8" type="462c0819:PsiDirectoryNode" />
-              <item name="Java8ApiDemo" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
@@ -1930,7 +1912,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Java8ApiDemo">
+  <component name="RunManager" selected="Application.Java8Demo">
     <configuration name="ByteDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nivelle.base.datastructures.ByteDemo" />
       <module name="java-base" />
@@ -1953,8 +1935,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Java8ApiDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nivelle.base.javacore.java8.Java8ApiDemo" />
+    <configuration name="Java8Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nivelle.base.javacore.java8.Java8Demo" />
       <module name="java-base" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -2069,11 +2051,11 @@
       <item itemvalue="Application.JavaKeyWord" />
       <item itemvalue="Application.NettyServer" />
       <item itemvalue="Application.NettyClient" />
-      <item itemvalue="Application.Java8ApiDemo" />
+      <item itemvalue="Application.Java8Demo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Java8ApiDemo" />
+        <item itemvalue="Application.Java8Demo" />
         <item itemvalue="Application.NettyClient" />
         <item itemvalue="Application.NettyServer" />
         <item itemvalue="Application.JavaKeyWord" />
@@ -2178,14 +2160,7 @@
       <workItem from="1576550252118" duration="798000" />
       <workItem from="1576571623377" duration="611000" />
       <workItem from="1576581077354" duration="3899000" />
-      <workItem from="1576670437639" duration="3345000" />
-    </task>
-    <task id="LOCAL-00004" summary="[修改了下目录结构涉及maven知识点]">
-      <created>1571795642062</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1571795642063</updated>
+      <workItem from="1576670437639" duration="3790000" />
     </task>
     <task id="LOCAL-00005" summary="[修改了下目录结构涉及maven知识点]">
       <created>1571795817985</created>
@@ -2523,11 +2498,18 @@
       <option name="project" value="LOCAL" />
       <updated>1576587736110</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="【lambda】">
+      <created>1576673882445</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1576673882445</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="279340000" />
+    <option name="totallyTimeSpent" value="279785000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2539,7 +2521,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-175" y="-1200" width="1920" height="1200" extended-state="0" />
+    <frame x="-290" y="-1080" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32793018" />
@@ -2549,7 +2531,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50259066" side_tool="true" weight="0.3677278" />
       <window_info anchor="right" id="Maven Projects" order="6" sideWeight="0.4990942" weight="0.3743344" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4974093" visible="true" weight="0.22504537" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4974093" visible="true" weight="0.25254583" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4974093" weight="0.14339152" />
       <window_info anchor="bottom" x="-1179" y="-398" width="1158" height="601" id="Spring" order="7" weight="0.32892057" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49893504" weight="0.22686026" />
@@ -2670,7 +2652,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/javaGuides" />
     </ignored-roots>
-    <MESSAGE value="【删除不必要的服务依赖】" />
     <MESSAGE value="【Arrays】" />
     <MESSAGE value="【实力初始化顺序】" />
     <MESSAGE value="【java核心学习demo】" />
@@ -2695,7 +2676,8 @@
     <MESSAGE value="【启动脚本&amp;关闭脚本】" />
     <MESSAGE value="【java基础】" />
     <MESSAGE value="【netty】" />
-    <option name="LAST_COMMIT_MESSAGE" value="【netty】" />
+    <MESSAGE value="【lambda】" />
+    <option name="LAST_COMMIT_MESSAGE" value="【lambda】" />
   </component>
   <component name="WindowStateProjectService">
     <state width="380" height="690" key="Git.Branch.Popup" />
@@ -3327,10 +3309,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/java8/Java8ApiDemo.java">
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/java8/Java8Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="182" column="33" selection-start-line="182" selection-start-column="33" selection-end-line="182" selection-end-column="33" />
+        <state relative-caret-position="-293">
+          <caret line="190" selection-start-line="186" selection-end-line="190" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
