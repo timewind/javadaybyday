@@ -1,5 +1,8 @@
 package com.nivelle.base.javacore.java8;
 
+import com.google.common.collect.Lists;
+import com.nivelle.base.pojo.User;
+
 import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
@@ -8,6 +11,7 @@ import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
+import java.util.stream.Collectors;
 
 
 public class Java8ApiDemo {
@@ -30,30 +34,24 @@ public class Java8ApiDemo {
 
         System.out.println(names2);
 
-        //自定义接口
-//        FunctionTest<String, Integer> convertMethod = (x) -> Integer.valueOf(x);
-//
-//        Integer converted = convertMethod.convert();
-//        System.out.println(converted);    // 123
-
-        FunctionTest<String, String> convertMethodUp = (x) -> x.toUpperCase();
+        FunctionInterface<String, String> convertMethodUp = (x) -> x.toUpperCase();
 
         String convertedUp = convertMethodUp.convert("nivelle");
-        System.out.println(convertedUp);    //
+        System.out.println(convertedUp);
 
         //静态方法
-        FunctionTest<String, Integer> convertMethod1 = Integer::valueOf;
+        FunctionInterface<String, Integer> convertMethod1 = Integer::valueOf;
         Integer converted2 = convertMethod1.convert("456");
         System.out.println(converted2);
 
         //::方法引用
         MethodTest something = new MethodTest();
-        FunctionTest<String, String> convertMethod2 = something::startsWith;
+        FunctionInterface<String, String> convertMethod2 = something::startsWith;
         String converted3 = convertMethod2.convert("Nivelle");
         System.out.println(converted3);
 
 
-        FunctionTest<String, Long> convertMethod3 = Long::valueOf;
+        FunctionInterface<String, Long> convertMethod3 = Long::valueOf;
         Long converted4 = convertMethod3.convert("23");
         System.out.println(converted4);
 
@@ -115,7 +113,7 @@ public class Java8ApiDemo {
         stringCollection.add("bbb3");
         stringCollection.add("ccc");
         stringCollection.add("bbb2");
-        stringCollection.add("ddd1");
+        stringCollection.add("bbb2");
 
         //filter
         stringCollection
@@ -129,25 +127,27 @@ public class Java8ApiDemo {
         //map:map是一种中间过程操作，借助函数表达式将元素转换成另一种形式。可以使用map将每个对象转换为另一种类型。最终输出的结果类型依赖于你传入的函数表达式。
         stringCollection.stream().map(String::toUpperCase).sorted((x, y) -> x.compareTo(y)).forEach(System.out::println);
 
-        //Match 匹配
+        System.err.println("映射然后去重复："+stringCollection.stream().map(String::toLowerCase).distinct().collect(Collectors.toList()));
+
+        //Match 匹配 //任意一个元素满足
         boolean anyStartsWithA =
                 stringCollection
                         .stream()
-                        .anyMatch((s) -> s.startsWith("a"));//任意一个元素满足
+                        .anyMatch((s) -> s.startsWith("a"));
 
         System.out.println(anyStartsWithA);
-
+        //所有元素满足
         boolean allStartsWithA =
                 stringCollection
                         .stream()
-                        .allMatch((s) -> s.startsWith("b"));//所有元素满足
+                        .allMatch((s) -> s.startsWith("b"));
 
         System.out.println(allStartsWithA);
-
+        //没有元素满足
         boolean noneStartsWithZ =
                 stringCollection
                         .stream()
-                        .noneMatch((s) -> s.startsWith("z"));//没有元素满足
+                        .noneMatch((s) -> s.startsWith("z"));
 
         System.out.println(noneStartsWithZ);
 
@@ -164,6 +164,28 @@ public class Java8ApiDemo {
 
         reduced.ifPresent(System.out::println);
 
+
+        User user1 = new User(1, "nivelle");
+        User user2 = new User(2, "nivelle2");
+        User user3 = new User(2, "jessy");
+        User user4 = new User(2, "jessy2");
+
+        List userList = Lists.newArrayList();
+        userList.add(user1);
+        userList.add(user2);
+        userList.add(user3);
+        userList.add(user4);
+
+
+
+        System.err.println("list转Map:" + userList.stream().collect(Collectors.toMap(User::getAge, a -> a, (k1, k2) -> k1)));
+
+        System.err.println("根据age排序:" + userList.stream().sorted(Comparator.comparing(User::getAge)).collect(Collectors.toList()));
+
+        System.err.println("根据age分组然:" + userList.stream().collect(Collectors.groupingBy(User::getAge)));
+
+        //userList.stream().filter(x->x.getAge>1).toArray(User::new);
+
         // 时钟
         // 时钟提供了对当前日期和时间的访问。时钟知晓时区，可以用来代替System.currentTimeMillis()来检索自Unix EPOCH以来的当前时间（以毫秒为单位）。在时间轴上的某一时刻用Instant表示。Instant可以创建遗留的java.util.Date 对象。
         Clock clock = Clock.systemDefaultZone();
@@ -176,7 +198,7 @@ public class Java8ApiDemo {
 
 
         //时区:时区是通过 ZoneId来表示，它提供了很多静态方法。时区定义了在瞬间和本地日期和时间之间转换的重要偏移。
-        System.out.println(ZoneId.getAvailableZoneIds());
+        //System.out.println(ZoneId.getAvailableZoneIds());
 
         System.out.println(ZoneId.of("Asia/Shanghai"));
 

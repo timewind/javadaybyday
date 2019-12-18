@@ -52,6 +52,7 @@ public class JavaKeyWord {
                 System.out.println("当前数字:" + i + " atomicInteger is " + atomicInteger);
             }
         }
+
     }
 
     /**
@@ -96,7 +97,7 @@ public class JavaKeyWord {
         System.out.println("参数不变:" + temp);
         //定义为final的变量不能改变
         //temp = 16;
-        System.out.println("默认的byte值:"+user.getSex());
+        System.out.println("默认的byte值:"+0);
     }
 
     /**
@@ -127,5 +128,6 @@ public class JavaKeyWord {
         }
         System.err.println("end i=" + i);
     }
+
 
 }

@@ -25,5 +25,7 @@ public class UserInfo {
         return "UserInfo{" +
                 "userName='" + userName + '\'' +
                 '}';
+
+
     }
 }
