@@ -32,10 +32,9 @@ public class NettyServerFilter extends ChannelInitializer<SocketChannel> {
          * 5. ph.addLast(new FixedLengthFrameDecoder(11));   //
          * 6. ph.addLast(new LineBasedFrameDecoder(2048));     //
          */
-        //字节解码器 ,其中2048是规定一行数据最大的字节数。  用于解决拆包问题
-        //ph.addLast(new LineBasedFrameDecoder(2048));
-        //定长数据帧的解码器,每帧数据100个字节就切分一次。  用于解决粘包问题
-      //  ph.addLast(new FixedLengthFrameDecoder(11));
-
+         //定长数据帧的解码器 ，每帧数据100个字节就切分一次。  用于解决粘包问题
+         ph.addLast(new FixedLengthFrameDecoder(11));
+         //字节解码器 ,其中2048是规定一行数据最大的字节数。  用于解决拆包问题
+         ph.addLast(new LineBasedFrameDecoder(2048));
     }
 }

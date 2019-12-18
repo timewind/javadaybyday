@@ -49,7 +49,7 @@ public class NettyClient {
 
     public static void star(String line) {
         for (int i = 0; i <= 100; i++) {
-            String str = "Hello Netty" + line;
+            String str = line;
             ch.writeAndFlush(str);
             System.out.println("客户端发送数据:" + str);
         }
