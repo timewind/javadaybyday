@@ -2,13 +2,166 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09fae382-911d-4cd0-8d25-ce0025512f0a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/core/MyCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/core/MyCondition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/core/MyImportSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/core/MyImportSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/core/MyTypeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/core/MyTypeFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/filter/MyFilter1.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/filter/MyFilter1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springlife/hock/ConcreteBeanDefinitionRegistryPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springlife/hock/ConcreteBeanDefinitionRegistryPostProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springmvc/MyWebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springmvc/MyWebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/SpringBootAllApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/configbean/ControllerExceptionAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/configbean/CuratorConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/configbean/DataSourceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/configbean/JdbcTemplateConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/configbean/LearnConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/configbean/MyHBaseConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/configbean/MybatisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/configbean/RabbitMQConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/configbean/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/configbean/TomcatConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/configbean/shiro/MyShiroRealm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/configbean/shiro/ShiroConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/dubbo/consumer/HelloConsumerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/dubbo/consumer/dubbo_core" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/hbase/HBaseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/hbase/HbaseUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/hbase/MyHBaseDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/hbase/MyHBasePoolTemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/kafka/Consumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/kafka/ConsumerAwareErrorHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/kafka/KafkaConsumerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/kafka/KafkaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/kafka/KafkaProducerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/kafka/KafkaSendService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/kafka/MyKafkaRecordFilterStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/kafka/MyPartitioner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/rabbitmq/DirectMessageReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/rabbitmq/RabbitMqController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/redis/ProtoStuffSerializerUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/redis/RedisCommandService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/redis/RedisController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/cache/UserFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/controllor/ActivityPvController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/controllor/BookController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/controllor/CacheController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/controllor/HelloNoAOPController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/controllor/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/controllor/MenuControllor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/controllor/TimeLineController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/controllor/TransactionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/controllor/UserInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/core/AopAnnotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/core/MyAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/dao/ActivityDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/entity/ActivityPvEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/entity/KafkaMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/entity/SysPermissionEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/entity/SysRoleEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/entity/SysRolePermissionEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/entity/SystemUserRoleEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/entity/UserInfoEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/filter/CorsFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/filter/MyFilter1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/filter/MyFilter2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/filter/MyFilter3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/hock/MyBeanFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/hock/MyFactoryBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/hock/MyImportBeanDefinitionRegistrar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/hock/MyInitializingAndDisposable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/hock/SpringContextAssisor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/initresource/InitResource1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/initresource/InitResource2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/initresource/InitRuner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/interceptor/MyInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/listener/MyListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/listener/MyServletListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/listener/context/MyContextClosedEventListenerListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/listener/context/MyContextRefreshedEventListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/listener/context/MyContextStartedEventListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/listener/context/MyContextStopedEventEventListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/listener/springApplicationRunListeners/MyApplicationEnvironmentPreparedEventListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/listener/springApplicationRunListeners/MyApplicationFailedEventListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/listener/springApplicationRunListeners/MyApplicationPreparedEventListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/listener/springApplicationRunListeners/MyApplicationReadyEventListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/listener/springApplicationRunListeners/MyApplicationStartedEventListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/listener/springApplicationRunListeners/MyApplicationStartingEventListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/listener/springApplicationRunListeners/MyEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/mapper/ActivityPvMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/mapper/SysPermissionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/mapper/SysRoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/mapper/SysRolePermissionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/mapper/SysUserInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/mapper/SysUserRoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/mystarter/StarterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/params/ActivityParams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/schedule/SchedulerTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/service/ActivityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/service/ActivityTransactionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/service/ShiroSysService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/service/impl/ActivityServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/service/impl/ActivityTransactionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/service/impl/ShiroSysServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/shutdown/GracefulShutdown.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/valid/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/valid/ValidDataControllor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springlife/annotation/ImportBeanAnnotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springlife/hock/ConcreteBeanDefinitionRegistryPostProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springlife/hock/MyBeanAutoConfiguredRegistrar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springlife/initdemo/InitSpringBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springlife/initdemo/MyInitSpringBeanController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springlife/lifecycle/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springlife/lifecycle/BeanLifeApplocation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springlife/lifecycle/BeanLifeCycle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springlife/lifecycle/Computer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springlife/lifecycle/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springlife/lifecycle/MyBeanFactoryPostProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springlife/lifecycle/MyBeanPostProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springlife/lifecycle/MyInstantiationAwareBeanPostProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springlife/lifecycle/MyRegisterBeanPostProcesser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springlife/lifecycle/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springmvc/MyWebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springmvc/ParameterBindController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springmvc/PropertiesHandlerMethodArgumentResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springmvc/PropertiesHandlerMethodReturnValueHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springmvc/PropertiesHttpMessageConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/zookeeper/leader/LeaderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/zookeeper/leader/SelectorClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/zookeeper/lock/CuratorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/zookeeper/lock/DistributedLockByCurator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/resources/config/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/resources/dump.rdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/resources/local_serve_start.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/resources/local_serve_stop.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/resources/mybatis/mapper/ActivityPvMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/resources/mybatis/mapper/SysPermissionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/resources/mybatis/mapper/SysRoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/resources/mybatis/mapper/SysRolePermissionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/resources/mybatis/mapper/SysUserInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/resources/mybatis/mapper/SysUserRoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/resources/mybatis/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/resources/shiro.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/resources/templates/403.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/resources/templates/success.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/resources/templates/userInfo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/resources/templates/userInfoAdd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/main/resources/templates/userInfoDel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/test/java/com/nivelle/spring/HbaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/test/java/com/nivelle/spring/JVMTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/test/java/com/nivelle/spring/MyFactoryBeanTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/test/java/com/nivelle/spring/SptingTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/test/java/com/nivelle/spring/mysql/JdbcTemplateTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/test/java/com/nivelle/spring/rabbitMQTest/RabbitMqTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-all/src/test/java/com/nivelle/spring/springboot/ValidTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dubbo-provider/target/" />
     <ignored path="$PROJECT_DIR$/dubbo-api/target/" />
@@ -46,15 +199,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ImportBeanAnnotation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springlife/annotation/ImportBeanAnnotation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MySpi.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/spi/MySpi.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -78,66 +222,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
               <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyInitSpringBeanController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springlife/initdemo/MyInitSpringBeanController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyWebConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springmvc/MyWebConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="677">
-              <caret line="89" column="60" selection-start-line="89" selection-start-column="60" selection-end-line="89" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyFilter1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/filter/MyFilter1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyFilter2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/filter/MyFilter2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyFilter3.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/filter/MyFilter3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParameterBindController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springmvc/ParameterBindController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -314,47 +398,6 @@
               <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaguides" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="store-notes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="store-notes" type="462c0819:PsiDirectoryNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="store-notes" type="462c0819:PsiDirectoryNode" />
-              <item name="java基础" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="store-notes" type="462c0819:PsiDirectoryNode" />
-              <item name="MySql基础学习" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="store-notes" type="462c0819:PsiDirectoryNode" />
-              <item name="nginx配置文件学习" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="store-notes" type="462c0819:PsiDirectoryNode" />
-              <item name="Spring学习" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="store-notes" type="462c0819:PsiDirectoryNode" />
-              <item name="思维导图" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -375,7 +418,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -1943,11 +1986,11 @@
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.nivelle.base.JavaBaseApplication" />
     </configuration>
     <configuration name="SpringBootAllApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="springboot-all" />
+      <module name="spring-all" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.nivelle.spring.SpringBootAllApplication" />
     </configuration>
     <configuration name="SpringBootAllApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="springboot-all" />
+      <module name="spring-all" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.nivelle.javabase.SpringBootAllApplication" />
     </configuration>
     <configuration name="SpringBootAllApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
@@ -2101,14 +2144,7 @@
       <workItem from="1576571623377" duration="611000" />
       <workItem from="1576581077354" duration="3899000" />
       <workItem from="1576670437639" duration="7217000" />
-      <workItem from="1576849311654" duration="2019000" />
-    </task>
-    <task id="LOCAL-00009" summary="[Arrays.asList()方法的注意点]">
-      <created>1572365732245</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1572365732245</updated>
+      <workItem from="1576849311654" duration="2273000" />
     </task>
     <task id="LOCAL-00010" summary="【java-base独立为不依赖各种软件的服务】">
       <created>1572400163584</created>
@@ -2446,11 +2482,18 @@
       <option name="project" value="LOCAL" />
       <updated>1576851594681</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="【整理】">
+      <created>1576852964162</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1576852964162</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="285231000" />
+    <option name="totallyTimeSpent" value="285485000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2463,6 +2506,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-290" y="-1080" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32793018" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -2592,7 +2636,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/javaGuides" />
     </ignored-roots>
-    <MESSAGE value="【实力初始化顺序】" />
     <MESSAGE value="【java核心学习demo】" />
     <MESSAGE value="【byte】" />
     <MESSAGE value="【add gitIgnore文件】" />
@@ -2617,7 +2660,8 @@
     <MESSAGE value="【lambda】" />
     <MESSAGE value="【netty】" />
     <MESSAGE value="【note】" />
-    <option name="LAST_COMMIT_MESSAGE" value="【note】" />
+    <MESSAGE value="【整理】" />
+    <option name="LAST_COMMIT_MESSAGE" value="【整理】" />
   </component>
   <component name="WindowStateProjectService">
     <state width="380" height="690" key="Git.Branch.Popup" />
@@ -3208,7 +3252,7 @@
     <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/filter/MyFilter1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -3225,7 +3269,7 @@
     <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/filter/MyFilter3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
