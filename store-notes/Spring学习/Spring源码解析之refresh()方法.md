@@ -87,10 +87,10 @@
   （2）看容器中是否有id为messageSource的,类型是MessageSource的组件如果有赋值给messageSource,如果没有自己创建一个DelegatingMessageSource的空的MessageSource,所有请求都请求到了父MessageSources;
       //If no parent is available, it simply won't resolve any message.
       
-  ```
-  MessageSource:取出国际化配置文件中的某个key的值,能按照区域信息获取;
-      
-  ```		
+     ```
+        MessageSource:取出国际化配置文件中的某个key的值,能按照区域信息获取;
+          
+     ```		
    (3) 把创建好的MessageSource注册在容器中，以后获取国际化配置文件的值的时候，可以自动注入MessageSource;
        
    ```
@@ -115,11 +115,11 @@
 
 ## 第十步:registerListeners();
 	
- （1）从容器中获取静态的ApplicationListener; 然后直接注入=>getApplicationEventMulticaster().addApplicationListener(listener);
+  （1）从容器中获取静态的ApplicationListener; 然后直接注入=>getApplicationEventMulticaster().addApplicationListener(listener);
 
- （2）将非静态监听器名字添加到事件派发器中; getApplicationEventMulticaster().addApplicationListenerBean(listenerBeanName);
+  （2）将非静态监听器名字添加到事件派发器中; getApplicationEventMulticaster().addApplicationListenerBean(listenerBeanName);
  
- （3）派发器派发一些早起的事件;=>getApplicationEventMulticaster().multicastEvent(earlyEvent);		
+  （3）派发器派发一些早起的事件;=>getApplicationEventMulticaster().multicastEvent(earlyEvent);		
 
 ## 第十一步:finishBeanFactoryInitialization(beanFactory);//初始化所有剩下的单实例bean；
 
