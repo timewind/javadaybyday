@@ -4,7 +4,6 @@ import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.Date;
 
 
 public class MyFilter1 implements Filter {
@@ -18,7 +17,7 @@ public class MyFilter1 implements Filter {
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
         System.out.println("开始执行过滤器1");
-        Long start = new Date().getTime();
+        Long start = System.currentTimeMillis();
 
 
         HttpServletRequest request = (HttpServletRequest) servletRequest;
@@ -26,9 +25,9 @@ public class MyFilter1 implements Filter {
         request.setCharacterEncoding("UTF-8");
         response.setCharacterEncoding("UTF-8");
 
-        filterChain.doFilter(request , response);
+        filterChain.doFilter(request, response);
 
-        System.out.println("【过滤器1】耗时 " + (new Date().getTime() - start));
+        System.out.println("【过滤器1】耗时 " + (System.currentTimeMillis() - start));
         System.out.println("结束执行过滤器1");
 
 
@@ -38,8 +37,6 @@ public class MyFilter1 implements Filter {
     public void destroy() {
         System.out.println("过滤器销毁1");
     }
-
-
 
 
 }

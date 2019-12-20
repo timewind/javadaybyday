@@ -13,6 +13,7 @@ import org.springframework.core.type.AnnotatedTypeMetadata;
  */
 public class MyCondition implements Condition {
 
+    @Override
     public boolean matches(ConditionContext context, AnnotatedTypeMetadata metadata) {
 
         String osName = context.getEnvironment().getProperty("os.name");

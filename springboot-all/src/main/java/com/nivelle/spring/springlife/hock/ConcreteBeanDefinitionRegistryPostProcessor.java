@@ -1,6 +1,5 @@
 package com.nivelle.spring.springlife.hock;
 
-import com.nivelle.base.pojo.User;
 import com.nivelle.base.pojo.UserInfo;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.MutablePropertyValues;

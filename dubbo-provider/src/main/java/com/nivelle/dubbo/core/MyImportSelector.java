@@ -11,7 +11,7 @@ import org.springframework.core.type.AnnotationMetadata;
  */
 public class MyImportSelector implements ImportSelector {
 
-
+    @Override
     public String[] selectImports(AnnotationMetadata importingClassMetadata){
         //要注入类的全限定名
        return new String[]{"com.nivelle.dubbo.model.Cat"};

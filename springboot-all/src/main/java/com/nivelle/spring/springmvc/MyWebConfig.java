@@ -87,7 +87,8 @@ public class MyWebConfig implements WebMvcConfigurer {
         FilterRegistrationBean frBean = new FilterRegistrationBean();
         frBean.setFilter(new MyFilter1());
         frBean.addUrlPatterns("/*");
-        frBean.setOrder(2);//数字越小，优先级越高，指的是执行顺序，加载顺序按照先后，若需要修改，可使用注解 @DependsOn
+        //数字越小，优先级越高，指的是执行顺序，加载顺序按照先后，若需要修改，可使用注解 @DependsOn
+        frBean.setOrder(2);
         System.out.println("过滤器1注册完成");
         return frBean;
     }

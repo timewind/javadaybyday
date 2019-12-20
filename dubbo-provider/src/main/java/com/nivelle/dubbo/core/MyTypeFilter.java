@@ -24,6 +24,7 @@ public class MyTypeFilter implements TypeFilter {
      * MetadataReader:读取到当前正在扫描类的信息
      * MetadataReaderFactory:可以获取到其他任何类信息
      */
+    @Override
     public boolean match(MetadataReader metadataReader, MetadataReaderFactory metadataReaderFactory) throws IOException {
         //获取当前类注解的信息
         AnnotationMetadata annotationMetadata = metadataReader.getAnnotationMetadata();
