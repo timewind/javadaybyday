@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/container-all/container-all.iml" filepath="$PROJECT_DIR$/container-all/container-all.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-provider/dubbo-provider.iml" filepath="$PROJECT_DIR$/dubbo-provider/dubbo-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-base/java-base.iml" filepath="$PROJECT_DIR$/java-base/java-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/javaguides.iml" filepath="$PROJECT_DIR$/.idea/javaguides.iml" />

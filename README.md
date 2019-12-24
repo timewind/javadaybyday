@@ -151,7 +151,7 @@ SpringBoot依赖相关中间件,需要安装依赖的中间件,然后使用 loca
 
 ✅【jdk8 Lambda表达式,Stream的使用】
 
-✅【java 关键字(instanceof,final)】
+✅【java 关键字(instanceof,final,continue)】
 
 ✅【范型:范型类,范性方法,范型接口】
 

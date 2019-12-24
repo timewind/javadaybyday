@@ -27,7 +27,8 @@
     <modules>
         <module>java-base</module>
         <module>dubbo-provider</module>
-        <module>springboot-all</module>
+        <module>spring-all</module>
+        <module>container-all</module>
     </modules>
     <dependencyManagement>
         <dependencies>

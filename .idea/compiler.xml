@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="container-all" />
         <module name="dubbo-provider" />
         <module name="java-base" />
         <module name="spring-all" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="container-all" target="1.8" />
       <module name="dubbo-api" target="1.8" />
       <module name="dubbo-provider" target="1.8" />
       <module name="java-base" target="1.8" />
