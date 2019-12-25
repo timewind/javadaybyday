@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09fae382-911d-4cd0-8d25-ce0025512f0a" name="Default" comment="" />
+    <list default="true" id="09fae382-911d-4cd0-8d25-ce0025512f0a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/dubbo-provider/target/" />
     <ignored path="$PROJECT_DIR$/dubbo-api/target/" />
-    <ignored path="$PROJECT_DIR$/springboot-all/target/" />
     <ignored path="$PROJECT_DIR$/data-structure/target/" />
     <ignored path="$PROJECT_DIR$/java-base/target/" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
@@ -41,29 +45,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyContainerInitalizer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/container-all/src/main/java/com/nivelle/sci/MyContainerInitalizer.java">
+      <file leaf-file-name="Project_Default.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="compiler.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="38" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="38" />
+            <state relative-caret-position="152">
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyListContainerInitalizer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/container-all/src/main/java/com/nivelle/sci/MyListContainerInitalizer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JavaBaseApplication.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="JavaBaseApplication.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/JavaBaseApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="247">
+              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,65 +71,57 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="javax.servlet.ServletContainerInitializer" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/container-all/target/container-all-1.0.1.jar!/META-INF/services/javax.servlet.ServletContainerInitializer">
+      <file leaf-file-name="misc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" selection-start-column="8" selection-end-column="8" />
+            <state relative-caret-position="228">
+              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="modules.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+            <state relative-caret-position="152">
+              <caret line="8" column="54" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-all/pom.xml">
+      <file leaf-file-name="vcs.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5787">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            <state relative-caret-position="200">
+              <caret line="150" column="22" selection-start-line="150" selection-start-column="12" selection-end-line="150" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpc-dubbo/pom.xml">
+      <file leaf-file-name="Maven__cglib_cglib_3_2_10.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_10.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state relative-caret-position="228">
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RpcDubboApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpc-dubbo/src/main/java/com/nivelle/dubbo/RpcDubboApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-all/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java-base/pom.xml">
+      <file leaf-file-name="javaguide.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-all/javaguide.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JunitApplicationContext.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpc-dubbo/src/main/java/com/nivelle/dubbo/JunitApplicationContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="399">
+              <caret line="21" column="44" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -146,7 +138,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>conv</find>
       <find>spring.kafka.consumer.value-deserializer</find>
       <find>topic.quick.batch</find>
       <find>concurrentListenContainerFactory</find>
@@ -173,9 +164,10 @@
       <find>finalTest</find>
       <find>toMap</find>
       <find>stream().map</find>
-      <find>springboot</find>
       <find>MyListContainerInitalizer</find>
       <find>&gt;&gt;&gt;&gt;&gt;&gt;</find>
+      <find>springboot-a</find>
+      <find>springboot</find>
     </findStrings>
     <replaceStrings>
       <replace>constructor</replace>
@@ -193,9 +185,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/java8/FormulaServiceImpl.java" />
-        <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/loadclass/ConstructorDemo.java" />
-        <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/loadclass/ConstructorInitializerOrderDemo.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/generics/ParadigmClassMethod.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/CharacterDemo.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/reflex/ReflectDemo.java" />
@@ -220,10 +209,10 @@
         <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/core/MyImportSelector.java" />
         <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/core/MyCondition.java" />
         <option value="$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/core/MyTypeFilter.java" />
-        <option value="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springlife/hock/ConcreteBeanDefinitionRegistryPostProcessor.java" />
-        <option value="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/filter/MyFilter1.java" />
+        <option value="$PROJECT_DIR$/spring-all/src/main/java/com/nivelle/spring/springlife/hock/ConcreteBeanDefinitionRegistryPostProcessor.java" />
+        <option value="$PROJECT_DIR$/spring-all/src/main/java/com/nivelle/spring/springboot/filter/MyFilter1.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/springmvc/MyWebConfig.java" />
-        <option value="$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springmvc/MyWebConfig.java" />
+        <option value="$PROJECT_DIR$/spring-all/src/main/java/com/nivelle/spring/springmvc/MyWebConfig.java" />
         <option value="$PROJECT_DIR$/spring-all/pom.xml" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/spi/MyContainerInitalizer.java" />
@@ -244,6 +233,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/rpc-dubbo/pom.xml" />
         <option value="$PROJECT_DIR$/rpc-dubbo/src/main/java/com/nivelle/dubbo/RpcDubboApplication.java" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/spring-all/src/main/java/com/nivelle/spring/SpringAllApplication.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -316,8 +308,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -328,63 +318,65 @@
             <path>
               <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="java-base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="java-base" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc-dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="java-base" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="java-base" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="java-base" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nivelle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaguides" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="java-base" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="nivelle" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
+              <item name="java-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nivelle" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -419,7 +411,7 @@
       <recent name="$PROJECT_DIR$/java-base/src/main/resources/confing" />
       <recent name="$PROJECT_DIR$/java-base/src/main/resources/META-INF/dubbo" />
       <recent name="$PROJECT_DIR$/java-base/src/main/resources" />
-      <recent name="$PROJECT_DIR$/springboot-all" />
+      <recent name="$PROJECT_DIR$/spring-all" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.nivelle.sci" />
@@ -430,10 +422,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base" />
-      <recent name="$PROJECT_DIR$/springboot-all/src/main/resources" />
+      <recent name="$PROJECT_DIR$/spring-all/src/main/resources" />
       <recent name="$PROJECT_DIR$/java-base/src/main/resources/META-INF/dubbo/internal" />
-      <recent name="$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/controller" />
-      <recent name="$PROJECT_DIR$/dubbo-provider/src/main/resources" />
+      <recent name="$PROJECT_DIR$/rpc-dubbo/src/main/java/com/nivelle/dubbo/controller" />
+      <recent name="$PROJECT_DIR$/rpc-dubbo/src/main/resources" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -1970,14 +1962,14 @@
     </configuration>
     <configuration name="SpringBootAllApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-all" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nivelle.spring.SpringBootAllApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nivelle.spring.SpringAllApplication" />
     </configuration>
     <configuration name="SpringBootAllApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-all" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.nivelle.javabase.SpringBootAllApplication" />
     </configuration>
     <configuration name="SpringBootAllApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
-      <module name="springboot-all" />
+      <module name="spring-all" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.nivelle.spring.*" />
@@ -2013,16 +2005,15 @@
       <item itemvalue="Spring Boot.SpringBootAllApplication" />
       <item itemvalue="Spring Boot.SpringBootAllApplication (1)" />
       <item itemvalue="Spring Boot.JavaBaseApplication" />
+      <item itemvalue="Application.EnumDemo" />
       <item itemvalue="Application.ByteDemo" />
       <item itemvalue="Application.JavaKeyWord" />
-      <item itemvalue="Application.NettyServer" />
       <item itemvalue="Application.NettyClient" />
       <item itemvalue="Application.Java8Demo" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.NettyClient" />
-        <item itemvalue="Application.NettyServer" />
         <item itemvalue="Application.Java8Demo" />
         <item itemvalue="Application.JavaKeyWord" />
         <item itemvalue="Application.ByteDemo" />
@@ -2132,20 +2123,7 @@
       <workItem from="1577184516030" duration="1532000" />
       <workItem from="1577196533493" duration="4329000" />
       <workItem from="1577263056644" duration="446000" />
-    </task>
-    <task id="LOCAL-00013" summary="【Arrays】">
-      <created>1572420077685</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1572420077685</updated>
-    </task>
-    <task id="LOCAL-00014" summary="【实力初始化顺序】">
-      <created>1572424134487</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1572424134487</updated>
+      <workItem from="1577263583498" duration="749000" />
     </task>
     <task id="LOCAL-00015" summary="【java核心学习demo】">
       <created>1572451445860</created>
@@ -2476,11 +2454,25 @@
       <option name="project" value="LOCAL" />
       <updated>1577263504703</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="【fix】">
+      <created>1577263634277</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1577263634277</updated>
+    </task>
+    <task id="LOCAL-00063" summary="【整理】">
+      <created>1577263922958</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1577263922958</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="294855000" />
+    <option name="totallyTimeSpent" value="295604000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2493,6 +2485,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32793018" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -2500,17 +2493,18 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50259066" side_tool="true" weight="0.3677278" />
       <window_info anchor="right" id="Maven Projects" order="6" sideWeight="0.4990942" weight="0.3743344" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4974093" weight="0.14339152" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4974093" visible="true" weight="0.14339152" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4974093" weight="0.74949086" />
       <window_info anchor="bottom" x="-1179" y="-398" width="1158" height="601" id="Spring" order="7" weight="0.32892057" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49893504" weight="0.045824848" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.5008503" side_tool="true" visible="true" weight="0.19170243" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.5008503" side_tool="true" visible="true" weight="0.3297568" />
       <window_info anchor="bottom" id="Problems" order="15" weight="0.32917705" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3299712" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info id="Web" order="8" side_tool="true" weight="0.3298791" />
       <window_info anchor="right" id="Database" order="5" weight="0.32960597" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49913645" weight="0.64460284" />
       <window_info anchor="right" id="SciView" order="11" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.24866879" />
       <window_info anchor="right" x="546" y="214" width="347" height="472" id="Ant Build" order="1" weight="0.21761657" />
@@ -2524,12 +2518,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="10" sideWeight="0.5009058" side_tool="true" weight="0.07173447" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49913645" weight="0.64460284" />
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49840257" weight="0.31296757" />
       <window_info id="UI Designer" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Coverage" order="10" sideWeight="0.5009058" side_tool="true" weight="0.07173447" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
     </layout>
@@ -2644,10 +2637,10 @@
     <MESSAGE value="【lambda】" />
     <MESSAGE value="【netty】" />
     <MESSAGE value="【note】" />
-    <MESSAGE value="【整理】" />
     <MESSAGE value="【sci】" />
     <MESSAGE value="【fix】" />
-    <option name="LAST_COMMIT_MESSAGE" value="【fix】" />
+    <MESSAGE value="【整理】" />
+    <option name="LAST_COMMIT_MESSAGE" value="【整理】" />
   </component>
   <component name="WindowStateProjectService">
     <state width="380" height="690" key="Git.Branch.Popup" />
@@ -2787,37 +2780,37 @@
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/hbase/controller/HbaseController.java</url>
+          <url>file://$PROJECT_DIR$/spring-all/src/main/java/com/nivelle/spring/hbase/controller/HbaseController.java</url>
           <line>20</line>
           <properties />
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/hbase/service/HbaseService.java</url>
+          <url>file://$PROJECT_DIR$/spring-all/src/main/java/com/nivelle/spring/hbase/service/HbaseService.java</url>
           <line>305</line>
           <properties />
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/hbase/service/HbaseService.java</url>
+          <url>file://$PROJECT_DIR$/spring-all/src/main/java/com/nivelle/spring/hbase/service/HbaseService.java</url>
           <line>377</line>
           <properties />
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/hbase/service/HbaseService.java</url>
+          <url>file://$PROJECT_DIR$/spring-all/src/main/java/com/nivelle/spring/hbase/service/HbaseService.java</url>
           <line>376</line>
           <properties />
           <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/hbase/service/HbaseService.java</url>
+          <url>file://$PROJECT_DIR$/spring-all/src/main/java/com/nivelle/spring/hbase/service/HbaseService.java</url>
           <line>191</line>
           <properties />
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dubbo-provider/src/main/java/com/nivelle/dubbo/service/HelloDubboServiceImpl.java</url>
+          <url>file://$PROJECT_DIR$/rpc-dubbo/src/main/java/com/nivelle/dubbo/service/HelloDubboServiceImpl.java</url>
           <line>21</line>
           <properties />
           <option name="timeStamp" value="55" />
@@ -2944,18 +2937,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/service/ActivityTransactionService.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/service/ShiroSysService.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springlife/hock/MyBeanAutoConfiguredRegistrar.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springlife/hock/ConcreteBeanDefinitionRegistryPostProcessor.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springlife/initdemo/InitSpringBean.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springlife/initdemo/MyInitSpringBeanController.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springmvc/ParameterBindController.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/filter/MyFilter1.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/filter/MyFilter2.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springboot/filter/MyFilter3.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springmvc/MyWebConfig.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-all/src/main/java/com/nivelle/spring/springlife/annotation/ImportBeanAnnotation.java" />
     <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/spi/MySpiService1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -3108,9 +3089,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provider/pom.xml" />
     <entry file="file://$PROJECT_DIR$/container-all/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -3125,9 +3104,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="14" column="1" selection-start-line="6" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3135,9 +3111,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3148,16 +3121,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/JavaBaseApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/container-all/target/container-all-1.0.1.jar!/META-INF/services/javax.servlet.ServletContainerInitializer">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -3165,9 +3128,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-all.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-all.log" />
     <entry file="file://$PROJECT_DIR$/container-all/src/main/java/com/nivelle/sci/MyListContainerInitalizer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -3196,24 +3157,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="150" column="22" selection-start-line="150" selection-start-column="12" selection-end-line="150" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        <state relative-caret-position="-325">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-all/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5787">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        <state relative-caret-position="95">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/pom.xml">
+    <entry file="file://$PROJECT_DIR$/.idea/httpRequests/2019-12-05T072948.200.properties" />
+    <entry file="file://$PROJECT_DIR$/.idea/httpRequests/2019-12-05T072948-1.200.properties" />
+    <entry file="file://$PROJECT_DIR$/.idea/httpRequests/2019-12-05T073137.200.properties" />
+    <entry file="file://$PROJECT_DIR$/.idea/httpRequests/2019-12-05T073722-1.200.properties" />
+    <entry file="file://$PROJECT_DIR$/.idea/httpRequests/2019-12-05T072759.200.properties" />
+    <entry file="file://$PROJECT_DIR$/spring-all/src/main/java/com/nivelle/spring/SpringAllApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+        <state relative-caret-position="240">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6975" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_10.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/JavaBaseApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3275,6 +3294,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
