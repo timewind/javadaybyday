@@ -28,7 +28,7 @@ docker整合【下载:docker pull nivelle/nivelle:1.0.2】【运行:sudo docker 
 
 ✅ 【生命周期学习】
 
-✅ 【SPI机制】
+✅ 【SPI&SCI机制】
 
 ✅ 【CommandLineRunner】
 
@@ -56,7 +56,7 @@ docker整合【下载:docker pull nivelle/nivelle:1.0.2】【运行:sudo docker 
 
 ✅ 【ApplicationEvent:自定义事件】
 
-✅ 【SPI & SCI】
+
 
 ## springBoot实践
 
