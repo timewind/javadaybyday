@@ -1,4 +1,4 @@
-package com.nivelle.sci;
+package com.nivelle.container.sci;
 
 import javax.servlet.ServletContext;
 

@@ -56,6 +56,8 @@ docker整合【下载:docker pull nivelle/nivelle:1.0.2】【运行:sudo docker 
 
 ✅ 【ApplicationEvent:自定义事件】
 
+✅ 【SPI & SCI】
+
 ## springBoot实践
 
 SpringBoot依赖相关中间件,需要安装依赖的中间件,然后使用 local_server_start.sh启动   
