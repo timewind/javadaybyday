@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/container-all" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpc-dubbo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-all" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>

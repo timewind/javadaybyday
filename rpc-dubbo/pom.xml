@@ -12,7 +12,7 @@
     <groupId>com.nivelle.guide</groupId>
     <artifactId>dubbo-provider</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>dubbo-provider</name>
+    <name>rpc-dubbo</name>
     <packaging>jar</packaging>
     <description>Demo project for dubbo provider</description>
 

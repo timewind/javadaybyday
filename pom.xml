@@ -26,7 +26,7 @@
 
     <modules>
         <module>java-base</module>
-        <module>dubbo-provider</module>
+        <module>rpc-dubbo</module>
         <module>spring-all</module>
         <module>container-all</module>
     </modules>

@@ -23,11 +23,11 @@ import java.util.Arrays;
 @EnableSwagger2 //swagger2支持
 @ComponentScan(basePackages = {"com.nivelle.dubbo", "com.nivelle.base"})
 //@ComponentScan(value = "com.nivelle.guide", excludeFilters ={@ComponentScan.Filter(type = FilterType.CUSTOM, classes = {MyTypeFilter.class})})
-public class DubboProviderApplication {
+public class RpcDubboApplication {
 
     public static void main(String[] args) {
 
-        SpringApplication.run(DubboProviderApplication.class, args);
+        SpringApplication.run(RpcDubboApplication.class, args);
 
     }
 

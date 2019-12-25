@@ -10,7 +10,7 @@ import java.util.ServiceLoader;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class DubboProviderApplicationTests {
+public class RpcDubboApplicationTests {
 
     @Test
     public void contextLoads() {
