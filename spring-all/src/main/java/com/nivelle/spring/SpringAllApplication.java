@@ -26,9 +26,9 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableDubbo//开启dubbo
 @EnableKafka
 @ComponentScan(basePackages = {"com.nivelle.spring","com.nivelle.base"})
-public class SpringBootAllApplication {
+public class SpringAllApplication {
     public static void main(String[] args) {
-        SpringApplication springApplication = new SpringApplication(SpringBootAllApplication.class);
+        SpringApplication springApplication = new SpringApplication(SpringAllApplication.class);
 
         /**
          * ApplicationListener 接口监听类
