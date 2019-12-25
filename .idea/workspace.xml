@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09fae382-911d-4cd0-8d25-ce0025512f0a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/src/main/resources/META-INF/services/com.nivelle.base.spi.MySpi" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/resources/META-INF/services/com.nivelle.base.spi.MySpi" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dubbo-provider/target/" />
     <ignored path="$PROJECT_DIR$/dubbo-api/target/" />
@@ -59,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JavaBaseApplication.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JavaBaseApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/JavaBaseApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+            <state relative-caret-position="278">
+              <caret line="32" column="66" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,34 +68,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="misc.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <file leaf-file-name="MySpi.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/spi/MySpi.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="modules.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <file leaf-file-name="com.nivelle.base.spi.MySpi" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java-base/src/main/resources/META-INF/services/com.nivelle.base.spi.MySpi">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MySpiService1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/spi/MySpiService1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
-              <caret line="8" column="54" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="54" />
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vcs.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="MySpiService2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/spi/MySpiService2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExtensionLoader.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2-sources.jar!/com/alibaba/dubbo/common/extension/ExtensionLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="481" selection-start-line="481" selection-end-line="481" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="150" column="22" selection-start-line="150" selection-start-column="12" selection-end-line="150" selection-end-column="22" />
+            <state relative-caret-position="504">
+              <caret line="166" column="22" selection-start-line="166" selection-start-column="22" selection-end-line="166" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -108,20 +127,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
               <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-all/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="javaguide.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-all/javaguide.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="44" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -185,7 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/generics/ParadigmClassMethod.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/datastructures/CharacterDemo.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/reflex/ReflectDemo.java" />
         <option value="$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/javacore/unsafe/UnsafeDemo.java" />
@@ -236,6 +240,7 @@
         <option value="$PROJECT_DIR$/.idea/compiler.xml" />
         <option value="$PROJECT_DIR$/spring-all/src/main/java/com/nivelle/spring/SpringAllApplication.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/java-base/src/main/resources/META-INF/services/com.nivelle.base.spi.MySpi" />
       </list>
     </option>
   </component>
@@ -370,6 +375,45 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="nivelle" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
+              <item name="java-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nivelle" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="spi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
+              <item name="java-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
+              <item name="java-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaguides" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaguides" type="462c0819:PsiDirectoryNode" />
+              <item name="java-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -2123,14 +2167,7 @@
       <workItem from="1577184516030" duration="1532000" />
       <workItem from="1577196533493" duration="4329000" />
       <workItem from="1577263056644" duration="446000" />
-      <workItem from="1577263583498" duration="749000" />
-    </task>
-    <task id="LOCAL-00015" summary="【java核心学习demo】">
-      <created>1572451445860</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1572451445860</updated>
+      <workItem from="1577263583498" duration="994000" />
     </task>
     <task id="LOCAL-00016" summary="【byte】">
       <created>1572582224000</created>
@@ -2468,11 +2505,18 @@
       <option name="project" value="LOCAL" />
       <updated>1577263922958</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="【整理】">
+      <created>1577264429812</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1577264429812</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="295604000" />
+    <option name="totallyTimeSpent" value="295849000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2485,16 +2529,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32793018" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49840257" weight="0.31296757" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.3299389" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50259066" side_tool="true" weight="0.3677278" />
       <window_info anchor="right" id="Maven Projects" order="6" sideWeight="0.4990942" weight="0.3743344" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4974093" visible="true" weight="0.14339152" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4974093" weight="0.74949086" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4974093" weight="0.14339152" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4974093" visible="true" weight="0.42269325" />
       <window_info anchor="bottom" x="-1179" y="-398" width="1158" height="601" id="Spring" order="7" weight="0.32892057" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49893504" weight="0.045824848" />
       <window_info id="Designer" order="3" />
@@ -2518,7 +2562,6 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49840257" weight="0.31296757" />
       <window_info id="UI Designer" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -2937,69 +2980,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/spi/MySpiService1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/spi/MySpiService2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-all/src/main/java/com/nivelle/spring/configbean/ControllerExceptionAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-all/src/main/java/com/nivelle/spring/kafka/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-all/src/main/java/com/nivelle/spring/kafka/ConsumerAwareErrorHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-all/src/main/java/com/nivelle/spring/kafka/KafkaController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-all/src/main/java/com/nivelle/spring/rabbitmq/RabbitMqController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-all/src/main/java/com/nivelle/spring/springboot/entity/ActivityPvEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE-sources.jar!/org/springframework/boot/web/servlet/support/SpringBootServletInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="90" column="29" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE-sources.jar!/org/springframework/web/WebApplicationInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2945">
@@ -3042,13 +3022,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="111" column="46" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/spi/MySpi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -3166,8 +3139,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="150" column="22" selection-start-line="150" selection-start-column="12" selection-end-line="150" selection-end-column="22" />
+        <state relative-caret-position="504">
+          <caret line="166" column="22" selection-start-line="166" selection-start-column="22" selection-end-line="166" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -3226,13 +3199,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-all/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2-sources.jar!/com/alibaba/dubbo/common/extension/ExtensionLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="481" selection-start-line="481" selection-end-line="481" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-all/javaguide.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/spi/MySpi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/JavaBaseApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        <state relative-caret-position="278">
+          <caret line="32" column="66" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/spi/MySpiService2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/java/com/nivelle/base/spi/MySpiService1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-base/src/main/resources/META-INF/services/com.nivelle.base.spi.MySpi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
         </state>
       </provider>
     </entry>
