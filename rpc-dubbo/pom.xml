@@ -10,7 +10,7 @@
     </parent>
 
     <groupId>com.nivelle.guide</groupId>
-    <artifactId>dubbo-provider</artifactId>
+    <artifactId>rpc-dubbo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>rpc-dubbo</name>
     <packaging>jar</packaging>

@@ -88,4 +88,6 @@ public class ParameterBindController {
         System.out.println("入参被解析:properties的类型:" + properties.getClass().getSimpleName());
         return properties;
     }
+
+
 }

@@ -167,7 +167,6 @@ public class MyWebConfig implements WebMvcConfigurer {
         return new PropertiesHttpMessageConverter();
     }
 
-
 }
 
 
